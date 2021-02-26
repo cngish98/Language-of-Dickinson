@@ -1,0 +1,35 @@
+body {
+    background-color: #C5AFA4;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+h2 {
+    color: #1915E3;
+    font-family: "Merriweather", serif;
+    padding-left: 20px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+p, tr, ul {
+     font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+  padding: 10px;
+  vertical-align: middle;
+}
