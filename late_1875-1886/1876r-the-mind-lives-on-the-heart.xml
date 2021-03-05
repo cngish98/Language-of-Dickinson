@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poem>
+<meta>
+    <date>1876</date>
+    <number>J1355</number>
+    <recipient>T.W. Higginson</recipient>
+</meta>
+    
+<body>
+    The Mind lives on the Heart
+    Like any Parasite -
+    If that is full of Meat
+    The Mind is fat.
+    
+    But if the Heart omit
+    Emaciate the Wit -
+    The Aliment of it
+    So absolute.
+</body>
+</poem>
+
+<!--
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Mind lives on the Heart 
+</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>The Poems of Emily Dickinson, Johnson, 1955</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Emily Dickinson Archive</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcript" xml:id="J1355">
+                <lg type="stanza">
+                    <l>The Mind lives on the Heart</l>
+                    <l>Like any Parasite -</l>
+                    <l>If that is full of Meat</l>
+                    <l>The Mind is fat.</l>
+                </lg>
+                <lg type="stanza">
+                    <l>But if the Heart omit</l>
+                    <l>Emaciate the Wit -</l>
+                    <l>The Aliment of it</l>
+                    <l>So absolute.</l>
+                </lg>
+
+            </div>     
+        </body>
+    </text>
+</TEI>
+-->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poem>
+<meta>
+    <date>1886</date>
+    <number>J1648</number>
+    <recipient>T.W. Higginson</recipient>
+</meta>
+
+<body>
+    The immortality she gave
+    We borrowed at her Grave -
+    For just one Plaudit famishing,
+    The Might of Human love -   
+</body>
+</poem>
+
+<!--
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The immortality she gave
+</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>The Poems of Emily Dickinson, Johnson, 1955</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Emily Dickinson Archive</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcript" xml:id="J1648">
+                <lg type="stanza">
+                    <l>The immortality she gave</l>
+                    <l>We borrowed at her Grave -</l>
+                    <l>For just one Plaudit famishing,</l>
+                    <l>The Might of Human love -</l>
+                </lg>
+
+            </div>     
+        </body>
+    </text>
+</TEI>
+-->

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poem>
+<meta>
+    <date>1875</date>
+    <number>J1347</number>
+    <recipient>none</recipient>
+</meta>
+    
+<body>
+    Escape is such a thankful Word
+    I often in the Night
+    Consider it unto myself
+    No  Monster spectacle in sight
+    
+    Escape - it is the Basket
+    In which the Heart is caught
+    When down some awful Battlement
+    The rest of Life is dropt -
+    
+    'Tis not to sight the savior -
+    It is to be the saved -
+    And that is why I lay my Head
+    Upon this trusty word -
+</body>
+</poem>
+
+<!--
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Escape is such a thankful Word 
+</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>The Poems of Emily Dickinson, Johnson, 1955</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Emily Dickinson Archive</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcript" xml:id="J1347">
+                <lg type="stanza">
+                    <l>Escape is such a thankful Word</l>
+                    <l>I often in the Night</l>
+                    <l>Consider it unto myself</l>
+                    <l>No <app type="revision"><lem>Monster</lem><rdg>Monster</rdg></app>spectacle in sight</l>
+                </lg>
+                <lg type="stanza">
+                    <l>Escape - it is the Basket</l>
+                    <l>In which the Heart is caught</l>
+                    <l>When down some awful Battlement</l>
+                    <l>The rest of Life is dropt -</l>
+                </lg>
+                <lg type="stanza">
+                    <l>'Tis not to sight the savior -</l>
+                    <l>It is to be the saved -</l>
+                    <l>And that is why I lay my Head</l>
+                    <l>Upon this trusty word -</l>
+                </lg>
+                <lg type="stanza">
+                    <l></l>
+                </lg>
+
+            </div>     
+        </body>
+    </text>
+</TEI>
+-->
