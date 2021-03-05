@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>You left me - sire - two legacies</title>
+        <date>1863</date>
+        <source>https://www.edickinson.org/editions/1/image_sets/12175569</source>
+        <recipient>none</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>You left me - Sire - two Legacies -</line>
+            <line>A Legacy of Love</line>
+            <line>A Heavenly Father would content - suffice</line>
+            <line>Had He the offer of -</line>
+        </stanza>
+        
+        <stanza>
+            <line>You left me Boundaries</line>
+            <line>of Pain -</line>
+            <line>Capacious as the Sea -</line>
+            <line>Between Eternity and Time -</line>
+            <line>Your Consciousness - and me -</line>
+        </stanza>
+    </body>
+</poem>
+

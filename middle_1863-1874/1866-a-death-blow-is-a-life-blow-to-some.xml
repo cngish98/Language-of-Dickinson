@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>A Death blow is a Life blow to Some</title>
+        <date>1866</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12170980</source>
+        <recipient>T.W. Higginson</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A Death blow is a Life blow to Some</line>
+            <line>Who till they died, did not alive become -</line>
+            <line>Who had they lived, had died but when</line>
+            <line>They died, Vitality begun.</line>
+        </stanza>
+ 
+    </body>
+</poem>

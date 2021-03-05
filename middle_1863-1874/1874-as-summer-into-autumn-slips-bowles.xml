@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>As summer into autumn slips</title>
+        <date>1874</date>
+        <source>https://www.edickinson.org/editions/1/image_sets/12177578</source>
+        <recipient>Samuel Bowles</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>As Summer</line>
+            <line>into Autumn</line>
+            <line>slips</line>
+        </stanza>
+         
+        <stanza>
+            <line>And yet</line>
+            <line>we sooner</line>
+            <line>say</line>
+            <line>"The Summer" than "the Autumn", lest</line>
+            <line>We turn the</line>
+            <line>Sun away,</line>
+        </stanza>
+            
+        <stanza>
+            <line>And almost</line>
+            <line>count it an</line>
+            <line>Affront the</line>
+            <line>presence to</line>
+            <line>concede</line>
+            <line>Of one however</line>
+            <line>lovely, not</line>
+            <line>The one</line>
+            <line>that we have</line>
+            <line>loved -</line>
+        </stanza>
+        
+       <stanza>
+            <line>So we evade</line>
+            <line>the Charge</line>
+            <line>of Years</line>
+            <line>One oneOn one attempting shy</line>
+            <line>The Circumvention</line>
+            <line>of the Shaft</line>
+            <line>Of Life's</line>
+            <line>declivity.</line>
+        </stanza>
+    </body>
+</poem>

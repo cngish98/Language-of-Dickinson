@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>A Light exists in Spring</title>
+        <date>1864</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12170969</source>
+        <recipient>Susan Dickinson</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A Light exists in Spring</line>
+            <line>Not present on the Year</line>
+            <line>At any other period -</line>
+            <line>When March is scarcely here</line>
+        </stanza>
+        
+        <stanza> 
+            <line>A Color stands abroad</line>
+            <line>On Solitary Fields</line>
+            <line>That Science cannot overtake</line>
+            <line>But Human Nature feels.</line>
+        </stanza>
+        
+        <stanza> 
+            <line>It waits upon the Lawn,</line>
+            <line>It shows the furthest Tree</line>
+            <line>Upon the furthest Slope you know</line>
+            <line>It almost speaks to you.</line>
+        </stanza>
+        
+        <stanza> 
+            <line>Then as Horizons step</line>
+            <line>Or Noons report away</line>
+            <line>Without the Formula of sound</line>
+            <line>It passes and we stay -</line>
+        </stanza>
+        
+        <stanza> 
+            <line>A quality of loss</line>
+            <line>Affecting our Content</line>
+            <line>As Trade had suddenly encroached</line>
+            <line>Upon a Sacrament.</line>
+        </stanza>
+    </body>
+</poem>

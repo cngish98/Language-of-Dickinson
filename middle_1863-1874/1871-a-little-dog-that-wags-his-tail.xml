@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>A little Dog that wags his tail</title>
+        <date>1871</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171834</source>
+        <recipient>Edward Dickinson</recipient>
+    </metadata>
+    <body>
+        <stanza> 
+            <line>A little Dog that wags his tail</line>
+            <line>And knows no other joy</line>
+            <line>Of such a little Dog am I</line>
+            <line>Reminded by a Boy</line>
+        </stanza>
+        
+        <stanza> 
+            <line>Who gambols all the living Day</line>
+            <line>Without an earthly cause</line>
+            <line>Because he is a little Boy</line>
+            <line>I honestly suppose -</line>
+        </stanza>
+        
+        <stanza> 
+            <line>The Cat that in the Corner dwells</line>
+            <line>Her martial Day forgot</line>
+            <line>The Mouse but a Tradition now</line>
+            <line>Of her desireless Lot</line>
+        </stanza>
+        
+        <stanza> 
+            <line>Another class remind me</line>
+            <line>Who neither please nor play</line>
+            <line>But not to make a "bit of noise"</line>
+            <line>Beseech each little Boy -</line>  
+        </stanza>
+    </body>
+</poem>

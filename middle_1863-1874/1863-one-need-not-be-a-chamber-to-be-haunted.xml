@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>One need not be a Chamber - to be Haunted -</title>
+        <date>1863</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12170641</source>
+        <recipient>Susan Dickinson</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>One need not be a Chamber - to be Haunted -</line>
+            <line>One need not be a House -</line>
+            <line>The Brain has Corridors - surpassing</line>
+            <line>Material Place -</line>
+        </stanza>
+            
+        <stanza> 
+            <line>Far safer, of a Midnight Meeting</line>
+            <line>External Ghost</line>
+            <line>Than it's interior Confronting -</line>
+            <line>That Cooler Host.</line>
+        </stanza>
+        
+        <stanza> 
+            <line>Far safer, through an Abbey gallop,</line>
+            <line>The Stones a'chase -</line>
+            <line>Than Unarmed, one's a'self encounter -</line>
+            <line>In lonesome Place -</line>
+        </stanza>
+         
+        <stanza> 
+            <line>Ourself behind ourself, concealed -</line>
+            <line>Should startle most -</line>
+            <line>Assassin hid in our Apartment</line>
+            <line>Be Horror's least.</line>
+        </stanza>
+            
+        <stanza> 
+            <line>The Body - borrows a Revolver -</line>
+            <line>He bolts the Door -</line>
+            <line>O'erlooking a superior spectre -</line>
+            <line>Or More -</line>
+        </stanza>
+    </body>
+</poem>
+

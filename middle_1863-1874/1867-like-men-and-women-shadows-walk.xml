@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>Like Men and Women Shadows walk</title>
+        <date>1867</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171628</source>
+        <recipient>Susan Dickinson</recipient>
+    </metadata>
+    <body>
+        <stanza> 
+            <line>Like Men and Women Shadows walk</line>
+            <line>Upon the Hills Today -</line>
+            <line>With here and there a mighty Bow</line>
+            <line>Or trailing Courtesy</line>
+            <line>To Neighbors doubtless of their own</line>
+            <line>Not quickened to perceive</line>
+            <line>Minuter landscape as Ourselves</line>
+            <line>And Boroughs where we live -</line>
+        </stanza>
+    </body>
+</poem>

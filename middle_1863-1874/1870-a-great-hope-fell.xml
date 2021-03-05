@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poem>
+    <metadata>
+        <title>A great hope fell</title>
+        <date>1870</date>
+        <source>https://www.edickinson.org/editions/1/image_sets/12177020</source>
+        <recipient>none</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A great Hope</line>
+            <line>fell</line>
+            <line>You heard no</line>
+            <line>noise</line>
+            <line>The havoc damage Ruin was</line>
+            <line>within</line>
+            <line>Oh cunning</line>
+            <line>Wreck</line>
+            <line>That told no</line>
+            <line>Tale</line>
+            <line>And let no</line>
+            <line>Witness in</line>
+        </stanza>
+        
+        <stanza> 
+            <line>The mind was</line>
+            <line>built for</line>
+            <line>mighty Freight</line>
+            <line>For dread</line>
+            <line>occasion planned</line>
+            <line>How often</line>
+            <line>foundering</line>
+            <line>at Sea</line>
+            <line>Ostensibly, on</line>
+            <line>Land</line>
+        </stanza>
+    </body>
+</poem>

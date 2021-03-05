@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>A Wind that rose</title>
+        <date>1873</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172016</source>
+        <recipient>T.W. Higginson</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A Wind that rose</line>
+            <line>Though not a Leaf</line>
+            <line>In any Forest stirred</line>
+            <line>But with itself did cold engage</line>
+            <line>Beyond the Realm of Bird -</line>
+            <line>A Wind that woke a lone Delight</line>
+            <line>Like Separation's Swell</line>
+            <line>Restored in Arctic Confidence</line>
+            <line>To the Invisible -</line>
+        </stanza>
+    </body>
+</poem>

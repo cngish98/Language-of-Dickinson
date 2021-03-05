@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>A full fed Rose on meals of Tint</title>
+        <date>1870</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171760</source>
+        <recipient>Susan Dickinson</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A full fed Rose on meals of Tint</line>
+            <line>A Dinner for a Bee</line>
+            <line>In process of the Noon became -</line>
+            <line>Each bright Mortality</line>
+            <line>The Forfeit is of Creature fair</line>
+            <line>Itself, adored before</line>
+            <line>Submitting for our unknown sake</line>
+            <line>To be esteemed no more</line>
+        </stanza>
+    </body>
+</poem>

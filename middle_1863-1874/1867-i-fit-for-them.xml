@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>I fit for them -</title>
+        <date>1867</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171638</source>
+        <recipient>none</recipient>
+    </metadata>
+    <body>
+        <stanza> 
+            <line>I fit for them -</line>
+            <line>I seek the Dark</line>
+            <line>Till I am thorough fit.</line>
+            <line>The labor is a sober one</line>
+            <line>With the austerer sweet - an - this -</line>
+            <line>With this sufficient sweet</line>  
+        </stanza>
+        
+        <stanza> 
+            <line>That abstinence of me mine produce</line>
+            <line>A purer food for them, if I succeed,</line>
+            <line>If not I had</line>
+            <line>The transport of the Aim -</line>
+        </stanza>
+    </body>
+</poem>

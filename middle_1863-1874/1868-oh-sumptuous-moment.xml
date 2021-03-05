@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>Oh Sumptuous moment</title>
+        <date>1868</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171679</source>
+        <recipient>none</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Oh Sumptuous moment</line>
+            <line>Slower go</line>
+            <line>Till That I  can may gloat on thee -</line>
+            <line>'Twill never be the same to starve</line>
+            <line>Since Now  that I abundance see -</line>
+        </stanza>
+        
+        <stanza> 
+            <line>Which was to famish, then or now -</line>
+            <line>The difference of Day</line>
+            <line>to Ask him unto the Gallows  called led -</line>
+            <line>By With morning in the sky</line>
+        </stanza>
+    </body>
+</poem>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>A narrow Fellow in the Grass</title>
+        <date>1865</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171356</source>
+        <recipient>T.W. Higginson</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A narrow Fellow in the Grass</line>
+            <line>Occasionally rides -</line>
+            <line>You may have met Him - did you not</line>
+            <line>His notice sudden is -</line>
+        </stanza>
+        
+        <stanza>     
+            <line>The Grass divides as with a Comb -</line>
+            <line>A spotted shaft is seen -</line>
+            <line>And then it closes at your feet</line>
+            <line>And opens further on -</line>
+        </stanza>
+            
+        <stanza> 
+            <line>He likes a Boggy Acre</line>
+            <line>A Floor too cool for Corn -</line>
+            <line>Yet when a Boy, and Barefoot -</line>
+            <line>I more than once at Noon</line>
+            <line>Have passed, I thought, a Whip lash</line>
+            <line>Unbraiding in the Sun</line>
+            <line>When stooping to secure it</line>
+            <line>It wrinkled, and was gone -</line>
+        </stanza>
+            
+        <stanza> 
+            <line>Several of Nature's People</line>
+            <line>I know, and they know me -</line>
+            <line>I feel for them a transport</line>
+            <line>Of cordiality -</line>
+        </stanza>
+            
+        <stanza> 
+            <line>But never met this Fellow</line>
+            <line>Attended, or alone</line>
+            <line>Without a tighter breathing</line>
+            <line>And Zero at the Bone -</line>
+        </stanza>
+    </body>
+</poem>

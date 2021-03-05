@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>A Sparrow took a Slice of Twig</title>
+        <date>1872</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171896</source>
+        <recipient>Susan Dickinson</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A Sparrow took a Slice of Twig</line>
+            <line>And thought it very nice</line>
+            <line>I think, because his empty Plate</line>
+            <line>Was handed Nature twice -</line>
+        </stanza>
+        
+        <stanza> 
+            <line>Invigorated, waded</line>
+            <line>In all the deepest Sky</line>
+            <line>Until his little Figure</line>
+            <line>Was forfeited away -</line>
+        </stanza>
+    </body>
+</poem>

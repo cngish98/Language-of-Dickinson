@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>As summer into autumn slips</title>
+        <date>1874</date>
+        <source>https://www.edickinson.org/editions/1/image_sets/12177576</source>
+        <recipient>Louise and Frances Norcross</recipient>
+    </metadata>
+    <body>
+        <stanza> 
+            <line>As Summer into autumn slips</line>
+            <line>And yet we sooner say</line>
+            <line>"The Summer" than "the autumn" - lest</line>
+            <line>We turn the sun away -</line>
+            <line>And count it almost an affront</line>
+            <line>The presence to concede</line>
+            <line>Of one however lovely - not</line>
+            <line>The one that we have loved -</line>
+            <line>So we evade the charge of years</line>
+            <line>On one attempting shy</line>
+            <line>The circumvention of the shaft</line>
+            <line>Of Life's declivity.</line>
+        </stanza>
+    </body>
+</poem>

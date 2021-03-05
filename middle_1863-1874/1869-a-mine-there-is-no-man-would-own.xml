@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>A mine there is no man would own</title>
+        <date>1869</date>
+        <source>https://www.edickinson.org/editions/1/image_sets/12176926</source>
+        <recipient>Susan Dickinson</recipient>
+    </metadata>
+    <body>
+        <stanza> 
+            <line>A Mine there is</line>
+            <line>no Man would own</line>
+            <line>But must it be</line>
+            <line>conferred,</line>
+            <line>Demeaning by</line>
+            <line>exclusive wealth</line>
+            <line>A Universe beside -</line> 
+        </stanza>
+        
+        <stanza> 
+            <line>Potosi never to</line>
+            <line>be spent</line>
+            <line>But hoarded in</line>
+            <line>the mind</line>
+        </stanza>
+        
+        <stanza> 
+            <line>What Misers</line>
+            <line>wring their</line>
+            <line>hands tonight</line>
+            <line>For Indies in</line>
+            <line>the Ground!</line>
+        </stanza>
+    </body>
+</poem>

@@ -1,0 +1,23 @@
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>We introduce ourselves</title>
+        <date>1872</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171903</source>
+        <recipient>none</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>We introduce ourselves</line>
+            <line>To Planets and to Flowers</line>
+            <line>But with ourselves</line>
+            <line>Have etiquettes</line>
+            <line>Embarrassments</line>
+            <line>And awes</line>
+        </stanza>
+    </body>
+</poem>
+
+

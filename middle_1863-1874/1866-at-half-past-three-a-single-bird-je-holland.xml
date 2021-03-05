@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>At Half past Three, a single Bird</title>
+        <date>1866</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171578</source>
+        <recipient>Josiah and Elizabeth Holland</recipient>
+    </metadata>
+    <body>
+        <stanza> 
+            <line>At Half past Three, a single Bird</line>
+            <line>Unto a silent Sky</line>
+            <line>Propounded but a single term</line>
+            <line>Of cautious melody.</line>
+        </stanza>
+        
+        <stanza> 
+            <line>At Half past Three, a single Bird</line>
+            <line>Unto a silent Sky</line>
+            <line>Propounded but a single term</line>
+            <line>Of cautious melody.</line>
+        </stanza>
+        
+        <stanza> 
+            <line>At Half past Three, a single Bird</line>
+            <line>Unto a silent Sky</line>
+            <line>Propounded but a single term</line>
+            <line>Of cautious melody.</line>
+        </stanza>
+        
+    </body>
+</poem>

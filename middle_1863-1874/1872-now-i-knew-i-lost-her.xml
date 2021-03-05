@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>Now I knew I lost her -</title>
+        <date>1872</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171914</source>
+        <recipient>none</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Now I knew I lost her -</line>
+            <line>Not that she was gone -</line>
+            <line>But Remoteness travelled</line>
+            <line>On her Face and Tongue.</line>
+        </stanza>
+            
+        <stanza> 
+            <line>Alien, though adjoining</line>
+            <line>As a Foreign Race -</line>
+            <line>Traversed she though pausing</line>
+            <line>Latitudeless Place.</line>
+        </stanza>
+        
+       <stanza> 
+            <line>Elements Unaltered -</line>
+            <line>Universe the same</line>
+            <line>But Love's transmigration -</line>
+            <line>Somehow this had come -</line>
+       </stanza>
+           
+       <stanza> 
+            <line>Henceforth to remember</line>
+            <line>Nature took the Day</line>
+            <line>I had paid so much for -</line>
+            <line>His is Penury</line>
+            <line>Not who toils for Freedom</line>
+            <line>Or for Family</line>
+            <line>But the Restitution</line>
+            <line>Of Idolatry.</line>
+        </stanza>  
+    </body>
+</poem>
+

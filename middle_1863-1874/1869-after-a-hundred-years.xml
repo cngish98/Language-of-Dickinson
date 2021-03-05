@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>After a hundred years</title>
+        <date>1869</date>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171742</source>
+        <recipient>none</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>After a hundred years</line>
+            <line>Nobody  knew knows the Place</line>
+            <line>Agony that enacted there</line>
+            <line>Motionless as Peace</line> 
+        </stanza>
+        
+        <stanza> 
+            <line>Weeds triumphant ranged</line>
+            <line>Strangers strolled and spelled</line>
+            <line>At the lone Orthography</line>
+            <line>Of the Elder Dead</line>
+        </stanza>
+        
+        <stanza> 
+            <line>Winds of Summer Fields</line>
+            <line>Recollect the way --</line>
+            <line>Instinct picking up the Key</line>
+            <line>Dropped by memory --</line>
+        </stanza>
+        
+    </body>
+</poem>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>Alone and in a circumstance</title>
+        <date>1871</date>
+        <source>https://www.edickinson.org/editions/1/image_sets/12176970</source>
+        <recipient>none</recipient>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Alone and in a Circumstance</line>
+            <line>Reluctant to be told</line>
+            <line>A spider on my reticence</line>
+            <line>deliberately / determinately / impertinently Assiduously crawled</line> 
+        </stanza>
+        
+        <stanza> 
+            <line>And so much more at</line>
+            <line>Home than I</line>
+            <line>Immediately grew</line>
+            <line>I felt myself the a</line>
+            <line>visitor</line>
+            <line>And hastily hurriedly withdrew -</line>
+        </stanza>
+        
+        <stanza> 
+            <line>Revisiting my late abode</line>
+            <line>with articles of claim</line>
+            <line>I found it quietly assumed</line>
+            <line>for as a Gymnasium</line>
+            <line>Where Tax asleep and</line>
+            <line>Title off</line>
+            <line>The Peasants inmates of the Air</line>
+            <line>Perpetual complacence presumption took</line>
+        </stanza>
+        
+        <stanza> 
+            <line>As each were only lawful / special</line>
+            <line>Heir -</line>
+            <line>If any strike me on</line>
+            <line>the street</line>
+            <line>I can return the Blow -</line>
+            <line>If any seize take my property</line>
+            <line>According to the Law</line>
+            <line>The Statute is my Learned</line>
+            <line>friend</line>
+            <line>But what redress can be</line>
+            <line>For an offence not anywhere here</line>
+            <line>nor there</line>
+            <line>So not in Equity -</line>
+            <line>That Larceny of time</line>
+            <line>and mind</line>
+            <line>The marrow of the</line>
+            <line>Day</line>
+            <line>By spider, or forbid</line>
+            <line>it Lord</line>
+            <line>That I should specify -</line>
+        </stanza>
+    </body>
+</poem>
