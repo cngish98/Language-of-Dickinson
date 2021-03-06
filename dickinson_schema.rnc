@@ -1,3 +1,6 @@
+# # # # # # #
+#  Metadata #
+# # # # # # #
 start = poem 
 poem = element poem { metadata, body } 
 metadata = element metadata { title, date, poem_number, source, recipient }
@@ -7,12 +10,55 @@ poem_number = element poem_number { text }
 source = element source { text }
 recipient = element recipient { text }
 
+# # # # #
+#  Body #
+# # # # #
 body = element body { stanza+ }
 stanza = element stanza { line+ }
-line = element line { text }
+line = element line { mixed 
+    { (  elision | possible_word | character | action | emotion | judgment
+    | animal | place | nature )* } }
 
-# to be expanded
 
-# possible attributes: ELISION, animals, actions, life, death, love, nature, speaker/characters, emotion, memories, judgments of others, 
-# positive/negative, occupation, places, body parts, rhyme, meter? 
-# also: ambiguous words (like where a word is shown in superscript on the archive websites, or where multiple possible words were shown)
+# # # # # # # # # #
+#  Inline content #
+# # # # # # # # # #
+
+elision = element elision { elision_type, elided_content } 
+elision_type = attribute elision_type { "nominal" | "verbal" | "clausal" } # @Caroline, is this good? feel free to edit based on your knowledge 
+elided_content = attribute elided_content { text } # to mark up "what is being elided" ... maybe could be more specific 
+
+possible_word = element possible_word { text } # could there be a more precise name for this element?
+# i mean parts of a poem like where a word is shown in superscript on the archive websites, indicating that multiple possible words could be used
+
+character = element character { name, human, role } 
+name = attribute name { text }
+human = attribute human { "yes" | "no" } # because many of the characters included are personifications of nature, or animals, etc.
+role = attribute role { text } # could be profession, or relationship 
+
+action = element action { type, judgment, text }
+type = attribute type { text } # narrow this down maybe? i made some type subgroups for other attributes but idk if it fits w everything
+judgment = attribute judgment { "positive" | "negative" | "ambiguous" | "neutral" }
+
+emotion = element emotion { emotion_type, judgment, text } 
+emotion_type = attribute emotion_type { text }
+
+animal = element animal { animal_type, text }
+animal_type = attribute animal_type { "insect" | "bird" | "pet" } # could be expanded! 
+
+place = element place { place_type, text } 
+place_type = attribute place_type { text } # maybe make this more specific? but there are many different place types so idk. like houses, nature, etc.
+# there could be overlap with other elements so i'm leaving it vague for now
+
+nature = element nature { type, text } # include nature_type element? not sure yet 
+# also dickinson talks a lot about like seasons, and so on, not sure if this falls into nature, and if it does, how to include it in markup? 
+
+# # # # # #
+#  To Do  #
+# # # # # #
+
+# NOTE OTHER POSSIBLE THEMES / IMAGERY FOR MARKUP HERE:  
+     # love, death, memory 
+# Include more elements for analyzing linguistic features (syntax, maybe - Caroline this might depend on you) 
+# include TEI-inspired elements and attributes for rhyme, meter? idk how much we want to look for this...
+# Maybe make some of the attributes for these elements optional, because they could get redundant typing them each time
