@@ -1,0 +1,18 @@
+start = poem 
+poem = element poem { metadata, body } 
+metadata = element metadata { title, date, poem_number, source, recipient }
+title = element title { text }
+date = element date { xsd:int }
+poem_number = element poem_number { text }
+source = element source { text }
+recipient = element recipient { text }
+
+body = element body { stanza+ }
+stanza = element stanza { line+ }
+line = element line { text }
+
+# to be expanded
+
+# possible attributes: ELISION, animals, actions, life, death, love, nature, speaker/characters, emotion, memories, judgments of others, 
+# positive/negative, occupation, places, body parts, rhyme, meter? 
+# also: ambiguous words (like where a word is shown in superscript on the archive websites, or where multiple possible words were shown)
