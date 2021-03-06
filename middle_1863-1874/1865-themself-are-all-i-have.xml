@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>Themself are all I have</title>
         <date>1865</date>
-        <source>https://www.edickinson.org/editions/1/image_sets/12176580</source>
+        <poem_number>J1094</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171599</source>
         <recipient>none</recipient>
     </metadata>
     
     <body>
         <stanza> 
-            <line>Themself are all I</line>
-            <line>have -</line>
+            <line>Themself are all I have -</line>
             <line>Myself a freckled - be -</line>
-            <line>I thought you'd choose</line>
-            <line>A Velvet Cheek</line>
+            <line>I thought you'd choose a Velvet Cheek</line>
             <line>Or one of Ivory -</line>
-            <line>Would you - instead</line>
-            <line>of Me?</line>
+            <line>Would you - instead of Me?</line>
         </stanza>
     </body>
 </poem>

@@ -1,49 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>Four trees opon a solitary acre</title>
         <date>1863</date>
+        <poem_number>J742</poem_number>
         <source>https://www.edickinson.org/editions/1/image_sets/12175754</source>
         <recipient>none</recipient>
     </metadata>
     
     <body>
         <stanza> 
-            <line>Four Trees - opon a solitary</line>
-            <line>Acre -</line>
+            <line>Four Trees - upon a solitary Acre -</line>
             <line>Without Design</line>
-            <line>Or Order, or Apparent</line>
-            <line>Action -</line>
-            <line>Do reign - Maintain -</line>
+            <line>Or Order, or Apparent  signal -  notice Action -</line>
+            <line>Do reign - hinder - Maintain -</line>
         </stanza>
         
         <stanza> 
-            <line>The Sun - opon a Morning</line>
-            <line>meets them -</line>
+            <line>The Sun - upon a Morning meets them -</line>
             <line>The Wind -</line>
-            <line>No nearer Neighbor - have</line>
-            <line>they -</line>
+            <line>No nearer Neighbor - have they -</line>
             <line>But God -</line>
         </stanza>
           
         <stanza>  
-            <line>The Acre gives them -</line>
-            <line>Place -</line>
-            <line>They - Him - Attention of</line>
-            <line>Passer by -</line>
-            <line>Of Shadow, or of Squirrel,</line>
-            <line>haply -</line>
+            <line>The Acre gives them - Place -</line>
+            <line>They - Him - Attention of Passer by -</line>
+            <line>Of Shadow, or of Squirrel, haply -</line>
             <line>Or Boy -</line>
         </stanza>
           
         <stanza> 
-            <line>What Deed they bear is Their's</line>
-            <line>unto the General Nature -</line>
+            <line>What Deed  they bear is Their's unto the General Nature -</line>
             <line>What Plan</line>
-            <line>They severally - promote - or hinder - retard - or</line>
-            <line>further -</line>
+            <line>They severally -  promote - or retard - or further -</line>
             <line>Unknown -</line>
         </stanza>
     </body>

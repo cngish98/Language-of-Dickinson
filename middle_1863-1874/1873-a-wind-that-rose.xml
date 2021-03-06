@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>A Wind that rose</title>
         <date>1873</date>
+        <poem_number>J1259</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172016</source>
         <recipient>T.W. Higginson</recipient>
     </metadata>

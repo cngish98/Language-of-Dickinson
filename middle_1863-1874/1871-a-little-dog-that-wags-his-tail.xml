@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>A little Dog that wags his tail</title>
         <date>1871</date>
+        <poem_number>J1185</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171834</source>
         <recipient>Edward Dickinson</recipient>
     </metadata>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>A Word dropped careless on a Page</title>
         <date>1873</date>
+        <poem_number>J1261</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172032</source>
         <recipient>Louise and Frances Norcross</recipient>
     </metadata>
@@ -12,9 +13,9 @@
     <body>
         <stanza> 
             <line>A Word dropped careless on a Page</line>
-            <line>May  consecrated. stimulate an eye</line>
+            <line>May consecrated / stimulate an eye</line>
             <line>When folded in perpetual seam</line>
-            <line>The Wrinkled  Author Maker lie</line>
+            <line>The Wrinkled Author / Maker lie</line>
         </stanza>
         
         <stanza> 

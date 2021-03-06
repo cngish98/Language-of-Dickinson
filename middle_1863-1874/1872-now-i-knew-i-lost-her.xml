@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>Now I knew I lost her -</title>
         <date>1872</date>
+        <poem_number>J1219</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171914</source>
         <recipient>none</recipient>
     </metadata>

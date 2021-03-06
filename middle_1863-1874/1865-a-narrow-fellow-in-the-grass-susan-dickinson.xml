@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>A narrow fellow in the grass</title>
         <date>1865</date>
+        <poem_number>F1096A</poem_number> <!-- This is the Franklin edition, but I hope it's okay 
+            because it's contrasting the same poem w/a different recipient -->
         <source>https://www.edickinson.org/editions/1/image_sets/12176689</source>
         <recipient>Susan Dickinson</recipient>
     </metadata>

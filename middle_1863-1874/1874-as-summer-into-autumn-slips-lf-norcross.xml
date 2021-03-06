@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>As summer into autumn slips</title>
         <date>1874</date>
+        <poem_number>F1341B</poem_number> <!--Franklin version: There is no Johnson version addressed to L&F Norcross -->
         <source>https://www.edickinson.org/editions/1/image_sets/12177576</source>
         <recipient>Louise and Frances Norcross</recipient>
     </metadata>

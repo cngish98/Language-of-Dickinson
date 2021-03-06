@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>The Poets light but Lamps -</title>
         <date>1864</date>
+        <poem_number>J883</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171126</source>
         <recipient>none</recipient>
     </metadata>

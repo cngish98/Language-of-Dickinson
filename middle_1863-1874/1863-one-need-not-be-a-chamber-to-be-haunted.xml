@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>One need not be a Chamber - to be Haunted -</title>
         <date>1863</date>
+        <poem_number>J670</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12170641</source>
         <recipient>Susan Dickinson</recipient>
     </metadata>

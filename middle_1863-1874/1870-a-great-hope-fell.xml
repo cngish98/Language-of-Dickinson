@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
     <metadata>
         <title>A great hope fell</title>
         <date>1870</date>
-        <source>https://www.edickinson.org/editions/1/image_sets/12177020</source>
+        <poem_number>J1123</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171673</source>
         <recipient>none</recipient>
     </metadata>
     
     <body>
         <stanza> 
-            <line>A great Hope</line>
-            <line>fell</line>
-            <line>You heard no</line>
-            <line>noise</line>
-            <line>The havoc damage Ruin was</line>
-            <line>within</line>
-            <line>Oh cunning</line>
-            <line>Wreck</line>
-            <line>That told no</line>
-            <line>Tale</line>
-            <line>And let no</line>
-            <line>Witness in</line>
+            <line>A great Hope fell</line>
+            <line>You heard no  crash noise</line>
+            <line>The  havoc / damage / Ruin was within</line>
+            <line>Oh cunning wreck that told no tale</line>
+            <line>And let no Witness in</line>
         </stanza>
         
         <stanza> 
-            <line>The mind was</line>
-            <line>built for</line>
-            <line>mighty Freight</line>
-            <line>For dread</line>
-            <line>occasion planned</line>
-            <line>How often</line>
-            <line>foundering</line>
-            <line>at Sea</line>
-            <line>Ostensibly, on</line>
-            <line>Land</line>
+            <line>The mind was built for mighty Freight</line>
+            <line>For dread occasion planned</line>
+            <line>How often foundering at Sea</line>
+            <line>Ostensibly, on Land</line>
+        </stanza>
+        
+        <stanza> 
+            <line>A not admitting of the wound</line>
+            <line>Until it grew so wide</line>
+            <line>That all my Life had entered it</line>
+            <line>And there were space / room troughs beside</line>
+        </stanza>
+        
+        <stanza> 
+            <line>A closing of the simple lid</line>
+            <line>That opened to the sun</line>
+            <line>Until the tender Carpenter</line>
+            <line>Perpetual nail it down -</line>
         </stanza>
     </body>
 </poem>

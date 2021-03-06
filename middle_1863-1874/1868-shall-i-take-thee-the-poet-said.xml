@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <title>Shall I take thee, the Poet said</title>
         <date>1868</date>
+        <poem_number>J1126</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171681</source>
         <recipient>none</recipient>
     </metadata>

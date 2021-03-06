@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <title>Banish Air From Air</title>
+        <date>1864</date>
+        <poem_number>J854</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171065</source>
+        <recipient>none</recipient>
+    </metadata>
+    <body>
+        <stanza> 
+            <line>Banish Air from Air -</line>
+            <line>Divide Light if you dare -</line>
+            <line>They'll meet</line>
+            <line>While Cubes in a Drop</line>
+            <line>Or Pellets of Shape</line>
+            <line>Fit.</line>
+            <line>Films cannot annul</line>
+            <line>Odors return whole</line>
+            <line>Force Flame</line>
+            <line>And with a Blonde push</line>
+            <line>Over your impotence</line>
+            <line>Flits Steam.</line>
+        </stanza>
+    </body>
+</poem>
