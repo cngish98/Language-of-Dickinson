@@ -3,14 +3,15 @@
 # # # # # # #
 start = poem 
 poem = element poem { metadata, body } 
-metadata = element metadata { title, date, poem_number, source, recipient } # cng: Should we open up the recipient to allow more than one? Some of the poems are to two people but joined with 
-                                                                            # an "and" (I am not sure if it means they were a couple and received the poem together in a letter or what...)
+metadata = element metadata { title, date, poem_number, source, recipient }                                                                         
 title = element title { text } # cng: maybe change this to "first_line" because her poems are usually untitled and the first line is used for ease 
-date = element date { xsd:int } # cng: you can use { xsd:gYear } to constrain the date since all that is ever specified is the 4-digit year (also could maybe call it year instead of date? idk
-# cng: we should also mark if the poem is early, middle, or late period - maybe <period type="early"> (something other than the word type may be better)
-poem_number = element poem_number { text } # cng: I would just call this element "number" (more concise)
+date = element date { xsd:gYear, period } 
+period = attribute period { "early" | "middle" | "late" } 
+poem_number = element poem_number { text } # rw: I am keeping it as "poem_number" because "number" could get mixed up with numbering the lines
 source = element source { text }
-recipient = element recipient { text } # cng: are we saying that every doc will have a recipient and then for the poems that do not have one we will just enter "none"?
+recipient = element recipient { text } 
+# write "none" for ones that don't have a recipient, 
+#and then for multiple recipients just wrote how they appear on the archive (ex: <recipient>Louise and Frances Norcross</recipient>
 
 # # # # #
 #  Body #
@@ -18,8 +19,9 @@ recipient = element recipient { text } # cng: are we saying that every doc will 
 body = element body { stanza+ }
 stanza = element stanza { line+ }
 line = element line { mixed 
-    { (  elision | possible_word | character | action | emotion | judgment
-    | animal | place | nature )* } }
+    { (  elision | variant | character | action | emotion | judgment
+    | animal | place | nature | love | death | memory | time 
+    | war | religion | writing | intellect | allusion )* } }
 
 
 # # # # # # # # # #
@@ -27,23 +29,21 @@ line = element line { mixed
 # # # # # # # # # #
 
 elision = element elision { elision_type, elided_content } 
-elision_type = attribute elision_type { "nominal" | "verbal" | "clausal" } # @Caroline, is this good? feel free to edit based on your knowledge cng: I will edit this once I get confirmation!
+elision_type = attribute elision_type { "nominal" | "verbal" | "clausal" } # cng: I will edit this once I get confirmation!
 elided_content = attribute elided_content { text } # to mark up "what is being elided" ... maybe could be more specific 
 
-possible_word = element possible_word { text } # could there be a more precise name for this element? cng: variant or variation would be appropriate - we could keep the variants in line and 
-                                                                                                      # just tag them as such
-# i mean parts of a poem like where a word is shown in superscript on the archive websites, indicating that multiple possible words could be used
+variant = element variant { text } 
+# this refers to the parts of a poem like where a word is shown in superscript on the archive websites, indicating that multiple possible words could be used
 
-character = element character { name, human, role } 
+character = element character { name, character_type*, role* }
 name = attribute name { text }
-human = attribute human { "yes" | "no" } # because many of the characters included are personifications of nature, or animals, etc. # cng: couldn't we tag as animal then instead of not human?
-                                         # cng: this is semi challenging because she personifies a lot of things (not sure if those things would count as "characters" or not) 
-role = attribute role { text } # could be profession, or relationship (cng: I like this!)
+character_type = attribute character_type { "human" | "animal" | "personification" } # expand? 
+role = attribute role { text } # could be profession, or relationship 
 
 action = element action { type, judgment, text }
 type = attribute type { text } # narrow this down maybe? i made some type subgroups for other attributes but idk if it fits w everything
 judgment = attribute judgment { "positive" | "negative" | "ambiguous" | "neutral" }
-    # cng: i think that the "judgment" attribute could be applied in more places - like even when she's talking about religion, war, love, etc (viewing these things in a certain way)
+    # this judgment attribute can be used with multiple elements (emotion, love, war, death, etc) 
 
 emotion = element emotion { emotion_type, judgment, text } 
 emotion_type = attribute emotion_type { text }
@@ -59,19 +59,34 @@ nature = element nature { type, text } # include nature_type element? not sure y
 # also dickinson talks a lot about like seasons, and so on, not sure if this falls into nature, and if it does, how to include it in markup? 
 # cng: maybe this would be like "the natural" (so then seasons would be included)
 
+love = element love { love_type, judgment, text } 
+love_type = attribute love_type { "familial" | "platonic" | "romantic" | "admiration" } 
+# by admiration, I mean love for things that may not be human, like admiring a pet, or parts of nature...maybe there's a better word? 
+
+death = element death { judgment, text } # could be expanded, a lot of these could be expanded
+
+memory = element memory { judgment, text } 
+
+time = element time { duration, text } 
+duration = attribute duration { text } # could be years, months, seconds, etc. 
+
+war = element war { judgment, text }
+# the poem that talks about Lexington could be put here
+
+religion = element religion { judgment, text } # religious words or themes 
+
+writing = element writing { text } #references to writing/verse/prose within the poems themselves
+
+intellect = element intellect { text } 
+
+allusion = element allusion { to, text } 
+to = attribute to { text } # allusion "to" war, historical events, etc. 
+
 # # # # # #
 #  To Do  #
 # # # # # #
 
 # NOTE OTHER POSSIBLE THEMES / IMAGERY FOR MARKUP HERE:  
-     # love, death, memory (definitely these!)
-     # cng: war 
-     # cng: religion / religious words/themes (really big one for Dickinson, often criticizes organized religion)
-     # cng: not sure what name to use but she often references writing/verse/prose (that might come up in some of our poems)
-     # cng: the mind/intellect
-     # cng: also not sure what exactly to call this but world events or allusions? one of the late period poems talks about Lexington (as in the battle) 
-# cng: I saw that one of the poems from the early period had italicized words because those words were underlined in the original copy, so we will need to mark emphasis
+# we can make emphasis with <em> ? not totally sure
 # Include more elements for analyzing linguistic features (syntax, maybe - Caroline this might depend on you) 
-# include TEI-inspired elements and attributes for rhyme, meter? idk how much we want to look for this...
-    # cng: I think it would be okay to not focus on these aspects of her poetry (since they're not really related to our research q)
 # Maybe make some of the attributes for these elements optional, because they could get redundant typing them each time    cng: yeah that could be good  
