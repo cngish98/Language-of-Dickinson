@@ -3,8 +3,8 @@
 
 <poem>
     <metadata>
-        <title>One need not be a Chamber - to be Haunted -</title>
-        <date>1863</date>
+        <first_line>One need not be a Chamber - to be Haunted -</first_line>
+        <date period="middle">1863</date>
         <poem_number>J670</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12170641</source>
         <recipient>Susan Dickinson</recipient>
@@ -12,38 +12,59 @@
     
     <body>
         <stanza> 
-            <line>One need not be a Chamber - to be Haunted -</line>
-            <line>One need not be a House -</line>
-            <line>The Brain has Corridors - surpassing</line>
-            <line>Material Place -</line>
+            <line><character name="one" character_type="human">One</character> <action agent="one" type="negation">need not be</action>
+                a <place place_type="manmade" location="bedroom">Chamber</place> - to <action agent="passive">be</action>
+                <supernatural theme="haunting" judgment="negative">Haunted</supernatural> -</line>
+            <line>One <action agent="one" type="negation">need not be a</action>
+                <place place_type="manmade" location="house">House</place> -</line>
+            <line>The <mind theme="brain">Brain</mind> has <place place_type="abstract" location="corridor">Corridors</place> - 
+                <action agent="brain" type="transcend">surpassing</action></line>
+            <line><place place_type="abstract">Material Place</place> -</line> 
         </stanza>
             
         <stanza> 
-            <line>Far safer, of a Midnight Meeting</line>
-            <line>External Ghost</line>
-            <line>Than it's interior Confronting -</line>
-            <line>That Cooler Host.</line>
+            <line>Far safer, of a <time of_day="night">Midnight</time> 
+                <action agent="one" type="social" judgment="positive">Meeting</action></line> <!--said positive because of "Far safer" -->
+            <line>External <supernatural theme="ghosts">Ghost</supernatural>Ghost</line> <!--ghosts are usually
+                an abstract or intangible concept, but here it is represented as tangible...how to address this? --> 
+            <line>Than it's <mind>interior</mind> <action agent="one" type="confrontation" 
+                judgment="negative">Confronting</action> -</line>
+            <line>That <character name="cool_host" judgment="negative" 
+                character_type="abstract">Cooler Host</character>.</line>
         </stanza>
         
         <stanza> 
-            <line>Far safer, through an Abbey gallop,</line>
-            <line>The Stones a'chase -</line>
-            <line>Than Unarmed, one's a'self encounter -</line>
-            <line>In lonesome Place -</line>
+            <line>Far safer, through an <place place_type="manmade" location="abbey">Abbey</place><religion theme="place-of-worship" />
+                <action agent="one" judgment="positive"></action>gallop,</line> <!--said positive, again, because of "Far safer" -->
+            <line>The <nature type="rock">Stones</nature> a'chase -</line> 
+            <!--not exactly sure what the above line meant: the stones in an abbey? what is a'chase? -->
+            <line>Than <violence theme="vulnerability">Unarmed</violence>, <character name="one">one's</character> 
+                <character name="inner_self" character_type="abstract" judgment="negative">a'self</character>
+                <action agent="one" type="connect" judgment="negative">encounter</action> -</line> 
+            <line>In <isolation judgment="negative">lonesome</isolation> <mind>Place</mind> -</line>
         </stanza>
          
         <stanza> 
-            <line>Ourself behind ourself, concealed -</line>
-            <line>Should startle most -</line>
-            <line>Assassin hid in our Apartment</line>
-            <line>Be Horror's least.</line>
+            <line><mind theme="unconscious">Ourself behind ourself</mind>, 
+                <action agent="one" type="conceal">concealed</action>
+                <uncertainty judgment="negative"/>-</line> 
+            <!--I assumed this is the same general "person as "one" as in "one need not be a chamber", but idk for sure -->
+            <line>Should <emotion emotion_type="fear" judgment="negative">startle</emotion> most -</line>
+            <line><character name="assassin" role="stranger" judgment="negative" character_type="human">Assassin</character><violence/>
+                <action agent="assassin" type="conceal">hid</action> in our <place place_type="manmade" location="apartment"></place>Apartment</line>
+            <line>Be <emotion emotion_type="fear" intensity="low">Horror's</emotion> least.</line>
+            <!--External factors (ex: other people, like an assassin) are actually the least horrifying, when compared with 
+                the unknowns in the mind. (that's why I said intensity low) -->
         </stanza>
             
         <stanza> 
-            <line>The Body - borrows a Revolver -</line>
-            <line>He bolts the Door -</line>
-            <line>O'erlooking a superior spectre -</line>
-            <line>Or More -</line>
+            <line>The <physical_body theme="general">Body</physical_body> - borrows a 
+                <object type="weapon">Revolver</object><violence/> -</line>
+            <line>He <action agent="one" type="hostile">bolts the Door</action> -</line>
+            <!--Again, I assumed this is the same general "person as "one" but idk for sure, especially bc it has a gendered pronoun here -->
+            <line><action agent="one" type="perception">O'erlooking</action>
+                a superior <supernatural theme="ghost">spectre</supernatural> -</line>
+            <line>Or More -</line> 
         </stanza>
     </body>
 </poem>

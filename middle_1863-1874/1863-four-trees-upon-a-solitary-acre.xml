@@ -13,7 +13,7 @@
     <body>
         <stanza> 
             <line><character name="four_trees" character_type="nature">Four Trees</character><nature type="tree"/> - upon a 
-                <isolation judgment="neutral">solitary</isolation> <place location="land">Acre</place> -</line>
+                <isolation judgment="neutral">solitary</isolation> <place place_type="natural" location="land">Acre</place> -</line>
             <line>Without Design</line> <!--they exist without interaction / tampering by humans...how to incorporate this in markup? -->
             <line>Or Order, or Apparent  <variant>signal</variant> - <variant>notice</variant> 
                 <action agent="four_trees" type="inaction" judgment="neutral">Action</action> -</line>
@@ -25,7 +25,7 @@
         
         <stanza> 
             <line><character name="sun" character_type="nature">The Sun</character><nature type="sun"/> - 
-                upon a <time type="morning">Morning</time> <action agent="sun" type="social">meets</action> 
+                upon a <time of_day="morning">Morning</time> <action agent="sun" type="social">meets</action> 
                 <character name="four_trees">them</character> -</line>
             <line><nature type="wind">The Wind</nature> -</line> <!--elision here?-->
             <line><isolation judgment="neutral">No nearer Neighbor - have</isolation>

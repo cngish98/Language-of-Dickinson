@@ -21,7 +21,8 @@ stanza = element stanza { line+ }
 line = element line { mixed 
     { (  elision | variant | character | action | emotion | judgment
     | animal | place | nature | love | death | memory | time 
-    | war | religion | writing | intellect | isolation | uncertainty | allusion )* } }
+    | war | religion | writing | mind | physical_body | isolation 
+    | supernatural | violence | uncertainty | allusion | object )* } }
 
 
 # # # # # # # # # #
@@ -46,13 +47,15 @@ action = element action { agent, type?, judgment?, text }
 agent = attribute agent { text } 
 type = attribute type { text } # narrow this down maybe? i made some type subgroups for other attributes but idk if it fits w everything
 
-emotion = element emotion { emotion_type, judgment, text } 
+emotion = element emotion { emotion_type?, judgment?, intensity?, text } 
 emotion_type = attribute emotion_type { text }
+intensity = attribute intensity { "low" | "medium" | "high" | "ambiguous" }
 
 animal = element animal { animal_type, text }
 animal_type = attribute animal_type { "insect" | "bird" | "wild" | "pet" } # could be expanded! 
 
-place = element place { location, text } 
+place = element place { place_type, location?, text } 
+place_type = attribute place_type { "natural" | "manmade" | "abstract" }
 location = attribute location { text } # could be expanded too
 
 nature = element nature { type, text } # include nature_type element? not sure yet 
@@ -67,26 +70,34 @@ death = element death { judgment, text } # could be expanded, a lot of these cou
 
 memory = element memory { judgment, text } 
 
-time = element time { duration?, type, text } 
+time = element time { duration?, of_day?, text } 
 duration = attribute duration { text } # could be years, months, seconds, etc. 
-# type here would refer to other markers of time, such as morning, day, night
-# didn't make a separate attribute for that, but maybe it's possible? 
+of_day = attribute of_day { text } # morning, day, night, etc. 
 
 war = element war { judgment, text }
 # the poem that talks about Lexington could be put here
 
 religion = element religion { theme?, judgment?, text } # religious words or themes 
 theme = attribute theme { text } # this is for what exactly about religion is being discussed, like God, or church, or worship, etc. 
+# theme can also be used for other abstract concepts, like mind, body, supernatural below. 
+#maybe there's a better word but idk....
 
 writing = element writing { text } #references to writing/verse/prose within the poems themselves
 
-intellect = element intellect { text } 
+mind = element mind { theme?, text } 
+physical_body = element physical_body { theme, text } # not to be confused with the <body> of the poem
 
 isolation = element isolation { judgment, text } #loneliness, solitude? not sure
 uncertainty = element uncertainty { judgment, text }
 
+violence = element violence { theme?, text }
+
+supernatural = element supernatural { theme, judgment?, text } 
+
 allusion = element allusion { to, text } 
 to = attribute to { text } # allusion "to" war, historical events, etc. 
+
+object = element object { type, text } # for any concrete objects mentioned that don't fit in other categories, like furniture, food, weapons, etc. 
 
 # # # # # #
 #  To Do  #
