@@ -3,8 +3,8 @@
 # # # # # # #
 start = poem 
 poem = element poem { metadata, body } 
-metadata = element metadata { title, date, poem_number, source, recipient }                                                                         
-title = element title { text } # cng: maybe change this to "first_line" because her poems are usually untitled and the first line is used for ease 
+metadata = element metadata { first_line, date, poem_number, source, recipient }                                                                         
+first_line = element first_line { text }
 date = element date { xsd:gYear, period } 
 period = attribute period { "early" | "middle" | "late" } 
 poem_number = element poem_number { text } # rw: I am keeping it as "poem_number" because "number" could get mixed up with numbering the lines
