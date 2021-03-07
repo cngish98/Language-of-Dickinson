@@ -3,40 +3,54 @@
 
 <poem>
     <metadata>
-        <first_line>Four trees opon a solitary acre</first_line>
+        <first_line>Four Trees - upon a solitary Acre -</first_line>
         <date period="middle">1863</date>
         <poem_number>J742</poem_number>
-        <source>https://www.edickinson.org/editions/1/image_sets/12175754</source>
+        <source>https://www.edickinson.org/editions/2/image_sets/12170725</source>
         <recipient>none</recipient>
     </metadata>
     
     <body>
         <stanza> 
-            <line>Four Trees - upon a solitary Acre -</line>
-            <line>Without Design</line>
-            <line>Or Order, or Apparent  signal -  notice Action -</line>
-            <line>Do reign - hinder - Maintain -</line>
+            <line><character name="four_trees" character_type="nature">Four Trees</character><nature type="tree"/> - upon a 
+                <isolation judgment="neutral">solitary</isolation> <place location="land">Acre</place> -</line>
+            <line>Without Design</line> <!--they exist without interaction / tampering by humans...how to incorporate this in markup? -->
+            <line>Or Order, or Apparent  <variant>signal</variant> - <variant>notice</variant> 
+                <action agent="four_trees" type="inaction" judgment="neutral">Action</action> -</line>
+            <line>Do <variant>reign</variant> - <variant>hinder</variant> - 
+                <action agent="four_trees" judgment="neutral">Maintain</action> -</line> <!--elision here-->
+            <!--not sure what type / description I'd use for the action "Maintain". seems like "maintain"
+                means they are maintaining their simple state of existence? -->
         </stanza>
         
         <stanza> 
-            <line>The Sun - upon a Morning meets them -</line>
-            <line>The Wind -</line>
-            <line>No nearer Neighbor - have they -</line>
-            <line>But God -</line>
+            <line><character name="sun" character_type="nature">The Sun</character><nature type="sun"/> - 
+                upon a <time type="morning">Morning</time> <action agent="sun" type="social">meets</action> 
+                <character name="four_trees">them</character> -</line>
+            <line><nature type="wind">The Wind</nature> -</line> <!--elision here?-->
+            <line><isolation judgment="neutral">No nearer Neighbor - have</isolation>
+                <character name="four_trees">they</character> -</line>
+            <line>But <religion theme="god">God</religion> -</line>
         </stanza>
           
         <stanza>  
-            <line>The Acre gives them - Place -</line>
-            <line>They - Him - Attention of Passer by -</line>
-            <line>Of Shadow, or of Squirrel, haply -</line>
-            <line>Or Boy -</line>
+            <line>The <character name="acre">Acre</character>
+                <action agent="acre" judgment="positive" type="provide">gives</action> 
+                <character name="four_trees">them</character> - Place -</line>
+            <line><character name="unknown">They</character> - <character name="him">Him</character> <!--is this elision? or is she just listing things--> 
+                - Attention of <character name="passerby">Passer by</character> -</line>
+            <line>Of <character name="shadow" character_type="abstract">Shadow</character>, or of 
+                <character name="squirrel" character_type="animal"/>Squirrel, <animal animal_type="wild"/>haply -</line>
+            <line>Or <character name="boy">Boy</character> -</line> <!--elision here probably too -->
         </stanza>
           
         <stanza> 
-            <line>What Deed  they bear is Their's unto the General Nature -</line>
-            <line>What Plan</line>
-            <line>They severally -  promote - or retard - or further -</line>
-            <line>Unknown -</line>
+            <line>What Deed  <variant>they bear</variant> is <character name="four_trees">Their's</character>'s unto 
+                <nature type="general">the General Nature</nature>- </line>
+            <line><uncertainty judgment="ambiguous">What Plan</uncertainty></line>
+            <line>They severally -  <variant>promote - or</variant> 
+                <action agent="four_trees" type="prevent" judgment="ambiguous">retard</action> - or further -</line>
+            <line><uncertainty judgment="ambiguous">Unknown</uncertainty> -</line> <!--elision here?-->
         </stanza>
     </body>
 </poem>
