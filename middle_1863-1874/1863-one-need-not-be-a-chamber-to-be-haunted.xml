@@ -59,7 +59,7 @@
             
         <stanza> 
             <line>The <physical_body theme="general">Body</physical_body> - borrows a 
-                <object type="weapon">Revolver</object><violence/> -</line>
+                <object type="weapon" tangible="yes">Revolver</object><violence/> -</line>
             <line>He <action agent="one" type="hostile">bolts the Door</action> -</line>
             <!--Again, I assumed this is the same general "person as "one" but idk for sure, especially bc it has a gendered pronoun here -->
             <line><action agent="one" type="perception">O'erlooking</action>

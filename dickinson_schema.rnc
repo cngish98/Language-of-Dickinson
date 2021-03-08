@@ -10,6 +10,7 @@ period = attribute period { "early" | "middle" | "late" }
 poem_number = element poem_number { text } # rw: I am keeping it as "poem_number" because "number" could get mixed up with numbering the lines
 source = element source { text }
 recipient = element recipient { text } 
+poem_themes = element poem_themes { text } 
 # write "none" for ones that don't have a recipient, 
 #and then for multiple recipients just wrote how they appear on the archive (ex: <recipient>Louise and Frances Norcross</recipient>
 
@@ -19,10 +20,10 @@ recipient = element recipient { text }
 body = element body { stanza+ }
 stanza = element stanza { line+ }
 line = element line { mixed 
-    { (  elision | variant | character | action | emotion | judgment
+    { (  elision | variant | character | emotion 
     | animal | place | nature | love | death | memory | time 
-    | war | religion | writing | mind | physical_body | isolation 
-    | supernatural | violence | uncertainty | allusion | object )* } }
+    | war | religion | writing | mind | physical_body | solitude 
+    | supernatural | violence | uncertainty )* } }
 
 
 # # # # # # # # # #
@@ -36,75 +37,64 @@ elided_content = attribute elided_content { text } # to mark up "what is being e
 variant = element variant { text } 
 # this refers to the parts of a poem like where a word is shown in superscript on the archive websites, indicating that multiple possible words could be used
 
-character = element character { name, character_type?, role?, judgment?, text }
+character = element character { name, relation_with?, judgment?, text } # include only if the character is extremely important to the theme of the poem as a whole
 name = attribute name { text }
-character_type = attribute character_type { "human" | "animal" | "nature" | "abstract" } # expand? 
-role = attribute role { text } # could be profession, or relationship 
-judgment = attribute judgment { "positive" | "negative" | "ambiguous" | "neutral" }
-    # this judgment attribute can be used with multiple elements (action, emotion, love, war, death, etc) 
+relation_with = attribute relation_with { text } 
+judgment = attribute judgment { "positive" | "negative" | "neutral" }
+    # this judgment attribute can be used with multiple elements (action, emotion, love, war, death, etc), should always be optional
 
-action = element action { agent, type?, judgment?, text }
-agent = attribute agent { text } 
-type = attribute type { text } # narrow this down maybe? i made some type subgroups for other attributes but idk if it fits w everything
+emotion = element emotion { emotion_type?, text } 
+emotion_type = attribute emotion_type { text } # happiness, sadness, fear, anger, etc. 
 
-emotion = element emotion { emotion_type?, judgment?, intensity?, text } 
-emotion_type = attribute emotion_type { text }
-intensity = attribute intensity { "low" | "medium" | "high" | "ambiguous" }
+animal = element animal { text } 
 
-animal = element animal { animal_type, text }
-animal_type = attribute animal_type { "insect" | "bird" | "wild" | "pet" } # could be expanded! 
+place = element place { text }
 
-place = element place { place_type, location?, text } 
-place_type = attribute place_type { "natural" | "manmade" | "abstract" }
-location = attribute location { text } # could be expanded too
+nature = element nature { nature_type, text } 
+nature_type = attribute nature_type { "air" | "fire" | "water" | "earth" | "animal" } 
 
-nature = element nature { type, text } # include nature_type element? not sure yet 
-# also dickinson talks a lot about like seasons, and so on, not sure if this falls into nature, and if it does, how to include it in markup? 
-# cng: maybe this would be like "the natural" (so then seasons would be included)
-
-love = element love { love_type, judgment, text } 
+love = element love { love_type?, text } 
 love_type = attribute love_type { "familial" | "platonic" | "romantic" | "admiration" } 
 # by admiration, I mean love for things that may not be human, like admiring a pet, or parts of nature...maybe there's a better word? 
 
-death = element death { judgment, text } # could be expanded, a lot of these could be expanded
+death = element death { text } 
 
-memory = element memory { judgment, text } 
+memory = element memory { text } 
 
-time = element time { duration?, of_day?, text } 
-duration = attribute duration { text } # could be years, months, seconds, etc. 
-of_day = attribute of_day { text } # morning, day, night, etc. 
+time = element time { type?, text } 
+type = attribute type { text } 
 
-war = element war { judgment, text }
-# the poem that talks about Lexington could be put here
+war = element war { text }
 
-religion = element religion { theme?, judgment?, text } # religious words or themes 
-theme = attribute theme { text } # this is for what exactly about religion is being discussed, like God, or church, or worship, etc. 
-# theme can also be used for other abstract concepts, like mind, body, supernatural below. 
-#maybe there's a better word but idk....
+religion = element religion { religious_type?, text } # religious words or themes 
+religious_type = attribute religious_type { "person" | "place" | "thing" } 
 
-writing = element writing { text } #references to writing/verse/prose within the poems themselves
+writing = element writing { text } #references to writing/verse/prose within the poems themselves 
+# add theme back if needed? 
 
-mind = element mind { theme?, text } 
-physical_body = element physical_body { theme, text } # not to be confused with the <body> of the poem
+mind = element mind { text } 
 
-isolation = element isolation { judgment, text } #loneliness, solitude? not sure
-uncertainty = element uncertainty { judgment, text }
+physical_body = element physical_body { text } # not to be confused with the <body> of the poem
 
-violence = element violence { theme?, text }
+solitude = element solitude { judgment?, text } 
 
-supernatural = element supernatural { theme, judgment?, text } 
+uncertainty = element uncertainty { judgment?, text }
 
-allusion = element allusion { to, text } 
-to = attribute to { text } # allusion "to" war, historical events, etc. 
+violence = element violence { text }
 
-object = element object { type, text } # for any concrete objects mentioned that don't fit in other categories, like furniture, food, weapons, etc. 
+supernatural = element supernatural { text } 
+
+
 
 # # # # # #
 #  To Do  #
 # # # # # #
 
 # NOTE OTHER POSSIBLE THEMES / IMAGERY FOR MARKUP HERE:  
-#
+    # discipline / academic fields of study ? 
+    # allusion
+    # actions action = element action { agent, type?, judgment?, negation?, text }
+    # duration?, of_day?, season?, 
 # maybe we can mark emphasis with <em> ? not totally sure if this is exclusive to HTML though...
 # Include more elements for analyzing linguistic features (syntax, maybe - Caroline this might depend on you) 
 # Maybe make some of the attributes for these elements optional, because they could get redundant typing them each time    cng: yeah that could be good  
