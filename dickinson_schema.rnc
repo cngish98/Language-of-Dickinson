@@ -21,9 +21,9 @@ body = element body { stanza+ }
 stanza = element stanza { line+ }
 line = element line { mixed 
     { (  elision | variant | character | emotion 
-    | animal | place | nature | love | death | memory | time 
+    | animal | place | nature | love | death | life | memory | time 
     | war | religion | writing | mind | physical_body | solitude 
-    | supernatural | violence | uncertainty )* } }
+    | supernatural | violence | light | darkness | uncertainty )* } }
 
 
 # # # # # # # # # #
@@ -51,12 +51,14 @@ animal = element animal { text }
 place = element place { text }
 
 nature = element nature { nature_type, text } 
-nature_type = attribute nature_type { "air" | "fire" | "water" | "earth" | "animal" } 
+nature_type = attribute nature_type { "air" | "fire" | "water" | "earth" | "animal" | "space" | "general" } 
+# space can be the sun, stars, moon, etc. 
 
 love = element love { love_type?, text } 
 love_type = attribute love_type { "familial" | "platonic" | "romantic" | "admiration" } 
 # by admiration, I mean love for things that may not be human, like admiring a pet, or parts of nature...maybe there's a better word? 
 
+life = element life { text } # discussions of being alive / being human, human nature, etc.
 death = element death { text } 
 
 memory = element memory { text } 
@@ -84,6 +86,8 @@ violence = element violence { text }
 
 supernatural = element supernatural { text } 
 
+light = element light { judgment?, text }
+darkness = element darkness { judgment?, text }
 
 
 # # # # # #

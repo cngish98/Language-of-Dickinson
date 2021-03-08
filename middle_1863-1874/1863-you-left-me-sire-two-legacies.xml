@@ -8,24 +8,37 @@
         <poem_number>J644</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12170574</source>
         <recipient>none</recipient>
-        <poem_themes>interpersonal relationships</poem_themes>
+        <poem_themes>interpersonal relationships, duality, love, pain, time</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>You left me - Sire - two Legacies -</line>
-            <line>A Legacy of Love</line>
-            <line>A Heavenly Father would  content - suffice</line>
-            <line>Had He the offer of -</line>
+            <line><character name="sire" relation_with="me">You</character> 
+                left <character name="me" relation_with="sire">me</character> - Sire - two Legacies -</line>
+            <line><love>A Legacy of Love</love></line>
+            <line>A <religion religious_type="person">Heavenly Father</religion> would  
+                <variant>content</variant> - suffice</line>
+            <line>Had <religion religious_type="person"></religion>He the offer of -</line> <!--elision here-->
         </stanza>
         
         <stanza> 
-            <line>You left me Boundaries of Pain -</line>
-            <line>Capacious as the Sea -</line>
-            <line>Between Eternity and Time -</line>
-            <line>Your Consciousness - and Me -</line>
+            <line>You left me Boundaries of <emotion emotion_type="pain">Pain</emotion> -</line>
+            <line>Capacious as the <nature nature_type="water">Sea</nature> -</line>
+            <line>Between <time>Eternity</time> and <time>Time</time> -</line>
+            <line>Your <mind>Consciousness</mind> - and Me -</line>
         </stanza>
     </body>
 </poem>
-    
+
+<!-- 
+You left me - Sire - two Legacies -
+A Legacy of Love
+A Heavenly Father would  content - suffice
+Had He the offer of -
+
+You left me Boundaries of Pain -
+Capacious as the Sea -
+Between Eternity and Time -
+Your Consciousness - and Me -
+-->
 

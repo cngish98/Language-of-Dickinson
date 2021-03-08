@@ -19,6 +19,8 @@
     </body>
 </poem>
 
+<!--POST PLAIN TEXT OF POEM BELOW -->
+
 <!--Regex for wrapping lines of poem:
     Find: ^.*$
     Replace: <line>\0</line>

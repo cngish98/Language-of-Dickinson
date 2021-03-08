@@ -13,39 +13,65 @@
     
     <body>
         <stanza> 
-            <line>One need not be a Chamber - to be Haunted -</line>
+            <line>One need not be a Chamber - to be <supernatural>Haunted</supernatural> -</line>
             <line>One need not be a House -</line>
-            <line>The Brain has Corridors - surpassing</line>
+            <line>The <mind>Brain</mind> has Corridors - surpassing</line>
             <line>Material Place -</line>
         </stanza>
         
         <stanza> 
-            <line>Far safer, of a Midnight Meeting</line>
-            <line>External Ghost</line>
-            <line>Than it's interior Confronting -</line>
+            <line>Far safer, of a <darkness>Midnight</darkness> Meeting</line>
+            <line><supernatural>External Ghost</supernatural></line>
+            <line>Than <mind>it's interior</mind> Confronting -</line>
             <line>That Cooler Host.</line>
         </stanza>
         
         <stanza> 
-            <line>Far safer, through an Abbey gallop,</line>
+            <line>Far safer, through an <religion religious_type="place">Abbey</religion> gallop,</line>
             <line>The Stones a'chase -</line>
-            <line>Than Unarmed, one's a'self encounter -</line>
-            <line>In lonesome Place -</line>
+            <line>Than <violence>Unarmed</violence>, one's <mind>a'self</mind> encounter -</line> <!--not sure if unarmed counts as violence-->
+            <line>In <solitude judgment="negative">lonesome Place</solitude> -</line>
         </stanza>
         
         <stanza> 
-            <line>Ourself behind ourself, concealed -</line>
-            <line>Should startle most -</line>
-            <line>Assassin hid in our Apartment</line>
-            <line>Be Horror's least.</line>
+            <line><mind>Ourself behind ourself,</mind> concealed -</line>
+            <line>Should <emotion emotion_type="fear">startle</emotion> most -</line>
+            <line><violence>Assassin</violence> hid in our Apartment</line>
+            <line>Be <emotion emotion_type="fear">Horror's</emotion> least.</line>
         </stanza>
         
         <stanza> 
-            <line>The Body - borrows a Revolver -</line>
+            <line>The <physical_body>Body</physical_body> - borrows a <violence>Revolver</violence> -</line>
             <line>He bolts the Door -</line>
-            <line>O'erlooking a superior spectre -</line>
+            <line>O'erlooking a superior <supernatural>spectre</supernatural> -</line>
             <line>Or More -</line> 
         </stanza>
     </body>
 </poem>
 
+<!--  
+One need not be a Chamber - to be Haunted -
+One need not be a House -
+The Brain has Corridors - surpassing
+Material Place -
+
+Far safer, of a Midnight Meeting
+External Ghost
+Than it's interior Confronting -
+That Cooler Host.
+
+Far safer, through an Abbey gallop,
+The Stones a'chase -
+Than Unarmed, one's a'self encounter -
+In lonesome Place -
+
+Ourself behind ourself, concealed -
+Should startle most -
+Assassin hid in our Apartment
+Be Horror's least.
+
+The Body - borrows a Revolver -
+He bolts the Door -
+O'erlooking a superior spectre -
+Or More 
+-->

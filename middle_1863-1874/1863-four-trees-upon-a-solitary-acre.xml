@@ -13,31 +13,56 @@
     
     <body>
         <stanza> 
-            <line>Four Trees - upon a solitary Acre -</line>
+            <line>Four <nature nature_type="earth">Trees</nature> - upon a <solitude judgment="neutral">solitary</solitude> 
+                <nature nature_type="earth">Acre</nature> -</line>
             <line>Without Design</line>
             <line>Or Order, or Apparent <variant>signal</variant> -  <variant>notice</variant> Action -</line>
-            <line>Do <variant>reign</variant> - <variant>hinder</variant> - Maintain -</line>
-        </stanza>
+            <line>Do <variant>reign</variant> - <variant>hinder</variant> - Maintain -</line> <!--elision or intransitive verb? -->
+        </stanza> <!--Included judgment because she is making a statement that they are existing just as they are, untouched
+            by good or bad -->
         
         <stanza>
-            <line>The Sun - upon a Morning meets them -</line>
-            <line>The Wind -</line>
-            <line>No nearer Neighbor - have they -</line>
-            <line>But God -</line>
+            <line><nature nature_type="space">The Sun</nature> - upon a <time>Morning</time> meets them -</line>
+            <line><nature nature_type="air">The Wind</nature> -</line>
+            <line><solitude>No nearer Neighbor - have they -</solitude></line>
+            <line>But <religion religious_type="person">God</religion> -</line>
         </stanza>
         
         <stanza>
             <line>The Acre gives them - Place -</line>
-            <line>They - Him - Attention of Passer by -</line>
-            <line>Of Shadow, or of Squirrel, haply -</line>
+            <line>They - Him - Attention of Passer by -</line> <!--elision here? -->
+            <line>Of <darkness>Shadow</darkness>, or of <animal>Squirrel</animal>, haply -</line> 
             <line>Or Boy -</line>
         </stanza>
         
         <stanza>
-            <line>What Deed <variant>they bear</variant> is Their's unto the General Nature -</line>
+            <line>What Deed <variant>they bear</variant> is Their's unto the General 
+                <nature nature_type="general">Nature</nature> -</line>
             <line>What Plan</line>
-            <line>They severally -  <variant>promote - or</variant> retard - or further -</line>
-            <line>Unknown -</line>
+            <line>They severally -  <variant>promote - or</variant> retard - or further -</line> <!--elision?-->
+            <line><uncertainty>Unknown</uncertainty> -</line>
         </stanza>
     </body>
 </poem>
+
+<!--
+Four Trees - upon a solitary Acre -
+Without Design
+Or Order, or Apparent  signal -  notice Action -
+Do reign - hinder - Maintain -
+
+The Sun - upon a Morning meets them -
+The Wind -
+No nearer Neighbor - have they -
+But God -
+
+The Acre gives them - Place -
+They - Him - Attention of Passer by -
+Of Shadow, or of Squirrel, haply -
+Or Boy -
+
+What Deed  they bear is Their's unto the General Nature -
+What Plan
+They severally -  promote - or retard - or further -
+Unknown -
+-->

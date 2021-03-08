@@ -13,39 +13,65 @@
     
     <body>
         <stanza> 
-            <line>A Light exists in Spring</line>
-            <line>Not present on the Year</line>
-            <line>At any other period --</line>
-            <line>When March is scarcely here</line>
+            <line>A <light>Light</light> exists in Spring</line>
+            <line>Not present on the <time>Year</time></line>
+            <line>At <time>any otherperiod</time> -</line>
+            <line>When <time>March</time> is scarcely here</line>
         </stanza>
         
         <stanza> 
             <line>A Color stands abroad</line>
-            <line>On Solitary Fields</line>
+            <line>On <solitude>Solitary</solitude> <nature nature_type="earth">Fields</nature></line>
             <line>That Science cannot overtake</line>
-            <line>But Human Nature feels.</line>
+            <line>But <life>Human Nature</life> feels.</line>
         </stanza>
         
         <stanza> 
-            <line>It waits upon the Lawn,</line>
-            <line>It shows the furthest Tree</line>
+            <line>It waits upon the <nature nature_type="earth">Lawn</nature>,</line>
+            <line>It shows the furthest <nature nature_type="earth">Tree</nature></line>
             <line>Upon the furthest Slope you know</line>
             <line>It almost speaks to you.</line>
         </stanza>
         
         <stanza> 
-            <line>Then as Horizons step</line>
-            <line>Or Noons report away</line>
+            <line>Then as <nature nature_type="air">Horizons</nature> step</line> <!--not sure if this is what she meant by horizons --> 
+            <line>Or <time>Noons</time> report away</line>
             <line>Without the Formula of sound</line>
-            <line>It passes and we stay --</line>
+            <line><light>It passes</light> and <life>we stay</life> -</line> <!--Could be about time too -->
         </stanza>
         
         <stanza> 
-            <line>A quality of loss</line>
-            <line>Affecting our Content</line>
+            <line>A quality of <emotion emotion_type="grief">loss</emotion></line>
+            <line>Affecting our <emotion emotion_type="comfort">Content</emotion></line>
             <line>As Trade had suddenly encroached</line>
-            <line>Upon a Sacrament.</line>
+            <line>Upon a <religion religious_type="thing">Sacrament</religion>.</line>
         </stanza>
     </body>
 </poem>
    
+<!-- 
+A Light exists in Spring
+Not present on the Year
+At any other period -
+When March is scarcely here
+
+A Color stands abroad
+On Solitary Fields
+That Science cannot overtake
+But Human Nature feels.
+
+It waits upon the Lawn,
+It shows the furthest Tree
+Upon the furthest Slope you know
+It almost speaks to you.
+
+Then as Horizons step
+Or Noons report away
+Without the Formula of sound
+It passes and we stay -
+
+A quality of loss
+Affecting our Content
+As Trade had suddenly encroached
+Upon a Sacrament.
+-->
