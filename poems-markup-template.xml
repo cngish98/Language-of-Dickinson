@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <first_line></first_line>
-        <date period="">1234</date>
+        <date period="">18XX</date> 
         <poem_number></poem_number>
         <source> <!--link to the page goes here--> </source>
         <recipient></recipient>
@@ -18,3 +18,8 @@
         </stanza>
     </body>
 </poem>
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->

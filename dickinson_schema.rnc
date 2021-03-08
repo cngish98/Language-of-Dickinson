@@ -3,7 +3,7 @@
 # # # # # # #
 start = poem 
 poem = element poem { metadata, body } 
-metadata = element metadata { first_line, date, poem_number, source, recipient }                                                                         
+metadata = element metadata { first_line, date, poem_number, source, recipient, poem_themes }                                                                         
 first_line = element first_line { text }
 date = element date { xsd:gYear, period } 
 period = attribute period { "early" | "middle" | "late" } 

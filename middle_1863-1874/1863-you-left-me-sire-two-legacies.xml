@@ -8,33 +8,24 @@
         <poem_number>J644</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12170574</source>
         <recipient>none</recipient>
+        <poem_themes>interpersonal relationships</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line><character name="sire" character_type="human" relation_with="me">You</character> 
-                <action agent="sire" type="provide" judgment="ambiguous">left</action>
-                <character name="me" character_type="human" relation_with="sire"></character>me 
-                - Sire - <object type="legacy" tangible="no">two Legacies</object> -</line>
-            <line>A Legacy of <love judgment="positive" love_type="unsure">Love</love></line>
-            <line>A <character name="god" character_type="deity">Heavenly Father</character><religion theme="god"/> 
-                would <variant>content</variant> - <action agent="passive"></action>suffice</line> <!--not really sure what was going on here -->
-            <line>Had <character name="God">He</character> the offer of -</line> <!--elision here -->
+            <line>You left me - Sire - two Legacies -</line>
+            <line>A Legacy of Love</line>
+            <line>A Heavenly Father would  content - suffice</line>
+            <line>Had He the offer of -</line>
         </stanza>
         
-        <stanza>
-            <line>You left me <object type="boundary" tangible="no" judgment="negative">Boundaries</object></line>
-            <line>of <emotion emotion_type="pain" intensity="high">Pain</emotion> -</line>
-            <line>Capacious as the <nature type="ocean" description="vast">Sea</nature> -</line>
-            <line>Between <time duration="forever">Eternity</time> and <time>Time</time> -</line>
-            <line><character name="sire">Your</character> <mind theme="consciousness">Consciousness</mind> - 
-                and <character name="me">me</character> -</line>
-            <!--had some trouble figuring out what this poem might be about and who the "sire" is.
-            Some interpretations I looked up said it was God, some said it might have been a friend or 
-            romantic partner, or about the loss of a child. 
-            Not sure how much the authorial intent matters, but the abstractions and elisions in this poem also made it 
-            a little difficult to mark up. @Caroline and Wyatt, feel free to expand on what I have here-->
+        <stanza> 
+            <line>You left me Boundaries of Pain -</line>
+            <line>Capacious as the Sea -</line>
+            <line>Between Eternity and Time -</line>
+            <line>Your Consciousness - and Me -</line>
         </stanza>
     </body>
 </poem>
+    
 

@@ -8,41 +8,36 @@
         <poem_number>J812</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12170969</source>
         <recipient>Susan Dickinson</recipient>
+        <poem_themes>nature, time</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>A <character name="light" character_type="abstract" description="scarce">Light</character> 
-                <action agent="light" type="existence">exists</action> in <time season="spring">Spring</time></line>
-            <line>Not present on the <time duration="year">Year</time></line>
-            <line>At <time duration="general">any other period</time> -</line>
-            <line>When <time duration="month" season="spring">March</time> is scarcely here</line>
-            <!--I said "scarce" for the light because it only exists at fleeting points in the year -->
+            <line>A Light exists in Spring</line>
+            <line>Not present on the Year</line>
+            <line>At any other period --</line>
+            <line>When March is scarcely here</line>
         </stanza>
         
         <stanza> 
-            <line>A <character name="color" character_type="abstract" judgment="positive">Color</character>
-                <action agent="color" type="existence">stands abroad</action></line>
-            <line>On <isolation judgment="neutral">Solitary</isolation> <nature type="land">Fields</nature></line>
-            <line>That <character name="science" character_type="abstract" relation_with="color">Science</character><discipline type="science"/> 
-                <action agent="science" negation="true">cannot overtake</action></line>
-            <line>But <character name="human_nature" character_type="abstract" relation_with="color">Human Nature</character>
-                <action agent="human_nature" judgment="positive" type="feel">feels</action>.</line>
+            <line>A Color stands abroad</line>
+            <line>On Solitary Fields</line>
+            <line>That Science cannot overtake</line>
+            <line>But Human Nature feels.</line>
         </stanza>
         
         <stanza> 
-            <line><character name="light">It</character> <action agent="light" type="wait" judgment="neutral">waits upon 
-                </action>the <nature type="land">Lawn</nature>,</line>
-            <line><character name="light">It</character> shows the furthest Tree</line>
+            <line>It waits upon the Lawn,</line>
+            <line>It shows the furthest Tree</line>
             <line>Upon the furthest Slope you know</line>
-            <line><character name="light">It</character> almost speaks to you.</line>
+            <line>It almost speaks to you.</line>
         </stanza>
         
         <stanza> 
             <line>Then as Horizons step</line>
             <line>Or Noons report away</line>
             <line>Without the Formula of sound</line>
-            <line>It passes and we stay -</line>
+            <line>It passes and we stay --</line>
         </stanza>
         
         <stanza> 
@@ -53,3 +48,4 @@
         </stanza>
     </body>
 </poem>
+   
