@@ -3,27 +3,45 @@
 
 <poem>
     <metadata>
-        <title>Oh Sumptuous moment</title>
-        <date>1868</date>
+        <first_line>Oh Sumptuous moment</first_line>
+        <date period="middle">1868</date>
         <poem_number>J1125</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171679</source>
         <recipient>none</recipient>
+        <poem_themes>time, violence</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>Oh Sumptuous moment</line>
+            <line>Oh Sumptuous <time>moment</time></line>
             <line>Slower go</line>
-            <line>Till That I  can may gloat on thee -</line>
+            <line><variant>Till</variant> That I <variant>can</variant> may gloat on thee -</line>
             <line>'Twill never be the same to starve</line>
-            <line>Since Now  that I abundance see -</line>
+            <line><variant>Since</variant> Now <variant>that</variant> I abundance see -</line>
         </stanza>
         
         <stanza> 
-            <line>Which was to famish, then or now -</line>
-            <line>The difference of Day</line>
-            <line>to Ask him unto the Gallows  called led -</line>
-            <line>By With morning in the sky</line>
+            <line>Which was to <physical_body body_type="ailment">famish</physical_body>, then or now -</line>
+            <line>The difference of <time>Day</time></line>
+            <line><variant>to</variant> Ask him unto the <violence>Gallows</violence><death/> 
+                <variant>called</variant> led -</line>
+            <line>By With <time>morning</time> in the <nature nature_type="air">sky</nature></line>
         </stanza>
     </body>
 </poem>
+
+<!--Also a kind of vague poem that I didn't find interpretations for: I am guessing that she wants to savor time 
+    before it meets its end at the "gallows." There could possibly be more you can go into with this, for sure-->
+    
+<!-- 
+Oh Sumptuous moment
+Slower go
+ Till That I  can may gloat on thee -
+'Twill never be the same to starve
+ Since Now  that I abundance see -
+
+Which was to famish, then or now -
+The difference of Day
+ to Ask him unto the Gallows  called led -
+ By With morning in the sky
+-->

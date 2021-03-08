@@ -3,26 +3,43 @@
 
 <poem>
     <metadata>
-        <title>Banish Air From Air</title>
-        <date>1864</date>
+        <first_line>Banish Air From Air</first_line>
+        <date period="middle">1864</date>
         <poem_number>J854</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171065</source>
         <recipient>none</recipient>
+        <poem_themes>nature, human experience, life</poem_themes>
     </metadata>
     <body>
         <stanza> 
-            <line>Banish Air from Air -</line>
-            <line>Divide Light if you dare -</line>
+            <line>Banish <nature nature_type="air">Air from Air</nature> -</line>
+            <line>Divide <light>Light</light> if you dare -</line>
             <line>They'll meet</line>
             <line>While Cubes in a Drop</line>
             <line>Or Pellets of Shape</line>
             <line>Fit.</line>
             <line>Films cannot annul</line>
             <line>Odors return whole</line>
-            <line>Force Flame</line>
+            <line>Force <nature nature_type="fire">Flame</nature></line>
             <line>And with a Blonde push</line>
-            <line>Over your impotence</line>
-            <line>Flits Steam.</line>
+            <line>Over your <physical_body body_type="ailment">impotence</physical_body></line>
+            <line>Flits <nature nature_type="air">Steam</nature>.</line>
         </stanza>
     </body>
 </poem>
+<!-- this one is a bit hard to analyze just because of the language used...the importance / uses of air is what I got out of it? -->
+
+<!-- 
+Banish Air from Air -
+Divide Light if you dare -
+They'll meet
+While Cubes in a Drop
+Or Pellets of Shape
+Fit.
+Films cannot annul
+Odors return whole
+Force Flame
+And with a Blonde push
+Over your impotence
+Flits Steam.
+-->

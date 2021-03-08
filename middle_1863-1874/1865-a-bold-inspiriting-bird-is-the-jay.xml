@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <!--this poem starts with "prompt" and "executive" but is still listed on the archives as "bold" and "inspiriting" -->
+        <first_line>A bold, inspiriting bird is the jay</first_line>
+        <date period="early">1865</date> 
+        <poem_number>F1022C</poem_number> <!--Franklin: this poem and recipient not available in Johnston -->
+        <source>https://www.edickinson.org/editions/1/image_sets/12176511</source>
+        <recipient>Susan Dickinson</recipient>
+        <poem_themes>nature</poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A prompt - executive</line>
+            <line><nature nature_type="animal">Bird</nature> is the <animal animal_type="bird">Jay</animal> -</line>
+            <line>Bold as a <law type="person">Bailiff's</law></line>
+            <line><religion type="thing">Hymn</religion><music/> -</line>
+            <line>Brittle and Brief</line>
+            <line>in quality -</line>
+            <line>Warrant in every</line>
+            <line>Line -</line>
+        </stanza>
+        
+        <stanza> 
+            <line>Sitting a <nature nature_type="earth">Bough</nature></line>
+            <line>like a <war type="person">Brigadier</war></line>
+            <line>Confident and straight -</line>
+            <line>Much is the mien</line>
+            <line>of him in <time>March</time></line>
+            <line>As a <law type="person" judgment="positive">Magistrate</law> -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--
+A prompt - executive
+Bird is the Jay -
+Bold as a Bailiff's
+Hymn -
+Brittle and Brief
+in quality -
+Warrant in every
+Line -
+
+Sitting a Bough
+like a Brigadier
+Confident and straight -
+Much is the mien
+of him in March
+As a Magistrate -
+-->

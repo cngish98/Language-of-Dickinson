@@ -25,14 +25,14 @@
             <line><nature nature_type="space">The Sun</nature> - upon a <time>Morning</time> meets them -</line>
             <line><nature nature_type="air">The Wind</nature> -</line>
             <line><solitude>No nearer Neighbor - have they -</solitude></line>
-            <line>But <religion religious_type="person">God</religion> -</line>
+            <line>But <religion type="person">God</religion> -</line>
         </stanza>
         
         <stanza>
             <line>The Acre gives them - Place -</line>
             <line>They - Him - Attention of Passer by -</line> <!--elision here? -->
             <line>Of <darkness>Shadow</darkness>, or of <animal>Squirrel</animal>, haply -</line> 
-            <line>Or Boy -</line>
+            <line>Or <childhood>Boy</childhood> -</line>
         </stanza>
         
         <stanza>

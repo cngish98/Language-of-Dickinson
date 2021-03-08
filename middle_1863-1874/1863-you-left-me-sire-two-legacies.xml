@@ -16,9 +16,9 @@
             <line><character name="sire" relation_with="me">You</character> 
                 left <character name="me" relation_with="sire">me</character> - Sire - two Legacies -</line>
             <line><love>A Legacy of Love</love></line>
-            <line>A <religion religious_type="person">Heavenly Father</religion> would  
+            <line>A <religion type="person">Heavenly Father</religion> would  
                 <variant>content</variant> - suffice</line>
-            <line>Had <religion religious_type="person"></religion>He the offer of -</line> <!--elision here-->
+            <line>Had <religion type="person"></religion>He the offer of -</line> <!--elision here-->
         </stanza>
         
         <stanza> 

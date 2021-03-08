@@ -27,7 +27,7 @@
         </stanza>
         
         <stanza> 
-            <line>Far safer, through an <religion religious_type="place">Abbey</religion> gallop,</line>
+            <line>Far safer, through an <religion type="place">Abbey</religion> gallop,</line>
             <line>The Stones a'chase -</line>
             <line>Than <violence>Unarmed</violence>, one's <mind>a'self</mind> encounter -</line> <!--not sure if unarmed counts as violence-->
             <line>In <solitude judgment="negative">lonesome Place</solitude> -</line>

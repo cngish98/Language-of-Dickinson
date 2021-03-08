@@ -3,33 +3,53 @@
 
 <poem>
     <metadata>
-        <title>Shall I take thee, the Poet said</title>
-        <date>1868</date>
+        <first_line>Shall I take thee, the Poet said</first_line>
+        <date period="middle">1868</date>
         <poem_number>J1126</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171681</source>
         <recipient>none</recipient>
+        <poem_themes>writing, religion, war</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>Shall I take thee, the Poet said</line>
-            <line>To the propounded word?</line>
-            <line>Be stationed with the Candidates</line>
-            <line>Till I have  vainer  further finer tried -</line>
+            <line>Shall I take thee, the <writing>Poet</writing> said</line>
+            <line>To the propounded <writing>word</writing>?</line>
+            <line>Be stationed with the <war>Candidates</war></line> <!--maybe it's a stretch to equate this to war? but "stationed"
+                makes me think it is a warlike metaphor -->
+            <line>Till I have <variant>vainer</variant> <variant>further</variant> finer tried -</line>
         </stanza>
         
         <stanza> 
-            <line>The Poet  probed searched Philology</line>
-            <line>And  when  just was about to ring</line>
-            <line>for the suspended Candidate</line>
-            <line>Advanced There came unsummoned in -</line>
+            <line>The Poet <variant>probed</variant> searched <writing>Philogy</writing></line>
+            <line>And <variant>when</variant> <variant>just</variant> was about to ring</line>
+            <line>for the suspended <war>Candidate</war></line>
+            <line><variant>Advanced</variant><war/> There came unsummoned in -</line> <!--also "advanced" as warlike imagery? -->
         </stanza>
         
         <stanza> 
-            <line>That portion of the Vision</line>
-            <line>The Word applied to fill</line>
-            <line>Not unto nomination</line>
-            <line>The Cherubim reveal -</line> 
+            <line>That portion of the <religion type="thing">Vision</religion><writing/></line>
+            <line>The Word <war>applied</war> to fill</line>
+            <line>Not unto <war>nomination</war></line>
+            <line>The <religion type="person">Cherubim</religion><love/> reveal -</line> 
+            <!--cherubim is religious, but it also has the connotation of love, so I tagged it as such -->
         </stanza>
     </body>
 </poem>
+
+<!-- 
+Shall I take thee, the Poet said
+To the propounded word?
+Be stationed with the Candidates
+Till I have  vainer  further finer tried -
+
+The Poet  probed searched Philology
+And  when  just was about to ring
+for the suspended Candidate
+ Advanced There came unsummoned in -
+
+That portion of the Vision
+The Word applied to fill
+Not unto nomination
+The Cherubim reveal -
+-->

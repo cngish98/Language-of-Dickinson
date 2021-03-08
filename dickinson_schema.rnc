@@ -7,7 +7,7 @@ metadata = element metadata { first_line, date, poem_number, source, recipient, 
 first_line = element first_line { text }
 date = element date { xsd:gYear, period } 
 period = attribute period { "early" | "middle" | "late" } 
-poem_number = element poem_number { text } # rw: I am keeping it as "poem_number" because "number" could get mixed up with numbering the lines
+poem_number = element poem_number { text } # I am keeping it as "poem_number" because "number" could get mixed up with numbering the lines
 source = element source { text }
 recipient = element recipient { text } 
 poem_themes = element poem_themes { text } 
@@ -21,9 +21,10 @@ body = element body { stanza+ }
 stanza = element stanza { line+ }
 line = element line { mixed 
     { (  elision | variant | character | emotion 
-    | animal | place | nature | love | death | life | memory | time 
-    | war | religion | writing | mind | physical_body | solitude 
-    | supernatural | violence | light | darkness | uncertainty )* } }
+    | animal | place | nature | love | death | life | memory | childhood | 
+    time | social_norm | war | religion | writing | science | music | 
+    law | mind | physical_body | solitude | supernatural | violence | 
+    light | darkness | uncertainty )* } }
 
 
 # # # # # # # # # #
@@ -46,37 +47,49 @@ judgment = attribute judgment { "positive" | "negative" | "neutral" }
 emotion = element emotion { emotion_type?, text } 
 emotion_type = attribute emotion_type { text } # happiness, sadness, fear, anger, etc. 
 
-animal = element animal { text } 
+animal = element animal { animal_type?, text } 
+animal_type = attribute animal_type { text } 
 
 place = element place { text }
 
 nature = element nature { nature_type, text } 
-nature_type = attribute nature_type { "air" | "fire" | "water" | "earth" | "animal" | "space" | "general" } 
+nature_type = attribute nature_type { "air" | "fire" | "water" | "earth" | "animal" | "space" | "crop" | "general" } 
+# crop can be for plants that are for human consumption
 # space can be the sun, stars, moon, etc. 
 
-love = element love { love_type?, text } 
+love = element love { love_type?, judgment?, text } 
 love_type = attribute love_type { "familial" | "platonic" | "romantic" | "admiration" } 
 # by admiration, I mean love for things that may not be human, like admiring a pet, or parts of nature...maybe there's a better word? 
 
-life = element life { text } # discussions of being alive / being human, human nature, etc.
-death = element death { text } 
+life = element life { judgment?, text } # discussions of being alive / being human, human nature, etc.
+death = element death { judgment?, text } 
 
 memory = element memory { text } 
 
-time = element time { type?, text } 
-type = attribute type { text } 
+childhood = element childhood { text }
 
-war = element war { text }
+social_norm = element social_norm { judgment?, text } 
 
-religion = element religion { religious_type?, text } # religious words or themes 
-religious_type = attribute religious_type { "person" | "place" | "thing" } 
+time = element time { text } # could include duration / time of day, etc. 
+
+war = element war { type?, judgment?, text }
+type = attribute type { "person" | "place" | "thing" } 
+
+religion = element religion { type?, judgment?, text } # religious words or themes 
 
 writing = element writing { text } #references to writing/verse/prose within the poems themselves 
 # add theme back if needed? 
 
+science = element science { text }
+
+music = element music { text }
+
+law = element law { type?, judgment?, text } # officials in the legal field, like bailiffs, magistrates, enforcing / defending of laws 
+
 mind = element mind { text } 
 
-physical_body = element physical_body { text } # not to be confused with the <body> of the poem
+physical_body = element physical_body { body_type?, text } # not to be confused with the <body> of the poem
+body_type = attribute body_type { text } # if she is talking about disease, ailments, etc. 
 
 solitude = element solitude { judgment?, text } 
 

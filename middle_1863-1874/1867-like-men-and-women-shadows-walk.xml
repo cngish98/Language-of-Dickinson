@@ -3,22 +3,39 @@
 
 <poem>
     <metadata>
-        <title>Like Men and Women Shadows walk</title>
-        <date>1867</date>
+        <first_line>Like Men and Women Shadows walk</first_line>
+        <date period="middle">1867</date>
         <poem_number>J1105</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171628</source>
         <recipient>Susan Dickinson</recipient>
+        <poem_themes>social norms, relationships, the mind</poem_themes>
     </metadata>
     <body>
         <stanza> 
-            <line>Like Men and Women Shadows walk</line>
-            <line>Upon the Hills Today -</line>
-            <line>With here and there a mighty Bow</line>
-            <line>Or trailing Courtesy</line>
-            <line>To Neighbors doubtless of their own</line>
+            <line>Like Men and Women <darkness>Shadows</darkness> walk</line>
+            <line>Upon the <nature nature_type="earth">Hills</nature> Today -</line>
+            <line>With here and there a <social_norm>mighty Bow</social_norm></line>
+            <line>Or trailing <social_norm>Courtesy</social_norm></line>
+            <line>To <character name="neighbors" relation_with="humankind">Neighbors</character> doubtless of their own</line>
+            <!--I am taking "men and women" to mean humankind in general -->
             <line>Not quickened to perceive</line>
-            <line>Minuter landscape as Ourselves</line>
-            <line>And Boroughs where we live -</line>
+            <line>Minuter <mind>landscape as Ourselves</mind></line>
+            <line>And Boroughs where we live -</line> <!--should boroughs be marked up at all? -->
         </stanza>
     </body>
 </poem>
+
+<!--Didn't find any other interpretations of this poem, so I believe it's about how people are so engrossed in their own
+    social norms and rituals that they are slow to recognize their own minds / consciousnesses. Feel 
+    free to add onto my ideas though. -->
+
+<!-- 
+Like Men and Women Shadows walk
+Upon the Hills Today -
+With here and there a mighty Bow
+Or trailing Courtesy
+To Neighbors doubtless of their own
+Not quickened to perceive
+Minuter landscape as Ourselves
+And Boroughs where we live -
+-->

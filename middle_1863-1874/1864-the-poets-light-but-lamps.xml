@@ -3,27 +3,44 @@
 
 <poem>
     <metadata>
-        <title>The Poets light but Lamps -</title>
-        <date>1864</date>
+        <first_line>The Poets light but Lamps -</first_line>
+        <date period="middle">1864</date>
         <poem_number>J883</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171126</source>
         <recipient>none</recipient>
+        <poem_themes>writing/poetry, light, memory, human experience</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>The Poets light but Lamps -</line>
-            <line>Themselves - go out -</line>
+            <line>The <writing>Poets</writing> <light>light</light> but 
+                <light>Lamps</light> -</line>
+            <line>Themselves - <death>go out</death><darkness/> -</line> <!-- light going out implies darkness -->
             <line>The Wicks they stimulate -</line>
-            <line>If vital Light</line>
+            <line>If vital <light>Light</light></line>
         </stanza>
         
         <stanza>
-            <line>Inhere as do the Suns -</line>
-            <line>Each Age a Lens</line>
-            <line>Disseminating their</line>
+            <line>Inhere as do the <light>Suns</light> -</line>
+            <line>Each <time>Age</time> a Lens</line>
+            <line><memory>Disseminating their</memory></line>
             <line>Circumference -</line>
         </stanza>
     </body>
 </poem>
+<!--My understanding (after looking up other people's interpretations of this poem too) is that 
+    this is a metaphor linking writing by poets to lamps - the influence of poems and ideas (wicks) lasts throughout many "ages",
+    even after the lamp "goes out" and the poet dies -->
+
+<!-- 
+The Poets light but Lamps -
+Themselves - go out -
+The Wicks they stimulate -
+If vital Light
+
+Inhere as do the Suns -
+Each Age a Lens
+Disseminating their
+Circumference -
+-->
 

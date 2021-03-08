@@ -3,33 +3,35 @@
 
 <poem>
     <metadata>
-        <title>At Half past Three, a single Bird</title>
-        <date>1866</date>
+        <first_line>At Half past Three, a single Bird</first_line>
+        <date period="middle">1866</date>
         <poem_number>J1084</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171578</source>
         <recipient>Josiah and Elizabeth Holland</recipient>
+        <poem_themes>nature, existence, music</poem_themes>
     </metadata>
     <body>
         <stanza> 
-            <line>At Half past Three, a single Bird</line>
-            <line>Unto a silent Sky</line>
+            <line><time>At Half past Three</time>, a single <animal animal_type="bird"></animal>Bird</line>
+            <line>Unto a silent <nature nature_type="air">Sky</nature></line>
             <line>Propounded but a single term</line>
-            <line>Of cautious melody.</line>
+            <line>Of cautious <music>melody</music>.</line>
         </stanza>
         
         <stanza> 
-            <line>At Half past Three, a single Bird</line>
-            <line>Unto a silent Sky</line>
-            <line>Propounded but a single term</line>
-            <line>Of cautious melody.</line>
+            <line><time>At Half past Four</time>, <animal>Experiment</animal><science/></line>
+            <line>Had subjugated <science>test</science></line>
+            <line>And lo, Her silver <music>Principle</music></line> <!--I think this is relating to music? -->
+            <line>Supplanted all the rest.</line>
         </stanza>
         
-        <stanza> 
-            <line>At Half past Three, a single Bird</line>
-            <line>Unto a silent Sky</line>
-            <line>Propounded but a single term</line>
-            <line>Of cautious melody.</line>
+        <stanza>
+            <line><time>At Half past Seven</time>, <animal>Element</animal><science/></line>
+            <line>Nor <science>Implement</science>, be seen -</line>
+            <line>And Place was where the <life>Presence</life> was</line> <!--I am equating the existence of the bird 
+                (its "presence") to life -->
+            <line>Circumference between.</line>
         </stanza>
-        
     </body>
+    <!--She uses scientific vocabulary as a metaphor to describe the bird: kind of hard to mark up but hopefully I made it work ? -->
 </poem>

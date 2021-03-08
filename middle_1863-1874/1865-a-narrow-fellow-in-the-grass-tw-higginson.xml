@@ -3,51 +3,85 @@
 
 <poem>
     <metadata>
-        <title>A narrow Fellow in the Grass</title>
-        <date>1865</date>
+        <first_line>A narrow Fellow in the Grass</first_line>
+        <date period="middle">1865</date>
         <poem_number>J986</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171356</source>
         <recipient>T.W. Higginson</recipient>
+        <poem_themes>nature, humankind</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>A narrow Fellow in the Grass</line>
-            <line>Occasionally rides -</line>
-            <line>You may have met Him - did you not</line>
-            <line>His notice sudden is -</line>
+            <line><animal animal_type="snake">A narrow Fellow</animal>
+                in the <nature nature_type="earth">Grass</nature></line> <!--Specified animal type because she does not explicitly specify -->
+            <line>Occasionally rides -</line> <!--elision or just an intransitive verb? -->
+            <line><character name="you">You</character> may have met Him - did you not</line> <!--not sure if she is addressing the recipient or not -->
+            <line>His notice sudden is -</line> <!--elision -->
         </stanza>
         
         <stanza>     
-            <line>The Grass divides as with a Comb -</line>
+            <line>The <nature nature_type="earth">Grass</nature> divides as with a Comb -</line>
             <line>A spotted shaft is seen -</line>
-            <line>And then it closes at your feet</line>
+            <line>And then it closes at your <physical_body>feet</physical_body></line>
             <line>And opens further on -</line>
         </stanza>
             
         <stanza> 
-            <line>He likes a Boggy Acre</line>
-            <line>A Floor too cool for Corn -</line>
-            <line>Yet when a Boy, and Barefoot -</line>
-            <line>I more than once at Noon</line>
+            <line>He likes a <nature nature_type="water">Boggy Acre</nature></line> <!--not sure if it counts as land or water --> 
+            <line>A Floor too cool for <nature nature_type="crop">Corn</nature> -</line>
+            <line>Yet <childhood>when a Boy</childhood>, and <physical_body>Barefoot</physical_body> -</line>
+            <line>I more than once at <time>Noon</time></line>
             <line>Have passed, I thought, a Whip lash</line>
-            <line>Unbraiding in the Sun</line>
+            <line>Unbraiding in the <nature nature_type="space">Sun</nature></line>
             <line>When stooping to secure it</line>
             <line>It wrinkled, and was gone -</line>
         </stanza>
             
         <stanza> 
-            <line>Several of Nature's People</line>
+            <line>Several of <character name="nature" relation_with="you">Nature's</character>
+                <nature nature_type="general"/>People</line>
             <line>I know, and they know me -</line>
             <line>I feel for them a transport</line>
-            <line>Of cordiality -</line>
+            <line>Of <emotion emotion_type="affection">cordiality</emotion> -</line>
         </stanza>
             
         <stanza> 
-            <line>But never met this Fellow</line>
+            <line>But <!--elision here? no subject --> never met this Fellow</line>
             <line>Attended, or alone</line>
-            <line>Without a tighter breathing</line>
+            <line>Without a <emotion emotion_type="fear">tighter breathing</emotion></line>
             <line>And Zero at the Bone -</line>
         </stanza>
     </body>
 </poem>
+
+<!-- 
+A narrow Fellow in the Grass
+Occasionally rides -
+You may have met Him - did you not
+His notice sudden is -
+
+The Grass divides as with a Comb -
+A spotted shaft is seen -
+And then it closes at your feet
+And opens further on -
+
+He likes a Boggy Acre
+A Floor too cool for Corn -
+Yet when a Boy, and Barefoot -
+I more than once at Noon
+Have passed, I thought, a Whip lash
+Unbraiding in the Sun
+When stooping to secure it
+It wrinkled, and was gone -
+
+Several of Nature's People
+I know, and they know me -
+I feel for them a transport
+Of cordiality -
+
+But never met this Fellow
+Attended, or alone
+Without a tighter breathing
+And Zero at the Bone -
+-->

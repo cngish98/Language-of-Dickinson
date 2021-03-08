@@ -3,20 +3,29 @@
 
 <poem>
     <metadata>
-        <title>A Death blow is a Life blow to Some</title>
-        <date>1866</date>
+        <first_line>A Death blow is a Life blow to Some</first_line>
+        <date period="middle">1866</date>
         <poem_number>J816</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12170980</source>
         <recipient>T.W. Higginson</recipient>
+        <poem_themes>death, life</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>A Death blow is a Life blow to Some</line>
-            <line>Who till they died, did not alive become -</line>
-            <line>Who had they lived, had died but when</line>
-            <line>They died, Vitality begun.</line>
+            <line>A <death judgment="positive">Death blow</death> is a <life>Life blow</life> to Some</line>
+            <line>Who till they <death>died</death>, did not <life>alive</life> become -</line>
+            <line>Who had they <life judgment="negative">lived</life>, had <death>died</death> but when</line>
+            <line>They <death judgment="positive">died</death>, Vitality begun.</line>
         </stanza>
+       <!--specified judgments because they are counterintuitive to how we usually perceive life/death -->
  
     </body>
 </poem>
+
+<!-- 
+A Death blow is a Life blow to Some
+Who till they died, did not alive become -
+Who had they lived, had died but when
+They died, Vitality begun.
+-->

@@ -3,27 +3,48 @@
 
 <poem>
     <metadata>
-        <title>I fit for them -</title>
-        <date>1867</date>
+        <first_line>I fit for them -</first_line>
+        <date period="middle">1867</date>
         <poem_number>J1109</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171638</source>
         <recipient>none</recipient>
+        <poem_themes>labor, writing, solitude, the mind</poem_themes>
     </metadata>
     <body>
         <stanza> 
-            <line>I fit for them -</line>
-            <line>I seek the Dark</line>
-            <line>Till I am thorough fit.</line>
-            <line>The labor is a sober one</line>
-            <line>With the austerer sweet - an - this -</line>
-            <line>With this sufficient sweet</line>  
+            <line><character name="I" relation_with="them">I</character> 
+                fit for <character name="them">them</character> -</line> <!--"them" is presumably whoever reads her poetry -->
+            <line>I seek the <darkness>Dark</darkness><solitude/></line>
+            <line>Till I am thorough <mind>fit</mind>.</line> <!--thinking of mental "fitness" -->
+            <line>The <writing>labor</writing> is a sober one</line>
+            <line>With the austerer sweet - an - this -</line> <!--elision...not sure what this means -->
+            <line>With this <writing>sufficient sweet</writing></line>  
         </stanza>
         
         <stanza> 
-            <line>That abstinence of me mine produce</line>
-            <line>A purer food for them, if I succeed,</line>
+            <line>That <solitude>abstinence</solitude> of <variant>me</variant> mine produce</line>
+            <line>A purer <writing>food</writing> for them, if I succeed,</line>
             <line>If not I had</line>
-            <line>The transport of the Aim -</line>
+            <line>The <emotion emotion_type="determination">transport of the Aim</emotion> -</line>
         </stanza>
     </body>
 </poem>
+
+<!--An interpretation I saw of this poem is that it is about Dickinson attempting to isolate herself from society in the "Dark"
+    in order to be the most "fit" to write poetry, which would serve as "food" for her readers. 
+    Even if she does not "succeed," her "aim" to isolate herself is still a reason for celebration.
+    This poem is very abstract, but I bet the markdown could be better! -->
+
+<!-- 
+I fit for them -
+I seek the Dark
+Till I am thorough fit.
+The labor is a sober one
+With the austerer sweet - an - this -
+With this sufficient sweet
+
+That abstinence of  me mine produce
+A purer food for them, if I succeed,
+If not I had
+The transport of the Aim -
+-->

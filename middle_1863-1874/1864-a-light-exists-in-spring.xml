@@ -22,7 +22,7 @@
         <stanza> 
             <line>A Color stands abroad</line>
             <line>On <solitude>Solitary</solitude> <nature nature_type="earth">Fields</nature></line>
-            <line>That Science cannot overtake</line>
+            <line>That <science>Science</science> cannot overtake</line>
             <line>But <life>Human Nature</life> feels.</line>
         </stanza>
         
@@ -36,7 +36,7 @@
         <stanza> 
             <line>Then as <nature nature_type="air">Horizons</nature> step</line> <!--not sure if this is what she meant by horizons --> 
             <line>Or <time>Noons</time> report away</line>
-            <line>Without the Formula of sound</line>
+            <line>Without the <music>Formula of sound</music></line> <!--I think this is about music but idk? -->
             <line><light>It passes</light> and <life>we stay</life> -</line> <!--Could be about time too -->
         </stanza>
         
@@ -44,7 +44,7 @@
             <line>A quality of <emotion emotion_type="grief">loss</emotion></line>
             <line>Affecting our <emotion emotion_type="comfort">Content</emotion></line>
             <line>As Trade had suddenly encroached</line>
-            <line>Upon a <religion religious_type="thing">Sacrament</religion>.</line>
+            <line>Upon a <religion type="thing">Sacrament</religion>.</line>
         </stanza>
     </body>
 </poem>
