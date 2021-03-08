@@ -3,11 +3,12 @@
 
 <poem>
     <metadata>
-        <title></title>
-        <date>1234</date>
+        <first_line></first_line>
+        <date period="">1234</date>
         <poem_number></poem_number>
         <source> <!--link to the page goes here--> </source>
         <recipient></recipient>
+        <poem_themes></poem_themes>
     </metadata>
     
     <body>
