@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1583</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>Witchcraft was hung, in History,</first_line>
+        <date period="late">1883</date> 
+        <poem_number>J1583</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172881</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Witchcraft was hung, in History,</line>
+            <line>But History and I</line>
+            <line>Find all the Witchcraft that we need</line>
+            <line>Around us, every Day -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     Witchcraft was hung, in History,
     But History and I
     Find all the Witchcraft that we need
-    Around us, every Day -
-</body>
-</poem>
+    Around us, every Day - 
+-->

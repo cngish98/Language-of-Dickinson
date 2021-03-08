@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1578</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>Blossoms will run away,</first_line>
+        <date period="late">1883</date> 
+        <poem_number>J1578</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172867</source>
+        <recipient>Cornelia (Nellie) Peck Sweetser</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Blossoms will run away,</line>
+            <line>Cakes reign but a Day,</line>
+            <line>But Memory like Melody</line>
+            <line>Is pink Eternally.</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     Blossoms will run away,
     Cakes reign but a Day,
     But Memory like Melody
-    Is pink Eternally.
-</body>
-</poem>
+    Is pink Eternally. 
+-->

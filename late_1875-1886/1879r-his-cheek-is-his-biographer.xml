@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1460</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>His Cheek is his Biographer -</first_line>
+        <date period="late">1879</date> 
+        <poem_number>J1460</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172552</source>
+        <recipient>Edward (Ned) Dickinson</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>His Cheek is his Biographer -</line>
+            <line>As long as he can blush</line>
+            <line>Perdition is Opprobrium -</line>
+            <line>Past that, he sins in peace -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     His Cheek is his Biographer -
     As long as he can blush
     Perdition is Opprobrium -
-    Past that, he sins in peace -
-</body>
-</poem>
+    Past that, he sins in peace - 
+-->

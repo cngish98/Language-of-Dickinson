@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1524</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>A faded Boy - in sallow Clothes</first_line>
+        <date period="late">1881</date> 
+        <poem_number>J1524</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172727</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza>
+            <line>A faded Boy - in sallow Clothes</line>
+            <line>Who drove a lonesome Cow</line>
+            <line>To pastures of Oblivion -</line>
+            <line>A statesman's Embryo -</line>
+        </stanza>
+
+        <stanza>
+            <line>The Boys that whistled are extinct -</line>
+            <line>The Cows that fed and thanked</line>
+            <line>Remanded to a Ballad's Barn</line>
+            <line>Or Clover's Retrospect -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     A faded Boy - in sallow Clothes
     Who drove a lonesome Cow
     To pastures of Oblivion -
@@ -12,6 +38,5 @@
     The Boys that whistled are extinct -
     The Cows that fed and thanked
     Remanded to a Ballad's Barn
-    Or Clover's Retrospect -
-</body>
-</poem>
+    Or Clover's Retrospect - 
+-->

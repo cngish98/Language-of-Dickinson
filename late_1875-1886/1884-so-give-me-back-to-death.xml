@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1632</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>So give me back to Death -</first_line>
+        <date period="late">1884</date> 
+        <poem_number>J1632</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12173004</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>So give me back to Death -</line>
+            <line>The Death I never feared</line>
+            <line>Except that it deprived of thee -</line>
+            <line>And now, by Life deprived,</line>
+            <line>In my own Grave I breathe</line>
+            <line>And estimate it's size -</line>
+            <line>It's size is all that Hell can guess -</line>
+            <line>And all that Heaven surmise/was <!-- was is in line and surmise is variant --> -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     So give me back to Death -
     The Death I never feared
     Except that it deprived of thee -
@@ -11,6 +34,5 @@
     In my own Grave I breathe
     And estimate it's size -
     It's size is all that Hell can guess -
-    And all that Heaven surmise/was -
-</body>
-</poem>
+    And all that Heaven surmise/was - 
+-->

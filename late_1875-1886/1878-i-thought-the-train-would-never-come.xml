@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1449</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>I thought the Train would never come -</first_line>
+        <date period="late">1878</date> 
+        <poem_number>J1449</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172526</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>I thought the Train would never come -</line>
+            <line>How slow the whistle sang -</line>
+            <line>I dont believe a peevish Bird</line>
+            <line>So whimpered for the Spring -</line>
+            <line>I taught my Heart a hundred times</line>
+            <line>Precisely what to say -</line>
+            <line>Provoking Lover, when you came</line>
+            <line>It's Treatise flew away</line>
+            <line>To hide my strategy too late</line>
+            <line>To wiser grow/be <!-- be is in line and grow is variant --> too soon -</line>
+            <line>For miseries so halcyon</line>
+            <line>The happiness atone -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     I thought the Train would never come -
     How slow the whistle sang -
     I dont believe a peevish Bird
@@ -15,6 +42,5 @@
     To hide my strategy too late
     To wiser  grow be too soon -
     For miseries so halcyon
-    The happiness atone -
-</body>
-</poem>
+    The happiness atone - 
+-->

@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<poem>
-<meta>
-    <date>1875</date>
-    <number>J1247</number>
-    <recipient>Susan Dickinson</recipient>
-</meta>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<body>
+<poem>
+    <metadata>
+        <first_line>To pile like Thunder to it's close</first_line>
+        <date period="late">1875</date> 
+        <poem_number>J1247</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171981</source>
+        <recipient>Susan Dickinson</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza>
+            <line>To pile like Thunder to it's close</line>
+            <line>Then crumble grand away</line>
+            <line>While Everything created hid</line>
+            <line>This - would be Poetry -</line>
+        </stanza>
+        
+        <stanza>
+            <line>Or Love - the two coeval come -</line>
+            <line>We both and neither prove -</line>
+            <line>Experience either and consume -</line>
+            <line>For None see God and live -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!-- 
     To pile like Thunder to it's close
     Then crumble grand away
     While Everything created hid
@@ -15,45 +38,5 @@
     Or Love - the two coeval come -
     We both and neither prove -
     Experience either and consume -
-    For None see God and live -
-</body>
-</poem>
-
-<!--
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>To pile like Thunder to it&#39;s close
-</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>The Poems of Emily Dickinson, Johnson, 1955</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Emily Dickinson Archive</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="transcript" xml:id="J1247">
-                <lg type="stanza">
-                    <l>To pile like Thunder to it's close</l>
-                    <l>Then crumble grand away</l>
-                    <l>While Everything created hid</l>
-                    <l>This - would be Poetry -</l>
-                </lg>
-                <lg type="stanza">
-                    <l>Or Love - the two coeval come -</l>
-                    <l>We both and neither prove -</l>
-                    <l>Experience either and consume -</l>
-                    <l>For None see God and live -</l>
-                </lg>
-
-            </div>     
-        </body>
-    </text>
-</TEI>
+    For None see God and live - 
 -->

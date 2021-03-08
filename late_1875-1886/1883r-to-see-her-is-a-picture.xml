@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1568</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>To see her is a Picture -</first_line>
+        <date period="late">1883</date> 
+        <poem_number>J1568</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172842</source>
+        <recipient>Susan Dickinson</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>To see her is a Picture -</line>
+            <line>To hear her is a Tune -</line>
+            <line>To know her an Intemperance</line>
+            <line>As innocent as June -</line>
+            <line>To know her not - Affliction -</line>
+            <line>To own her for a Friend</line>
+            <line>A warmth as near as if the Sun</line>
+            <line>Were shining in your Hand.</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     To see her is a Picture -
     To hear her is a Tune -
     To know her an Intemperance
@@ -11,6 +34,5 @@
     To know her not - Affliction -
     To own her for a Friend
     A warmth as near as if the Sun
-    Were shining in your Hand.
-</body>
-</poem>
+    Were shining in your Hand. 
+-->

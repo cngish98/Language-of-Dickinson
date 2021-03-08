@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1638</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>Go thy great way!</first_line>
+        <date period="late">1885</date> 
+        <poem_number>J1638</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12173019</source>
+        <recipient>Benjamin Kimball</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Go thy great way!</line>
+            <line>The Stars thou meetst</line>
+            <line>Are even as Thyself -</line>
+            <line>For what are Stars but Asterisks</line>
+            <line>To point a human Life?</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     Go thy great way!
     The Stars thou meetst
     Are even as Thyself -
     For what are Stars but Asterisks
-    To point a human Life?
-</body>
-</poem>
+    To point a human Life? 
+-->

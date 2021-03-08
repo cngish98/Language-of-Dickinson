@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1624</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>Apparently with no surprise</first_line>
+        <date period="late">1884</date> 
+        <poem_number>J1624</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172983</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Apparently with no surprise</line>
+            <line>To any happy Flower</line>
+            <line>The Frost beheads it at it's play -</line>
+            <line>In accidental power -</line>
+            <line>The blonde Assassin passes on -</line>
+            <line>The Sun proceeds unmoved</line>
+            <line>To measure off another Day</line>
+            <line>For an Approving God.</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     Apparently with no surprise
     To any happy Flower
     The Frost beheads it at it's play -
@@ -11,6 +34,5 @@
     The blonde Assassin passes on -
     The Sun proceeds unmoved
     To measure off another Day
-    For an Approving God.
-</body>
-</poem>
+    For an Approving God. 
+-->

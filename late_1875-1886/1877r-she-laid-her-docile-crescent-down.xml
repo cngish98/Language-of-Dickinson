@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1396</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>She laid her docile Crescent down</first_line>
+        <date period="late">1877</date> 
+        <poem_number>J1396</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172384</source>
+        <recipient>T.W. Higginson</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza>
+            <line>She laid her docile Crescent down</line>
+            <line>And this confiding Stone</line>
+            <line>Still states to Dates that have forgot</line>
+            <line>The News that she is gone -</line></stanza>
+
+        <stanza>
+            <line>So constant to it's stolid trust,</line>
+            <line>The Shaft that never knew -</line>
+            <line>It shames the Constancy that fled</line>
+            <line>Before it's emblem flew -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     She laid her docile Crescent down
     And this confiding Stone
     Still states to Dates that have forgot
@@ -12,6 +37,5 @@
     So constant to it's stolid trust,
     The Shaft that never knew -
     It shames the Constancy that fled
-    Before it's emblem flew -
-</body>
-</poem>
+    Before it's emblem flew - 
+-->

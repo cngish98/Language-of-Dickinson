@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1548</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>Meeting by Accident,</first_line>
+        <date period="late">1882</date> 
+        <poem_number>J1548</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172786</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Meeting by Accident,</line>
+            <line>We hovered by design -</line>
+            <line>As often as a Century</line>
+            <line>An error so divine</line>
+            <line>Is ratified by Destiny,</line>
+            <line>But Destiny is old</line>
+            <line>And economical of Bliss</line>
+            <line>As Midas is of Gold -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     Meeting by Accident,
     We hovered by design -
     As often as a Century
@@ -11,6 +34,5 @@
     Is ratified by Destiny,
     But Destiny is old
     And economical of Bliss
-    As Midas is of Gold -
-</body>
-</poem>
+    As Midas is of Gold - 
+-->

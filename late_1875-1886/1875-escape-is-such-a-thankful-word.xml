@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <date>1875</date>
-    <number>J1347</number>
-    <recipient>none</recipient>
-</meta>
+    <metadata>
+        <first_line>Escape is such a thankful Word</first_line>
+        <date period="late">1875</date> 
+        <poem_number>J1347</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172249</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
     
-<body>
+    <body>
+        <stanza>
+            <line>Escape is such a thankful Word</line>
+            <line>I often in the Night</line>
+            <line>Consider it unto myself</line>
+            <line>No  Monster/spectacle <!-- spectacle is in the line and monster is the potential variant -->in sight</line>
+        </stanza>
+        
+        <stanza>
+            <line>Escape - it is the Basket</line>
+            <line>In which the Heart is caught</line>
+            <line>When down some awful Battlement</line>
+            <line>The rest of Life is dropt -</line>
+        </stanza>
+        
+        <stanza>
+            <line>'Tis not to sight the savior -</line>
+            <line>It is to be the saved -</line>
+            <line>And that is why I lay my Head</line>
+            <line>Upon this trusty word -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!-- 
     Escape is such a thankful Word
     I often in the Night
     Consider it unto myself
@@ -20,54 +50,7 @@
     'Tis not to sight the savior -
     It is to be the saved -
     And that is why I lay my Head
-    Upon this trusty word -
-</body>
-</poem>
+    Upon this trusty word 
+    - -->
+    
 
-<!--
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Escape is such a thankful Word 
-</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>The Poems of Emily Dickinson, Johnson, 1955</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Emily Dickinson Archive</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="transcript" xml:id="J1347">
-                <lg type="stanza">
-                    <l>Escape is such a thankful Word</l>
-                    <l>I often in the Night</l>
-                    <l>Consider it unto myself</l>
-                    <l>No <app type="revision"><lem>Monster</lem><rdg>Monster</rdg></app>spectacle in sight</l>
-                </lg>
-                <lg type="stanza">
-                    <l>Escape - it is the Basket</l>
-                    <l>In which the Heart is caught</l>
-                    <l>When down some awful Battlement</l>
-                    <l>The rest of Life is dropt -</l>
-                </lg>
-                <lg type="stanza">
-                    <l>'Tis not to sight the savior -</l>
-                    <l>It is to be the saved -</l>
-                    <l>And that is why I lay my Head</l>
-                    <l>Upon this trusty word -</l>
-                </lg>
-                <lg type="stanza">
-                    <l></l>
-                </lg>
-
-            </div>     
-        </body>
-    </text>
-</TEI>
--->

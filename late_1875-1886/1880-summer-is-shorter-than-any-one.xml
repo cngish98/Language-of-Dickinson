@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1506</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>Summer is shorter than any one -</first_line>
+        <date period="late">1880</date> 
+        <poem_number>J1506</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172677</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza>
+            <line>Summer is shorter than any one -</line>
+            <line>Life is shorter than Summer -</line>
+            <line>Seventy Years is spent as quick</line>
+            <line>As an Only Dollar -</line>
+        </stanza>
+
+        <stanza>
+            <line>Sorrow/Aroma <!-- Sorrow is in line and Aroma is variant --> - now - is polite - and stays -</line>
+            <line>See how well we spurn him -</line>
+            <line>Equally to abhor Delight -</line>
+            <line>Equally retain him -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     Summer is shorter than any one -
     Life is shorter than Summer -
     Seventy Years is spent as quick
@@ -12,6 +38,5 @@
     Sorrow - now - is polite - and stays -
     See how well we spurn him -
     Equally to abhor Delight -
-    Equally retain him -
-</body>
-</poem>
+    Equally retain him - 
+-->

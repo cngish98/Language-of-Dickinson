@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1585</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>The Bird her punctual music brings</first_line>
+        <date period="late">1883</date> 
+        <poem_number>J1585</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172887</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>The Bird her punctual music brings</line>
+            <line>And lays it in its place -</line>
+            <line>It's place is in the Human Heart</line>
+            <line>And in the Heavenly Grace -</line>
+            <line>What respite from her thrilling toil</line>
+            <line>Did Beauty ever take -</line>
+            <line>But Work might be electric Rest</line>
+            <line>To those that Magic make -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     The Bird her punctual music brings
     And lays it in its place -
     It's place is in the Human Heart
@@ -11,6 +34,5 @@
     What respite from her thrilling toil
     Did Beauty ever take -
     But Work might be electric Rest
-    To those that Magic make -
-</body>
-</poem>
+    To those that Magic make - 
+-->

@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1612</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>The Auctioneer of Parting</first_line>
+        <date period="late">1884</date> 
+        <poem_number>J1612</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172956</source>
+        <recipient>Mabel Todd</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>The Auctioneer of Parting</line>
+            <line>His "Going, going, gone"</line>
+            <line>Shouts even from the Crucifix,</line>
+            <line>And brings his Hammer down -</line>
+            <line>He only sells the Wilderness,</line>
+            <line>The prices of Despair</line>
+            <line>Range from a single human Heart</line>
+            <line>To Two - not any more -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     The Auctioneer of Parting
     His "Going, going, gone"
     Shouts even from the Crucifix,
@@ -11,6 +34,5 @@
     He only sells the Wilderness,
     The prices of Despair
     Range from a single human Heart
-    To Two - not any more -
-</body>
-</poem>
+    To Two - not any more - 
+-->

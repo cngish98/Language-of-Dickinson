@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1511</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>My country need not change her gown,</first_line>
+        <date period="late">1881</date> 
+        <poem_number>J1511</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172694</source>
+        <recipient>T. W. Higginson</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza>
+            <line>My country need not change her gown,</line>
+            <line>Her triple suit as sweet</line>
+            <line>As when 'twas cut at Lexington,</line>
+            <line>And first pronounced "a fit."</line>
+        </stanza>
+
+        <stanza>
+            <line>Great Britain disapproves, "the stars";</line>
+            <line>Disparagement discreet, -</line>
+            <line>There's something in their attitude</line>
+            <line>That taunts her bayonet.</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     My country need not change her gown,
     Her triple suit as sweet
     As when 'twas cut at Lexington,
@@ -12,6 +38,5 @@
     Great Britain disapproves, "the stars";
     Disparagement discreet, -
     There's something in their attitude
-    That taunts her bayonet.
-</body>
-</poem>
+    That taunts her bayonet. 
+-->

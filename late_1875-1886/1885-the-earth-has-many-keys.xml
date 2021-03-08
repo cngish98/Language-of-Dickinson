@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1775</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>The earth has many keys.</first_line>
+        <date period="late">1885</date> 
+        <poem_number>J1775</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12173302</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza>
+            <line>The earth has many keys.</line>
+            <line>Where melody is not</line>
+            <line>Is the unknown peninsula.</line>
+            <line>beauty is nature's fact.</line>
+        </stanza>
+
+        <stanza>
+            <line>But witness for her land</line>
+            <line>And witness for her sea,</line>
+            <line>The cricket is her utmost</line>
+            <line>Of elegy to me.</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     The earth has many keys.
     Where melody is not
     Is the unknown peninsula.
@@ -12,6 +38,5 @@
     But witness for her land
     And witness for her sea,
     The cricket is her utmost
-    Of elegy to me.
-</body>
-</poem>
+    Of elegy to me. 
+-->

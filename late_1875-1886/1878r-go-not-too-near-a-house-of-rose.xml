@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1434</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>o not too near a House of Rose -</first_line>
+        <date period="late">1878</date> 
+        <poem_number>J1434</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172490</source>
+        <recipient>Sarah Tuckerman</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Go not too near a House of Rose -</line>
+            <line>The depredation of a Breeze</line>
+            <line>Or inundation of a Dew</line>
+            <line>Alarm it's walls away -</line>
+            <line>Nor try to tie the Butterfly,</line>
+            <line>Nor climb the Bars of Ecstasy, </line>
+            <line>In insecurity to lie</line>
+            <line>Is Joy's insuring quality.</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     Go not too near a House of Rose -
     The depredation of a Breeze
     Or inundation of a Dew
@@ -12,5 +35,4 @@
     Nor climb the Bars of Ecstasy, 
     In insecurity to lie
     Is Joy's insuring quality.
-</body>
-</poem>
+-->

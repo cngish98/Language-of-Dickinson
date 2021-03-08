@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <date>1876</date>
-    <number>J1355</number>
-    <recipient>T.W. Higginson</recipient>
-</meta>
+    <metadata>
+        <first_line>The Mind lives on the Heart</first_line>
+        <date period="late">1876</date> 
+        <poem_number>J1355</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172269</source>
+        <recipient>T.W. Higginson</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
     
-<body>
+    <body>
+        <stanza>
+            <line>The Mind lives on the Heart</line>
+            <line>Like any Parasite -</line>
+            <line>If that is full of Meat</line>
+            <line>The Mind is fat.</line>
+        </stanza>
+
+        <stanza>
+            <line>But if the Heart omit</line>
+            <line>Emaciate the Wit -</line>
+            <line>The Aliment of it</line>
+            <line>So absolute.</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     The Mind lives on the Heart
     Like any Parasite -
     If that is full of Meat
@@ -15,45 +38,5 @@
     But if the Heart omit
     Emaciate the Wit -
     The Aliment of it
-    So absolute.
-</body>
-</poem>
-
-<!--
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>The Mind lives on the Heart 
-</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>The Poems of Emily Dickinson, Johnson, 1955</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Emily Dickinson Archive</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="transcript" xml:id="J1355">
-                <lg type="stanza">
-                    <l>The Mind lives on the Heart</l>
-                    <l>Like any Parasite -</l>
-                    <l>If that is full of Meat</l>
-                    <l>The Mind is fat.</l>
-                </lg>
-                <lg type="stanza">
-                    <l>But if the Heart omit</l>
-                    <l>Emaciate the Wit -</l>
-                    <l>The Aliment of it</l>
-                    <l>So absolute.</l>
-                </lg>
-
-            </div>     
-        </body>
-    </text>
-</TEI>
+    So absolute. 
 -->

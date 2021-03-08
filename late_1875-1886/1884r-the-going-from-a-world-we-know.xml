@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1603</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>The going from a world we know</first_line>
+        <date period="late">1884</date> 
+        <poem_number>J1603</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172935</source>
+        <recipient>Louise and Frances Norcross</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>The going from a world we know</line>
+            <line>To one a wonder still</line>
+            <line>Is like the child's adversity</line>
+            <line>Whose vista is a hill,</line>
+            <line>Behind the hill is sorcery</line>
+            <line>And everything unknown,</line>
+            <line>But will the secret compensate</line>
+            <line>For climbing it alone?</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     The going from a world we know
     To one a wonder still
     Is like the child's adversity
@@ -11,6 +34,5 @@
     Behind the hill is sorcery
     And everything unknown,
     But will the secret compensate
-    For climbing it alone?
-</body>
-</poem>
+    For climbing it alone? 
+-->

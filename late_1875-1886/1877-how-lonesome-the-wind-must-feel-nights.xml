@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
-<meta>
-    <number>J1418</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>How lonesome the Wind must feel Nights -</first_line>
+        <date period="late">1877</date> 
+        <poem_number>J1418</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172451</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza>
+            <line>How lonesome the Wind must feel Nights -</line>
+            <line>When People have put out the Lights</line>
+            <line>And everything that has an Inn</line>
+            <line>Closes his/the <!-- the is in line and his is variant --> shutter and goes in -</line>
+        </stanza>
+
+        <stanza>
+            <line>How pompous the Wind must feel Noons</line>
+            <line>Stepping to incorporeal Tunes</line>
+            <line>Correcting errors of the sky</line>
+            <line>And clarifying scenery</line>
+        </stanza>
+
+        <stanza>
+            <line>How mighty the Wind must feel Morns</line>
+            <line>Encamping on a thousand dawns</line>
+            <line>Espousing each and spurning all</line>
+            <line>Then soaring to his Turret/Temple <!-- Temple is in line and Turret is variant --> Tall -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!-- 
     How lonesome the Wind must feel Nights -
     When People have put out the Lights
     And everything that has an Inn
@@ -18,6 +50,5 @@
     How mighty the Wind must feel Morns
     Encamping on a thousand dawns
     Espousing each and spurning all
-    Then soaring to his  Turret/Temple Tall -
-</body>
-</poem>
+    Then soaring to his  Turret/Temple Tall - 
+-->

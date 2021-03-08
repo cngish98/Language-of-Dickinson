@@ -1,48 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<poem>
-<meta>
-    <date>1886</date>
-    <number>J1648</number>
-    <recipient>T.W. Higginson</recipient>
-</meta>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<body>
+<poem>
+    <metadata>
+        <first_line>The immortality she gave</first_line>
+        <date period="late">1886</date> 
+        <poem_number>J1648</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12173043</source>
+        <recipient>T. W. Higginson</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>The immortality she gave</line>
+            <line>We borrowed at her Grave -</line>
+            <line>For just one Plaudit famishing,</line>
+            <line>The Might of Human love -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     The immortality she gave
     We borrowed at her Grave -
     For just one Plaudit famishing,
-    The Might of Human love -   
-</body>
-</poem>
-
-<!--
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>The immortality she gave
-</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>The Poems of Emily Dickinson, Johnson, 1955</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Emily Dickinson Archive</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="transcript" xml:id="J1648">
-                <lg type="stanza">
-                    <l>The immortality she gave</l>
-                    <l>We borrowed at her Grave -</l>
-                    <l>For just one Plaudit famishing,</l>
-                    <l>The Might of Human love -</l>
-                </lg>
-
-            </div>     
-        </body>
-    </text>
-</TEI>
+    The Might of Human love - 
 -->

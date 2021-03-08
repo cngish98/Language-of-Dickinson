@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1468</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>A winged spark doth soar about -</first_line>
+        <date period="late">1879</date> 
+        <poem_number>J1468</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12172577</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza>
+            <line>A winged spark doth soar about -</line>
+            <line>I never met it near</line>
+            <line>For Lightning it is oft mistook</line>
+            <line>When nights are hot and sere -</line></stanza>
+
+        <stanza>
+            <line>It's twinkling Travels it pursues</line>
+            <line>Above the Haunts of men -</line>
+            <line>A speck of Rapture - first perceived</line>
+            <line>By feeling it is gone -</line>
+            <line>Rekindled by some action quaint</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     A winged spark doth soar about -
     I never met it near
     For Lightning it is oft mistook
@@ -13,6 +39,5 @@
     Above the Haunts of men -
     A speck of Rapture - first perceived
     By feeling it is gone -
-    Rekindled by some action quaint
-</body>
-</poem>
+    Rekindled by some action quaint 
+-->

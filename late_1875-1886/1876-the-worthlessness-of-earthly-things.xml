@@ -1,45 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-<meta>
-    <number>J1373</number>
-</meta>
-<body>
+    <metadata>
+        <first_line>The worthlessness of Earthly things</first_line>
+        <date period="late">1876</date> 
+        <poem_number>J1373</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12172325</source>
+        <recipient>none</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza>
+            <line>The worthlessness of Earthly things</line>
+            <line>The Ditty is that Nature Sings -</line>
+            <line>And then - enforces their delight</line>
+            <line>Till Synods are inordinate -</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
     The worthlessness of Earthly things
     The Ditty is that Nature Sings -
     And then - enforces their delight
-    Till Synods are inordinate -
-</body>
-</poem>
-
-<!--
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>The worthlessness of Earthly things 
-</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>The Poems of Emily Dickinson, Johnson, 1955</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Emily Dickinson Archive</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="transcript" xml:id="J1373">
-                <lg type="stanza">
-                    <l>The worthlessness of Earthly things</l>
-                    <l>The Ditty is that Nature Sings -</l>
-                    <l>And then - enforces their delight</l>
-                    <l>Till Synods are inordinate -</l>
-                </lg>
-
-            </div>     
-        </body>
-    </text>
-</TEI>
+    Till Synods are inordinate - 
 -->
