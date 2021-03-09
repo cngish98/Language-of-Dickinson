@@ -8,17 +8,18 @@
         <poem_number>J1411</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172433</source>
         <recipient>none</recipient>
-        <poem_themes></poem_themes>
+        <poem_themes>religion, uncertainty</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>Of Paradise' existence</line>
+            <line>Of <religion type="place">Paradise'</religion> existence</line>
             <line>All we know</line>
-            <line>Is the uncertain certainty -</line>
-            <line>But it's vicinity infer,</line>
+            <line>Is the <uncertainty>uncertain certainty</uncertainty> -</line>
+            <line>But it's <religion type="place">vicinity</religion> infer,</line> <!--elision?? -->
+            <!-- saw that the "vicinity" to heaven would be a place of worship like a church or courtyard -->
             <line>By it's Bisecting</line>
-            <line>Messenger -</line>
+            <line><religion type="person">Messenger</religion> -</line> <!--priest or other clergy member -->
         </stanza>
     </body>
 </poem>
@@ -28,7 +29,7 @@
     Of Paradise' existence
     All we know
     Is the uncertain certainty -
-    But it's vicinIty infer,
+    But it's vicinity infer,
     By it's Bisecting
     Messenger - 
 -->

@@ -8,19 +8,21 @@
         <poem_number>J1434</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172490</source>
         <recipient>Sarah Tuckerman</recipient>
-        <poem_themes></poem_themes>
+        <poem_themes>nature, violence, emotion</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>Go not too near a House of Rose -</line>
-            <line>The depredation of a Breeze</line>
-            <line>Or inundation of a Dew</line>
-            <line>Alarm it's walls away -</line>
-            <line>Nor try to tie the Butterfly,</line>
+            <line>Go not too near a House of <nature nature_type="earth">Rose</nature> -</line>
+            <line>The <violence>depredation</violence> of a 
+                <nature nature_type="air">Breeze</nature></line>
+            <line>Or <violence>inundation</violence> of a 
+                <nature nature_type="water">Dew</nature></line>
+            <line><war>Alarm it's walls away</war> -</line> <!--marked up as war but idk if that's what she means -->
+            <line>Nor try to tie the <nature nature_type="animal">Butterfly</nature>,</line>
             <line>Nor climb the Bars of Ecstasy, </line>
-            <line>In insecurity to lie</line>
-            <line>Is Joy's insuring quality.</line>
+            <line>In <emotion emotion_type="insecurity">insecurity</emotion> to lie</line>
+            <line>Is <emotion emotion_type="happiness">Joy's</emotion> insuring quality.</line>
         </stanza>
     </body>
 </poem>

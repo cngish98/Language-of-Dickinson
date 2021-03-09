@@ -13,14 +13,16 @@
     
     <body>
         <stanza> 
-            <line>The Fact that Earth is Heaven -</line>
-            <line>Whether Heaven is Heaven or not</line>
-            <line>If not an Affidavit</line>
-            <line>Of that specific Spot</line>
+            <line>The Fact that <nature nature_type="earth">Earth</nature>Earth is <!--not sure if this is the best way to tag earth -->
+                <religion type="place">Heaven</religion> -</line>
+            <line>Whether Heaven is Heaven <uncertainty>or not</uncertainty></line>
+            <line>If not an <law>Affidavit</law></line>
+            <line>Of that <religion type="heaven">specific Spot</religion></line> <!--referring to heaven -->
             <line>Not only must confirm us</line>
             <line>That it is not for us</line>
             <line>But that it would affront us</line>
-            <line>To dwell in such a place -</line>
+            <line>To dwell in <religion type="place" judgment="negative">such a place</religion> -</line>
+            <!-- Heaven as unsuitable and even offending to suggest humans should go there -->
         </stanza>
     </body>
 </poem>

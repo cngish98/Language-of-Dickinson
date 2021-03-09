@@ -8,22 +8,25 @@
         <poem_number>J1468</poem_number>
         <source> https://www.edickinson.org/editions/2/image_sets/12172577</source>
         <recipient>none</recipient>
-        <poem_themes></poem_themes>
+        <poem_themes>nature, light</poem_themes>
     </metadata>
     
     <body>
         <stanza>
-            <line>A winged spark doth soar about -</line>
+            <line><nature nature_type="space">A winged spark</nature><light/> doth soar about -</line>
+            <!--Saw an interpretation that this is about a meteor/shooting star -->
             <line>I never met it near</line>
-            <line>For Lightning it is oft mistook</line>
-            <line>When nights are hot and sere -</line></stanza>
+            <line>For <nature nature_type="air">Lightning</nature> it is oft mistook</line>
+            <line>When <darkness>nights</darkness> are hot and sere -</line></stanza>
 
         <stanza>
-            <line>It's twinkling Travels it pursues</line>
+            <line>It's <light>twinkling</light> Travels it pursues</line>
             <line>Above the Haunts of men -</line>
             <line>A speck of Rapture - first perceived</line>
-            <line>By feeling it is gone -</line>
-            <line>Rekindled by some action quaint</line>
+            <line>By feeling <loss>it is gone</loss> -</line>
+            <line>Rekindled by some action quaint</line> 
+            <!--I think there could be something here about making a wish on the star? Not sure 
+                how to include that in markup though -->
         </stanza>
     </body>
 </poem>

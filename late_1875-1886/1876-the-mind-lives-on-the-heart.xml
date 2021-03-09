@@ -8,21 +8,22 @@
         <poem_number>J1355</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172269</source>
         <recipient>T.W. Higginson</recipient>
-        <poem_themes></poem_themes>
+        <poem_themes>the mind, body, eating, emotion</poem_themes>
     </metadata>
     
     <body>
         <stanza>
-            <line>The Mind lives on the Heart</line>
-            <line>Like any Parasite -</line>
-            <line>If that is full of Meat</line>
-            <line>The Mind is fat.</line>
+            <line><mind>The Mind</mind> lives on the <emotion>Heart</emotion></line>
+            <line>Like any <physical_body body_type="ailment"></physical_body>Parasite -</line>
+            <line>If that is full of <eating>Meat</eating></line>
+            <line><mind>The Mind</mind> is <eating>fat</eating>.</line>
         </stanza>
 
         <stanza>
             <line>But if the Heart omit</line>
-            <line>Emaciate the Wit -</line>
-            <line>The Aliment of it</line>
+            <line><physical_body body_type="ailment">Emaciate</physical_body><eating/> the 
+                <mind>Wit</mind> -</line> <!--hunger is a component of eating here -->
+            <line>The <eating>Aliment</eating> of it</line>
             <line>So absolute.</line>
         </stanza>
     </body>

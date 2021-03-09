@@ -8,32 +8,34 @@
         <poem_number>J1347</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172249</source>
         <recipient>none</recipient>
-        <poem_themes></poem_themes>
+        <poem_themes>religion, death?, emotion</poem_themes>
     </metadata>
     
     <body>
         <stanza>
-            <line>Escape is such a thankful Word</line>
-            <line>I often in the Night</line>
+            <line><death>Escape</death> is such a thankful <writing>Word</writing></line> <!--does she mean death? or just having freedom in general ? -->
+            <line>I often in the <darkness>Night</darkness></line>
             <line>Consider it unto myself</line>
-            <line>No  Monster/spectacle <!-- spectacle is in the line and monster is the potential variant -->in sight</line>
+            <line>No <variant>Monster</variant>spectacle in sight</line>
         </stanza>
         
         <stanza>
             <line>Escape - it is the Basket</line>
-            <line>In which the Heart is caught</line>
-            <line>When down some awful Battlement</line>
-            <line>The rest of Life is dropt -</line>
+            <line>In which the <mind>Heart</mind> is caught</line> <!-- I know it says heart but it seems like
+                they are still talking about emotional and mental processes -->
+            <line>When down some awful <war>Battlement</war></line>
+            <line>The rest of <life>Life</life> is dropt -</line>
         </stanza>
         
         <stanza>
-            <line>'Tis not to sight the savior -</line>
-            <line>It is to be the saved -</line>
-            <line>And that is why I lay my Head</line>
+            <line>'Tis not to sight <religion type="person">the savior</religion> -</line> <!--is this referencing God ? -->
+            <line>It is to be the <religion>saved</religion> -</line>
+            <line>And that is why I lay <physical_body>my Head</physical_body></line>
             <line>Upon this trusty word -</line>
         </stanza>
     </body>
 </poem>
+
 
 <!--POST PLAIN TEXT OF POEM BELOW -->
 <!-- 

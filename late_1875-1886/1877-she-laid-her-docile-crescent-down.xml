@@ -8,21 +8,24 @@
         <poem_number>J1396</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172384</source>
         <recipient>T.W. Higginson</recipient>
-        <poem_themes></poem_themes>
+        <poem_themes>death, time</poem_themes>
     </metadata>
     
     <body>
         <stanza>
-            <line>She laid her docile Crescent down</line>
-            <line>And this confiding Stone</line>
-            <line>Still states to Dates that have forgot</line>
-            <line>The News that she is gone -</line></stanza>
+            <line>She laid her docile Crescent down</line> <!--is the crescent referring to a gravestone as well? or the moon maybe?-->
+            <line>And this <death>confiding Stone</death></line>
+            <line>Still states to <time>Dates</time> that have <loss>forgot</loss></line>
+            <line>The News that <death>she is gone</death> -</line></stanza>
 
         <stanza>
             <line>So constant to it's stolid trust,</line>
             <line>The Shaft that never knew -</line>
-            <line>It shames the Constancy that fled</line>
-            <line>Before it's emblem flew -</line>
+            <line>It shames the <life>Constancy</life> that <death>fled</death><loss/></line> 
+            <!--could be both death or loss, maybe -->
+            <line>Before it's emblem <death>flew</death> -</line>
+            <!--Interpreting the language here to be about life/death but honestly struggled a bit 
+                with understanding this stanza so feel free to input more. -->
         </stanza>
     </body>
 </poem>

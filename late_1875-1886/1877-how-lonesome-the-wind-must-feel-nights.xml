@@ -8,29 +8,34 @@
         <poem_number>J1418</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172451</source>
         <recipient>none</recipient>
-        <poem_themes></poem_themes>
+        <poem_themes>nature, emotion, solitude</poem_themes>
     </metadata>
     
     <body>
         <stanza>
-            <line>How lonesome the Wind must feel Nights -</line>
-            <line>When People have put out the Lights</line>
+            <line>How <solitude>lonesome</solitude> the <nature nature_type="air">Wind</nature>
+                must feel <darkness>Nights</darkness><time/> -</line> <!--marking up time of day
+                    as both light/dark and as time, because both seem relevant -->
+            <line>When People have put out the <light>Lights</light></line>
             <line>And everything that has an Inn</line>
-            <line>Closes his/the <!-- the is in line and his is variant --> shutter and goes in -</line>
+            <line>Closes <variant>his</variant> the shutter and goes in -</line>
         </stanza>
 
         <stanza>
-            <line>How pompous the Wind must feel Noons</line>
-            <line>Stepping to incorporeal Tunes</line>
-            <line>Correcting errors of the sky</line>
-            <line>And clarifying scenery</line>
+            <line>How <emotion emotion_type="self-importance">pompous</emotion> the Wind must feel 
+                <time>Noons</time><light/></line>
+            <line>Stepping to incorporeal <music>Tunes</music></line>
+            <line>Correcting errors of <nature nature_type="air">the sky</nature></line>
+            <line>And clarifying <nature nature_type="general">scenery</nature></line>
         </stanza>
 
         <stanza>
-            <line>How mighty the Wind must feel Morns</line>
-            <line>Encamping on a thousand dawns</line>
+            <line>How <emotion emotion_type="strength">mighty</emotion> the Wind must feel 
+                <time>Morns</time><light/></line>
+            <line>Encamping on a <nature nature_type="air">thousand dawns</nature><time/></line>
             <line>Espousing each and spurning all</line>
-            <line>Then soaring to his Turret/Temple <!-- Temple is in line and Turret is variant --> Tall -</line>
+            <line>Then soaring to his <variant>Turret</variant>
+                <religion type="place">Temple</religion> Tall -</line> <!--not sure if this temple is religious or not-->
         </stanza>
     </body>
 </poem>

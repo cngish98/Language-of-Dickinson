@@ -8,15 +8,18 @@
         <poem_number>J1373</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172325</source>
         <recipient>none</recipient>
-        <poem_themes></poem_themes>
+        <poem_themes>religion, nature</poem_themes>
     </metadata>
     
     <body>
         <stanza>
-            <line>The worthlessness of Earthly things</line>
-            <line>The Ditty is that Nature Sings -</line>
-            <line>And then - enforces their delight</line>
-            <line>Till Synods are inordinate -</line>
+            <line>The worthlessness of <nature nature_type="general">Earthly things</nature></line>
+            <!--might this count as animals? plants? or just anything mortal ? humans too ? -->
+            <line>The <music>Ditty</music> is that <nature nature_type="general">Nature</nature>
+                Sings -</line>
+            <line>And then - enforces their <emotion emotion_type="happiness">delight</emotion></line>
+            <!--elision here?-->
+            <line>Till <religion type="thing">Synods</religion> are inordinate -</line>
         </stanza>
     </body>
 </poem>

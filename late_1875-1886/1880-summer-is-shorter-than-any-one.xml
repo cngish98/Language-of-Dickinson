@@ -8,22 +8,24 @@
         <poem_number>J1506</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172677</source>
         <recipient>none</recipient>
-        <poem_themes></poem_themes>
+        <poem_themes>life, time, emotion</poem_themes>
     </metadata>
     
     <body>
         <stanza>
-            <line>Summer is shorter than any one -</line>
-            <line>Life is shorter than Summer -</line>
-            <line>Seventy Years is spent as quick</line>
+            <line><time>Summer is shorter</time> than any one -</line> <!--is "any one" just humankind in general? -->
+            <line><life>Life</life> is <time>shorter than Summer</time> -</line>
+            <line><time>Seventy Years is spent</time> as quick</line>
             <line>As an Only Dollar -</line>
         </stanza>
 
         <stanza>
-            <line>Sorrow/Aroma <!-- Sorrow is in line and Aroma is variant --> - now - is polite - and stays -</line>
+            <line><emotion emotion_type="sadness">Sorrow</emotion> <variant>Aroma</variant>- 
+                now - is polite - and stays -</line>
             <line>See how well we spurn him -</line>
-            <line>Equally to abhor Delight -</line>
-            <line>Equally retain him -</line>
+            <line>Equally to abhor <emotion emotion_type="happiness">Delight</emotion> -</line>
+            <line>Equally retain him -</line> <!--sadness/sorrow is both disliked but also seen as something
+                that needs to be "retained"...maybe incorporate a judgment here? --> 
         </stanza>
     </body>
 </poem>

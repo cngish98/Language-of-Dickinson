@@ -8,23 +8,25 @@
         <poem_number>J1449</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172526</source>
         <recipient>none</recipient>
-        <poem_themes></poem_themes>
+        <poem_themes>emotion, love</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>I thought the Train would never come -</line>
-            <line>How slow the whistle sang -</line>
-            <line>I dont believe a peevish Bird</line>
-            <line>So whimpered for the Spring -</line>
-            <line>I taught my Heart a hundred times</line>
+            <line><character name="I" relation_with="lover">I</character> thought 
+                the Train would never come -</line> <!--should train be marked up at all? idk if it fits with 
+                the themes we're looking for or not -->
+            <line>How slow the whistle <music>sang</music> -</line>
+            <line>I don't believe a peevish <nature nature_type="animal">Bird</nature></line>
+            <line>So whimpered for <time>the Spring</time> -</line>
+            <line>I <emotion>taught my Heart</emotion> a hundred times</line>
             <line>Precisely what to say -</line>
-            <line>Provoking Lover, when you came</line>
-            <line>It's Treatise flew away</line>
+            <line>Provoking <character name="lover" relation_with="I">Lover</character>, when you came</line>
+            <line>It's <law>Treatise</law> <loss>flew away</loss></line>
             <line>To hide my strategy too late</line>
-            <line>To wiser grow/be <!-- be is in line and grow is variant --> too soon -</line>
-            <line>For miseries so halcyon</line>
-            <line>The happiness atone -</line>
+            <line>To wiser <variant>grow</variant>be too soon -</line>
+            <line>For <emotion emotion_type="sadness">miseries</emotion> so halcyon</line>
+            <line>The <emotion emotion_type="happiness">happiness</emotion> atone -</line>
         </stanza>
     </body>
 </poem>
