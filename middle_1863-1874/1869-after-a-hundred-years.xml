@@ -3,34 +3,53 @@
 
 <poem>
     <metadata>
-        <title>After a hundred years</title>
-        <date>1869</date>
+        <first_line>After a hundred years</first_line>
+        <date period="middle">1869</date>
         <poem_number>J1147</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171742</source>
         <recipient>none</recipient>
+        <poem_themes>time, nature, solitude, war?</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>After a hundred years</line>
-            <line>Nobody  knew knows the Place</line>
-            <line>Agony that enacted there</line>
+            <line><time>After a hundred years</time></line>
+            <line>Nobody <variant>knew</variant> knows the Place</line>
+            <line><emotion emotion_type="angst">Agony</emotion> that 
+                <war>enacted there</war></line> <!--seems like this "agony" could be a site of a battle? -->
             <line>Motionless as Peace</line> 
         </stanza>
         
         <stanza> 
-            <line>Weeds triumphant ranged</line>
-            <line>Strangers strolled and spelled</line>
-            <line>At the lone Orthography</line>
-            <line>Of the Elder Dead</line>
+            <line><nature nature_type="earth">Weeds</nature> triumphant ranged</line>
+            <line>Strangers strolled and <writing>spelled</writing></line>
+            <line>At the <solitude>lone</solitude> <writing>Orthography</writing></line>
+            <line>Of the Elder <death>Dead</death></line>
         </stanza>
         
         <stanza> 
-            <line>Winds of Summer Fields</line>
-            <line>Recollect the way --</line>
-            <line>Instinct picking up the Key</line>
-            <line>Dropped by memory --</line>
+            <line><nature nature_type="air">Winds</nature> of <nature nature_type="earth">Summer Fields</nature></line>
+            <line><memory>Recollect</memory> the way -</line>
+            <line>Instinct picking up the Key</line> <!--could this be marked up as memory too? or life maybe ? -->
+            <line>Dropped by <memory>memory</memory> -</line>
         </stanza>
         
     </body>
 </poem>
+
+<!-- 
+After a hundred years
+Nobody  knew knows the Place
+Agony that enacted there
+Motionless as Peace
+
+Weeds triumphant ranged
+Strangers strolled and spelled
+At the lone Orthography
+Of the Elder Dead
+
+Winds of Summer Fields
+Recollect the way -
+Instinct picking up the Key
+Dropped by memory -
+-->

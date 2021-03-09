@@ -3,26 +3,43 @@
 
 <poem>
     <metadata>
-        <title>A Word dropped careless on a Page</title>
-        <date>1873</date>
+        <first_line>A Word dropped careless on a Page</first_line>
+        <date period="middle">1873</date>
         <poem_number>J1261</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172032</source>
         <recipient>Louise and Frances Norcross</recipient>
+        <poem_themes>writing, the body</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
             <line>A Word dropped careless on a Page</line>
-            <line>May consecrated / stimulate an eye</line>
-            <line>When folded in perpetual seam</line>
-            <line>The Wrinkled Author / Maker lie</line>
+            <line>May <variant>consecrated</variant> stimulate an <physical_body>eye</physical_body></line> <!--could be elision depending
+                on if you use the variant or not -->
+            <line>When folded in <time>perpetual</time> <writing>seam</writing></line>
+            <!-- seam I am assuming, is like a fold in a piece of paper -->
+            <line>The Wrinkled <variant>Author</variant> <writing>Maker</writing> lie</line>
+            <!-- Author and Maker can both be a writer -->
         </stanza>
         
         <stanza> 
-            <line>Infection in the sentence breeds</line>
-            <line>We may inhale Despair</line>
-            <line>At distances of Centuries</line>
-            <line>From the Malaria -</line>
+            <line><physical_body body_type="ailment">Infection</physical_body> in the 
+                <writing>sentence</writing> breeds</line>
+            <line>We may inhale <emotion emotion_type="angst">Despair</emotion></line>
+            <line>At <time>distances of Centuries</time></line>
+            <line>From the <physical_body body_type="ailment">Malaria</physical_body> -</line>
         </stanza>
     </body>
 </poem>
+
+<!-- 
+A Word dropped careless on a Page
+May  consecrated. stimulate an eye
+When folded in perpetual seam
+The Wrinkled  Author Maker lie
+
+Infection in the sentence breeds
+We may inhale Despair
+At distances of Centuries
+From the Malaria -
+-->

@@ -23,8 +23,8 @@ line = element line { mixed
     { (  elision | variant | character | emotion 
     | animal | place | nature | love | death | life | memory | childhood | 
     time | social_norm | war | religion | writing | science | music | 
-    law | mind | physical_body | solitude | supernatural | violence | 
-    light | darkness | uncertainty )* } }
+    law | mind | physical_body | eating | solitude | supernatural | violence | 
+    wealth | labor | social_class | light | darkness | uncertainty | loss )* } }
 
 
 # # # # # # # # # #
@@ -53,8 +53,7 @@ animal_type = attribute animal_type { text }
 place = element place { text }
 
 nature = element nature { nature_type, text } 
-nature_type = attribute nature_type { "air" | "fire" | "water" | "earth" | "animal" | "space" | "crop" | "general" } 
-# crop can be for plants that are for human consumption
+nature_type = attribute nature_type { "air" | "fire" | "water" | "earth" | "animal" | "space" | "general" } 
 # space can be the sun, stars, moon, etc. 
 
 love = element love { love_type?, judgment?, text } 
@@ -91,16 +90,24 @@ mind = element mind { text }
 physical_body = element physical_body { body_type?, text } # not to be confused with the <body> of the poem
 body_type = attribute body_type { text } # if she is talking about disease, ailments, etc. 
 
+eating = element eating { text } # can apply to food, hunger, eating
+
 solitude = element solitude { judgment?, text } 
 
 uncertainty = element uncertainty { judgment?, text }
 
 violence = element violence { text }
 
+wealth = element wealth { text }
+labor = element labor { text } 
+social_class = element social_class { text } # because "class" is sometimes a programming terms 
+
 supernatural = element supernatural { text } 
 
 light = element light { judgment?, text }
 darkness = element darkness { judgment?, text }
+
+loss = element loss { text } #can cover disappearing as well, like birds flying away 
 
 
 # # # # # #

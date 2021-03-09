@@ -3,39 +3,69 @@
 
 <poem>
     <metadata>
-        <title>A little Dog that wags his tail</title>
-        <date>1871</date>
+        <first_line>A little Dog that wags his tail</first_line>
+        <date period="middle">1871</date>
         <poem_number>J1185</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171834</source>
-        <recipient>Edward Dickinson</recipient>
+        <recipient>Edward (Ned) Dickinson</recipient>
+        <poem_themes>emotion, childhood, social norms</poem_themes>
     </metadata>
     <body>
         <stanza> 
-            <line>A little Dog that wags his tail</line>
+            <line>A little <animal>Dog</animal> that wags his tail</line>
             <line>And knows no other joy</line>
             <line>Of such a little Dog am I</line>
-            <line>Reminded by a Boy</line>
+            <line>Reminded by <childhood>a Boy</childhood></line>
         </stanza>
         
         <stanza> 
-            <line>Who gambols all the living Day</line>
+            <line>Who <emotion emotion_type="happiness">gambols</emotion>
+                <time>all the living Day</time></line>
             <line>Without an earthly cause</line>
-            <line>Because he is a little Boy</line>
+            <line><childhood>Because he is a little Boy</childhood></line>
             <line>I honestly suppose -</line>
         </stanza>
         
         <stanza> 
-            <line>The Cat that in the Corner dwells</line>
-            <line>Her martial Day forgot</line>
-            <line>The Mouse but a Tradition now</line>
-            <line>Of her desireless Lot</line>
+            <line><animal>The Cat</animal> that in the Corner dwells</line>
+            <line>Her <war>martial</war> Day <loss>forgot</loss></line>
+            <line>The Mouse but a <labor>Tradition</labor> now</line>
+            <line>Of her <emotion emotion_type="emptiness">desireless</emotion> Lot</line> 
+            <!--An interpretation I saw was that the cat is a metaphor for adults who are tired out / empty 
+            because of how they are always pursuing other things (hence "Tradition") and working, and
+            thus lack the joy of the dog/child -->
         </stanza>
         
         <stanza> 
-            <line>Another class remind me</line>
+            <line>Another <social_norm>class</social_norm> remind me</line>
+                <!--I assume the "class" here is the adults and they scold children who 
+                    "make a bit of noise" because the social norm does not accept playful behavior -->
             <line>Who neither please nor play</line>
             <line>But not to make a "bit of noise"</line>
-            <line>Beseech each little Boy -</line>  
+            <line>Beseech each <childhood>little Boy</childhood> -</line>  
         </stanza>
     </body>
 </poem>
+
+<!-- 
+A little Dog that wags his tail
+And knows no other joy
+Of such a little Dog am I
+Reminded by a Boy
+
+Who gambols all the living Day
+Without an earthly cause
+Because he is a little Boy
+I honestly suppose -
+
+
+The Cat that in the Corner dwells
+Her martial Day forgot
+The Mouse but a Tradition now
+Of her desireless Lot
+
+Another class remind me
+Who neither please nor play
+But not to make a "bit of noise"
+Beseech each little Boy -
+-->

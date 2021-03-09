@@ -3,26 +3,28 @@
 
 <poem>
     <metadata>
-        <title>A Sparrow took a Slice of Twig</title>
-        <date>1872</date>
+        <first_line>A Sparrow took a Slice of Twig</first_line>
+        <date period="middle">1872</date>
         <poem_number>J1211</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171896</source>
         <recipient>Susan Dickinson</recipient>
+        <poem_themes>nature</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>A Sparrow took a Slice of Twig</line>
+            <line>A <animal animal_type="bird">Sparrow</animal> took a 
+                <nature nature_type="earth">Slice of Twig</nature></line>
             <line>And thought it very nice</line>
-            <line>I think, because his empty Plate</line>
-            <line>Was handed Nature twice -</line>
+            <line>I think, because his <eating>empty Plate</eating></line>
+            <line>Was handed <nature nature_type="general">Nature</nature> twice -</line>
         </stanza>
         
         <stanza> 
             <line>Invigorated, waded</line>
-            <line>In all the deepest Sky</line>
+            <line>In all <nature nature_type="air">the deepest Sky</nature></line>
             <line>Until his little Figure</line>
-            <line>Was forfeited away -</line>
+            <line>Was <loss>forfeited away</loss> -</line>
         </stanza>
     </body>
 </poem>

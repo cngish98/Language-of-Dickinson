@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <first_line>A soft Sea washed around the House</first_line>
+        <date period="middle">1871</date> 
+        <poem_number>J1198</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171862</source>
+        <recipient>T.W. Higginson</recipient>
+        <poem_themes>nature, emotion</poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A <nature nature_type="water">soft Sea</nature> washed around the House</line>
+            <line>A Sea of <nature nature_type="air">Summer Air</nature></line>
+            <line>And rose and fell the magic Planks</line>
+            <line>That sailed without a care -</line>
+            <line>For Captain was the <animal animal_type="insect">Butterfly</animal></line>
+            <line>For <variant>steersman</variant> Helmsman was the <animal animal_type="insect">Bee</animal></line>
+            <!-- elision here? -->
+            <line>And an entire universe</line>
+            <line>For the <emotion emotion_type="happiness">delighted</emotion> crew.</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--I feel like this poem could be marked up more but I'm not sure how ... -->
+
+<!-- 
+A soft Sea washed around the House
+A Sea of Summer Air
+And rose and fell the magic Planks
+That sailed without a care -
+For Captain was the Butterfly
+For  steersman Helmsman was the Bee
+And an entire universe
+For the delighted crew.
+-->

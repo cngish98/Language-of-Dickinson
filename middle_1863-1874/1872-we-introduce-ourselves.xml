@@ -3,23 +3,32 @@
 
 <poem>
     <metadata>
-        <title>We introduce ourselves</title>
-        <date>1872</date>
+        <first_line>We introduce ourselves</first_line>
+        <date period="middle">1872</date>
         <poem_number>J1214</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171903</source>
         <recipient>none</recipient>
+        <poem_themes>social norms, nature</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
             <line>We introduce ourselves</line>
-            <line>To Planets and to Flowers</line>
+            <line>To <nature nature_type="space">Planets</nature> and to 
+                <nature nature_type="earth">Flowers</nature></line>
             <line>But with ourselves</line>
-            <line>Have etiquettes</line>
-            <line>Embarrassments</line>
-            <line>And awes</line>
+            <line>Have <social_norm>etiquettes</social_norm></line>
+            <line><emotion emotion_type="embarrassment">Embarrassments</emotion></line>
+            <line>And <emotion emotion_type="wonder">awes</emotion></line>
         </stanza>
     </body>
 </poem>
 
-
+<!-- 
+We introduce ourselves
+To Planets and to Flowers
+But with ourselves
+Have etiquettes
+Embarrassments
+And awes
+-->

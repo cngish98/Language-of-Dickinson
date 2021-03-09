@@ -3,45 +3,77 @@
 
 <poem>
     <metadata>
-        <title>Now I knew I lost her -</title>
-        <date>1872</date>
+        <first_line>Now I knew I lost her -</first_line>
+        <date period="middle">1872</date>
         <poem_number>J1219</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171914</source>
         <recipient>none</recipient>
+        <poem_themes>interpersonal relationships, memory</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>Now I knew I lost her -</line>
-            <line>Not that she was gone -</line>
-            <line>But Remoteness travelled</line>
-            <line>On her Face and Tongue.</line>
+            <line>Now <character name="I" relation_with="her">I</character>
+                knew I <loss>lost</loss> <character name="her" relation_with="I">her</character> -</line>
+            <line>Not that she was gone -</line> <!--tagging specifically as loss and not death bc of this line -->
+            <line>But <solitude>Remoteness</solitude> travelled</line> 
+            <line>On her <physical_body>Face and Tongue</physical_body>.</line>
         </stanza>
             
         <stanza> 
-            <line>Alien, though adjoining</line>
-            <line>As a Foreign Race -</line>
-            <line>Traversed she though pausing</line>
-            <line>Latitudeless Place.</line>
+            <line>Alien, though adjoining</line> <!--social interaction: should be tagged as social norm? but social
+                norm doesn't feel right either -->
+            <line>As a Foreign Race -</line> <!--foreign race and alien: should this be marked up somehow? -->
+            <line><time>Traversed</time> she though pausing</line>
+            <line><uncertainty>>Latitudeless</uncertainty> Place.</line>
         </stanza>
         
        <stanza> 
-            <line>Elements Unaltered -</line>
+            <line><science>Elements</science> Unaltered -</line>
             <line>Universe the same</line>
-            <line>But Love's transmigration -</line>
-            <line>Somehow this had come -</line>
+            <line>But <love>Love's</love> transmigration -</line> <!--not sure if it is romantic love or not -->
+           <line>Somehow this <time>had come</time> -</line>
        </stanza>
            
        <stanza> 
-            <line>Henceforth to remember</line>
-            <line>Nature took the Day</line>
-            <line>I had paid so much for -</line>
-            <line>His is Penury</line>
-            <line>Not who toils for Freedom</line>
+            <line>Henceforth to <memory>remember</memory></line>
+            <line>Nature took the Day</line> <!-- Is the Day a reference to the character "her?" -->
+           <line>I had <labor>paid so much for</labor> -</line> <!-- not physical but emotional labor? maybe too specific? -->
+            <line>His is <social_class>Penury</social_class></line> <!--not sure if this is about class or just being
+                impoverished in general -->
+            <line>Not who <labor>toils</labor> for Freedom</line>
             <line>Or for Family</line>
             <line>But the Restitution</line>
-            <line>Of Idolatry.</line>
+            <line>Of <religion type="thing">Idolatry</religion><love/>.</line>
+           <!--may not be explicitly religious, but idolatry does seem to have religious connotations 
+           i also marked it as "love" because it seems as if the narrator wants to go back to the
+           same type of intense love they had for "her" in the past -->
         </stanza>  
     </body>
 </poem>
 
+<!-- 
+Now I knew I lost her -
+Not that she was gone -
+But Remoteness travelled
+On her Face and Tongue.
+
+Alien, though adjoining
+As a Foreign Race -
+Traversed she though pausing
+Latitudeless Place.
+
+Elements Unaltered -
+Universe the same
+But Love's transmigration -
+Somehow this had come -
+
+Henceforth to remember
+Nature took the Day
+I had paid so much for -
+His is Penury
+Not who toils for Freedom
+Or for Family
+But the Restitution
+Of Idolatry.
+-->

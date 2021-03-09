@@ -3,23 +3,36 @@
 
 <poem>
     <metadata>
-        <title>A full fed Rose on meals of Tint</title>
-        <date>1870</date>
+        <first_line>A full fed Rose on meals of Tint</first_line>
+        <date period="middle">1870</date>
         <poem_number>J1154</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171760</source>
         <recipient>Susan Dickinson</recipient>
+        <poem_themes>nature, death, love</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>A full fed Rose on meals of Tint</line>
-            <line>A Dinner for a Bee</line>
-            <line>In process of the Noon became -</line>
-            <line>Each bright Mortality</line>
-            <line>The Forfeit is of Creature fair</line>
-            <line>Itself, adored before</line>
-            <line>Submitting for our unknown sake</line>
-            <line>To be esteemed no more</line>
+            <line>A <eating>full fed</eating> <nature nature_type="earth">Rose</nature> on 
+                <eating>meals</eating> of Tint</line>
+            <line>A <eating>Dinner</eating> for a <animal animal_type="insect">Bee</animal></line>
+            <line>In process of the <time>Noon</time> became -</line> <!--elision? -->
+            <line>Each <light>bright</light> <death>Mortality</death></line>
+            <line>The <death>Forfeit</death> is of Creature fair</line> <!--assuming this is death, ie "forfeit" of life -->
+            <line>Itself, <love>adored</love> before</line>
+            <line><death>Submitting</death> for our <uncertainty>unknown</uncertainty> sake</line> <!--"submitting" to death too -->
+            <line>To be <social_norm>esteemed</social_norm> no more</line>
         </stanza>
     </body>
 </poem>
+
+<!-- 
+A full fed Rose on meals of Tint
+A Dinner for a Bee
+In process of the Noon became -
+Each bright Mortality
+The Forfeit is of Creature fair
+Itself, adored before
+Submitting for our unknown sake
+To be esteemed no more
+-->

@@ -8,7 +8,7 @@
         <poem_number>J1094</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171599</source>
         <recipient>body</recipient>
-        <poem_themes>body, interpersonal relationships</poem_themes>
+        <poem_themes>body, interpersonal relationships, wealth</poem_themes>
     </metadata>
     
     <body>
@@ -16,14 +16,14 @@
             <line>Themself are all <character name="I">I</character>have -</line> <!--could "themself" be a character? -->
             <line>Myself a <physical_body>freckled</physical_body> - be -</line> <!-- elision? -->
             <line>I thought <character name="you" relation_with="I">you'd</character>
-                choose a Velvet <physical_body>Cheek</physical_body></line>
-            <line>Or one of Ivory -</line>
+                choose a <wealth>Velvet</wealth> <physical_body>Cheek</physical_body></line>
+            <line>Or one of <wealth>Ivory</wealth> -</line>
             <line>Would you - instead of Me?</line> <!--elision -->
         </stanza>
     </body>
 </poem>
-<!--Because of the elision I was having a hard time understanding what is going on in this poem, but I think 
-    I understand the general theme -->
+<!--Because of the elision / ambiguity in this poem I was having a hard time understanding what is happening, but I think 
+    I understand a general theme of desire/wealth -->
 
 <!-- 
 Themself are all I have -

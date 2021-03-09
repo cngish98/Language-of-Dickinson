@@ -14,17 +14,18 @@
     <body>
         <stanza> 
             <line>Oh Sumptuous <time>moment</time></line>
-            <line>Slower go</line>
+            <line><time>Slower</time> go</line>
             <line><variant>Till</variant> That I <variant>can</variant> may gloat on thee -</line>
-            <line>'Twill never be the same to starve</line>
-            <line><variant>Since</variant> Now <variant>that</variant> I abundance see -</line>
+            <line>'Twill never be the same to <eating>starve</eating></line>
+            <line><variant>Since</variant> Now <variant>that</variant> I <wealth>abundance</wealth> see -</line>
         </stanza>
         
         <stanza> 
-            <line>Which was to <physical_body body_type="ailment">famish</physical_body>, then or now -</line>
+            <line>Which was to <physical_body body_type="ailment">famish</physical_body><eating/><death/>
+                , then or now -</line>
             <line>The difference of <time>Day</time></line>
             <line><variant>to</variant> Ask him unto the <violence>Gallows</violence><death/> 
-                <variant>called</variant> led -</line>
+                <variant>called</variant> led -</line> <!--elision here? -->
             <line>By With <time>morning</time> in the <nature nature_type="air">sky</nature></line>
         </stanza>
     </body>

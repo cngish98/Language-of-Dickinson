@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <first_line>A Spider sewed at Night</first_line>
+        <date period="middle">1869</date>
+        <poem_number>J1138</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12171721</source>
+        <recipient>Susan Dickinson</recipient>
+        <poem_themes>animals, nature, darkness, light, writing?, religion?</poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A <animal animal_type="insect">Spider</animal> sewed at <darkness>Night</darkness></line>
+            <line>Without a <light>Light</light></line>
+            <line>Upon an <writing>Arc of</writing><religion type="thing"/> <light>White</light>.</line> 
+            <!--two interpretations,  one of the arc being the world as God created it, the other being the
+                arc as a blank sheet that a poet writes upon -->
+        </stanza>
+        
+        <stanza> 
+            <line>If Ruff it was of <character name="Emily-Dickinson">Dame</character><religion/></line> 
+            <!--I have seen interpretations that Dickinson was talking about herself when referring to the "Dame"
+                but that it could also be the "Dame" of Fortune as in Dante's Inferno -->
+            <line>Or Shroud of <character name="TW-Higginson">Gnome</character> 
+                <religion type="person">Himself</religion> himself inform.</line> <!--elision? -->
+            <!--I am not sure who Himself refers to: I have seen that it could be God, or Higginson himself as the recipient -->
+        </stanza>
+        
+        <stanza> 
+            <line>Of <life>Immortality</life></line>
+            <line>His Strategy</line>
+            <line>Was <physical_body>Physiognomy</physical_body>.</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--I have seen multiple interpretations of this poem suggesting it is both an extended metaphor for God, or for writing, or both. 
+    Also that T.W. Higginson himself might be the "himself" mentioned in the second stanza. I am not sure, there are multiple ways
+    to look at it. Let me know what you think because this poem was particularly difficult. -->
+
+<!-- 
+A Spider sewed at Night
+Without a Light
+Upon an Arc of White.
+
+If Ruff it was of Dame
+Or Shroud of Gnome Himself himself inform.
+
+Of Immortality
+His Strategy
+Was Physiognomy.
+-->

@@ -3,36 +3,65 @@
 
 <poem>
     <metadata>
-        <title>A mine there is no man would own</title>
-        <date>1869</date>
+        <first_line>A mine there is no man would own</first_line>
+        <date period="middle">1869</date>
         <poem_number>F1162A</poem_number> <!--also Franklin edition, but it has a recipient while the Johnson one does not -->
         <source>https://www.edickinson.org/editions/1/image_sets/12176926</source>
         <recipient>Susan Dickinson</recipient>
+        <poem_themes>wealth, labor</poem_themes>
     </metadata>
     <body>
         <stanza> 
-            <line>A Mine there is</line>
-            <line>no Man would own</line>
+            <line>A <nature nature_type="earth">Mine</nature> there is</line> <!--not sure if "nature" is the theme but
+                not sure what else to tag it -->
+            <line><solitude>no Man would own</solitude></line> <!--also not sure if solitude is the best word-->
             <line>But must it be</line>
             <line>conferred,</line>
-            <line>Demeaning by</line>
-            <line>exclusive wealth</line>
-            <line>A Universe beside -</line> 
+            <line><social_norm>Demeaning</social_norm> by</line> <!--the idea of respect/social dignity and demeaning could be part of social norm?
+                Not sure though --> 
+            <line>exclusive <wealth>wealth</wealth></line>
+            <line>A Universe beside -</line> <!--elision? -->
         </stanza>
         
         <stanza> 
-            <line>Potosi never to</line>
+            <line><wealth>Potosi</wealth> never to</line>
             <line>be spent</line>
-            <line>But hoarded in</line>
-            <line>the mind</line>
+            <line>But <wealth>hoarded</wealth> in</line>
+            <line>the <mind>mind</mind></line>
         </stanza>
         
         <stanza> 
-            <line>What Misers</line>
-            <line>wring their</line>
-            <line>hands tonight</line>
-            <line>For Indies in</line>
+            <line>What <social_class>Misers</social_class></line> <!--not sure if wealth is the right word for "misers" -->
+            <line><labor>wring their</labor></line>
+            <line><physical_body>hands</physical_body> tonight</line>
+            <line>For <wealth>Indies</wealth><place/> in</line> <!--"Indies" is an allusion to a real 
+                place, but used as a metaphor here, not sure
+            if this should be specified through an attribute or not--> 
             <line>the Ground!</line>
         </stanza>
     </body>
 </poem>
+
+<!--Couldn't find any other interpretations of this poem, so my idea is that she is criticizing
+    those who labor for wealth but then hoard what they earn. Not sure how accurate this is though. -->
+
+<!-- 
+A Mine there is
+no Man would own
+But must it be
+conferred,
+Demeaning by
+exclusive wealth
+A Universe beside -
+
+Potosi never to
+be spent
+But hoarded in
+the mind
+
+What Misers
+wring their
+hands tonight
+For Indies in
+the Ground!
+-->

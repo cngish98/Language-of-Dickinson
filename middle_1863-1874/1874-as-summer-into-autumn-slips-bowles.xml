@@ -3,51 +3,93 @@
 
 <poem>
     <metadata>
-        <title>As summer into autumn slips</title>
-        <date>1874</date>
+        <first_line>As summer into autumn slips</first_line>
+        <date period="middle">1874</date>
         <poem_number>F1341C</poem_number> <!--Franklin version: there is no Johnson version addressed solely to Bowles --> 
         <source>https://www.edickinson.org/editions/1/image_sets/12177578</source>
         <recipient>Samuel Bowles</recipient>
+        <poem_themes>nature, time</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>As Summer</line>
-            <line>into Autumn</line>
-            <line>slips</line>
+            <line>As <time>Summer</time></line> <!--could be nature too but I feel it's more like time in this poem -->
+            <line>into <time>Autumn</time></line>
+            <line><time>slips</time></line>
         </stanza>
          
         <stanza>
             <line>And yet</line>
             <line>we sooner</line>
             <line>say</line>
-            <line>"The Summer" than "the Autumn", lest</line>
+            <line><time>"The Summer" than "the Autumn", </time>
+                <emotion emotion_type="fear">lest</emotion></line>
+            <!-- i say fear bc it sounds like implies the fear of moving on, acknowledging the passage of time
+            not sure if it's the best word though -->
             <line>We turn the</line>
-            <line>Sun away,</line>
+            <line><nature nature_type="space">Sun</nature> away,</line> 
         </stanza>
             
         <stanza>
             <line>And almost</line>
-            <line>count it an</line>
+            <line>count <time>it</time> an</line> <!--specifically the passing of time -->
             <line>Affront the</line>
             <line>presence to</line>
-            <line>concede</line>
+            <line><time>concede</time></line>
             <line>Of one however</line>
-            <line>lovely, not</line>
+            <line><love love_type="admiration">lovely</love>, not</line>
             <line>The one</line>
             <line>that we have</line>
-            <line>loved -</line>
+            <line><love love_type="admiration">loved</love> -</line>
+            <!-- admiration for the seasons and nature -->
         </stanza>
         
        <stanza>
-            <line>So we evade</line>
+            <line>So we evade</line> <!--should evasion be marked up as fear ? -->
             <line>the Charge</line>
-            <line>of Years</line>
-            <line>One oneOn one attempting shy</line>
+           <line>of <time>Years</time></line>
+           <line><variant>One one</variant>On one attempting shy</line>
             <line>The Circumvention</line>
             <line>of the Shaft</line>
-            <line>Of Life's</line>
-            <line>declivity.</line>
+            <line>Of <life>Life's</life></line>
+            <line><time>declivity</time><death/>.</line> <!--could reference time or death?
+            marked up both just in case-->
         </stanza>
     </body>
 </poem>
+
+<!-- 
+As Summer
+into Autumn
+slips
+
+And yet
+we sooner
+say
+"The Summer" than "the Autumn", lest
+We turn the
+Sun away,
+
+And almost
+count it an
+Affront the
+presence to
+concede
+Of one however
+lovely, not
+The one
+that we have
+loved -
+
+So we evade
+the Charge
+of Years
+One one On one attempting shy
+The Circumvention
+of the Shaft
+Of Life's
+declivity.
+-->
+<!-- 
+
+-->

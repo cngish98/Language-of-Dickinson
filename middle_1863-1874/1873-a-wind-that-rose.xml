@@ -3,24 +3,39 @@
 
 <poem>
     <metadata>
-        <title>A Wind that rose</title>
-        <date>1873</date>
+        <first_line>A Wind that rose</first_line>
+        <date period="middle">1873</date>
         <poem_number>J1259</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12172016</source>
         <recipient>T.W. Higginson</recipient>
+        <poem_themes>nature, the mind, solitude</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>A Wind that rose</line>
-            <line>Though not a Leaf</line>
-            <line>In any Forest stirred</line>
-            <line>But with itself did cold engage</line>
-            <line>Beyond the Realm of Bird -</line>
-            <line>A Wind that woke a lone Delight</line>
-            <line>Like Separation's Swell</line>
-            <line>Restored in Arctic Confidence</line>
-            <line>To the Invisible -</line>
+            <line><nature nature_type="air">A Wind</nature> that rose</line>
+            <line>Though not a <nature nature_type="earth">Leaf</nature></line>
+            <line>In any <nature nature_type="earth">Forest</nature> stirred</line>
+            <line>But with itself did <mind>cold</mind> engage</line> <!-- I have seen interpretations 
+                that the "wind" is a metaphor for the mind and thinking, so I am tagging as such -->
+            <line>Beyond the Realm of <nature nature_type="animal">Bird</nature><mind/> -</line>
+            <!-- the realm beyond that of birds (ie: nature) is the mind -->
+            <line>A Wind that woke a <solitude>lone</solitude> <emotion emotion_type="happiness">Delight</emotion></line>
+            <line>Like <solitude>Separation's</solitude> Swell</line>
+            <line>Restored in Arctic <emotion emotion_type="confidence">Confidence</emotion></line>
+            <line>To <mind>the Invisible</mind> -</line>
         </stanza>
     </body>
 </poem>
+
+<!-- 
+A Wind that rose
+Though not a Leaf
+In any Forest stirred
+But with itself did cold engage
+Beyond the Realm of Bird -
+A Wind that woke a lone Delight
+Like Separation's Swell
+Restored in Arctic Confidence
+To the Invisible -
+-->

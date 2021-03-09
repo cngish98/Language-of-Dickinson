@@ -29,13 +29,13 @@
             
         <stanza> 
             <line>He likes a <nature nature_type="water">Boggy Acre</nature></line> <!--not sure if it counts as land or water --> 
-            <line>A Floor too cool for <nature nature_type="crop">Corn</nature> -</line>
+            <line>A Floor too cool for <eating>Corn</eating> -</line>
             <line>Yet <childhood>when a Boy</childhood>, and <physical_body>Barefoot</physical_body> -</line>
             <line>I more than once at <time>Noon</time></line>
             <line>Have passed, I thought, a Whip lash</line>
             <line>Unbraiding in the <nature nature_type="space">Sun</nature></line>
             <line>When stooping to secure it</line>
-            <line>It wrinkled, and was gone -</line>
+            <line>It wrinkled, and <loss>was gone</loss> -</line>
         </stanza>
             
         <stanza> 

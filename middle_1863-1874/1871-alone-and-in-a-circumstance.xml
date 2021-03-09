@@ -3,49 +3,92 @@
 
 <poem>
     <metadata>
-        <title>Alone and in a circumstance</title>
-        <date>1871</date>
+        <first_line>Alone and in a circumstance</first_line>
+        <date period="middle">1871</date>
         <poem_number>J1167</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171790</source>
         <recipient>none</recipient>
+        <poem_themes>solitude, law, violence</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>Alone and of / in a Circumstance</line>
+            <line>Alone and <variant>of</variant> in a Circumstance</line>
             <line>Reluctant to be told</line>
-            <line>A spider on my reticence</line>
-            <line>deliberately / determinately / impertinently / Assiduously crawled</line>
+            <line>A <animal animal_type="insect">spider</animal> on my reticence</line>
+            <line><variant>deliberately</variant> <variant>determinately</variant>
+                <variant>impertinently</variant> Assiduously crawled</line>
         </stanza>
         
         <stanza> 
             <line>And so much more at Home than I</line>
             <line>Immediately grew</line>
-            <line>I felt myself  the a visitor</line>
-            <line>And  hastily / hurriedly withdrew</line>
+            <line>I felt myself <variant>the</variant> a visitor</line>
+            <line>And <variant>hastily</variant> <solitude>hurriedly withdrew</solitude></line>
         </stanza>
         
         <stanza> 
             <line>Revisiting my late abode</line>
-            <line>With articles of claim</line>
+            <line>With <law>articles of claim</law></line>
             <line>I found it quietly assumed</line>
-            <line>for / As a Gymnasium</line>
-            <line>Where Tax asleep and Title off</line>
-            <line>The  Peasants / inmates of the Air</line>
-            <line>Perpetual  complacence / presumption took</line>
-            <line>As each were  lawful / only special Heir -</line>
-            <line>If any strike me on the street</line>
-            <line>I can return the Blow -</line>
-            <line>If any  seize / take my property</line>
-            <line>According to the Law</line>
-            <line>The Statute is my Learned friend</line>
-            <line>But what redress can be</line>
-            <line>For an offense nor here nor there</line>
-            <line>So not in Equity -</line>
-            <line>That Larceny of time and mind</line>
-            <line>The marrow of the Day</line>
-            <line>By spider, or forbid it Lord</line>
-            <line>That I should specify.</line>   
+            <line><variant>for</variant> As a Gymnasium</line>
+            <line>Where <law>Tax</law> asleep and <social_norm>Title</social_norm> off</line>
+            <line>The  <social_class>Peasants</social_class><variant/> <social_class>inmates</social_class>
+                of the Air</line>
+            <line>Perpetual <variant>complacence</variant> presumption took</line>
+            <line>As each were <variant>lawful</variant> <variant>only</variant> special Heir -</line>
+            <line>If any <violence>strike me</violence> on the street</line>
+            <line>I can <violence>return the Blow</violence> -</line>
+            <line>If any  <variant>seize</variant> take my property</line>
+            <line>According to the <law>Law</law></line>
+            <line>The <law>Statute</law> is my Learned friend</line>
+            <line>But what <law>redress</law> can be</line>
+            <line>For an <law>offense</law> nor here nor there</line>
+            <line>So not in <law>Equity</law> -</line>
+            <line>That <violence>Larceny</violence><law/> of <time>time</time> and <mind>mind</mind></line>
+                <!--not sure if larceny implies violence but i tagged it as such -->
+            <line>The <physical_body>marrow</physical_body> of the <time>Day</time></line>
+            <line>By <animal animal_type="insect">spider</animal>, or 
+                forbid it <religion type="person">Lord</religion></line> <!--not sure if this is just an 
+                    exclamation or an actual religious reference, nonetheless
+                    decided to mark it as religious  -->
+            <line>That <uncertainty>I should specify</uncertainty>.</line>   <!-- 
+             is she asking for the permission to be unspecific / uncertain ? -->
         </stanza>
     </body>
 </poem>
+<!--I saw some interpretations that she is talking about writing and feeling like she has been robbed
+    the space in which she normally writes. Writing is not really explicitly mentioned though so I have not tagged
+    anything as writing -->
+<!-- 
+Alone and  of in a Circumstance
+Reluctant to be told
+A spider on my reticence
+ deliberately  determinately  impertinently Assiduously crawled
+
+And so much more at Home than I
+Immediately grew
+I felt myself  the a visitor
+And  hastily hurriedly withdrew
+
+Revisiting my late abode
+With articles of claim
+I found it quietly assumed
+ for As a Gymnasium
+Where Tax asleep and Title off
+The  Peasants inmates of the Air
+Perpetual  complacence presumption took
+As each were  lawful  only special Heir -
+If any strike me on the street
+I can return the Blow -
+If any  seize take my property
+According to the Law
+The Statute is my Learned friend
+But what redress can be
+For an offense nor here nor there
+So not in Equity -
+That Larceny of time and mind
+The marrow of the Day
+By spider, or forbid it Lord
+That I should specify.
+-->

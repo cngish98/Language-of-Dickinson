@@ -30,8 +30,26 @@
             <line>Nor <science>Implement</science>, be seen -</line>
             <line>And Place was where the <life>Presence</life> was</line> <!--I am equating the existence of the bird 
                 (its "presence") to life -->
-            <line>Circumference between.</line>
+            <line><loss>Circumference between</loss>.</line>
         </stanza>
     </body>
     <!--She uses scientific vocabulary as a metaphor to describe the bird: kind of hard to mark up but hopefully I made it work ? -->
 </poem>
+
+<!-- 
+At Half past Three, a single Bird
+Unto a silent Sky
+Propounded but a single term
+Of cautious melody.
+
+At Half past Four, Experiment
+Had subjugated test
+And lo, Her silver Principle
+Supplanted all the rest.
+
+At Half past Seven, Element
+Nor Implement, be seen -
+And Place was where the Presence was
+Circumference between.
+-->
+

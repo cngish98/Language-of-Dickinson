@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <first_line>Because that you are going</first_line>
+        <date period="middle">1874</date> 
+        <poem_number>F1314C</poem_number> <!--Franklin: no recipient in Johnston version -->
+        <source>https://www.edickinson.org/editions/1/image_sets/12177487</source> 
+        <recipient>T.W. Higginson</recipient>
+        <poem_themes>religion, interpersonal relationships, death, life, love</poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Because that</line>
+            <line><character name="you" relation_with="I">you</character>you are going</line>
+            <!-- Higginson did not die until 1911 (he outlived Dickinson, even), so I don't think the poem is about him -->
+            <line>And never</line>
+            <line><death>coming back</death> -</line> <!--never coming back: death (lines split it up weird) -->
+            <line>And I, however</line>
+            <line>absolute</line>
+            <line>May overlook</line>
+            <line>your <life>track</life>,</line> <!--"track" means life ? -->
+        </stanza>
+        
+        <stanza> 
+            <line>Because that</line>
+            <line><death>Death is final</death></line>
+            <line>However first</line>
+            <line>it be</line>
+            <line>This <time>instant</time></line>
+            <line>be suspended</line>
+            <line>Above <death>Mortality</death></line>
+        </stanza>
+        
+        <stanza> 
+            <line>Significance that</line>
+            <line>each has <life>lived</life></line>
+            <line>The other to</line>
+            <line>detect</line>
+            <line>Discovery not</line>
+            <line><religion type="person">God</religion> himself</line>
+            <line>Could now</line>
+            <line>annihilate -</line> <!--God depicted as having less power than the relationship between
+                these two characters -->
+        </stanza>
+        
+        <stanza> 
+            <line><time>Eternity</time>, Presumption</line>
+            <line>The <time>instant</time></line>
+            <line>I perceive</line>
+            <line>That you, who</line>
+            <line>were <life>Existence</life></line>
+            <line>Yourself forgot</line>
+            <line>to <life>live</life> -</line> <!--not sure if "Forgot to live" counts as death -->
+        </stanza>
+        
+        <stanza> 
+            <line>The <life>"Life that</life></line>
+            <line>is" will then</line>
+            <line>have been</line>
+            <line>A Thing I</line>
+            <line>never knew</line>
+            <line>As <religion type="place">Paradise</religion></line>
+            <line>fictitious</line>
+            <line>Until the <love>Realm</love></line> <!--She does not explicitly mention love but these 
+                are very strong / grand statements to make about a person, so I am tagging them as love -->
+            <line>of you -</line>
+        </stanza>
+        
+        <stanza> 
+            <line>The <life>"Life</life> that</line>
+            <line><death>is to be"</death> to me</line> <!--"Life that is to be" can count as both life and death -->
+            <line>A <religion type="place">Residence</religion></line> <!--assuming she means heaven -->
+            <line>too plain</line>
+            <line>Unless in my</line>
+            <line><religion type="person">Redeemer's</religion> 
+                <physical_body>face</physical_body></line>
+            <line>I <love>recognize</love></line>
+            <line>your own -</line>
+        </stanza>
+        
+        <stanza> 
+            <line>Of <life>Immortality</life><death/></line>
+            <line>who <uncertainty>doubts</uncertainty></line>
+            <line>He may</line>
+            <line>exchange with</line>
+            <line>me</line>
+            <line>Curtailed by</line>
+            <line>your <uncertainty>obscuring</uncertainty></line>
+            <line>face</line>
+            <line>Of Everything</line>
+            <line>but he</line>
+        </stanza> <!--the meaning was a little less clear to me in this stanza -->
+        
+        <stanza> 
+            <line>Of <religion type="place">Heaven</religion></line>
+            <line>and <religion type="place">Hell</religion></line>
+            <line>I also yield</line>
+        </stanza>
+        
+        <stanza> 
+            <line><law>The Right to</law></line>
+            <line>reprehend</line>
+            <line>To whoso</line>
+            <line>would commute</line>
+            <line>this <physical_body>Face</physical_body></line>
+            <line>For his less</line>
+            <line>priceless Friend.</line> <!--is this referring to "I"? she sees herself as less worthy than the "you" of this poem? -->
+        </stanza>
+        
+        <stanza>
+            <line>If <religion type="person">"God</religion>" is</line>
+            <line><love>Love"</love> as he</line>
+            <line>admits</line>
+            <line>We think that</line>
+            <line>he must be</line>
+            <line>Because he is</line>
+            <line>a "<emotion emotion_type="jealousy">jealous</emotion> 
+                <religion type="person">God</religion>"</line>
+            <line>He tells us</line>
+            <line>certainly</line>
+        </stanza>
+        
+        <stanza>
+            <line>If "<religion type="thing">All is possible</religion></line>
+            <line>with" <religion type="person">him</religion></line> <!--I marked up "All is possible with Him" as a thing
+                because I feel it is a common saying about the Christian God -->
+            <line>As he besides</line>
+            <line>concedes</line>
+            <line>He will refund</line>
+            <line>us finally</line>
+            <line>Our confiscated</line>
+            <line><religion type="person">Gods</religion> -</line> <!--confiscated Gods = human lives? -->
+        </stanza>
+    </body>
+</poem>
+
+<!-- 
+Because that
+you are going
+And never
+coming back -
+And I, however
+absolute
+May overlook
+your track,
+
+Because that
+Death is final
+However first
+it be
+This instant
+be suspended
+Above Mortality
+
+Significance that
+each has lived
+The other to
+detect
+Discovery not
+God himself
+Could now
+annihilate -
+
+Eternity, Presump -Presumption
+tion
+The instant
+I perceive
+That you, who
+were Existence
+Yourself forgot
+to live -
+
+
+The "Life that
+is" will then
+have been
+A Thing I
+never knew
+As Paradise
+fictitoiusfictitious
+Until the Realm
+of you -
+
+The "Life that
+is to be" to me
+A Residence
+too plain
+Unless in my
+Redeemer's face
+I recognize
+your own -
+
+Of Immortality
+who doubts
+He may
+exchange with
+me
+Curtailed by
+your obscuring
+face
+Of Everything
+but he
+
+Of Heaven
+and Hell
+I also yield
+
+The Right to
+reprehend
+To whoso
+would commute
+this Face
+For his less
+priceless Friend.
+
+If "God is
+Love" as he
+admits
+We think that
+he must be
+Because he is
+a "jealous God"
+He tells us
+certainly
+
+
+If "All is possible
+with" him
+As he besides
+concedes
+He will refund
+us finally
+Our confiscated
+Gods -
+-->

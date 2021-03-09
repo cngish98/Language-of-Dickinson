@@ -3,41 +3,66 @@
 
 <poem>
     <metadata>
-        <title>A great hope fell</title>
-        <date>1870</date>
+        <first_line>A great hope fell</first_line>
+        <date period="middle">1870</date>
         <poem_number>J1123</poem_number>
         <source>https://www.edickinson.org/editions/2/image_sets/12171673</source>
         <recipient>none</recipient>
+        <poem_themes>violence, the mind, emotion</poem_themes>
     </metadata>
     
     <body>
         <stanza> 
-            <line>A great Hope fell</line>
-            <line>You heard no  crash noise</line>
-            <line>The  havoc / damage / Ruin was within</line>
-            <line>Oh cunning wreck that told no tale</line>
-            <line>And let no Witness in</line>
+            <line>A great <emotion emotion_type="disappointment">Hope fell</emotion></line> <!--assuming this is about emotion -->
+            <line>You heard no  <violence>crash</violence><variant/> noise</line>
+            <line>The <variant>havoc</variant> <variant>damage</variant><violence/> 
+                Ruin was <mind>within</mind></line>
+            <line>Oh cunning <violence>wreck</violence> that <writing>told no tale</writing></line> <!--does that count as writing?-->
+            <line>And <solitude judgment="negative">let no Witness in</solitude></line>
         </stanza>
         
         <stanza> 
-            <line>The mind was built for mighty Freight</line>
-            <line>For dread occasion planned</line>
-            <line>How often foundering at Sea</line>
-            <line>Ostensibly, on Land</line>
+            <line><mind>The mind</mind> was built for <labor>mighty Freight</labor></line>
+            <line>For <emotion emotion_type="fear">dread</emotion> occasion planned</line>
+            <line>How often <violence>foundering</violence> at <nature nature_type="water">Sea</nature></line>
+            <line>Ostensibly, on <nature nature_type="earth">Land</nature></line>
         </stanza>
         
         <stanza> 
-            <line>A not admitting of the wound</line>
+            <line>A not admitting of the <physical_body body_type="ailment">wound</physical_body></line>
             <line>Until it grew so wide</line>
-            <line>That all my Life had entered it</line>
-            <line>And there were space / room troughs beside</line>
+            <line>That all my <life>Life</life> had entered it</line>
+            <line>And there were <variant>space</variant> <variant>room</variant>troughs beside</line>
         </stanza>
         
         <stanza> 
-            <line>A closing of the simple lid</line>
-            <line>That opened to the sun</line>
+            <line>A <death>closing of the simple lid</death></line> <!--I am interpreting this to be a coffin -->
+            <line>That opened to the <nature nature_type="space">sun</nature></line>
             <line>Until the tender Carpenter</line>
-            <line>Perpetual nail it down -</line>
+            <line><time>Perpetual</time> <labor>nail it down</labor> -</line>
         </stanza>
     </body>
 </poem>
+
+<!-- 
+A great Hope fell
+You heard no crash noise
+The  havoc  damage Ruin was within
+Oh cunning wreck that told no tale
+And let no Witness in
+
+The mind was built for mighty Freight
+For dread occasion planned
+How often foundering at Sea
+Ostensibly, on Land
+
+A not admitting of the wound
+Until it grew so wide
+That all my Life had entered it
+And there were  space  room troughs beside
+
+A closing of the simple lid
+That opened to the sun
+Until the tender Carpenter
+Perpetual nail it down -
+-->
