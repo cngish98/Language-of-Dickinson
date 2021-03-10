@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J87</number>
+    <metadata>
+        <first_line>A darting fear -- a pomp -- a tear --</first_line>
+        <date period="early">1859</date> 
+        <poem_number>J87</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169235 </source>
         <recipient>Mary Haven</recipient>
-    </meta>
+        <poem_themes>Fear</poem_themes>
+    </metadata>
+    
     <body>
-        A darting fear -- a pomp -- a tear -- 
-        A waking on the morn 
-        to find that what one waked for, 
-        inhales the different dawn. 
+        <stanza> 
+            <line>A darting <emotion emotion_type="fear">fear</emotion> -- <emotion emotion_type="triumph">a pomp</emotion> -- <emotion emotion_type="sadness">a tear</emotion> -- </line>
+            <line>A waking on the <time>morn</time> </line>
+            <line>to find that what one waked for, </line>
+            <line>inhales the different <time>dawn</time>.</line>
+        </stanza>
     </body>
 </poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+A darting fear -- a pomp -- a tear -- 
+        A waking on the morn 
+        to find that what one waked for, 
+        inhales the different dawn.
+
+<!-Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+
+
+
+
+
 

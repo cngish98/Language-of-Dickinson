@@ -1,25 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>F6A</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line>Adrift! A little boat adrift!</first_line>
+        <date period="">1858</date> 
+        <poem_number>F6A</poem_number>
+        <source> https://www.edickinson.org/editions/1/image_sets/12173327 </source>
+        <recipient></recipient>
+        <poem_themes>Nautical</poem_themes>
+    </metadata>
+    
     <body>
-        Adrift! A little boat adrift! 
-        And night is coming down! 
-        Will no one guide a little boat 
-        Unto the nearest town? 
-        
-        So sailors say - on yesterday - 
-        Just as the dusk was brown 
-        One little boat gave up it's strife 
-        And gurgled down and down. 
-        
-        So angels say - on yesterday - 
-        Just as the dawn was red 
-        One little boat - o'erspent with gales - 
-        Retrimmed it's masts - redecked it's sails - 
-        And shot - exultant on! 
+        <stanza>
+            <line> Adrift! A little boat adrift! </line>
+            <line> And <time>night</time> is coming down! </line>
+            <line> Will no one guide a little boat </line>
+            <line> Unto the nearest <place>town</place>? </line>
+        </stanza>
+        <stanza>
+            <line> So <character name="sailor">sailors</character> say - on <time>yesterday</time> - </line>
+            <line> Just as the <time>dusk</time> was <darkness>brown</darkness> </line>
+            <line> One little boat <loss>gave up</loss> it's strife </line>
+            <line> And gurgled down and down. </line>
+        </stanza>
+        <stanza>
+            <line> So <religion type="person">angels</religion> say - on <time>yesterday</time> - </line>
+            <line> Just as the <time>dawn</time> was <light>red</light> </line>
+            <line> One little boat - o'erspent with gales - </line>
+            <line> Retrimmed it's masts - redecked it's sails - </line>
+            <line> And shot - exultant on! </line>
+        </stanza>
     </body>
 </poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+Adrift! A little boat adrift! 
+And night is coming down! 
+Will no one guide a little boat 
+Unto the nearest town? 
+
+So sailors say - on yesterday - 
+Just as the dusk was brown 
+One little boat gave up it's strife 
+And gurgled down and down. 
+
+So angels say - on yesterday - 
+Just as the dawn was red 
+One little boat - o'erspent with gales - 
+Retrimmed it's masts - redecked it's sails - 
+And shot - exultant on! 
 

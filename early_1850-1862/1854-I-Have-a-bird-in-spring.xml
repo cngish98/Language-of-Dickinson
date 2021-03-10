@@ -1,11 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J5</number>
+    <metadata>
+        <first_line>I have a Bird in spring</first_line>
+        <date period="">1854</date> 
+        <poem_number>J5</poem_number>
+        <source> https://www.edickinson.org/editions/1/image_sets/12173317 </source>
         <recipient>Susan Dickinson</recipient>
-    </meta>
+        <poem_themes>Nature</poem_themes>
+    </metadata>
+    
     <body>
-        I have a Bird in spring 
+        <stanza> 
+            <line>I have a <animal animal_type="bird">Bird</animal> in <time>spring</time> </line>
+            <line>Which for myself doth <music>sing</music> -- </line>
+            <line>The <time>spring</time> decoys. </line>
+            <line>And as the <time>summer</time> nears -- </line>
+            <line>And as the <nature nature_type="general">Rose</nature> appears, </line>
+            <line><animal animal_type="bird">Robin</animal> is gone. </line>
+        </stanza>
+        
+        <stanza>
+            <line>Yet do I not repine </line>
+            <line>Knowing that <animal animal_type="bird">Bird</animal> of mine </line>
+            <line>Though flown -- </line>
+            <line>Learneth beyond the <nature nature_type="water">sea</nature> </line>
+            <line><music>Melody</music> new for me </line>
+            <line>And will return. </line>
+        </stanza>
+        
+        <stanza>
+            <line>Fast in a safer <physical_body>hand</physical_body> </line>
+            <line>Held in a truer <nature nature_type="earth">Land</nature> </line>
+            <line>Are mine -- </line>
+            <line>And though they now depart, </line>
+            <line>Tell I my doubting <love>heart</love> </line>
+            <line>They're thine. </line>
+        </stanza>
+        
+        <stanza>
+            <line>In a serener <light>Bright</light>, </line>
+            <line>In a more golden <light>light</light> </line>
+            <line>I see </line>
+            <line>Each little doubt and <emotion emotion_type="fear">fear</emotion>, </line>
+            <line>Each little discord here </line>
+            <line>Removed. </line>
+        </stanza>
+        
+        <stanza>
+            <line>Then will I not repine, </line>
+            <line>Knowing that <animal animal_type="bird">Bird</animal> of mine </line>
+            <line>Though flown </line>
+            <line>Shall in a distant <nature nature_type="general">tree</nature> </line>
+            <line><light>Bright</light> melody for me </line>
+            <line>Return. </line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+I have a Bird in spring 
         Which for myself doth sing -- 
         The spring decoys. 
         And as the summer nears -- 
@@ -39,5 +95,4 @@
         Shall in a distant tree 
         Bright melody for me 
         Return.  
-    </body>
-</poem>
+

@@ -1,11 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>F171A</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line>A fuzzy fellow, without feet</first_line>
+        <date period="early">1860</date> 
+        <poem_number>F171A</poem_number>
+        <source> https://www.edickinson.org/editions/1/image_sets/12173881 </source>
+        <recipient></recipient>
+        <poem_themes>Caterpillar</poem_themes>
+    </metadata>
+    
     <body>
-        A fuzzy fellow, without feet - 
+        <stanza> 
+            <line>A <animal>fuzzy fellow</animal>, without <physical_body>feet</physical_body> - </line>
+            <line>Yet doth exceeding run! </line>
+            <line>Of velvet, is his Countenance - </line>
+            <line>And his complexion, dun! </line>
+        </stanza>
+        <stanza>
+            <line>Sometime, he dwelleth in the <nature nature_type="earth">grass!</nature> </line>
+            <line>Sometime, opon a <nature nature_type="earth">bough</nature>, </line>
+            <line>From which he doth descend in plush </line>
+            <line>Opon the Passer-by! </line>
+        </stanza>
+        <stanza>
+            <line>All this in <time>summer</time> - </line>
+            <line>But when <nature nature_type="air">winds</nature> alarm the <character name="Forest Folk">Forest Folk</character>, </line>
+            <line>He taketh <nature nature_type="earth">Damask</nature> Residence - </line>
+            <line>And struts in s e wing silk! </line>
+        </stanza>
+        <stanza>
+            <line>Then, finer than a Lady, </line>
+            <line>Emerges in the <time>spring</time>! </line>
+            <line>A <nature nature_type="animal">Feather</nature> on each <physical_body>shoulder</physical_body>! </line>
+            <line>You'd scarce recognize him!</line>
+        </stanza>
+        <stanza>
+            <line>By men, yclept <animal animal_type="caterpillar">Caterpillar</animal>! </line>
+            <line>By me! But who am I, </line>
+            <line>To tell the pretty secret </line>
+            <line>Of the <animal animal_type="butterfly">Butterfly</animal>! </line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+ A fuzzy fellow, without feet - 
         Yet doth exceeding run! 
         Of velvet, is his Countenance - 
         And his complexion, dun! 
@@ -30,5 +71,10 @@
         By me! But who am I, 
         To tell the pretty secret 
         Of the Butterfly! 
-    </body>
-</poem>
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+
+
+

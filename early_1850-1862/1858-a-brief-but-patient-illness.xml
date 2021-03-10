@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>F22A</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line></first_line>
+        <date period="">1858</date> 
+        <poem_number>F22A</poem_number>
+        <source> https://www.edickinson.org/editions/1/image_sets/12173394 </source>
+        <recipient></recipient>
+        <poem_themes>Aferlife</poem_themes>
+    </metadata>
+    
     <body>
-        A brief, but patient illness - 
+        <stanza> 
+            <line>A brief, but patient illness - </line>
+            <line>An <time>hour</time> to prepare - </line>
+            <line>And one below, this <time>morning</time> </line>
+            <line>Is where the <religion type="person">angels</religion> are - </line>
+            <line>It was a short procession - </line>
+            <line>The <character name="Bobolink">Bobolink</character> was there - </line>
+            <line>An aged <character name="Bee"></character>Bee addressed us - </line>
+            <line>And then we knelt in <religion>prayer</religion> - </line>
+            <line>We trust that she was willing - </line>
+            <line>We ask that we may be - </line>
+            <line><time>Summer</time> - Sister - <religion type="person">Seraph!</religion> </line>
+            <line>Let us go with thee! </line>            
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+A brief, but patient illness - 
         An hour to prepare - 
         And one below, this morning 
         Is where the angels are - 
@@ -16,7 +42,4 @@
         We trust that she was willing - 
         We ask that we may be - 
         Summer - Sister - Seraph! 
-        Let us go with thee! 
-    </body>
-</poem>
-
+        Let us go with thee!

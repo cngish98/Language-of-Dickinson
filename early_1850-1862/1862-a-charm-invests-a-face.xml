@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J421</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line>A Charm invests a face</first_line>
+        <date period="early">1862</date> 
+        <poem_number>J421</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12170021 </source>
+        <recipient></recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
     <body>
+        <stanza> 
+            <line>A Charm invests a <physical_body>face</physical_body> </line>
+            <line>Imperfectly beheld -- </line>
+            <line>The Lady dare not lift her Vail </line>
+            <line>For <emotion emotion_type="fear">fear</emotion> it be dispelled -- </line>
+        </stanza>
+        
+        <stanza>
+            <line>But peers beyond her mesh -- </line>
+            <line>And wishes -- and denies -- </line>
+            <line>Lest Interview -- annul a want </line>
+            <line>That Image -- satisfies -- </line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
         A Charm invests a face 
         Imperfectly beheld -- 
         The Lady dare not lift her Vail 
@@ -14,6 +39,11 @@
         And wishes -- and denies -- 
         Lest Interview -- annul a want 
         That Image -- satisfies -- 
-    </body>
-</poem>
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->
+
+
 

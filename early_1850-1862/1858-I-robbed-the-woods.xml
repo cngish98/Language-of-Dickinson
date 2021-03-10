@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J41</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line></first_line>
+        <date period="early">1858</date> 
+        <poem_number>J41</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169129 </source>
+        <recipient></recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
     <body>
-        I robbed the Woods 
-        The trusting Woods. 
-        The unsuspecting Trees 
-        Brought out their 
-        Burs and mosses 
-        My fantasy to please. 
-        I scanned their trinkets curious -- 
-        I grasped -- I bore away -- 
-        What will the solemn Hemlock -- 
-        What will the Oak tree say?
+        <stanza> 
+            <line> I robbed the <nature nature_type="earth">Woods</nature> </line>
+            <line> The <nature nature_type="earth">trusting Woods</nature>. </line>
+            <line> The unsuspecting <nature nature_type="earth">Trees</nature> </line>
+            <line> Brought out their </line>
+            <line> Burs and <nature nature_type="earth">mosses</nature> </line>
+            <line> My fantasy to please. </line>
+            <line> I scanned their trinkets curious -- </line>
+            <line> I grasped -- I bore away -- </line>
+            <line> What will the <emotion emotion_type="sadness">solemn</emotion> <nature nature_type="earth">Hemlock</nature> -- </line>
+            <line> What will the <nature nature_type="earth">Oak tree</nature> say?</line>
+        </stanza>
     </body>
 </poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+I robbed the Woods 
+The trusting Woods. 
+The unsuspecting Trees 
+Brought out their 
+Burs and mosses 
+My fantasy to please. 
+I scanned their trinkets curious - 
+I grasped - I bore away - 
+What will the solemn Hemlock - 
+What will the Oak tree say? 
+
+<!-Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->

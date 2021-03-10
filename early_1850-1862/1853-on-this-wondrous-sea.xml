@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>F3B</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line>On this wondrous sea - sailing silently</first_line>
+        <date period="early">1853</date> 
+        <poem_number>F3B</poem_number>
+        <source> https://www.edickinson.org/editions/1/image_sets/12173315 </source>
+        <recipient></recipient>
+        <poem_themes>Nautical</poem_themes>
+    </metadata>
+    
     <body>
-        On this wondrous sea - sailing silently - 
-        Ho! Pilot! Ho! 
-        Knowest thou the shore 
-        Where no breakers roar - 
-        Where the storm is o'er? 
+        <stanza> 
+                <line>On this wondrous <nature nature_type="water">sea</nature> - sailing silently</line> - 
+                <line>Ho! Pilot! Ho! </line>
+                <line>Knowest thou the <nature nature_type="water">shore</nature> </line>
+                <line>Where no breakers roar - </line>
+                <line>Where the <nature nature_type="general">storm</nature> is o'er? </line>
+        </stanza>
         
-        In the silent West 
-        Many - the sails at rest - 
-        The anchors fast. 
-        Thither I pilot thee - 
-        Land! Ho! Eternity! 
-        Ashore at last! 
+        <stanza> 
+                <line>In the silent <place>West</place> </line>
+                <line>Many - the sails at rest - </line>
+                <line>The anchors fast. </line>
+                <line>Thither I pilot thee - </line>
+                <line>Land! Ho! Eternity! </line>
+                <line>Ashore at last! </line> 
+        </stanza>
     </body>
 </poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+On this wondrous sea - sailing silently - 
+Ho! Pilot! Ho! 
+Knowest thou the shore 
+Where no breakers roar - 
+Where the storm is o'er? 
+
+In the silent West 
+Many - the sails at rest - 
+The anchors fast. 
+Thither I pilot thee - 
+Land! Ho! Eternity! 
+Ashore at last!
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->
+

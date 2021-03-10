@@ -1,4 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <first_line></first_line>
+        <date period="early">1852</date> 
+        <poem_number>F2A</poem_number>
+        <source> https://www.edickinson.org/editions/1/image_sets/12173309 </source>
+        <recipient></recipient>
+        <poem_themes>Triumph</poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>Sic transit gloria mundi</line> 
+            <line>"How doth the busy <animal animal_type="bee">bee</animal>"</line> 
+            <line>Dum vivamus vivamus</line> 
+            <line>I stay mine enemy!</line> 
+        </stanza>
+        
+        <stanza>
+            <line>Oh veni vidi vici!</line> 
+            <line>Oh caput cap-a-pie!</line> 
+            <line>And oh "memento mori"</line> 
+            <line>When I am far from thee</line> 
+        </stanza>
+        
+        <stanza>
+            <line>Hurrah for <character name="Petey Parley">Peter Parley</character></line> 
+            <line>Hurrah for <character name="Daniel Boone">Daniel Boone</character></line> 
+            <line>Three cheers sir, for the gentleman</line> 
+            <line>Who first observed the <nature nature_type="general">moon</nature></line> 
+        </stanza>
+        
+        <stanza>
+            <line><character name="Peter">Peter</character> put up the sunshine!</line> 
+            <line><character name="Pattie">Pattie</character> arrange the <nature nature_type="space"></nature>stars</line> 
+            <line>Tell Luna, <eating>tea</eating> is waiting</line> 
+            <line>And call your <character name="Mars">brother Mars</character></line> 
+        </stanza>
+        
+        <stanza>
+            <line>Put down the <eating>apple</eating> <character name="Adam">Adam</character></line> 
+            <line>And come away with me</line> 
+            <line>So shal't thou have a pippin</line> 
+            <line>From off my Father's <nature nature_type="general">tree!</nature></line> 
+        </stanza>
+        
+        <stanza>
+            <line>I climb the <science>"Hill of Science"</science></line> 
+            <line>I "view the Landscape o'er"</line> 
+            <line>Such transcendental prospect</line> 
+            <line>I ne'er beheld before!</line> 
+        </stanza>
+        
+        <stanza>
+            <line>Unto the <law>Legislature</law></line> 
+            <line>My country bids me go,</line> 
+            <line>I'll take my india rubbers</line> 
+            <line>In case the <nature nature_type="air">wind</nature> should blow.</line> 
+        </stanza>
+        
+        <stanza>
+            <line><memory>During my education</memory></line> 
+            <line>It was announced to me</line> 
+            <line>That <science>gravitation</science> stumbling</line> 
+            <line>Fell from an <nature nature_type="general">apple tree</nature></line> 
+        </stanza>
+        
+        <stanza>
+            <line>The <nature nature_type="earth">Earth</nature> opon it's axis</line> 
+            <line>Was once supposed to turn</line> 
+            <line>By way of a gymnastic</line> 
+            <line>In honor to the <nature nature_type="space">sun</nature></line> 
+        </stanza>
+        
+        <stanza>
+            <line>It was the brave <character name="Colombus">Columbus</character></line> 
+            <line>A sailing o'er the tide</line> 
+            <line>Who notified the nations</line> 
+            <line>Of where I would reside</line> 
+        </stanza>
+        
+        <stanza>
+            <line>Mortality is <death>fatal</death></line> 
+            <line>Gentility is fine</line> 
+            <line>Rascality, heroic</line> 
+            <line>Insolvency, sublime</line>
+        </stanza>
+        
+        <stanza>    
+            <line>Our Fathers being <emotion>weary</emotion></line> 
+            <line>Laid down on Bunker Hill</line> 
+            <line>And though full many a <time>morn'g</time></line> 
+            <line>Yet they are sleeping still</line> 
+        </stanza>
+        
+        <stanza>
+            <line>The <music>trumpet</music> sir, shall wake them</line> 
+            <line>In <nature nature_type="water">streams</nature> I see them rise</line> 
+            <line>Each with a solemn musket</line> 
+            <line>A marching to the <nature nature_type="general">skies!</nature></line> 
+        </stanza>
+        
+        <stanza>
+            <line>A coward will remain, Sir,</line> 
+            <line>Until the fight is done;</line> 
+            <line>But an immortal hero</line> 
+            <line>Will take his hat and run.</line> 
+        </stanza>
+        
+        <stanza>
+            <line>Good bye Sir, I am going</line> 
+            <line>My country calleth me</line> 
+            <line>Allow me Sir, at parting</line> 
+            <line>To wipe my weeping <physical_body>e'e</physical_body></line> 
+        </stanza>
+        
+        <stanza>
+            <line>In token of our friendship</line> 
+            <line>Accept this <character name="Bonnie Doon">"Bonnie Doon"</character></line> 
+            <line>And when the hand that pluck'd it</line> 
+            <line>Hath passed beyond the <nature nature_type="space">moon</nature></line> 
+        </stanza>
+        
+        <stanza>
+            <line>The memory of <death>my ashes</death></line> 
+            <line>Will consolation be</line> 
+            <line>Then farewell Tuscarora</line> 
+            <line>And farewell Sir, to thee.</line> 
+        </stanza>    
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+-->
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->
+
 <poem>
     <meta>
         <number>F2A</number>

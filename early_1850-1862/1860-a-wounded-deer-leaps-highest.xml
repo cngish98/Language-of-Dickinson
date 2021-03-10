@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J165</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line>A Wounded Deer -- leaps highest</first_line>
+        <date period="early">1860</date> 
+        <poem_number>J165</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169409 </source>
+        <recipient></recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
     <body>
-        A Wounded Deer -- leaps highest -- 
+        <stanza> 
+            <line>A Wounded <animal animal_type="deer">Deer</animal> -- leaps highest -- </line>
+            <line>I've heard the <character name="Hunter" judgment="neutral">Hunter</character> tell -- </line>
+            <line>'Tis but the Extasy of <death>death</death> -- </line>
+            <line>And then the Brake is still! </line>
+        </stanza>
+        
+        <stanza>
+            <line>The Smitten <nature nature_type="earth">Rock</nature> that gushes! </line>
+            <line>The trampled Steel that springs! </line>
+            <line>A <physical_body>Cheek</physical_body> is always redder </line>
+            <line>Just where the Hectic stings! </line>
+        </stanza>
+        
+        <stanza>
+            <line>Mirth is the Mail of <emotion emotion_type="anguish">Anguish</emotion> -- </line>
+            <line>In which it Cautious <physical_body>Arm</physical_body>, </line>
+            <line>Lest anybody spy the blood </line>
+            <line>And "you're hurt" exclaim! </line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+ A Wounded Deer -- leaps highest -- 
         I've heard the Hunter tell -- 
         'Tis but the Extasy of death -- 
         And then the Brake is still! 
@@ -19,6 +51,11 @@
         In which it Cautious Arm, 
         Lest anybody spy the blood 
         And "you're hurt" exclaim! 
-    </body>
-</poem>
 
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->
+
+
+\

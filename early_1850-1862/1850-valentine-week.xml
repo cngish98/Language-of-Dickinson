@@ -1,11 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J1</number>
+    <metadata>
+        <first_line>Valentine Week</first_line>
+        <date period="early">1850</date> 
+        <poem_number>J1</poem_number>
+        <source>https://www.edickinson.org/editions/2/image_sets/12169032</source>
         <recipient>Elbridge Gridley Bowdoin</recipient>
-    </meta>
+        <poem_themes></poem_themes>
+    </metadata>
+    
     <body>
-        Valentine week
+        <stanza>
+            <line>Valentine week</line> 
+            <line>Awake ye muses nine, sing me a strain divine,</line> 
+            <line>Unwind the solemn twine, and tie my Valentine!</line>
+        </stanza>
+        
+        <stanza>
+            <line>Oh the Earth was made for <love love_type="romantic">lovers</love>, for damsel, and <emotion>hopeless</emotion> swain,</line> 
+            <line>For sighing, and gentle whispering, and unity made of twain.</line> 
+            <line>All things do go a courting, in <nature nature_type="general">earth</nature>, or <nature nature_type="general">sea</nature>, or <nature nature_type="general">air</nature>,</line> 
+            <line><religion type="person">God</religion> hath made nothing single but thee in <religion type="person">His</religion> world so fair!</line> 
+            <line>The bride, and then the bridegroom, the two, and then the one,</line> 
+            <line><religion type="person">Adam</religion>, and <religion type="person">Eve</religion>, his consort, the <nature nature_type="general">moon</nature>, and then the <nature nature_type="general">sun</nature>;</line> 
+            <line>The <life>life</life> doth prove the precept, who obey shall <emotion emotion_type="happiness>">happy</emotion> be,</line> 
+            <line>Who will not serve the sovreign, be hanged on <death>fatal</death> <nature nature_type="general">tree</nature>.</line> 
+            <line>The high do seek the lowly, the great do seek the small,</line> 
+            <line>None cannot find who seeketh, on this terrestial ball;</line> 
+            <line>The <animal animal_type="bee">bee</animal> doth court the <nature nature_type="general">flower</nature>, the <nature nature_type="general">flower</nature> his suit receives,</line> 
+            <line>And they make merry wedding, whose guests are hundred <nature nature_type="general">leaves</nature>;</line> 
+            <line>The <nature nature_type="air">wind</nature> doth woo the branches, the branches they are won,</line> 
+            <line>And the father fond demandeth the maiden for his son.</line> 
+            <line>The <nature nature_type="general">storm</nature> doth walk the <nature nature_type="general">seashore</nature> humming a <death>mournful</death> <music>tune</music>,</line> 
+            <line>The <nature nature_type="water">wave</nature> with eye so pensive, looketh to see the <nature nature_type="general">moon</nature>,</line> 
+            <line>Their spirits meet together, they make them solemn vows,</line> 
+            <line>No more he <music>singeth</music> <death>mournful</death>, her <emotion emotion_type="sadness">sadness</emotion> she doth lose.</line> 
+            <line>The <animal animal_type="worm">worm</animal> doth woo the mortal, <death>death</death> claims a <life>living</life> bride,</line> 
+            <line><time>Night</time> unto <time>day</time> is married, <time>morn</time> unto <time>eventide</time>;</line> 
+            <line><nature nature_type="general">Earth</nature> is a <emotion emotion_type="hapiness">merry</emotion> damsel, and <religion>heaven</religion> a knight so true,</line> 
+            <line>And <nature nature_type="general">Earth</nature> is quite coquettish, and beseemeth in vain to sue.</line> 
+            <line>Now to the application, to the reading of the roll,</line> 
+            <line>To bringing thee to justice, and marshalling thy <religion>soul</religion>:</line> 
+            <line>Thou art a human solo, a being cold, and lone,</line> 
+            <line>Wilt have no kind companion, thou reap'st what thou hast sown.</line> 
+            <line>Hast never silent hours, and <time>minutes</time> all too long,</line> 
+            <line>And a deal of <emotion emotion_type="sadness">sad</emotion> reflection, and wailing instead of <music>song?</music></line> 
+            <line>There's <character name="Sarah">Sarah</character>, and <character name="Eliza">Eliza</character>, and <character name="Emeline">Emeline</character> so fair,</line> 
+            <line>And <character name="Harriet">Harriet</character>, and <character name="Susan">Susan</character>, and she with curling hair!</line> 
+            <line>Thine eyes are <emotion emotion_type="sadness">sadly</emotion> blinded, but yet thou mayest see</line> 
+            <line>Six true, and comely maidens sitting upon the <nature nature_type="general">tree</nature>;</line>
+            <line>Approach that <nature nature_type="general">tree</nature> with caution, then up it boldly climb,</line> 
+            <line>And seize the one thou <love>lovest</love>, nor care for space, or time!</line> 
+            <line>Then bear her to the greenwood, and build for her a bower,</line> 
+            <line>And give her what she asketh, jewel, or <animal animal_type="bird">bird</animal>, or <nature nature_type="general">flower</nature> --</line> 
+            <line>And bring the fife, and <music>trumpet</music>, and beat upon the <music>drum</music> --</line> 
+            <line>And bid the world Goodmorrow, and go to glory home! </line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+Valentine week
         Awake ye muses nine, sing me a strain divine,
         Unwind the solemn twine, and tie my Valentine!
         
@@ -47,5 +105,13 @@
         And give her what she asketh, jewel, or bird, or flower --
         And bring the fife, and trumpet, and beat upon the drum --
         And bid the world Goodmorrow, and go to glory home!
-    </body>
-</poem>
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->
+
+
+
+
+

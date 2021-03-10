@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <first_line></first_line>
+        <date period="early">1861</date> 
+        <poem_number>F254A</poem_number>
+        <source> https://www.edickinson.org/editions/1/image_sets/12174149 </source>
+        <recipient></recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        
+        <stanza> 
+            <line>A Mien to move a <social_class>Queen</social_class> -</line> 
+            <line>Half Child - Half Heroine</line> - 
+            <line>An Orleans in the <physical_body>eye</physical_body></line> 
+            <line>That puts it's manner by</line> 
+            <line>For humbler Company</line> 
+            <line>When none are near</line> 
+            <line>Even a <emotion emotion_type="sadness">Tear</emotion> - </line>
+            <line>It's frequent Visitor - </line>
+        </stanza>
+        <stanza>
+            <line>A Bonnet like a <social_class>Duke</social_class> - </line>
+            <line>And yet a <animal animal_type="bird">Wren's</animal> Peruke</line>
+            <line>Were not so shy</line> 
+            <line>Of Goer by -</line> 
+            <line>And Hands - so slight,</line> 
+            <line>They would <emotion emotion_type="happiness">elate</emotion> a sprite</line> 
+            <line>With <emotion emotion_type="happiness">merriment</emotion> -</line> 
+        </stanza>
+        <stanza>
+            <line>A Voice that alters - Low</line>
+            <line>And on the <physical_body>ear</physical_body> can go</line>
+            <line>Like Let of <nature nature_type="general">Snow</nature> -</line>
+            <line>Or shift supreme -</line>
+            <line>As tone of <place>Realm</place></line>
+            <line>On Subjects <social_class>Diadem</social_class> -</line>
+        </stanza>
+        <stanza>
+            <line>Too small - to <emotion emotion_type="fear">fear</emotion> -</line>
+            <line>Too distant - to endear -</line>
+            <line>And so Men Compromise -</line>
+            <line>And Men - too Brigadier - And just - revere - </line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+A Mien to move a Queen - 
+Half Child - Half Heroine - 
+An Orleans in the eye 
+That puts it's manner by 
+For humbler Company 
+When none are near 
+Even a Tear - 
+It's frequent Visitor - 
+
+A Bonnet like a Duke - 
+And yet a Wren's Peruke 
+Were not so shy 
+Of Goer by - 
+And Hands - so slight, 
+They would elate a sprite 
+With merriment - 
+
+A Voice that alters - Low 
+And on the ear can go 
+Like Let of Snow - 
+Or shift supreme - 
+As tone of Realm 
+On Subjects Diadem -
+
+Too small - to fear - 
+Too distant - to endear - 
+And so Men Compromise - 
+And Men - too Brigadier - And just - revere - 
+-->
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->

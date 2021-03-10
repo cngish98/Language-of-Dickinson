@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J148</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line>All overgrown by cunning moss,</first_line>
+        <date period="early">1859</date> 
+        <poem_number>J148</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169261 </source>
+        <recipient></recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
     <body>
+        <stanza> 
+            <line>All overgrown by cunning <nature nature_type="earth">moss</nature>, </line>
+            <line>All interspersed with <nature nature_type="earth">weed</nature>, </line>
+            <line>The little cage of <writing>"Currer Bell"</writing> </line>
+            <line>In quiet <writing>"Haworth"</writing> laid. </line>
+        </stanza>
+        
+        <stanza>
+            <line>This <animal animal_type="bird">Bird</animal> -- observing others </line>
+            <line>When <nature nature_type="general">frosts</nature> too sharp became </line>
+            <line>Retire to other <place>latitudes</place> -- </line>
+            <line>Quietly did the same -- </line>
+        </stanza>
+        
+        <stanza>
+            <line>But differed in returning -- </line>
+            <line>Since <place>Yorkshire</place> <nature nature_type="earth">hills</nature> are green -- </line>
+            <line>Yet not in all the <nature nature_type="animal">nests</nature> I meet -- </line>
+            <line>Can <animal animal_type="bird">Nightingale</animal> be seen -- </line>
+        </stanza>
+        
+        <stanza>
+            <line>Or -- </line>
+        </stanza>
+        
+        <stanza>
+            <line>Gathered from many wanderings -- </line>
+            <line><place>Gethsemane</place> can tell </line>
+            <line>Thro' what transporting <emotion emotion_type="anguish">anguish</emotion> </line>
+            <line>She reached the <place>Asphodel</place>! </line>
+        </stanza>
+        
+        <stanza>
+            <line>Soft fall the sounds of <place>Eden</place> </line>
+            <line>Upon her puzzled <physical_body>ear</physical_body> -- </line>
+            <line>Oh what an <time>afternoon</time> for <religion type="place">Heaven</religion>, </line>
+            <line>When <character name="Bronte">"Bronte"</character> entered there!</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
         All overgrown by cunning moss, 
         All interspersed with weed, 
         The little cage of "Currer Bell" 
@@ -30,6 +80,8 @@
         Soft fall the sounds of Eden 
         Upon her puzzled ear -- 
         Oh what an afternoon for Heaven, 
-        When "Bronte" entered there! 
-    </body>
-</poem>
+        When "Bronte" entered there!
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>

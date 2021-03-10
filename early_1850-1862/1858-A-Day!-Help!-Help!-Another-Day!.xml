@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J42</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line>A Day! Help! Help! Another Day!</first_line>
+        <date period="early">1858</date> 
+        <poem_number>J42</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169129 </source>
+        <recipient></recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
     <body>
-        A Day! Help! Help! Another Day! 
-        Your prayers, oh Passer by! 
-        From such a common ball as this 
-        Might date a Victory! 
-        From marshallings as simple 
-        The flags of nations swang. 
-        Steady -- my soul: What issues 
-        Upon thine arrow hang! 
+        <stanza> 
+                <line>A Day! Help! Help! Another Day! </line>
+                <line>Your <religion>prayers</religion>, oh Passer by! </line>
+                <line>From such a common ball as this </line>
+                <line><uncertainty>Might</uncertainty> <time>date</time> a Victory! </line>
+                <line>From <law>marshallings</law> as simple </line>
+                <line>The flags of nations swang. </line>
+                <line>Steady -- my <religion type="thing">soul</religion>: What issues </line>
+                <line>Upon thine arrow hang!</line>           
+        </stanza>
     </body>
 </poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+A Day! Help! Help! Another Day! 
+Your prayers, oh Passer by! 
+From such a common ball as this 
+Might date a Victory! 
+From marshallings as simple 
+The flags of nations swang. 
+Steady - my soul: What issues 
+Upon thine arrow hang! 
 

@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>F21A</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line></first_line>
+        <date period="early">1858</date> 
+        <poem_number>F21A</poem_number>
+        <source> https://www.edickinson.org/editions/1/image_sets/12173394 </source>
+        <recipient></recipient>
+        <poem_themes>Nature</poem_themes>
+    </metadata>
+    
     <body>
-        The Gentian weaves her fringes - 
-        The Maple's loom is red - 
-        My departing blossoms 
-        Obviate parade. ! 
+        <stanza> 
+            <line>The <nature nature_type="earth">Gentian</nature> weaves her fringes - </line>
+            <line>The <nature nature_type="earth">Maple's</nature> loom is red - </line>
+            <line>My departing <nature nature_type="earth">blossoms</nature> </line>
+            <line>Obviate parade. </line>
+        </stanza>
     </body>
 </poem>
 
+<!--POST PLAIN TEXT OF POEM BELOW 
 
+The Gentian weaves her fringes - 
+The Maple's loom is red - 
+My departing blossoms 
+Obviate parade. 
+
+<!-Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->

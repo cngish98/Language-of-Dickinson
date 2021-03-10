@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>F25</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line>A sepal - petal - and a thorn</first_line>
+        <date period="early">1858</date> 
+        <poem_number>J19</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169078 </source>
+        <recipient></recipient>
+        <poem_themes>Nature</poem_themes>
+    </metadata>
+    
     <body>
+        <stanza> 
+            <line> A <nature nature_type="earth">sepal</nature> - <nature nature_type="earth">petal</nature> - and a <nature nature_type="earth">thorn</nature> </line>
+            <line> Opon a common <time>summer's morn</time> - </line>
+            <line> A flask of <nature nature_type="general">Dew</nature> - A <animal animal_type="bee">Bee</animal> or two - </line>
+            <line> A <nature nature_type="air">Breeze</nature> - a'caper in the <nature nature_type="earth">trees</nature> - </line>
+            <line> And I'm a <nature nature_type="earth">Rose!</nature> </line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
         A sepal - petal - and a thorn 
         Opon a common summer's morn - 
         A flask of Dew - A Bee or two - 
         A Breeze - a'caper in the trees - 
         And I'm a Rose! 
-    </body>
-</poem>
-
 

@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>F24B</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line></first_line>
+        <date period="early">1858</date> 
+        <poem_number>F24B</poem_number>
+        <source> https://www.edickinson.org/editions/1/image_sets/12173402 </source>
+        <recipient></recipient>
+        <poem_themes>Nature</poem_themes>
+    </metadata>
+    
     <body>
-        Frequently the woods are pink - 
-        Frequently, are brown. 
-        Frequently the hills undress 
-        Behind my native town - 
-        Oft a head is crested 
-        I was wont to see - 
-        And as oft a cran n y 
-        Where it used to be - 
-        And the Earth - they tell me 
-        On it's axis turned! 
-        Wonderful 
-        By but twelve performed! 
+        <stanza>
+            <line>Frequently the <nature nature_type="earth">woods</nature> are pink - </line>
+            <line>Frequently, are brown. </line>
+            <line>Frequently the <nature nature_type="earth">hills</nature> undress </line>
+            <line>Behind my native <place>town</place> - </line>
+            <line>Oft a <physical_body>head</physical_body> is crested </line>
+            <line>I was wont to see - </line>
+            <line>And as oft a cran n y </line>
+            <line>Where it used to be - </line>
+            <line>And the <nature nature_type="earth">Earth</nature> - they tell me </line>
+            <line>On it's axis turned! </line>
+            <line>Wonderful </line>
+            <line>By but twelve performed!</line>
+        </stanza>
+        
     </body>
 </poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+Frequently the woods are pink - 
+Frequently, are brown. 
+Frequently the hills undress 
+Behind my native town - 
+Oft a head is crested 
+I was wont to see - 
+And as oft a cran n y 
+Where it used to be - 
+And the Earth - they tell me 
+On it's axis turned! 
+Wonderful 
+By but twelve performed! 
 

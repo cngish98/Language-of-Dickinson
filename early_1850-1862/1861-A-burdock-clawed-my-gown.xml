@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J229</number>
+    <metadata>
+        <first_line>A Burdock -- clawed my Gown</first_line>
+        <date period="early">1861</date> 
+        <poem_number>J229</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169556 </source>
         <recipient>Austin Dickinson</recipient>
-    </meta>
+        <poem_themes></poem_themes>
+    </metadata>
+    
     <body>
-        A Burdock -- clawed my Gown -- 
+        <stanza> 
+            <line>A <nature nature_type="earth">Burdock</nature> -- clawed my Gown -- </line>
+            <line>Not <nature nature_type="earth">Burdock's</nature> -- blame -- </line>
+            <line>But mine -- </line>
+            <line>Who went too near </line>
+            <line>The <nature nature_type="earth">Burdock's Den</nature> -- </line>
+        </stanza>
+        
+        <stanza>
+            <line><nature nature_type="water">A Bog</nature> -- affronts my shoe -- </line>
+            <line>What else have <nature nature_type="water">Bogs</nature> -- to do -- </line>
+            <line>The only Trade they know -- </line>
+            <line>The splashing Men! </line>
+            <line>Ah, pity -- then! </line>
+        </stanza>
+        
+        <stanza>
+            <line>'Tis <animal animal_type="minnow">Minnows</animal> can despise! </line>
+            <line>The <animal animal_type="elephants">Elephants</animal> -- calm <physical_body>eyes</physical_body> </line>
+            <line>Look further on! </line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+A Burdock -- clawed my Gown -- 
         Not Burdock's -- blame -- 
         But mine -- 
         Who went too near 
@@ -20,6 +53,11 @@
         'Tis Minnows can despise! 
         The Elephants -- calm eyes 
         Look further on! 
-        
-    </body>
-</poem>
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->
+
+
+

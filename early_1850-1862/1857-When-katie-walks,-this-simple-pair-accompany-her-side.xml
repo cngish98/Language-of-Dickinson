@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J222</number>
+    <metadata>
+        <first_line></first_line>
+        <date period="early">1857</date> 
+        <poem_number>J222</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169539 </source>
         <recipient>Catherine Scott Turner Anthon</recipient>
-    </meta>
+        <poem_themes>Love</poem_themes>
+    </metadata>
+    
     <body>
-        When Katie walks, this simple pair accompany her side, 
+        <stanza> 
+            <line>When <character name="Katie">Katie</character> walks, this simple pair accompany her side,</line> 
+            <line>When <character name="Katie">Katie</character> runs unwearied they follow on the road,</line> 
+            <line>When <character name="Katie">Katie</character> kneels, their <love>loving</love> <physical_body>hands</physical_body> still clasp her <physical_body body_type="pious">pious knee</physical_body></line> 
+        </stanza>
+        
+        <stanza>
+            <line>Ah! <character name="Katie">Katie!</character> <emotion emotion_type="happiness">Smile</emotion> at <wealth>Fortune</wealth>, with two so knit to thee!</line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+    When Katie walks, this simple pair accompany her side, 
         When Katie runs unwearied they follow on the road, 
         When Katie kneels, their loving hands still clasp her pious knee 
         -- 
         Ah! Katie! Smile at Fortune, with two so knit to thee! 
-    </body>
-</poem>

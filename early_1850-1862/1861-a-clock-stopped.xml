@@ -1,11 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J287</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line>A Clock stopped</first_line>
+        <date period="early">1861</date> 
+        <poem_number>J287</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169691 </source>
+        <recipient></recipient>
+        <poem_themes>Time</poem_themes>
+    </metadata>
+    
     <body>
-        A Clock stopped -- 
+        <stanza> 
+            <line>A <time>Clock stopped</time> -- </line>
+            <line>Not the Mantel's -- </line>
+            <line>Geneva's farthest skill </line>
+            <line>Cant put the puppet bowing -- </line>
+            <line>That just now dangled still -- </line>
+        </stanza>
+        
+        <stanza>
+            <line>An awe came on the Trinket! </line>
+            <line>The Figures hunched, With <emotion emotion_type="pain">pain</emotion> -- </line>
+            <line>Then quivered out of Decimals -- </line>
+            <line>Into Degreeless <time>Noon</time> -- </line>
+        </stanza>
+        
+        <stanza>
+            <line>It will not stir for <social_class>Doctor's </social_class>-- </line>
+            <line>This Pendulum of <nature nature_type="general">snow</nature> -- </line>
+            <line>The Shopman importunes it -- </line>
+            <line>While cool -- concernless No -- </line>
+        </stanza>
+        
+        <stanza>
+            <line>stares Nods from the <wealth>Gilded</wealth> pointers -- </line>
+            <line>Nods from the <time>Seconds</time> slim -- </line>
+            <line>Decades of Arrogance between </line>
+            <line>The Dial life -- </line>
+            <line>And Him -- </line>           
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+A Clock stopped -- 
         Not the Mantel's -- 
         Geneva's farthest skill 
         Cant put the puppet bowing -- 
@@ -26,7 +67,12 @@
         Decades of Arrogance between 
         The Dial life -- 
         And Him -- 
-        
-    </body>
-</poem>
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->
+
+
+
 

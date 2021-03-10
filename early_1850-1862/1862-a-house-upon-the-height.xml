@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J399</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line></first_line>
+        <date period="early">1862</date> 
+        <poem_number></poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169971 </source>
+        <recipient></recipient>
+        <poem_themes>Death</poem_themes>
+    </metadata>
+    
     <body>
+        <stanza> 
+            <line>A House upon the Hight -- </line>
+            <line>That Wagon never reached -- </line>
+            <line>No <death>Dead</death>, were ever carried down -- </line>
+            <line>No Peddler's Cart -- approached -- </line>
+        </stanza>
+        
+        <stanza>
+            <line>Whose Chimney never smoked -- </line>
+            <line>Whose Windows -- <time>Night</time> and <time>Morn</time> -- </line>
+            <line>Caught <nature nature_type="space">Sunrise</nature> first -- and <nature nature_type="space">Sunset</nature> -- last -- </line>
+            <line>Then -- held an Empty Pane -- </line>
+        </stanza>
+        
+        <stanza>
+            <line>Whose <death>fate</death> -- Conjecture knew -- </line>
+            <line>No other neighbor -- did -- </line>
+            <line>And what it was -- we never lisped -- </line>
+            <line>Because He -- never told -- </line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
         A House upon the Hight -- 
         That Wagon never reached -- 
         No Dead, were ever carried down -- 
@@ -19,6 +51,14 @@
         No other neighbor -- did -- 
         And what it was -- we never lisped -- 
         Because He -- never told -- 
-    </body>
-</poem>
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->
+
+
+
+
+
 

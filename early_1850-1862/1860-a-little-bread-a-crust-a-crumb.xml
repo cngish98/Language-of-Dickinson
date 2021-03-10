@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem>
+    <metadata>
+        <first_line>A little Bread -- a crust -- a crumb --</first_line>
+        <date period="early">1860</date> 
+        <poem_number>J159</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169396 </source>
+        <recipient>Susan Dickinson</recipient>
+        <poem_themes></poem_themes>
+    </metadata>
+    
+    <body>
+        <stanza> 
+            <line>A little Bread -- a crust -- a crumb --</line> 
+            <line>A little trust -- a demijohn --</line> 
+            <line>Can keep the soul alive --</line> 
+            <line>Not portly, mind! but breathing -- warm --</line> 
+            <line>Conscious -- as old Napoleon,</line> 
+            <line>The night before the Crown!</line> 
+        </stanza>
+        <stanza>
+            <line>A modest lot -- A fame petite --</line> 
+            <line>A brief Campaign of sting and sweet</line> 
+            <line>Is plenty! Is enough!</line> 
+            <line>A Sailor's business is the shore</line> 
+            <line>A Soldier's -- balls! Who asketh more,</line> 
+            <line>Must seek the neighboring life!</line> 
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+A little Bread -- a crust -- a crumb -- 
+A little trust -- a demijohn -- 
+Can keep the soul alive -- 
+Not portly, mind! but breathing -- warm -- 
+Conscious -- as old Napoleon, 
+The night before the Crown! 
+
+A modest lot -- A fame petite -- 
+A brief Campaign of sting and sweet 
+Is plenty! Is enough! 
+A Sailor's business is the shore 
+A Soldier's -- balls! Who asketh more, 
+Must seek the neighboring life! 
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->

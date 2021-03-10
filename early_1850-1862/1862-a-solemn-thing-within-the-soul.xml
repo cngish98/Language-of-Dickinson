@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J483</number>
-        <recipient>none</recipient>
-    </meta>
+    <metadata>
+        <first_line>A Solemn thing within the Soul</first_line>
+        <date period="early">1862</date> 
+        <poem_number>J483</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12170168 </source>
+        <recipient></recipient>
+        <poem_themes>Mystical</poem_themes>
+    </metadata>
+    
     <body>
+        <stanza> 
+            <line>A Solemn thing within the <religion type="thing">Soul</religion> </line>
+            <line>To feel itself get ripe -- </line>
+            <line>And <wealth>golden</wealth> hang -- while farther up -- </line>
+            <line>The Maker's Ladders stop -- </line>
+            <line>And in the <nature nature_type="earth">Orchard</nature> far below -- </line>
+            <line>You hear a Being -- drop -- </line>
+        </stanza>
+        
+        <stanza>
+            <line>A Wonderful -- to feel the </line>
+            <line><nature nature_type="space">Sun</nature> Still toiling at the Cheek </line>
+            <line>You thought was finished -- </line>
+            <line>Cool of eye, and critical of Work -- </line>
+            <line>He shifts the stem -- a little -- </line>
+            <line>To give your Gore -- a look -- </line>
+        </stanza>
+        
+        <stanza
+            <line>But <emotion emotion_type="solemn">solemnest</emotion> -- to know </line>
+            <line>Your chance in <nature nature_type="general">Harvest</nature> moves </line>
+            <line>A little nearer -- Every <nature nature_type="space">Sun</nature> </line>
+            <line>The Single -- to some <life>lives</life>. </line>
+        </stanza>
+    </body>
+</poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
         A Solemn thing within the Soul 
         To feel itself get ripe -- 
         And golden hang -- while farther up -- 
@@ -23,6 +59,10 @@
         Your chance in Harvest moves 
         A little nearer -- Every Sun 
         The Single -- to some lives. 
-        
-    </body>
-</poem>
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+ -->
+
+

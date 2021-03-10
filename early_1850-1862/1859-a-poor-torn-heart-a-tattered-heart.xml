@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <poem>
-    <meta>
-        <number>J78</number>
+    <metadata>
+        <first_line>A poor -- torn heart -- a tattered heart -- </first_line>
+        <date period="early">1859</date> 
+        <poem_number>J78</poem_number>
+        <source> https://www.edickinson.org/editions/2/image_sets/12169210 </source>
         <recipient>Susan Dickinson</recipient>
-    </meta>
+        <poem_themes></poem_themes>
+    </metadata>
+    
     <body>
-        A poor -- torn heart -- a tattered heart -- 
-        That sat it down to rest -- 
-        Nor noticed that the 
-        Ebbing Day Flowed silver to the West 
-        Nor noticed Night did soft descend -- 
-        Nor Constellation burn -- 
-        Intent upon the vision 
-        Of latitudes unknown. 
+        <stanza> 
+            <line>A poor -- <love>torn heart</love> -- a <love>tattered heart</love> -- </line>
+            <line>That sat it down to rest -- </line>
+            <line>Nor noticed that the </line>
+            <line>Ebbing <time>Day</time> Flowed silver to the <place>West</place> </line>
+            <line>Nor noticed <time>Night</time> did soft descend -- </line>
+            <line>Nor <nature nature_type="space">Constellation</nature> burn -- </line>
+            <line>Intent upon the vision </line>
+            <line>Of <place>latitudes unknown</place>. </line>
+        </stanza>
         
-        The angels -- happening that way 
-        This dusty heart espied -- 
-        Tenderly took it up from toil 
-        And carried it to God 
-        There -- sandals for the Barefoot -- 
-        There -- gathered from the gales -- 
-        Do the blue havens by the hand 
-        Lead the wandering Sails. 
+        <stanza>
+            <line>The <religion type="person">angels</religion> -- happening that way </line>
+            <line>This dusty <love>heart</love> espied -- </line>
+            <line>Tenderly took it up from toil </line>
+            <line>And carried it to <religion type="person">God</religion> </line>
+            <line>There -- sandals for the <physical_body>Barefoot</physical_body> -- </line>
+            <line>There -- gathered from the <nature nature_type="air">gales</nature> -- </line>
+            <line>Do the blue havens by the hand </line>
+            <line>Lead the wandering Sails. </line>
+        </stanza>
     </body>
 </poem>
+
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+-->
+
+<!--Regex for wrapping lines of poem:
+    Find: ^.*$
+    Replace: <line>\0</line>
+
