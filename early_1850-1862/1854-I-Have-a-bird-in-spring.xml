@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <first_line>I have a Bird in spring</first_line>
-        <date period="">1854</date> 
+        <date period="early">1854</date> 
         <poem_number>J5</poem_number>
         <source> https://www.edickinson.org/editions/1/image_sets/12173317 </source>
         <recipient>Susan Dickinson</recipient>
@@ -62,22 +62,22 @@
 <!--POST PLAIN TEXT OF POEM BELOW 
 
 I have a Bird in spring 
-        Which for myself doth sing -- 
+        Which for myself doth sing - 
         The spring decoys. 
-        And as the summer nears -- 
+        And as the summer nears - 
         And as the Rose appears, 
         Robin is gone. 
         
         Yet do I not repine 
         Knowing that Bird of mine 
-        Though flown -- 
+        Though flown - 
         Learneth beyond the sea 
         Melody new for me 
         And will return. 
         
         Fast in a safer hand 
         Held in a truer Land 
-        Are mine -- 
+        Are mine - 
         And though they now depart, 
         Tell I my doubting heart 
         They're thine. 
@@ -95,4 +95,4 @@ I have a Bird in spring
         Shall in a distant tree 
         Bright melody for me 
         Return.  
-
+-->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
@@ -38,25 +38,22 @@
 
 <!--POST PLAIN TEXT OF POEM BELOW 
 
-A Burdock -- clawed my Gown -- 
-        Not Burdock's -- blame -- 
-        But mine -- 
+A Burdock - clawed my Gown - 
+        Not Burdock's - blame - 
+        But mine - 
         Who went too near 
-        The Burdock's Den -- 
+        The Burdock's Den - 
         
-        A Bog -- affronts my shoe -- 
-        What else have Bogs -- to do -- 
-        The only Trade they know -- 
+        A Bog - affronts my shoe - 
+        What else have Bogs - to do - 
+        The only Trade they know - 
         The splashing Men! 
-        Ah, pity -- then! 
+        Ah, pity - then! 
         
         'Tis Minnows can despise! 
-        The Elephants -- calm eyes 
+        The Elephants - calm eyes 
         Look further on! 
 
-<!--Regex for wrapping lines of poem:
-    Find: ^.*$
-    Replace: <line>\0</line>
  -->
 
 

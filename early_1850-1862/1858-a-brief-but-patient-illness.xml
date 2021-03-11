@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
         <first_line></first_line>
-        <date period="">1858</date> 
+        <date period="early">1858</date> 
         <poem_number>F22A</poem_number>
         <source> https://www.edickinson.org/editions/1/image_sets/12173394 </source>
         <recipient></recipient>
@@ -31,7 +31,7 @@
 
 <!--POST PLAIN TEXT OF POEM BELOW 
 
-A brief, but patient illness - 
+    A brief, but patient illness - 
         An hour to prepare - 
         And one below, this morning 
         Is where the angels are - 
@@ -43,3 +43,4 @@ A brief, but patient illness -
         We ask that we may be - 
         Summer - Sister - Seraph! 
         Let us go with thee!
+        -->

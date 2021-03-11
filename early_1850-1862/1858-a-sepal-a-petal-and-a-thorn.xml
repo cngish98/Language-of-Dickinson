@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
-
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>
     <metadata>
         <first_line>A sepal - petal - and a thorn</first_line>
@@ -29,4 +28,5 @@
         A flask of Dew - A Bee or two - 
         A Breeze - a'caper in the trees - 
         And I'm a Rose! 
+        -->
 

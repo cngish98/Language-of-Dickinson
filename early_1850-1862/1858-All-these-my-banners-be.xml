@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
@@ -33,8 +33,4 @@ It rises train by train -
 Then sleeps in state again - 
 My chancel - all the plain 
 Today. 
-
-<!-Regex for wrapping lines of poem:
-    Find: ^.*$
-    Replace: <line>\0</line>
  -->

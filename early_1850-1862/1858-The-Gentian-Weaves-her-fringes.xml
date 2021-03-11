@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <poem>
     <metadata>
@@ -28,7 +28,5 @@ The Maple's loom is red -
 My departing blossoms 
 Obviate parade. 
 
-<!-Regex for wrapping lines of poem:
-    Find: ^.*$
-    Replace: <line>\0</line>
+
  -->
