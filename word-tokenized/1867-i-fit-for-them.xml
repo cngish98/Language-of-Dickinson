@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>I fit for them -</first_line>
+      <date period="middle">1867</date>
+      <poem_number>J1109</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171638</source>
+      <recipient>none</recipient>
+      <poem_themes>labor, writing, solitude, the mind</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <character name="I" relation_with="them">
+               <token xml:id="t_1_1">I</token>
+            </character>
+            <token xml:id="t_1_2">fit</token>
+            <token xml:id="t_1_3">for</token>
+            <character name="them">
+               <token xml:id="t_1_4">them</token>
+            </character>
+            <token xml:id="t_1_5">-</token>
+         </line>
+         <!--"them" is presumably whoever reads her poetry -->
+         <line>
+            <token xml:id="t_2_1">I</token>
+            <token xml:id="t_2_2">seek</token>
+            <token xml:id="t_2_3">the</token>
+            <darkness>
+               <token xml:id="t_2_4">Dark</token>
+            </darkness>
+            <solitude/>
+         </line>
+         <line>
+            <token xml:id="t_3_1">Till</token>
+            <token xml:id="t_3_2">I</token>
+            <token xml:id="t_3_3">am</token>
+            <token xml:id="t_3_4">thorough</token>
+            <mind>
+               <token xml:id="t_3_5">fit</token>
+            </mind>
+            <token xml:id="t_3_6">.</token>
+         </line>
+         <!--thinking of mental "fitness" -->
+         <line>
+            <token xml:id="t_4_1">The</token>
+            <writing>
+               <token xml:id="t_4_2">labor</token>
+            </writing>
+            <labor/>
+            <token xml:id="t_4_3">is</token>
+            <token xml:id="t_4_4">a</token>
+            <token xml:id="t_4_5">sober</token>
+            <token xml:id="t_4_6">one</token>
+         </line>
+         <line>
+            <token xml:id="t_5_1">With</token>
+            <token xml:id="t_5_2">the</token>
+            <token xml:id="t_5_3">austerer</token>
+            <eating>
+               <token xml:id="t_5_4">sweet</token>
+            </eating>
+            <token xml:id="t_5_5">-</token>
+            <token xml:id="t_5_6">an</token>
+            <token xml:id="t_5_7">-</token>
+            <token xml:id="t_5_8">this</token>
+            <token xml:id="t_5_9">-</token>
+         </line>
+         <!--elision...not sure what this means -->
+         <line>
+            <token xml:id="t_6_1">With</token>
+            <token xml:id="t_6_2">this</token>
+            <writing>
+               <token xml:id="t_6_3">sufficient</token>
+               <token xml:id="t_6_4">sweet</token>
+            </writing>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_7_1">That</token>
+            <solitude>
+               <token xml:id="t_7_2">abstinence</token>
+            </solitude>
+            <loss/>
+            <token xml:id="t_7_3">of</token>
+            <variant>
+               <token xml:id="t_7_4">me</token>
+            </variant>
+            <token xml:id="t_7_5">mine</token>
+            <labor>
+               <token xml:id="t_7_6">produce</token>
+            </labor>
+         </line>
+         <line>
+            <token xml:id="t_8_1">A</token>
+            <token xml:id="t_8_2">purer</token>
+            <eating>
+               <token xml:id="t_8_3">food</token>
+            </eating>
+            <writing/>
+            <token xml:id="t_8_4">for</token>
+            <token xml:id="t_8_5">them,</token>
+            <token xml:id="t_8_6">if</token>
+            <token xml:id="t_8_7">I</token>
+            <token xml:id="t_8_8">succeed,</token>
+         </line>
+         <line>
+            <token xml:id="t_9_1">If</token>
+            <token xml:id="t_9_2">not</token>
+            <token xml:id="t_9_3">I</token>
+            <token xml:id="t_9_4">had</token>
+         </line>
+         <line>
+            <token xml:id="t_10_1">The</token>
+            <emotion emotion_type="determination">
+               <token xml:id="t_10_2">transport</token>
+               <token xml:id="t_10_3">of</token>
+               <token xml:id="t_10_4">the</token>
+               <token xml:id="t_10_5">Aim</token>
+            </emotion>
+            <token xml:id="t_10_6">-</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--An interpretation I saw of this poem is that it is about Dickinson attempting to isolate herself from society in the "Dark"
+    in order to be the most "fit" to write poetry, which would serve as "food" for her readers. 
+    Even if she does not "succeed," her "aim" to isolate herself is still a reason for celebration.
+    This poem is very abstract, but I bet the markdown could be better! -->
+<!-- 
+I fit for them -
+I seek the Dark
+Till I am thorough fit.
+The labor is a sober one
+With the austerer sweet - an - this -
+With this sufficient sweet
+
+That abstinence of  me mine produce
+A purer food for them, if I succeed,
+If not I had
+The transport of the Aim -
+-->

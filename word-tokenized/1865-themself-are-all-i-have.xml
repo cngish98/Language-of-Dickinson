@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>Themself are all I have</first_line>
+      <date period="middle">1865</date>
+      <poem_number>J1094</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171599</source>
+      <recipient>body</recipient>
+      <poem_themes>body, interpersonal relationships, wealth</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">Themself</token>
+            <token xml:id="t_1_2">are</token>
+            <token xml:id="t_1_3">all</token>
+            <character name="I">
+               <token xml:id="t_1_4">I</token>
+            </character>
+            <token xml:id="t_1_5">have</token>
+            <token xml:id="t_1_6">-</token>
+         </line>
+         <!--could "themself" be a character? -->
+         <line>
+            <token xml:id="t_2_1">Myself</token>
+            <token xml:id="t_2_2">a</token>
+            <physical_body>
+               <token xml:id="t_2_3">freckled</token>
+            </physical_body>
+            <token xml:id="t_2_4">-</token>
+            <token xml:id="t_2_5">be</token>
+            <token xml:id="t_2_6">-</token>
+         </line>
+         <!-- elision? -->
+         <line>
+            <token xml:id="t_3_1">I</token>
+            <token xml:id="t_3_2">thought</token>
+            <character name="you" relation_with="I">
+               <token xml:id="t_3_3">you'd</token>
+            </character>
+            <token xml:id="t_3_4">choose</token>
+            <token xml:id="t_3_5">a</token>
+            <wealth>
+               <token xml:id="t_3_6">Velvet</token>
+            </wealth>
+            <physical_body>
+               <token xml:id="t_3_7">Cheek</token>
+            </physical_body>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Or</token>
+            <token xml:id="t_4_2">one</token>
+            <token xml:id="t_4_3">of</token>
+            <wealth>
+               <token xml:id="t_4_4">Ivory</token>
+            </wealth>
+            <token xml:id="t_4_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_5_1">Would</token>
+            <token xml:id="t_5_2">you</token>
+            <token xml:id="t_5_3">-</token>
+            <token xml:id="t_5_4">instead</token>
+            <token xml:id="t_5_5">of</token>
+            <token xml:id="t_5_6">Me?</token>
+         </line>
+         <!--elision -->
+      </stanza>
+   </body>
+</poem>
+<!--Because of the elision / ambiguity in this poem I was having a hard time understanding what is happening, but I think 
+    I understand a general theme of desire/wealth -->
+<!-- 
+Themself are all I have -
+Myself a freckled - be -
+I thought you'd choose a Velvet Cheek
+Or one of Ivory -
+Would you - instead of Me?
+-->

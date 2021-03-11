@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A Death blow is a Life blow to Some</first_line>
+      <date period="middle">1866</date>
+      <poem_number>J816</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12170980</source>
+      <recipient>T.W. Higginson</recipient>
+      <poem_themes>death, life</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">A</token>
+            <death judgment="positive">
+               <token xml:id="t_1_2">Death</token>
+               <token xml:id="t_1_3">blow</token>
+            </death>
+            <token xml:id="t_1_4">is</token>
+            <token xml:id="t_1_5">a</token>
+            <life>
+               <token xml:id="t_1_6">Life</token>
+               <token xml:id="t_1_7">blow</token>
+            </life>
+            <token xml:id="t_1_8">to</token>
+            <token xml:id="t_1_9">Some</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Who</token>
+            <token xml:id="t_2_2">till</token>
+            <token xml:id="t_2_3">they</token>
+            <death>
+               <token xml:id="t_2_4">died</token>
+            </death>
+            <token xml:id="t_2_5">,</token>
+            <token xml:id="t_2_6">did</token>
+            <token xml:id="t_2_7">not</token>
+            <life>
+               <token xml:id="t_2_8">alive</token>
+            </life>
+            <token xml:id="t_2_9">become</token>
+            <token xml:id="t_2_10">-</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">Who</token>
+            <token xml:id="t_3_2">had</token>
+            <token xml:id="t_3_3">they</token>
+            <life judgment="negative">
+               <token xml:id="t_3_4">lived</token>
+            </life>
+            <token xml:id="t_3_5">,</token>
+            <token xml:id="t_3_6">had</token>
+            <death>
+               <token xml:id="t_3_7">died</token>
+            </death>
+            <token xml:id="t_3_8">but</token>
+            <token xml:id="t_3_9">when</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">They</token>
+            <death judgment="positive">
+               <token xml:id="t_4_2">died</token>
+            </death>
+            <token xml:id="t_4_3">,</token>
+            <token xml:id="t_4_4">Vitality</token>
+            <token xml:id="t_4_5">begun.</token>
+         </line>
+      </stanza>
+      <!--specified judgments because they are counterintuitive to how we usually perceive life/death -->
+   </body>
+</poem>
+<!-- 
+A Death blow is a Life blow to Some
+Who till they died, did not alive become -
+Who had they lived, had died but when
+They died, Vitality begun.
+-->

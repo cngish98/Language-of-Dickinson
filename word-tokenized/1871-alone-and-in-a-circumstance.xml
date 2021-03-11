@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>Alone and in a circumstance</first_line>
+      <date period="middle">1871</date>
+      <poem_number>J1167</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171790</source>
+      <recipient>none</recipient>
+      <poem_themes>solitude, law, violence</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">Alone</token>
+            <token xml:id="t_1_2">and</token>
+            <variant>
+               <token xml:id="t_1_3">of</token>
+            </variant>
+            <token xml:id="t_1_4">in</token>
+            <token xml:id="t_1_5">a</token>
+            <token xml:id="t_1_6">Circumstance</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Reluctant</token>
+            <token xml:id="t_2_2">to</token>
+            <token xml:id="t_2_3">be</token>
+            <token xml:id="t_2_4">told</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">A</token>
+            <animal animal_type="insect">
+               <token xml:id="t_3_2">spider</token>
+            </animal>
+            <token xml:id="t_3_3">on</token>
+            <token xml:id="t_3_4">my</token>
+            <token xml:id="t_3_5">reticence</token>
+         </line>
+         <line>
+            <variant>
+               <token xml:id="t_4_1">deliberately</token>
+            </variant>
+            <variant>
+               <token xml:id="t_4_2">determinately</token>
+            </variant>
+            <variant>
+               <token xml:id="t_4_3">impertinently</token>
+            </variant>
+            <token xml:id="t_4_4">Assiduously</token>
+            <token xml:id="t_4_5">crawled</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">And</token>
+            <token xml:id="t_5_2">so</token>
+            <token xml:id="t_5_3">much</token>
+            <token xml:id="t_5_4">more</token>
+            <token xml:id="t_5_5">at</token>
+            <token xml:id="t_5_6">Home</token>
+            <token xml:id="t_5_7">than</token>
+            <token xml:id="t_5_8">I</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">Immediately</token>
+            <token xml:id="t_6_2">grew</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">I</token>
+            <token xml:id="t_7_2">felt</token>
+            <token xml:id="t_7_3">myself</token>
+            <variant>
+               <token xml:id="t_7_4">the</token>
+            </variant>
+            <token xml:id="t_7_5">a</token>
+            <token xml:id="t_7_6">visitor</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">And</token>
+            <variant>
+               <token xml:id="t_8_2">hastily</token>
+            </variant>
+            <solitude>
+               <token xml:id="t_8_3">hurriedly</token>
+               <token xml:id="t_8_4">withdrew</token>
+            </solitude>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_9_1">Revisiting</token>
+            <token xml:id="t_9_2">my</token>
+            <token xml:id="t_9_3">late</token>
+            <token xml:id="t_9_4">abode</token>
+         </line>
+         <line>
+            <token xml:id="t_10_1">With</token>
+            <law>
+               <token xml:id="t_10_2">articles</token>
+               <token xml:id="t_10_3">of</token>
+               <token xml:id="t_10_4">claim</token>
+            </law>
+         </line>
+         <line>
+            <token xml:id="t_11_1">I</token>
+            <token xml:id="t_11_2">found</token>
+            <token xml:id="t_11_3">it</token>
+            <token xml:id="t_11_4">quietly</token>
+            <token xml:id="t_11_5">assumed</token>
+         </line>
+         <line>
+            <variant>
+               <token xml:id="t_12_1">for</token>
+            </variant>
+            <token xml:id="t_12_2">As</token>
+            <token xml:id="t_12_3">a</token>
+            <token xml:id="t_12_4">Gymnasium</token>
+         </line>
+         <line>
+            <token xml:id="t_13_1">Where</token>
+            <law>
+               <token xml:id="t_13_2">Tax</token>
+            </law>
+            <token xml:id="t_13_3">asleep</token>
+            <token xml:id="t_13_4">and</token>
+            <social_norm>
+               <token xml:id="t_13_5">Title</token>
+            </social_norm>
+            <token xml:id="t_13_6">off</token>
+         </line>
+         <line>
+            <token xml:id="t_14_1">The</token>
+            <social_class>
+               <token xml:id="t_14_2">Peasants</token>
+            </social_class>
+            <variant/>
+            <social_class>
+               <token xml:id="t_14_3">inmates</token>
+            </social_class>
+            <token xml:id="t_14_4">of</token>
+            <token xml:id="t_14_5">the</token>
+            <token xml:id="t_14_6">Air</token>
+         </line>
+         <line>
+            <token xml:id="t_15_1">Perpetual</token>
+            <variant>
+               <token xml:id="t_15_2">complacence</token>
+            </variant>
+            <token xml:id="t_15_3">presumption</token>
+            <token xml:id="t_15_4">took</token>
+         </line>
+         <line>
+            <token xml:id="t_16_1">As</token>
+            <token xml:id="t_16_2">each</token>
+            <token xml:id="t_16_3">were</token>
+            <variant>
+               <token xml:id="t_16_4">lawful</token>
+            </variant>
+            <variant>
+               <token xml:id="t_16_5">only</token>
+            </variant>
+            <token xml:id="t_16_6">special</token>
+            <token xml:id="t_16_7">Heir</token>
+            <token xml:id="t_16_8">-</token>
+         </line>
+         <line>
+            <token xml:id="t_17_1">If</token>
+            <token xml:id="t_17_2">any</token>
+            <violence>
+               <token xml:id="t_17_3">strike</token>
+               <token xml:id="t_17_4">me</token>
+            </violence>
+            <token xml:id="t_17_5">on</token>
+            <token xml:id="t_17_6">the</token>
+            <token xml:id="t_17_7">street</token>
+         </line>
+         <line>
+            <token xml:id="t_18_1">I</token>
+            <token xml:id="t_18_2">can</token>
+            <violence>
+               <token xml:id="t_18_3">return</token>
+               <token xml:id="t_18_4">the</token>
+               <token xml:id="t_18_5">Blow</token>
+            </violence>
+            <token xml:id="t_18_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_19_1">If</token>
+            <token xml:id="t_19_2">any</token>
+            <variant>
+               <token xml:id="t_19_3">seize</token>
+            </variant>
+            <token xml:id="t_19_4">take</token>
+            <token xml:id="t_19_5">my</token>
+            <token xml:id="t_19_6">property</token>
+         </line>
+         <line>
+            <token xml:id="t_20_1">According</token>
+            <token xml:id="t_20_2">to</token>
+            <token xml:id="t_20_3">the</token>
+            <law>
+               <token xml:id="t_20_4">Law</token>
+            </law>
+         </line>
+         <line>
+            <token xml:id="t_21_1">The</token>
+            <law>
+               <token xml:id="t_21_2">Statute</token>
+            </law>
+            <token xml:id="t_21_3">is</token>
+            <token xml:id="t_21_4">my</token>
+            <token xml:id="t_21_5">Learned</token>
+            <token xml:id="t_21_6">friend</token>
+         </line>
+         <line>
+            <token xml:id="t_22_1">But</token>
+            <token xml:id="t_22_2">what</token>
+            <law>
+               <token xml:id="t_22_3">redress</token>
+            </law>
+            <token xml:id="t_22_4">can</token>
+            <token xml:id="t_22_5">be</token>
+         </line>
+         <line>
+            <token xml:id="t_23_1">For</token>
+            <token xml:id="t_23_2">an</token>
+            <law>
+               <token xml:id="t_23_3">offense</token>
+            </law>
+            <token xml:id="t_23_4">nor</token>
+            <token xml:id="t_23_5">here</token>
+            <token xml:id="t_23_6">nor</token>
+            <token xml:id="t_23_7">there</token>
+         </line>
+         <line>
+            <token xml:id="t_24_1">So</token>
+            <token xml:id="t_24_2">not</token>
+            <token xml:id="t_24_3">in</token>
+            <law>
+               <token xml:id="t_24_4">Equity</token>
+            </law>
+            <token xml:id="t_24_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_25_1">That</token>
+            <violence>
+               <token xml:id="t_25_2">Larceny</token>
+            </violence>
+            <law/>
+            <token xml:id="t_25_3">of</token>
+            <time>
+               <token xml:id="t_25_4">time</token>
+            </time>
+            <token xml:id="t_25_5">and</token>
+            <mind>
+               <token xml:id="t_25_6">mind</token>
+            </mind>
+         </line>
+         <!--not sure if larceny implies violence but i tagged it as such -->
+         <line>
+            <token xml:id="t_26_1">The</token>
+            <physical_body>
+               <token xml:id="t_26_2">marrow</token>
+            </physical_body>
+            <token xml:id="t_26_3">of</token>
+            <token xml:id="t_26_4">the</token>
+            <time>
+               <token xml:id="t_26_5">Day</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_27_1">By</token>
+            <animal animal_type="insect">
+               <token xml:id="t_27_2">spider</token>
+            </animal>
+            <token xml:id="t_27_3">,</token>
+            <token xml:id="t_27_4">or</token>
+            <token xml:id="t_27_5">forbid</token>
+            <token xml:id="t_27_6">it</token>
+            <religion type="person">
+               <token xml:id="t_27_7">Lord</token>
+            </religion>
+         </line>
+         <!--not sure if this is just an 
+                    exclamation or an actual religious reference, nonetheless
+                    decided to mark it as religious  -->
+         <line>
+            <token xml:id="t_28_1">That</token>
+            <uncertainty>
+               <token xml:id="t_28_2">I</token>
+               <token xml:id="t_28_3">should</token>
+               <token xml:id="t_28_4">specify</token>
+            </uncertainty>
+            <token xml:id="t_28_5">.</token>
+         </line>
+         <!-- 
+             is she asking for the permission to be unspecific / uncertain ? -->
+      </stanza>
+   </body>
+</poem>
+<!--I saw some interpretations that she is talking about writing and feeling like she has been robbed
+    the space in which she normally writes. Writing is not really explicitly mentioned though so I have not tagged
+    anything as writing -->
+<!-- 
+Alone and  of in a Circumstance
+Reluctant to be told
+A spider on my reticence
+ deliberately  determinately  impertinently Assiduously crawled
+
+And so much more at Home than I
+Immediately grew
+I felt myself  the a visitor
+And  hastily hurriedly withdrew
+
+Revisiting my late abode
+With articles of claim
+I found it quietly assumed
+ for As a Gymnasium
+Where Tax asleep and Title off
+The  Peasants inmates of the Air
+Perpetual  complacence presumption took
+As each were  lawful  only special Heir -
+If any strike me on the street
+I can return the Blow -
+If any  seize take my property
+According to the Law
+The Statute is my Learned friend
+But what redress can be
+For an offense nor here nor there
+So not in Equity -
+That Larceny of time and mind
+The marrow of the Day
+By spider, or forbid it Lord
+That I should specify.
+-->

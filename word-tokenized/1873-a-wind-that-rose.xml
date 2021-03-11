@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A Wind that rose</first_line>
+      <date period="middle">1873</date>
+      <poem_number>J1259</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12172016</source>
+      <recipient>T.W. Higginson</recipient>
+      <poem_themes>nature, the mind, solitude</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <nature nature_type="air">
+               <token xml:id="t_1_1">A</token>
+               <token xml:id="t_1_2">Wind</token>
+            </nature>
+            <token xml:id="t_1_3">that</token>
+            <token xml:id="t_1_4">rose</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Though</token>
+            <token xml:id="t_2_2">not</token>
+            <token xml:id="t_2_3">a</token>
+            <nature nature_type="earth">
+               <token xml:id="t_2_4">Leaf</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_3_1">In</token>
+            <token xml:id="t_3_2">any</token>
+            <nature nature_type="earth">
+               <token xml:id="t_3_3">Forest</token>
+            </nature>
+            <token xml:id="t_3_4">stirred</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">But</token>
+            <token xml:id="t_4_2">with</token>
+            <token xml:id="t_4_3">itself</token>
+            <token xml:id="t_4_4">did</token>
+            <mind>
+               <token xml:id="t_4_5">cold</token>
+            </mind>
+            <token xml:id="t_4_6">engage</token>
+         </line>
+         <!-- I have seen interpretations 
+                that the "wind" is a metaphor for the mind and thinking, so I am tagging as such -->
+         <line>
+            <token xml:id="t_5_1">Beyond</token>
+            <token xml:id="t_5_2">the</token>
+            <token xml:id="t_5_3">Realm</token>
+            <token xml:id="t_5_4">of</token>
+            <nature nature_type="animal">
+               <token xml:id="t_5_5">Bird</token>
+            </nature>
+            <mind/>
+            <token xml:id="t_5_6">-</token>
+         </line>
+         <!-- the realm beyond that of birds (ie: nature) is the mind -->
+         <line>
+            <token xml:id="t_6_1">A</token>
+            <token xml:id="t_6_2">Wind</token>
+            <token xml:id="t_6_3">that</token>
+            <token xml:id="t_6_4">woke</token>
+            <token xml:id="t_6_5">a</token>
+            <solitude>
+               <token xml:id="t_6_6">lone</token>
+            </solitude>
+            <emotion emotion_type="happiness">
+               <token xml:id="t_6_7">Delight</token>
+            </emotion>
+         </line>
+         <line>
+            <token xml:id="t_7_1">Like</token>
+            <solitude>
+               <token xml:id="t_7_2">Separation's</token>
+            </solitude>
+            <token xml:id="t_7_3">Swell</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Restored</token>
+            <token xml:id="t_8_2">in</token>
+            <token xml:id="t_8_3">Arctic</token>
+            <emotion emotion_type="confidence">
+               <token xml:id="t_8_4">Confidence</token>
+            </emotion>
+         </line>
+         <line>
+            <token xml:id="t_9_1">To</token>
+            <mind>
+               <token xml:id="t_9_2">the</token>
+               <token xml:id="t_9_3">Invisible</token>
+            </mind>
+            <token xml:id="t_9_4">-</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!-- 
+A Wind that rose
+Though not a Leaf
+In any Forest stirred
+But with itself did cold engage
+Beyond the Realm of Bird -
+A Wind that woke a lone Delight
+Like Separation's Swell
+Restored in Arctic Confidence
+To the Invisible -
+-->

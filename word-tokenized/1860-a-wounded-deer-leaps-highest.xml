@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A Wounded Deer -- leaps highest</first_line>
+      <date period="early">1860</date>
+      <poem_number>J165</poem_number>
+      <source> https://www.edickinson.org/editions/2/image_sets/12169409 </source>
+      <recipient/>
+      <poem_themes/>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">A</token>
+            <token xml:id="t_1_2">Wounded</token>
+            <animal animal_type="deer">
+               <token xml:id="t_1_3">Deer</token>
+            </animal>
+            <token xml:id="t_1_4">--</token>
+            <token xml:id="t_1_5">leaps</token>
+            <token xml:id="t_1_6">highest</token>
+            <token xml:id="t_1_7">--</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">I've</token>
+            <token xml:id="t_2_2">heard</token>
+            <token xml:id="t_2_3">the</token>
+            <character name="Hunter" judgment="neutral">
+               <token xml:id="t_2_4">Hunter</token>
+            </character>
+            <token xml:id="t_2_5">tell</token>
+            <token xml:id="t_2_6">--</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">'Tis</token>
+            <token xml:id="t_3_2">but</token>
+            <token xml:id="t_3_3">the</token>
+            <token xml:id="t_3_4">Extasy</token>
+            <token xml:id="t_3_5">of</token>
+            <death>
+               <token xml:id="t_3_6">death</token>
+            </death>
+            <token xml:id="t_3_7">--</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">And</token>
+            <token xml:id="t_4_2">then</token>
+            <token xml:id="t_4_3">the</token>
+            <token xml:id="t_4_4">Brake</token>
+            <token xml:id="t_4_5">is</token>
+            <token xml:id="t_4_6">still!</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">The</token>
+            <token xml:id="t_5_2">Smitten</token>
+            <nature nature_type="earth">
+               <token xml:id="t_5_3">Rock</token>
+            </nature>
+            <token xml:id="t_5_4">that</token>
+            <token xml:id="t_5_5">gushes!</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">The</token>
+            <token xml:id="t_6_2">trampled</token>
+            <token xml:id="t_6_3">Steel</token>
+            <token xml:id="t_6_4">that</token>
+            <token xml:id="t_6_5">springs!</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">A</token>
+            <physical_body>
+               <token xml:id="t_7_2">Cheek</token>
+            </physical_body>
+            <token xml:id="t_7_3">is</token>
+            <token xml:id="t_7_4">always</token>
+            <token xml:id="t_7_5">redder</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Just</token>
+            <token xml:id="t_8_2">where</token>
+            <token xml:id="t_8_3">the</token>
+            <token xml:id="t_8_4">Hectic</token>
+            <token xml:id="t_8_5">stings!</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_9_1">Mirth</token>
+            <token xml:id="t_9_2">is</token>
+            <token xml:id="t_9_3">the</token>
+            <token xml:id="t_9_4">Mail</token>
+            <token xml:id="t_9_5">of</token>
+            <emotion emotion_type="anguish">
+               <token xml:id="t_9_6">Anguish</token>
+            </emotion>
+            <token xml:id="t_9_7">--</token>
+         </line>
+         <line>
+            <token xml:id="t_10_1">In</token>
+            <token xml:id="t_10_2">which</token>
+            <token xml:id="t_10_3">it</token>
+            <token xml:id="t_10_4">Cautious</token>
+            <physical_body>
+               <token xml:id="t_10_5">Arm</token>
+            </physical_body>
+            <token xml:id="t_10_6">,</token>
+         </line>
+         <line>
+            <token xml:id="t_11_1">Lest</token>
+            <token xml:id="t_11_2">anybody</token>
+            <token xml:id="t_11_3">spy</token>
+            <token xml:id="t_11_4">the</token>
+            <token xml:id="t_11_5">blood</token>
+         </line>
+         <line>
+            <token xml:id="t_12_1">And</token>
+            <token xml:id="t_12_2">"you're</token>
+            <token xml:id="t_12_3">hurt"</token>
+            <token xml:id="t_12_4">exclaim!</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+ A Wounded Deer - leaps highest - 
+        I've heard the Hunter tell - 
+        'Tis but the Extasy of death - 
+        And then the Brake is still! 
+        
+        The Smitten Rock that gushes! 
+        The trampled Steel that springs! 
+        A Cheek is always redder 
+        Just where the Hectic stings! 
+        
+        Mirth is the Mail of Anguish - 
+        In which it Cautious Arm, 
+        Lest anybody spy the blood 
+        And "you're hurt" exclaim! 
+
+ -->

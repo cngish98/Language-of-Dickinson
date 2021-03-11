@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>I have a Bird in spring</first_line>
+      <date period="early">1854</date>
+      <poem_number>J5</poem_number>
+      <source> https://www.edickinson.org/editions/1/image_sets/12173317 </source>
+      <recipient>Susan Dickinson</recipient>
+      <poem_themes>Nature</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">I</token>
+            <token xml:id="t_1_2">have</token>
+            <token xml:id="t_1_3">a</token>
+            <animal animal_type="bird">
+               <token xml:id="t_1_4">Bird</token>
+            </animal>
+            <token xml:id="t_1_5">in</token>
+            <time>
+               <token xml:id="t_1_6">spring</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Which</token>
+            <token xml:id="t_2_2">for</token>
+            <token xml:id="t_2_3">myself</token>
+            <token xml:id="t_2_4">doth</token>
+            <music>
+               <token xml:id="t_2_5">sing</token>
+            </music>
+            <token xml:id="t_2_6">--</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">The</token>
+            <time>
+               <token xml:id="t_3_2">spring</token>
+            </time>
+            <token xml:id="t_3_3">decoys.</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">And</token>
+            <token xml:id="t_4_2">as</token>
+            <token xml:id="t_4_3">the</token>
+            <time>
+               <token xml:id="t_4_4">summer</token>
+            </time>
+            <token xml:id="t_4_5">nears</token>
+            <token xml:id="t_4_6">--</token>
+         </line>
+         <line>
+            <token xml:id="t_5_1">And</token>
+            <token xml:id="t_5_2">as</token>
+            <token xml:id="t_5_3">the</token>
+            <nature nature_type="general">
+               <token xml:id="t_5_4">Rose</token>
+            </nature>
+            <token xml:id="t_5_5">appears,</token>
+         </line>
+         <line>
+            <animal animal_type="bird">
+               <token xml:id="t_6_1">Robin</token>
+            </animal>
+            <token xml:id="t_6_2">is</token>
+            <token xml:id="t_6_3">gone.</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_7_1">Yet</token>
+            <token xml:id="t_7_2">do</token>
+            <token xml:id="t_7_3">I</token>
+            <token xml:id="t_7_4">not</token>
+            <token xml:id="t_7_5">repine</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Knowing</token>
+            <token xml:id="t_8_2">that</token>
+            <animal animal_type="bird">
+               <token xml:id="t_8_3">Bird</token>
+            </animal>
+            <token xml:id="t_8_4">of</token>
+            <token xml:id="t_8_5">mine</token>
+         </line>
+         <line>
+            <token xml:id="t_9_1">Though</token>
+            <token xml:id="t_9_2">flown</token>
+            <token xml:id="t_9_3">--</token>
+         </line>
+         <line>
+            <token xml:id="t_10_1">Learneth</token>
+            <token xml:id="t_10_2">beyond</token>
+            <token xml:id="t_10_3">the</token>
+            <nature nature_type="water">
+               <token xml:id="t_10_4">sea</token>
+            </nature>
+         </line>
+         <line>
+            <music>
+               <token xml:id="t_11_1">Melody</token>
+            </music>
+            <token xml:id="t_11_2">new</token>
+            <token xml:id="t_11_3">for</token>
+            <token xml:id="t_11_4">me</token>
+         </line>
+         <line>
+            <token xml:id="t_12_1">And</token>
+            <token xml:id="t_12_2">will</token>
+            <token xml:id="t_12_3">return.</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_13_1">Fast</token>
+            <token xml:id="t_13_2">in</token>
+            <token xml:id="t_13_3">a</token>
+            <token xml:id="t_13_4">safer</token>
+            <physical_body>
+               <token xml:id="t_13_5">hand</token>
+            </physical_body>
+         </line>
+         <line>
+            <token xml:id="t_14_1">Held</token>
+            <token xml:id="t_14_2">in</token>
+            <token xml:id="t_14_3">a</token>
+            <token xml:id="t_14_4">truer</token>
+            <nature nature_type="earth">
+               <token xml:id="t_14_5">Land</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_15_1">Are</token>
+            <token xml:id="t_15_2">mine</token>
+            <token xml:id="t_15_3">--</token>
+         </line>
+         <line>
+            <token xml:id="t_16_1">And</token>
+            <token xml:id="t_16_2">though</token>
+            <token xml:id="t_16_3">they</token>
+            <token xml:id="t_16_4">now</token>
+            <token xml:id="t_16_5">depart,</token>
+         </line>
+         <line>
+            <token xml:id="t_17_1">Tell</token>
+            <token xml:id="t_17_2">I</token>
+            <token xml:id="t_17_3">my</token>
+            <token xml:id="t_17_4">doubting</token>
+            <love>
+               <token xml:id="t_17_5">heart</token>
+            </love>
+         </line>
+         <line>
+            <token xml:id="t_18_1">They're</token>
+            <token xml:id="t_18_2">thine.</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_19_1">In</token>
+            <token xml:id="t_19_2">a</token>
+            <token xml:id="t_19_3">serener</token>
+            <light>
+               <token xml:id="t_19_4">Bright</token>
+            </light>
+            <token xml:id="t_19_5">,</token>
+         </line>
+         <line>
+            <token xml:id="t_20_1">In</token>
+            <token xml:id="t_20_2">a</token>
+            <token xml:id="t_20_3">more</token>
+            <token xml:id="t_20_4">golden</token>
+            <light>
+               <token xml:id="t_20_5">light</token>
+            </light>
+         </line>
+         <line>
+            <token xml:id="t_21_1">I</token>
+            <token xml:id="t_21_2">see</token>
+         </line>
+         <line>
+            <token xml:id="t_22_1">Each</token>
+            <token xml:id="t_22_2">little</token>
+            <token xml:id="t_22_3">doubt</token>
+            <token xml:id="t_22_4">and</token>
+            <emotion emotion_type="fear">
+               <token xml:id="t_22_5">fear</token>
+            </emotion>
+            <token xml:id="t_22_6">,</token>
+         </line>
+         <line>
+            <token xml:id="t_23_1">Each</token>
+            <token xml:id="t_23_2">little</token>
+            <token xml:id="t_23_3">discord</token>
+            <token xml:id="t_23_4">here</token>
+         </line>
+         <line>
+            <token xml:id="t_24_1">Removed.</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_25_1">Then</token>
+            <token xml:id="t_25_2">will</token>
+            <token xml:id="t_25_3">I</token>
+            <token xml:id="t_25_4">not</token>
+            <token xml:id="t_25_5">repine,</token>
+         </line>
+         <line>
+            <token xml:id="t_26_1">Knowing</token>
+            <token xml:id="t_26_2">that</token>
+            <animal animal_type="bird">
+               <token xml:id="t_26_3">Bird</token>
+            </animal>
+            <token xml:id="t_26_4">of</token>
+            <token xml:id="t_26_5">mine</token>
+         </line>
+         <line>
+            <token xml:id="t_27_1">Though</token>
+            <token xml:id="t_27_2">flown</token>
+         </line>
+         <line>
+            <token xml:id="t_28_1">Shall</token>
+            <token xml:id="t_28_2">in</token>
+            <token xml:id="t_28_3">a</token>
+            <token xml:id="t_28_4">distant</token>
+            <nature nature_type="general">
+               <token xml:id="t_28_5">tree</token>
+            </nature>
+         </line>
+         <line>
+            <light>
+               <token xml:id="t_29_1">Bright</token>
+            </light>
+            <token xml:id="t_29_2">melody</token>
+            <token xml:id="t_29_3">for</token>
+            <token xml:id="t_29_4">me</token>
+         </line>
+         <line>
+            <token xml:id="t_30_1">Return.</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+I have a Bird in spring 
+        Which for myself doth sing - 
+        The spring decoys. 
+        And as the summer nears - 
+        And as the Rose appears, 
+        Robin is gone. 
+        
+        Yet do I not repine 
+        Knowing that Bird of mine 
+        Though flown - 
+        Learneth beyond the sea 
+        Melody new for me 
+        And will return. 
+        
+        Fast in a safer hand 
+        Held in a truer Land 
+        Are mine - 
+        And though they now depart, 
+        Tell I my doubting heart 
+        They're thine. 
+        
+        In a serener Bright, 
+        In a more golden light 
+        I see 
+        Each little doubt and fear, 
+        Each little discord here 
+        Removed. 
+        
+        Then will I not repine, 
+        Knowing that Bird of mine 
+        Though flown 
+        Shall in a distant tree 
+        Bright melody for me 
+        Return.  
+-->

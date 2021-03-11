@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A winged spark doth soar about -</first_line>
+      <date period="late">1879</date>
+      <poem_number>J1468</poem_number>
+      <source> https://www.edickinson.org/editions/2/image_sets/12172577</source>
+      <recipient>none</recipient>
+      <poem_themes>nature, light</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <nature nature_type="space">
+               <token xml:id="t_1_1">A</token>
+               <token xml:id="t_1_2">winged</token>
+               <token xml:id="t_1_3">spark</token>
+            </nature>
+            <light/>
+            <token xml:id="t_1_4">doth</token>
+            <token xml:id="t_1_5">soar</token>
+            <token xml:id="t_1_6">about</token>
+            <token xml:id="t_1_7">-</token>
+         </line>
+         <!--Saw an interpretation that this is about a meteor/shooting star -->
+         <line>
+            <token xml:id="t_2_1">I</token>
+            <token xml:id="t_2_2">never</token>
+            <token xml:id="t_2_3">met</token>
+            <token xml:id="t_2_4">it</token>
+            <token xml:id="t_2_5">near</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">For</token>
+            <nature nature_type="air">
+               <token xml:id="t_3_2">Lightning</token>
+            </nature>
+            <token xml:id="t_3_3">it</token>
+            <token xml:id="t_3_4">is</token>
+            <token xml:id="t_3_5">oft</token>
+            <token xml:id="t_3_6">mistook</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">When</token>
+            <darkness>
+               <token xml:id="t_4_2">nights</token>
+            </darkness>
+            <token xml:id="t_4_3">are</token>
+            <token xml:id="t_4_4">hot</token>
+            <token xml:id="t_4_5">and</token>
+            <token xml:id="t_4_6">sere</token>
+            <token xml:id="t_4_7">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">It's</token>
+            <light>
+               <token xml:id="t_5_2">twinkling</token>
+            </light>
+            <token xml:id="t_5_3">Travels</token>
+            <token xml:id="t_5_4">it</token>
+            <token xml:id="t_5_5">pursues</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">Above</token>
+            <token xml:id="t_6_2">the</token>
+            <token xml:id="t_6_3">Haunts</token>
+            <token xml:id="t_6_4">of</token>
+            <token xml:id="t_6_5">men</token>
+            <token xml:id="t_6_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">A</token>
+            <token xml:id="t_7_2">speck</token>
+            <token xml:id="t_7_3">of</token>
+            <token xml:id="t_7_4">Rapture</token>
+            <token xml:id="t_7_5">-</token>
+            <token xml:id="t_7_6">first</token>
+            <token xml:id="t_7_7">perceived</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">By</token>
+            <token xml:id="t_8_2">feeling</token>
+            <loss>
+               <token xml:id="t_8_3">it</token>
+               <token xml:id="t_8_4">is</token>
+               <token xml:id="t_8_5">gone</token>
+            </loss>
+            <token xml:id="t_8_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_9_1">Rekindled</token>
+            <token xml:id="t_9_2">by</token>
+            <token xml:id="t_9_3">some</token>
+            <token xml:id="t_9_4">action</token>
+            <token xml:id="t_9_5">quaint</token>
+         </line>
+         <!--I think there could be something here about making a wish on the star? Not sure 
+                how to include that in markup though -->
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
+    A winged spark doth soar about -
+    I never met it near
+    For Lightning it is oft mistook
+    When nights are hot and sere -
+    
+    It's twinkling Travels it pursues
+    Above the Haunts of men -
+    A speck of Rapture - first perceived
+    By feeling it is gone -
+    Rekindled by some action quaint 
+-->

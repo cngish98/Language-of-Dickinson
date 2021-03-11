@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>After a hundred years</first_line>
+      <date period="middle">1869</date>
+      <poem_number>J1147</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171742</source>
+      <recipient>none</recipient>
+      <poem_themes>time, nature, solitude, war?</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <time>
+               <token xml:id="t_1_1">After</token>
+               <token xml:id="t_1_2">a</token>
+               <token xml:id="t_1_3">hundred</token>
+               <token xml:id="t_1_4">years</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Nobody</token>
+            <variant>
+               <token xml:id="t_2_2">knew</token>
+            </variant>
+            <token xml:id="t_2_3">knows</token>
+            <token xml:id="t_2_4">the</token>
+            <token xml:id="t_2_5">Place</token>
+         </line>
+         <line>
+            <emotion emotion_type="angst">
+               <token xml:id="t_3_1">Agony</token>
+            </emotion>
+            <token xml:id="t_3_2">that</token>
+            <war>
+               <token xml:id="t_3_3">enacted</token>
+               <token xml:id="t_3_4">there</token>
+            </war>
+         </line>
+         <!--seems like this "agony" could be a site of a battle? -->
+         <line>
+            <token xml:id="t_4_1">Motionless</token>
+            <token xml:id="t_4_2">as</token>
+            <token xml:id="t_4_3">Peace</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <nature nature_type="earth">
+               <token xml:id="t_5_1">Weeds</token>
+            </nature>
+            <token xml:id="t_5_2">triumphant</token>
+            <token xml:id="t_5_3">ranged</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">Strangers</token>
+            <token xml:id="t_6_2">strolled</token>
+            <token xml:id="t_6_3">and</token>
+            <writing>
+               <token xml:id="t_6_4">spelled</token>
+            </writing>
+         </line>
+         <line>
+            <token xml:id="t_7_1">At</token>
+            <token xml:id="t_7_2">the</token>
+            <solitude>
+               <token xml:id="t_7_3">lone</token>
+            </solitude>
+            <writing>
+               <token xml:id="t_7_4">Orthography</token>
+            </writing>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Of</token>
+            <token xml:id="t_8_2">the</token>
+            <token xml:id="t_8_3">Elder</token>
+            <death>
+               <token xml:id="t_8_4">Dead</token>
+            </death>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <nature nature_type="air">
+               <token xml:id="t_9_1">Winds</token>
+            </nature>
+            <token xml:id="t_9_2">of</token>
+            <nature nature_type="earth">
+               <token xml:id="t_9_3">Summer</token>
+               <token xml:id="t_9_4">Fields</token>
+            </nature>
+         </line>
+         <line>
+            <memory>
+               <token xml:id="t_10_1">Recollect</token>
+            </memory>
+            <token xml:id="t_10_2">the</token>
+            <token xml:id="t_10_3">way</token>
+            <token xml:id="t_10_4">-</token>
+         </line>
+         <line>
+            <token xml:id="t_11_1">Instinct</token>
+            <token xml:id="t_11_2">picking</token>
+            <token xml:id="t_11_3">up</token>
+            <token xml:id="t_11_4">the</token>
+            <token xml:id="t_11_5">Key</token>
+         </line>
+         <!--could this be marked up as memory too? or life maybe ? -->
+         <line>
+            <token xml:id="t_12_1">Dropped</token>
+            <token xml:id="t_12_2">by</token>
+            <memory>
+               <token xml:id="t_12_3">memory</token>
+            </memory>
+            <token xml:id="t_12_4">-</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!-- 
+After a hundred years
+Nobody  knew knows the Place
+Agony that enacted there
+Motionless as Peace
+
+Weeds triumphant ranged
+Strangers strolled and spelled
+At the lone Orthography
+Of the Elder Dead
+
+Winds of Summer Fields
+Recollect the way -
+Instinct picking up the Key
+Dropped by memory -
+-->

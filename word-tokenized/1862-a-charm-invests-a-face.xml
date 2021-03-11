@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A Charm invests a face</first_line>
+      <date period="early">1862</date>
+      <poem_number>J421</poem_number>
+      <source> https://www.edickinson.org/editions/2/image_sets/12170021 </source>
+      <recipient/>
+      <poem_themes/>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">A</token>
+            <token xml:id="t_1_2">Charm</token>
+            <token xml:id="t_1_3">invests</token>
+            <token xml:id="t_1_4">a</token>
+            <physical_body>
+               <token xml:id="t_1_5">face</token>
+            </physical_body>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Imperfectly</token>
+            <token xml:id="t_2_2">beheld</token>
+            <token xml:id="t_2_3">--</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">The</token>
+            <token xml:id="t_3_2">Lady</token>
+            <token xml:id="t_3_3">dare</token>
+            <token xml:id="t_3_4">not</token>
+            <token xml:id="t_3_5">lift</token>
+            <token xml:id="t_3_6">her</token>
+            <token xml:id="t_3_7">Vail</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">For</token>
+            <emotion emotion_type="fear">
+               <token xml:id="t_4_2">fear</token>
+            </emotion>
+            <token xml:id="t_4_3">it</token>
+            <token xml:id="t_4_4">be</token>
+            <token xml:id="t_4_5">dispelled</token>
+            <token xml:id="t_4_6">--</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">But</token>
+            <token xml:id="t_5_2">peers</token>
+            <token xml:id="t_5_3">beyond</token>
+            <token xml:id="t_5_4">her</token>
+            <token xml:id="t_5_5">mesh</token>
+            <token xml:id="t_5_6">--</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">And</token>
+            <token xml:id="t_6_2">wishes</token>
+            <token xml:id="t_6_3">--</token>
+            <token xml:id="t_6_4">and</token>
+            <token xml:id="t_6_5">denies</token>
+            <token xml:id="t_6_6">--</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">Lest</token>
+            <token xml:id="t_7_2">Interview</token>
+            <token xml:id="t_7_3">--</token>
+            <token xml:id="t_7_4">annul</token>
+            <token xml:id="t_7_5">a</token>
+            <token xml:id="t_7_6">want</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">That</token>
+            <token xml:id="t_8_2">Image</token>
+            <token xml:id="t_8_3">--</token>
+            <token xml:id="t_8_4">satisfies</token>
+            <token xml:id="t_8_5">--</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+        A Charm invests a face 
+        Imperfectly beheld - 
+        The Lady dare not lift her Vail 
+        For fear it be dispelled - 
+        
+        But peers beyond her mesh - 
+        And wishes - and denies - 
+        Lest Interview - annul a want 
+        That Image - satisfies - 
+
+ -->

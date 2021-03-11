@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>Now I knew I lost her -</first_line>
+      <date period="middle">1872</date>
+      <poem_number>J1219</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171914</source>
+      <recipient>none</recipient>
+      <poem_themes>interpersonal relationships, memory</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">Now</token>
+            <character name="I" relation_with="her">
+               <token xml:id="t_1_2">I</token>
+            </character>
+            <token xml:id="t_1_3">knew</token>
+            <token xml:id="t_1_4">I</token>
+            <loss>
+               <token xml:id="t_1_5">lost</token>
+            </loss>
+            <character name="her" relation_with="I">
+               <token xml:id="t_1_6">her</token>
+            </character>
+            <token xml:id="t_1_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Not</token>
+            <token xml:id="t_2_2">that</token>
+            <token xml:id="t_2_3">she</token>
+            <token xml:id="t_2_4">was</token>
+            <token xml:id="t_2_5">gone</token>
+            <token xml:id="t_2_6">-</token>
+         </line>
+         <!--tagging specifically as loss and not death bc of this line -->
+         <line>
+            <token xml:id="t_3_1">But</token>
+            <solitude>
+               <token xml:id="t_3_2">Remoteness</token>
+            </solitude>
+            <token xml:id="t_3_3">travelled</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">On</token>
+            <token xml:id="t_4_2">her</token>
+            <physical_body>
+               <token xml:id="t_4_3">Face</token>
+               <token xml:id="t_4_4">and</token>
+               <token xml:id="t_4_5">Tongue</token>
+            </physical_body>
+            <token xml:id="t_4_6">.</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">Alien,</token>
+            <token xml:id="t_5_2">though</token>
+            <token xml:id="t_5_3">adjoining</token>
+         </line>
+         <!--social interaction: should be tagged as social norm? but social
+                norm doesn't feel right either -->
+         <line>
+            <token xml:id="t_6_1">As</token>
+            <token xml:id="t_6_2">a</token>
+            <token xml:id="t_6_3">Foreign</token>
+            <token xml:id="t_6_4">Race</token>
+            <token xml:id="t_6_5">-</token>
+         </line>
+         <!--foreign race and alien: should this be marked up somehow? -->
+         <line>
+            <time>
+               <token xml:id="t_7_1">Traversed</token>
+            </time>
+            <token xml:id="t_7_2">she</token>
+            <token xml:id="t_7_3">though</token>
+            <token xml:id="t_7_4">pausing</token>
+         </line>
+         <line>
+            <uncertainty>
+               <token xml:id="t_8_1">&gt;Latitudeless</token>
+            </uncertainty>
+            <token xml:id="t_8_2">Place.</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <science>
+               <token xml:id="t_9_1">Elements</token>
+            </science>
+            <token xml:id="t_9_2">Unaltered</token>
+            <token xml:id="t_9_3">-</token>
+         </line>
+         <line>
+            <token xml:id="t_10_1">Universe</token>
+            <token xml:id="t_10_2">the</token>
+            <token xml:id="t_10_3">same</token>
+         </line>
+         <line>
+            <token xml:id="t_11_1">But</token>
+            <love>
+               <token xml:id="t_11_2">Love's</token>
+            </love>
+            <token xml:id="t_11_3">transmigration</token>
+            <token xml:id="t_11_4">-</token>
+         </line>
+         <!--not sure if it is romantic love or not -->
+         <line>
+            <token xml:id="t_12_1">Somehow</token>
+            <token xml:id="t_12_2">this</token>
+            <time>
+               <token xml:id="t_12_3">had</token>
+               <token xml:id="t_12_4">come</token>
+            </time>
+            <token xml:id="t_12_5">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_13_1">Henceforth</token>
+            <token xml:id="t_13_2">to</token>
+            <memory>
+               <token xml:id="t_13_3">remember</token>
+            </memory>
+         </line>
+         <line>
+            <token xml:id="t_14_1">Nature</token>
+            <token xml:id="t_14_2">took</token>
+            <token xml:id="t_14_3">the</token>
+            <token xml:id="t_14_4">Day</token>
+         </line>
+         <!-- Is the Day a reference to the character "her?" -->
+         <line>
+            <token xml:id="t_15_1">I</token>
+            <token xml:id="t_15_2">had</token>
+            <labor>
+               <token xml:id="t_15_3">paid</token>
+               <token xml:id="t_15_4">so</token>
+               <token xml:id="t_15_5">much</token>
+               <token xml:id="t_15_6">for</token>
+            </labor>
+            <token xml:id="t_15_7">-</token>
+         </line>
+         <!-- not physical but emotional labor? maybe too specific? -->
+         <line>
+            <token xml:id="t_16_1">His</token>
+            <token xml:id="t_16_2">is</token>
+            <social_class>
+               <token xml:id="t_16_3">Penury</token>
+            </social_class>
+         </line>
+         <!--not sure if this is about class or just being
+                impoverished in general -->
+         <line>
+            <token xml:id="t_17_1">Not</token>
+            <token xml:id="t_17_2">who</token>
+            <labor>
+               <token xml:id="t_17_3">toils</token>
+            </labor>
+            <token xml:id="t_17_4">for</token>
+            <token xml:id="t_17_5">Freedom</token>
+         </line>
+         <line>
+            <token xml:id="t_18_1">Or</token>
+            <token xml:id="t_18_2">for</token>
+            <token xml:id="t_18_3">Family</token>
+         </line>
+         <line>
+            <token xml:id="t_19_1">But</token>
+            <token xml:id="t_19_2">the</token>
+            <token xml:id="t_19_3">Restitution</token>
+         </line>
+         <line>
+            <token xml:id="t_20_1">Of</token>
+            <religion type="thing">
+               <token xml:id="t_20_2">Idolatry</token>
+            </religion>
+            <love/>
+            <token xml:id="t_20_3">.</token>
+         </line>
+         <!--may not be explicitly religious, but idolatry does seem to have religious connotations 
+           i also marked it as "love" because it seems as if the narrator wants to go back to the
+           same type of intense love they had for "her" in the past -->
+      </stanza>
+   </body>
+</poem>
+<!-- 
+Now I knew I lost her -
+Not that she was gone -
+But Remoteness travelled
+On her Face and Tongue.
+
+Alien, though adjoining
+As a Foreign Race -
+Traversed she though pausing
+Latitudeless Place.
+
+Elements Unaltered -
+Universe the same
+But Love's transmigration -
+Somehow this had come -
+
+Henceforth to remember
+Nature took the Day
+I had paid so much for -
+His is Penury
+Not who toils for Freedom
+Or for Family
+But the Restitution
+Of Idolatry.
+-->

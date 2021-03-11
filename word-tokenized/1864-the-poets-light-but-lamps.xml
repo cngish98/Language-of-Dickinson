@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>The Poets light but Lamps -</first_line>
+      <date period="middle">1864</date>
+      <poem_number>J883</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171126</source>
+      <recipient>none</recipient>
+      <poem_themes>writing/poetry, light, memory, human experience</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">The</token>
+            <writing>
+               <token xml:id="t_1_2">Poets</token>
+            </writing>
+            <light>
+               <token xml:id="t_1_3">light</token>
+            </light>
+            <token xml:id="t_1_4">but</token>
+            <light>
+               <token xml:id="t_1_5">Lamps</token>
+            </light>
+            <token xml:id="t_1_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Themselves</token>
+            <token xml:id="t_2_2">-</token>
+            <death>
+               <token xml:id="t_2_3">go</token>
+               <token xml:id="t_2_4">out</token>
+            </death>
+            <darkness/>
+            <token xml:id="t_2_5">-</token>
+         </line>
+         <!-- light going out implies darkness -->
+         <line>
+            <token xml:id="t_3_1">The</token>
+            <token xml:id="t_3_2">Wicks</token>
+            <token xml:id="t_3_3">they</token>
+            <token xml:id="t_3_4">stimulate</token>
+            <token xml:id="t_3_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">If</token>
+            <token xml:id="t_4_2">vital</token>
+            <light>
+               <token xml:id="t_4_3">Light</token>
+            </light>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">Inhere</token>
+            <token xml:id="t_5_2">as</token>
+            <token xml:id="t_5_3">do</token>
+            <token xml:id="t_5_4">the</token>
+            <light>
+               <token xml:id="t_5_5">Suns</token>
+            </light>
+            <token xml:id="t_5_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">Each</token>
+            <time>
+               <token xml:id="t_6_2">Age</token>
+            </time>
+            <token xml:id="t_6_3">a</token>
+            <token xml:id="t_6_4">Lens</token>
+         </line>
+         <line>
+            <memory>
+               <token xml:id="t_7_1">Disseminating</token>
+               <token xml:id="t_7_2">their</token>
+            </memory>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Circumference</token>
+            <token xml:id="t_8_2">-</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--My understanding (after looking up other people's interpretations of this poem too) is that 
+    this is a metaphor linking writing by poets to lamps - the influence of poems and ideas (wicks) lasts throughout many "ages",
+    even after the lamp "goes out" and the poet dies -->
+<!-- 
+The Poets light but Lamps -
+Themselves - go out -
+The Wicks they stimulate -
+If vital Light
+
+Inhere as do the Suns -
+Each Age a Lens
+Disseminating their
+Circumference -
+-->

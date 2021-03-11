@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>The going from a world we know</first_line>
+      <date period="late">1884</date>
+      <poem_number>J1603</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12172935</source>
+      <recipient>Louise and Frances Norcross</recipient>
+      <poem_themes/>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <death>
+               <token xml:id="t_1_1">The</token>
+               <token xml:id="t_1_2">going</token>
+               <token xml:id="t_1_3">from</token>
+               <token xml:id="t_1_4">a</token>
+               <token xml:id="t_1_5">world</token>
+               <token xml:id="t_1_6">we</token>
+               <token xml:id="t_1_7">know</token>
+            </death>
+         </line>
+         <line>
+            <token xml:id="t_2_1">To</token>
+            <religion type="place">
+               <token xml:id="t_2_2">one</token>
+               <token xml:id="t_2_3">a</token>
+               <token xml:id="t_2_4">wonder</token>
+               <token xml:id="t_2_5">still</token>
+            </religion>
+         </line>
+         <line>
+            <token xml:id="t_3_1">Is</token>
+            <token xml:id="t_3_2">like</token>
+            <token xml:id="t_3_3">the</token>
+            <token xml:id="t_3_4">child's</token>
+            <token xml:id="t_3_5">adversity</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Whose</token>
+            <place>
+               <token xml:id="t_4_2">vista</token>
+            </place>
+            <token xml:id="t_4_3">is</token>
+            <token xml:id="t_4_4">a</token>
+            <nature nature_type="earth">
+               <token xml:id="t_4_5">hill</token>
+            </nature>
+            <token xml:id="t_4_6">,</token>
+         </line>
+         <line>
+            <token xml:id="t_5_1">Behind</token>
+            <token xml:id="t_5_2">the</token>
+            <nature nature_type="earth">
+               <token xml:id="t_5_3">hill</token>
+            </nature>
+            <token xml:id="t_5_4">is</token>
+            <token xml:id="t_5_5">sorcery</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">And</token>
+            <token xml:id="t_6_2">everything</token>
+            <token xml:id="t_6_3">unknown,</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">But</token>
+            <token xml:id="t_7_2">will</token>
+            <token xml:id="t_7_3">the</token>
+            <token xml:id="t_7_4">secret</token>
+            <token xml:id="t_7_5">compensate</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">For</token>
+            <token xml:id="t_8_2">climbing</token>
+            <token xml:id="t_8_3">it</token>
+            <solitude>
+               <token xml:id="t_8_4">alone?</token>
+            </solitude>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
+    The going from a world we know
+    To one a wonder still
+    Is like the child's adversity
+    Whose vista is a hill,
+    Behind the hill is sorcery
+    And everything unknown,
+    But will the secret compensate
+    For climbing it alone? 
+-->

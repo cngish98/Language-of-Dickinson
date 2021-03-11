@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>Four Trees - upon a solitary Acre -</first_line>
+      <date period="middle">1863</date>
+      <poem_number>J742</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12170725</source>
+      <recipient>none</recipient>
+      <poem_themes>nature, solitude</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">Four</token>
+            <nature nature_type="earth">
+               <token xml:id="t_1_2">Trees</token>
+            </nature>
+            <token xml:id="t_1_3">-</token>
+            <token xml:id="t_1_4">upon</token>
+            <token xml:id="t_1_5">a</token>
+            <solitude judgment="neutral">
+               <token xml:id="t_1_6">solitary</token>
+            </solitude>
+            <nature nature_type="earth">
+               <token xml:id="t_1_7">Acre</token>
+            </nature>
+            <token xml:id="t_1_8">-</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Without</token>
+            <token xml:id="t_2_2">Design</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">Or</token>
+            <token xml:id="t_3_2">Order,</token>
+            <token xml:id="t_3_3">or</token>
+            <token xml:id="t_3_4">Apparent</token>
+            <variant>
+               <token xml:id="t_3_5">signal</token>
+            </variant>
+            <token xml:id="t_3_6">-</token>
+            <variant>
+               <token xml:id="t_3_7">notice</token>
+            </variant>
+            <token xml:id="t_3_8">Action</token>
+            <token xml:id="t_3_9">-</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Do</token>
+            <variant>
+               <token xml:id="t_4_2">reign</token>
+            </variant>
+            <token xml:id="t_4_3">-</token>
+            <variant>
+               <token xml:id="t_4_4">hinder</token>
+            </variant>
+            <token xml:id="t_4_5">-</token>
+            <token xml:id="t_4_6">Maintain</token>
+            <token xml:id="t_4_7">-</token>
+         </line>
+         <!--elision or intransitive verb? -->
+      </stanza>
+      <!--Included judgment because she is making a statement that they are existing just as they are, untouched
+            by good or bad -->
+      <stanza>
+         <line>
+            <nature nature_type="space">
+               <token xml:id="t_5_1">The</token>
+               <token xml:id="t_5_2">Sun</token>
+            </nature>
+            <token xml:id="t_5_3">-</token>
+            <token xml:id="t_5_4">upon</token>
+            <token xml:id="t_5_5">a</token>
+            <time>
+               <token xml:id="t_5_6">Morning</token>
+            </time>
+            <token xml:id="t_5_7">meets</token>
+            <token xml:id="t_5_8">them</token>
+            <token xml:id="t_5_9">-</token>
+         </line>
+         <line>
+            <nature nature_type="air">
+               <token xml:id="t_6_1">The</token>
+               <token xml:id="t_6_2">Wind</token>
+            </nature>
+            <token xml:id="t_6_3">-</token>
+         </line>
+         <line>
+            <solitude>
+               <token xml:id="t_7_1">No</token>
+               <token xml:id="t_7_2">nearer</token>
+               <token xml:id="t_7_3">Neighbor</token>
+               <token xml:id="t_7_4">-</token>
+               <token xml:id="t_7_5">have</token>
+               <token xml:id="t_7_6">they</token>
+               <token xml:id="t_7_7">-</token>
+            </solitude>
+         </line>
+         <line>
+            <token xml:id="t_8_1">But</token>
+            <religion type="person">
+               <token xml:id="t_8_2">God</token>
+            </religion>
+            <token xml:id="t_8_3">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_9_1">The</token>
+            <token xml:id="t_9_2">Acre</token>
+            <token xml:id="t_9_3">gives</token>
+            <token xml:id="t_9_4">them</token>
+            <token xml:id="t_9_5">-</token>
+            <token xml:id="t_9_6">Place</token>
+            <token xml:id="t_9_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_10_1">They</token>
+            <token xml:id="t_10_2">-</token>
+            <token xml:id="t_10_3">Him</token>
+            <token xml:id="t_10_4">-</token>
+            <token xml:id="t_10_5">Attention</token>
+            <token xml:id="t_10_6">of</token>
+            <token xml:id="t_10_7">Passer</token>
+            <token xml:id="t_10_8">by</token>
+            <token xml:id="t_10_9">-</token>
+         </line>
+         <!--elision here? -->
+         <line>
+            <token xml:id="t_11_1">Of</token>
+            <darkness>
+               <token xml:id="t_11_2">Shadow</token>
+            </darkness>
+            <token xml:id="t_11_3">,</token>
+            <token xml:id="t_11_4">or</token>
+            <token xml:id="t_11_5">of</token>
+            <animal>
+               <token xml:id="t_11_6">Squirrel</token>
+            </animal>
+            <token xml:id="t_11_7">,</token>
+            <token xml:id="t_11_8">haply</token>
+            <token xml:id="t_11_9">-</token>
+         </line>
+         <line>
+            <token xml:id="t_12_1">Or</token>
+            <childhood>
+               <token xml:id="t_12_2">Boy</token>
+            </childhood>
+            <token xml:id="t_12_3">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_13_1">What</token>
+            <token xml:id="t_13_2">Deed</token>
+            <variant>
+               <token xml:id="t_13_3">they</token>
+               <token xml:id="t_13_4">bear</token>
+            </variant>
+            <token xml:id="t_13_5">is</token>
+            <token xml:id="t_13_6">Their's</token>
+            <token xml:id="t_13_7">unto</token>
+            <token xml:id="t_13_8">the</token>
+            <token xml:id="t_13_9">General</token>
+            <nature nature_type="general">
+               <token xml:id="t_13_10">Nature</token>
+            </nature>
+            <token xml:id="t_13_11">-</token>
+         </line>
+         <line>
+            <token xml:id="t_14_1">What</token>
+            <token xml:id="t_14_2">Plan</token>
+         </line>
+         <line>
+            <token xml:id="t_15_1">They</token>
+            <token xml:id="t_15_2">severally</token>
+            <token xml:id="t_15_3">-</token>
+            <variant>
+               <token xml:id="t_15_4">promote</token>
+               <token xml:id="t_15_5">-</token>
+               <token xml:id="t_15_6">or</token>
+            </variant>
+            <token xml:id="t_15_7">retard</token>
+            <token xml:id="t_15_8">-</token>
+            <token xml:id="t_15_9">or</token>
+            <token xml:id="t_15_10">further</token>
+            <token xml:id="t_15_11">-</token>
+         </line>
+         <!--elision?-->
+         <line>
+            <uncertainty>
+               <token xml:id="t_16_1">Unknown</token>
+            </uncertainty>
+            <token xml:id="t_16_2">-</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--
+Four Trees - upon a solitary Acre -
+Without Design
+Or Order, or Apparent  signal -  notice Action -
+Do reign - hinder - Maintain -
+
+The Sun - upon a Morning meets them -
+The Wind -
+No nearer Neighbor - have they -
+But God -
+
+The Acre gives them - Place -
+They - Him - Attention of Passer by -
+Of Shadow, or of Squirrel, haply -
+Or Boy -
+
+What Deed  they bear is Their's unto the General Nature -
+What Plan
+They severally -  promote - or retard - or further -
+Unknown -
+-->

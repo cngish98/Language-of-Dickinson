@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>You left me - sire - two legacies -</first_line>
+      <date period="middle">1863</date>
+      <poem_number>J644</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12170574</source>
+      <recipient>none</recipient>
+      <poem_themes>interpersonal relationships, duality, love, pain, time</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <character name="sire" relation_with="me">
+               <token xml:id="t_1_1">You</token>
+            </character>
+            <token xml:id="t_1_2">left</token>
+            <character name="me" relation_with="sire">
+               <token xml:id="t_1_3">me</token>
+            </character>
+            <token xml:id="t_1_4">-</token>
+            <token xml:id="t_1_5">Sire</token>
+            <token xml:id="t_1_6">-</token>
+            <token xml:id="t_1_7">two</token>
+            <token xml:id="t_1_8">Legacies</token>
+            <token xml:id="t_1_9">-</token>
+         </line>
+         <line>
+            <love>
+               <token xml:id="t_2_1">A</token>
+               <token xml:id="t_2_2">Legacy</token>
+               <token xml:id="t_2_3">of</token>
+               <token xml:id="t_2_4">Love</token>
+            </love>
+         </line>
+         <line>
+            <token xml:id="t_3_1">A</token>
+            <religion type="person">
+               <token xml:id="t_3_2">Heavenly</token>
+               <token xml:id="t_3_3">Father</token>
+            </religion>
+            <token xml:id="t_3_4">would</token>
+            <variant>
+               <token xml:id="t_3_5">content</token>
+            </variant>
+            <token xml:id="t_3_6">-</token>
+            <token xml:id="t_3_7">suffice</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Had</token>
+            <religion type="person"/>
+            <token xml:id="t_4_2">He</token>
+            <token xml:id="t_4_3">the</token>
+            <token xml:id="t_4_4">offer</token>
+            <token xml:id="t_4_5">of</token>
+            <token xml:id="t_4_6">-</token>
+         </line>
+         <!--elision here-->
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">You</token>
+            <token xml:id="t_5_2">left</token>
+            <token xml:id="t_5_3">me</token>
+            <token xml:id="t_5_4">Boundaries</token>
+            <token xml:id="t_5_5">of</token>
+            <emotion emotion_type="pain">
+               <token xml:id="t_5_6">Pain</token>
+            </emotion>
+            <token xml:id="t_5_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">Capacious</token>
+            <token xml:id="t_6_2">as</token>
+            <token xml:id="t_6_3">the</token>
+            <nature nature_type="water">
+               <token xml:id="t_6_4">Sea</token>
+            </nature>
+            <token xml:id="t_6_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">Between</token>
+            <time>
+               <token xml:id="t_7_2">Eternity</token>
+            </time>
+            <token xml:id="t_7_3">and</token>
+            <time>
+               <token xml:id="t_7_4">Time</token>
+            </time>
+            <token xml:id="t_7_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Your</token>
+            <mind>
+               <token xml:id="t_8_2">Consciousness</token>
+            </mind>
+            <token xml:id="t_8_3">-</token>
+            <token xml:id="t_8_4">and</token>
+            <token xml:id="t_8_5">Me</token>
+            <token xml:id="t_8_6">-</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!-- 
+You left me - Sire - two Legacies -
+A Legacy of Love
+A Heavenly Father would  content - suffice
+Had He the offer of -
+
+You left me Boundaries of Pain -
+Capacious as the Sea -
+Between Eternity and Time -
+Your Consciousness - and Me -
+-->

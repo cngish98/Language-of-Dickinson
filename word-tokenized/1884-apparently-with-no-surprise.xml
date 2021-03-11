@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>Apparently with no surprise</first_line>
+      <date period="late">1884</date>
+      <poem_number>J1624</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12172983</source>
+      <recipient>none</recipient>
+      <poem_themes/>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">Apparently</token>
+            <token xml:id="t_1_2">with</token>
+            <token xml:id="t_1_3">no</token>
+            <token xml:id="t_1_4">surprise</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">To</token>
+            <token xml:id="t_2_2">any</token>
+            <token xml:id="t_2_3">happy</token>
+            <nature nature_type="earth">
+               <token xml:id="t_2_4">Flower</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_3_1">The</token>
+            <nature nature_type="general">
+               <token xml:id="t_3_2">Frost</token>
+            </nature>
+            <token xml:id="t_3_3">beheads</token>
+            <token xml:id="t_3_4">it</token>
+            <token xml:id="t_3_5">at</token>
+            <token xml:id="t_3_6">it's</token>
+            <token xml:id="t_3_7">play</token>
+            <token xml:id="t_3_8">-</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">In</token>
+            <token xml:id="t_4_2">accidental</token>
+            <token xml:id="t_4_3">power</token>
+            <token xml:id="t_4_4">-</token>
+         </line>
+         <line>
+            <token xml:id="t_5_1">The</token>
+            <token xml:id="t_5_2">blonde</token>
+            <token xml:id="t_5_3">Assassin</token>
+            <token xml:id="t_5_4">passes</token>
+            <token xml:id="t_5_5">on</token>
+            <token xml:id="t_5_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">The</token>
+            <nature nature_type="space">
+               <token xml:id="t_6_2">Sun</token>
+            </nature>
+            <token xml:id="t_6_3">proceeds</token>
+            <token xml:id="t_6_4">unmoved</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">To</token>
+            <token xml:id="t_7_2">measure</token>
+            <token xml:id="t_7_3">off</token>
+            <token xml:id="t_7_4">another</token>
+            <time>
+               <token xml:id="t_7_5">Day</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_8_1">For</token>
+            <token xml:id="t_8_2">an</token>
+            <token xml:id="t_8_3">Approving</token>
+            <religion type="person">
+               <token xml:id="t_8_4">God</token>
+            </religion>
+            <token xml:id="t_8_5">.</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
+    Apparently with no surprise
+    To any happy Flower
+    The Frost beheads it at it's play -
+    In accidental power -
+    The blonde Assassin passes on -
+    The Sun proceeds unmoved
+    To measure off another Day
+    For an Approving God. 
+-->

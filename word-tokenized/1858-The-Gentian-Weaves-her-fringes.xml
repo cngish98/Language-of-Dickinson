@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line/>
+      <date period="early">1858</date>
+      <poem_number>F21A</poem_number>
+      <source> https://www.edickinson.org/editions/1/image_sets/12173394 </source>
+      <recipient/>
+      <poem_themes>Nature</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">The</token>
+            <nature nature_type="earth">
+               <token xml:id="t_1_2">Gentian</token>
+            </nature>
+            <token xml:id="t_1_3">weaves</token>
+            <token xml:id="t_1_4">her</token>
+            <token xml:id="t_1_5">fringes</token>
+            <token xml:id="t_1_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">The</token>
+            <nature nature_type="earth">
+               <token xml:id="t_2_2">Maple's</token>
+            </nature>
+            <token xml:id="t_2_3">loom</token>
+            <token xml:id="t_2_4">is</token>
+            <token xml:id="t_2_5">red</token>
+            <token xml:id="t_2_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">My</token>
+            <token xml:id="t_3_2">departing</token>
+            <nature nature_type="earth">
+               <token xml:id="t_3_3">blossoms</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Obviate</token>
+            <token xml:id="t_4_2">parade.</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+The Gentian weaves her fringes - 
+The Maple's loom is red - 
+My departing blossoms 
+Obviate parade. 
+
+
+ -->

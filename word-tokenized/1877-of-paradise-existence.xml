@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>Of Paradise' existence</first_line>
+      <date period="late">1877</date>
+      <poem_number>J1411</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12172433</source>
+      <recipient>none</recipient>
+      <poem_themes>religion, uncertainty</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">Of</token>
+            <religion type="place">
+               <token xml:id="t_1_2">Paradise'</token>
+            </religion>
+            <token xml:id="t_1_3">existence</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">All</token>
+            <token xml:id="t_2_2">we</token>
+            <token xml:id="t_2_3">know</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">Is</token>
+            <token xml:id="t_3_2">the</token>
+            <uncertainty>
+               <token xml:id="t_3_3">uncertain</token>
+               <token xml:id="t_3_4">certainty</token>
+            </uncertainty>
+            <token xml:id="t_3_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">But</token>
+            <token xml:id="t_4_2">it's</token>
+            <religion type="place">
+               <token xml:id="t_4_3">vicinity</token>
+            </religion>
+            <token xml:id="t_4_4">infer,</token>
+         </line>
+         <!--elision?? -->
+         <!-- saw that the "vicinity" to heaven would be a place of worship like a church or courtyard -->
+         <line>
+            <token xml:id="t_5_1">By</token>
+            <token xml:id="t_5_2">it's</token>
+            <token xml:id="t_5_3">Bisecting</token>
+         </line>
+         <line>
+            <religion type="person">
+               <token xml:id="t_6_1">Messenger</token>
+            </religion>
+            <token xml:id="t_6_2">-</token>
+         </line>
+         <!--priest or other clergy member -->
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
+    Of Paradise' existence
+    All we know
+    Is the uncertain certainty -
+    But it's vicinity infer,
+    By it's Bisecting
+    Messenger - 
+-->

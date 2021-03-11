@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A fuzzy fellow, without feet</first_line>
+      <date period="early">1860</date>
+      <poem_number>F171A</poem_number>
+      <source> https://www.edickinson.org/editions/1/image_sets/12173881 </source>
+      <recipient/>
+      <poem_themes>Caterpillar</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">A</token>
+            <animal>
+               <token xml:id="t_1_2">fuzzy</token>
+               <token xml:id="t_1_3">fellow</token>
+            </animal>
+            <token xml:id="t_1_4">,</token>
+            <token xml:id="t_1_5">without</token>
+            <physical_body>
+               <token xml:id="t_1_6">feet</token>
+            </physical_body>
+            <token xml:id="t_1_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Yet</token>
+            <token xml:id="t_2_2">doth</token>
+            <token xml:id="t_2_3">exceeding</token>
+            <token xml:id="t_2_4">run!</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">Of</token>
+            <token xml:id="t_3_2">velvet,</token>
+            <token xml:id="t_3_3">is</token>
+            <token xml:id="t_3_4">his</token>
+            <token xml:id="t_3_5">Countenance</token>
+            <token xml:id="t_3_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">And</token>
+            <token xml:id="t_4_2">his</token>
+            <token xml:id="t_4_3">complexion,</token>
+            <token xml:id="t_4_4">dun!</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">Sometime,</token>
+            <token xml:id="t_5_2">he</token>
+            <token xml:id="t_5_3">dwelleth</token>
+            <token xml:id="t_5_4">in</token>
+            <token xml:id="t_5_5">the</token>
+            <nature nature_type="earth">
+               <token xml:id="t_5_6">grass!</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_6_1">Sometime,</token>
+            <token xml:id="t_6_2">opon</token>
+            <token xml:id="t_6_3">a</token>
+            <nature nature_type="earth">
+               <token xml:id="t_6_4">bough</token>
+            </nature>
+            <token xml:id="t_6_5">,</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">From</token>
+            <token xml:id="t_7_2">which</token>
+            <token xml:id="t_7_3">he</token>
+            <token xml:id="t_7_4">doth</token>
+            <token xml:id="t_7_5">descend</token>
+            <token xml:id="t_7_6">in</token>
+            <token xml:id="t_7_7">plush</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Opon</token>
+            <token xml:id="t_8_2">the</token>
+            <token xml:id="t_8_3">Passer-by!</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_9_1">All</token>
+            <token xml:id="t_9_2">this</token>
+            <token xml:id="t_9_3">in</token>
+            <time>
+               <token xml:id="t_9_4">summer</token>
+            </time>
+            <token xml:id="t_9_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_10_1">But</token>
+            <token xml:id="t_10_2">when</token>
+            <nature nature_type="air">
+               <token xml:id="t_10_3">winds</token>
+            </nature>
+            <token xml:id="t_10_4">alarm</token>
+            <token xml:id="t_10_5">the</token>
+            <character name="Forest Folk">
+               <token xml:id="t_10_6">Forest</token>
+               <token xml:id="t_10_7">Folk</token>
+            </character>
+            <token xml:id="t_10_8">,</token>
+         </line>
+         <line>
+            <token xml:id="t_11_1">He</token>
+            <token xml:id="t_11_2">taketh</token>
+            <nature nature_type="earth">
+               <token xml:id="t_11_3">Damask</token>
+            </nature>
+            <token xml:id="t_11_4">Residence</token>
+            <token xml:id="t_11_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_12_1">And</token>
+            <token xml:id="t_12_2">struts</token>
+            <token xml:id="t_12_3">in</token>
+            <token xml:id="t_12_4">s</token>
+            <token xml:id="t_12_5">e</token>
+            <token xml:id="t_12_6">wing</token>
+            <token xml:id="t_12_7">silk!</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_13_1">Then,</token>
+            <token xml:id="t_13_2">finer</token>
+            <token xml:id="t_13_3">than</token>
+            <token xml:id="t_13_4">a</token>
+            <token xml:id="t_13_5">Lady,</token>
+         </line>
+         <line>
+            <token xml:id="t_14_1">Emerges</token>
+            <token xml:id="t_14_2">in</token>
+            <token xml:id="t_14_3">the</token>
+            <time>
+               <token xml:id="t_14_4">spring</token>
+            </time>
+            <token xml:id="t_14_5">!</token>
+         </line>
+         <line>
+            <token xml:id="t_15_1">A</token>
+            <nature nature_type="animal">
+               <token xml:id="t_15_2">Feather</token>
+            </nature>
+            <token xml:id="t_15_3">on</token>
+            <token xml:id="t_15_4">each</token>
+            <physical_body>
+               <token xml:id="t_15_5">shoulder</token>
+            </physical_body>
+            <token xml:id="t_15_6">!</token>
+         </line>
+         <line>
+            <token xml:id="t_16_1">You'd</token>
+            <token xml:id="t_16_2">scarce</token>
+            <token xml:id="t_16_3">recognize</token>
+            <token xml:id="t_16_4">him!</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_17_1">By</token>
+            <token xml:id="t_17_2">men,</token>
+            <token xml:id="t_17_3">yclept</token>
+            <animal animal_type="caterpillar">
+               <token xml:id="t_17_4">Caterpillar</token>
+            </animal>
+            <token xml:id="t_17_5">!</token>
+         </line>
+         <line>
+            <token xml:id="t_18_1">By</token>
+            <token xml:id="t_18_2">me!</token>
+            <token xml:id="t_18_3">But</token>
+            <token xml:id="t_18_4">who</token>
+            <token xml:id="t_18_5">am</token>
+            <token xml:id="t_18_6">I,</token>
+         </line>
+         <line>
+            <token xml:id="t_19_1">To</token>
+            <token xml:id="t_19_2">tell</token>
+            <token xml:id="t_19_3">the</token>
+            <token xml:id="t_19_4">pretty</token>
+            <token xml:id="t_19_5">secret</token>
+         </line>
+         <line>
+            <token xml:id="t_20_1">Of</token>
+            <token xml:id="t_20_2">the</token>
+            <animal animal_type="butterfly">
+               <token xml:id="t_20_3">Butterfly</token>
+            </animal>
+            <token xml:id="t_20_4">!</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW 
+ A fuzzy fellow, without feet - 
+        Yet doth exceeding run! 
+        Of velvet, is his Countenance - 
+        And his complexion, dun! 
+        
+        Sometime, he dwelleth in the grass! 
+        Sometime, opon a bough, 
+        From which he doth descend in plush 
+        Opon the Passer-by! 
+        
+        All this in summer - 
+        But when winds alarm the Forest Folk, 
+        He taketh Damask Residence - 
+        And struts in s e wing silk! 
+        
+        Then, finer than a Lady, 
+        Emerges in the spring! 
+        A Feather on each shoulder! 
+        You'd scarce recognize him!
+        
+        
+        By men, yclept Caterpillar! 
+        By me! But who am I, 
+        To tell the pretty secret 
+        Of the Butterfly! 
+-->

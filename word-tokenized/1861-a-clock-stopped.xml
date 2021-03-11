@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A Clock stopped</first_line>
+      <date period="early">1861</date>
+      <poem_number>J287</poem_number>
+      <source> https://www.edickinson.org/editions/2/image_sets/12169691 </source>
+      <recipient/>
+      <poem_themes>Time</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">A</token>
+            <time>
+               <token xml:id="t_1_2">Clock</token>
+               <token xml:id="t_1_3">stopped</token>
+            </time>
+            <token xml:id="t_1_4">--</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Not</token>
+            <token xml:id="t_2_2">the</token>
+            <token xml:id="t_2_3">Mantel's</token>
+            <token xml:id="t_2_4">--</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">Geneva's</token>
+            <token xml:id="t_3_2">farthest</token>
+            <token xml:id="t_3_3">skill</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Cant</token>
+            <token xml:id="t_4_2">put</token>
+            <token xml:id="t_4_3">the</token>
+            <token xml:id="t_4_4">puppet</token>
+            <token xml:id="t_4_5">bowing</token>
+            <token xml:id="t_4_6">--</token>
+         </line>
+         <line>
+            <token xml:id="t_5_1">That</token>
+            <token xml:id="t_5_2">just</token>
+            <token xml:id="t_5_3">now</token>
+            <token xml:id="t_5_4">dangled</token>
+            <token xml:id="t_5_5">still</token>
+            <token xml:id="t_5_6">--</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_6_1">An</token>
+            <token xml:id="t_6_2">awe</token>
+            <token xml:id="t_6_3">came</token>
+            <token xml:id="t_6_4">on</token>
+            <token xml:id="t_6_5">the</token>
+            <token xml:id="t_6_6">Trinket!</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">The</token>
+            <token xml:id="t_7_2">Figures</token>
+            <token xml:id="t_7_3">hunched,</token>
+            <token xml:id="t_7_4">With</token>
+            <emotion emotion_type="pain">
+               <token xml:id="t_7_5">pain</token>
+            </emotion>
+            <token xml:id="t_7_6">--</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Then</token>
+            <token xml:id="t_8_2">quivered</token>
+            <token xml:id="t_8_3">out</token>
+            <token xml:id="t_8_4">of</token>
+            <token xml:id="t_8_5">Decimals</token>
+            <token xml:id="t_8_6">--</token>
+         </line>
+         <line>
+            <token xml:id="t_9_1">Into</token>
+            <token xml:id="t_9_2">Degreeless</token>
+            <time>
+               <token xml:id="t_9_3">Noon</token>
+            </time>
+            <token xml:id="t_9_4">--</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_10_1">It</token>
+            <token xml:id="t_10_2">will</token>
+            <token xml:id="t_10_3">not</token>
+            <token xml:id="t_10_4">stir</token>
+            <token xml:id="t_10_5">for</token>
+            <social_class>
+               <token xml:id="t_10_6">Doctor's</token>
+            </social_class>
+            <token xml:id="t_10_7">--</token>
+         </line>
+         <line>
+            <token xml:id="t_11_1">This</token>
+            <token xml:id="t_11_2">Pendulum</token>
+            <token xml:id="t_11_3">of</token>
+            <nature nature_type="general">
+               <token xml:id="t_11_4">snow</token>
+            </nature>
+            <token xml:id="t_11_5">--</token>
+         </line>
+         <line>
+            <token xml:id="t_12_1">The</token>
+            <token xml:id="t_12_2">Shopman</token>
+            <token xml:id="t_12_3">importunes</token>
+            <token xml:id="t_12_4">it</token>
+            <token xml:id="t_12_5">--</token>
+         </line>
+         <line>
+            <token xml:id="t_13_1">While</token>
+            <token xml:id="t_13_2">cool</token>
+            <token xml:id="t_13_3">--</token>
+            <token xml:id="t_13_4">concernless</token>
+            <token xml:id="t_13_5">No</token>
+            <token xml:id="t_13_6">--</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_14_1">stares</token>
+            <token xml:id="t_14_2">Nods</token>
+            <token xml:id="t_14_3">from</token>
+            <token xml:id="t_14_4">the</token>
+            <wealth>
+               <token xml:id="t_14_5">Gilded</token>
+            </wealth>
+            <token xml:id="t_14_6">pointers</token>
+            <token xml:id="t_14_7">--</token>
+         </line>
+         <line>
+            <token xml:id="t_15_1">Nods</token>
+            <token xml:id="t_15_2">from</token>
+            <token xml:id="t_15_3">the</token>
+            <time>
+               <token xml:id="t_15_4">Seconds</token>
+            </time>
+            <token xml:id="t_15_5">slim</token>
+            <token xml:id="t_15_6">--</token>
+         </line>
+         <line>
+            <token xml:id="t_16_1">Decades</token>
+            <token xml:id="t_16_2">of</token>
+            <token xml:id="t_16_3">Arrogance</token>
+            <token xml:id="t_16_4">between</token>
+         </line>
+         <line>
+            <token xml:id="t_17_1">The</token>
+            <token xml:id="t_17_2">Dial</token>
+            <token xml:id="t_17_3">life</token>
+            <token xml:id="t_17_4">--</token>
+         </line>
+         <line>
+            <token xml:id="t_18_1">And</token>
+            <token xml:id="t_18_2">Him</token>
+            <token xml:id="t_18_3">--</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+A Clock stopped - 
+        Not the Mantel's - 
+        Geneva's farthest skill 
+        Cant put the puppet bowing - 
+        That just now dangled still - 
+        
+        An awe came on the Trinket! 
+        The Figures hunched, With pain - 
+        Then quivered out of Decimals - 
+        Into Degreeless Noon - 
+        
+        It will not stir for Doctor's - 
+        This Pendulum of snow - 
+        The Shopman importunes it - 
+        While cool - concernless No - 
+        
+        stares Nods from the Gilded pointers - 
+        Nods from the Seconds slim - 
+        Decades of Arrogance between 
+        The Dial life - 
+        And Him - 
+
+ -->

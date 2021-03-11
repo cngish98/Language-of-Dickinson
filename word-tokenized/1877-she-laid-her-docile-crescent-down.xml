@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>She laid her docile Crescent down</first_line>
+      <date period="late">1877</date>
+      <poem_number>J1396</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12172384</source>
+      <recipient>T.W. Higginson</recipient>
+      <poem_themes>death, time</poem_themes>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">She</token>
+            <token xml:id="t_1_2">laid</token>
+            <token xml:id="t_1_3">her</token>
+            <token xml:id="t_1_4">docile</token>
+            <token xml:id="t_1_5">Crescent</token>
+            <token xml:id="t_1_6">down</token>
+         </line>
+         <!--is the crescent referring to a gravestone as well? or the moon maybe?-->
+         <line>
+            <token xml:id="t_2_1">And</token>
+            <token xml:id="t_2_2">this</token>
+            <death>
+               <token xml:id="t_2_3">confiding</token>
+               <token xml:id="t_2_4">Stone</token>
+            </death>
+         </line>
+         <line>
+            <token xml:id="t_3_1">Still</token>
+            <token xml:id="t_3_2">states</token>
+            <token xml:id="t_3_3">to</token>
+            <time>
+               <token xml:id="t_3_4">Dates</token>
+            </time>
+            <token xml:id="t_3_5">that</token>
+            <token xml:id="t_3_6">have</token>
+            <loss>
+               <token xml:id="t_3_7">forgot</token>
+            </loss>
+         </line>
+         <line>
+            <token xml:id="t_4_1">The</token>
+            <token xml:id="t_4_2">News</token>
+            <token xml:id="t_4_3">that</token>
+            <death>
+               <token xml:id="t_4_4">she</token>
+               <token xml:id="t_4_5">is</token>
+               <token xml:id="t_4_6">gone</token>
+            </death>
+            <token xml:id="t_4_7">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">So</token>
+            <token xml:id="t_5_2">constant</token>
+            <token xml:id="t_5_3">to</token>
+            <token xml:id="t_5_4">it's</token>
+            <token xml:id="t_5_5">stolid</token>
+            <token xml:id="t_5_6">trust,</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">The</token>
+            <token xml:id="t_6_2">Shaft</token>
+            <token xml:id="t_6_3">that</token>
+            <token xml:id="t_6_4">never</token>
+            <token xml:id="t_6_5">knew</token>
+            <token xml:id="t_6_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">It</token>
+            <token xml:id="t_7_2">shames</token>
+            <token xml:id="t_7_3">the</token>
+            <life>
+               <token xml:id="t_7_4">Constancy</token>
+            </life>
+            <token xml:id="t_7_5">that</token>
+            <death>
+               <token xml:id="t_7_6">fled</token>
+            </death>
+            <loss/>
+         </line>
+         <!--could be both death or loss, maybe -->
+         <line>
+            <token xml:id="t_8_1">Before</token>
+            <token xml:id="t_8_2">it's</token>
+            <token xml:id="t_8_3">emblem</token>
+            <death>
+               <token xml:id="t_8_4">flew</token>
+            </death>
+            <token xml:id="t_8_5">-</token>
+         </line>
+         <!--Interpreting the language here to be about life/death but honestly struggled a bit 
+                with understanding this stanza so feel free to input more. -->
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
+    She laid her docile Crescent down
+    And this confiding Stone
+    Still states to Dates that have forgot
+    The News that she is gone -
+    
+    So constant to it's stolid trust,
+    The Shaft that never knew -
+    It shames the Constancy that fled
+    Before it's emblem flew - 
+-->
