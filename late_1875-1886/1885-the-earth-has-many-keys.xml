@@ -13,16 +13,16 @@
     
     <body>
         <stanza>
-            <line>The earth has many keys.</line>
-            <line>Where melody is not</line>
-            <line>Is the unknown peninsula.</line>
-            <line>beauty is nature's fact.</line>
+            <line>The <nature nature_type="earth">earth</nature> has many keys.</line>
+            <line>Where <music>melody</music> is not</line>
+            <line>Is the unknown <place>peninsula</place>.</line>
+            <line>beauty is <nature nature_type="general">nature's</nature> fact.</line>
         </stanza>
 
         <stanza>
-            <line>But witness for her land</line>
-            <line>And witness for her sea,</line>
-            <line>The cricket is her utmost</line>
+            <line>But witness for her <nature nature_type="general">land</nature></line>
+            <line>And witness for her <nature nature_type="water">sea</nature>,</line>
+            <line>The <animal animal_type="cricket">cricket</animal> is her utmost</line>
             <line>Of elegy to me.</line>
         </stanza>
     </body>

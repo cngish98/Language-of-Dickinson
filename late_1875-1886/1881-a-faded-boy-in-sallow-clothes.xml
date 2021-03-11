@@ -14,15 +14,15 @@
     <body>
         <stanza>
             <line>A faded Boy - in sallow Clothes</line>
-            <line>Who drove a lonesome Cow</line>
-            <line>To pastures of Oblivion -</line>
-            <line>A statesman's Embryo -</line>
+            <line>Who drove a <emotion emotion_type="lonesome">lonesome</emotion> <animal animal_type="cow"></animal>Cow</line>
+            <line>To pastures of <religion type="place">Oblivion</religion> -</line>
+            <line>A statesman's <life>Embryo</life> -</line>
         </stanza>
 
         <stanza>
-            <line>The Boys that whistled are extinct -</line>
-            <line>The Cows that fed and thanked</line>
-            <line>Remanded to a Ballad's Barn</line>
+            <line>The Boys that whistled are <loss>extinct</loss> -</line>
+            <line>The <animal animal_type="cow">Cows</animal> that <eating>fed</eating> and thanked</line>
+            <line>Remanded to a Ballad's <place>Barn</place></line>
             <line>Or Clover's Retrospect -</line>
         </stanza>
     </body>

@@ -13,10 +13,10 @@
     
     <body>
         <stanza> 
-            <line>Blossoms will run away,</line>
-            <line>Cakes reign but a Day,</line>
-            <line>But Memory like Melody</line>
-            <line>Is pink Eternally.</line>
+            <line><nature nature_type="earth">Blossoms</nature> will run away,</line>
+            <line>Cakes reign but a <time>Day</time>,</line>
+            <line>But <memory>Memory</memory> like <music>Melody</music></line>
+            <line>Is pink <time>Eternally</time>.</line>
         </stanza>
     </body>
 </poem>

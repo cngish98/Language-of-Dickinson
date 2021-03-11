@@ -13,21 +13,21 @@
     
     <body>
         <stanza> 
-            <line>As imperceptibly as Grief</line>
-            <line>The Summer lapsed away -</line>
+            <line>As imperceptibly as <death>Grief</death></line>
+            <line>The <time>Summer</time> lapsed away -</line>
             <line>Too imperceptible at last</line>
             <line>To seem like Perfidy -</line>
             <line>A Quietness distilled</line>
-            <line>As Twilight long begun,</line>
-            <line>Or Nature spending with herself</line>
+            <line>As <time>Twilight</time> long begun,</line>
+            <line>Or <nature nature_type="general">Nature</nature> spending with herself</line>
             <line>Sequestered Afternoon -</line>
-            <line>The Dusk drew earlier in -</line>
-            <line>The Morning foreign shone -</line>
+            <line>The <time>Dusk</time> drew earlier in -</line>
+            <line>The <time>Morning</time> foreign <light>shone</light> -</line>
             <line>A courteous, yet harrowing Grace,</line>
             <line>As Guest, that would be gone -</line>
             <line>And thus, without a Wing</line>
             <line>Or service of a Keel</line>
-            <line>Our Summer made her light escape</line>
+            <line>Our <time>Summer</time> made her <light>light</light> escape</line>
             <line>Into the Beautiful.</line>
         </stanza>
     </body>

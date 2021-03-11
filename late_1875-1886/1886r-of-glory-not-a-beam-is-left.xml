@@ -14,9 +14,9 @@
     <body>
         <stanza> 
             <line>Of Glory not a Beam is left</line>
-            <line>But her Eternal House -</line>
-            <line>The Asterisk is for the Dead,</line>
-            <line>The Living, for the Stars -</line>
+            <line>But her <time>Eternal</time> House -</line>
+            <line>The Asterisk is for the <death>Dead</death>,</line>
+            <line>The <life>Living</life>, for the <nature nature_type="space">Stars</nature> -</line>
         </stanza>
     </body>
 </poem>

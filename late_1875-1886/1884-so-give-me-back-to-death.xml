@@ -13,14 +13,14 @@
     
     <body>
         <stanza> 
-            <line>So give me back to Death -</line>
-            <line>The Death I never feared</line>
+            <line>So give me back to <death>Death</death> -</line>
+            <line>The <death>Death</death> I never <emotion emotion_type="fear">feared</emotion></line>
             <line>Except that it deprived of thee -</line>
-            <line>And now, by Life deprived,</line>
-            <line>In my own Grave I breathe</line>
+            <line>And now, by <life>Life</life> deprived,</line>
+            <line>In my own <death>Grave</death> I <nature nature_type="air">breathe</nature></line>
             <line>And estimate it's size -</line>
-            <line>It's size is all that Hell can guess -</line>
-            <line>And all that Heaven surmise/was <!-- was is in line and surmise is variant --> -</line>
+            <line>It's size is all that <religion type="place">Hell</religion> can guess -</line>
+            <line>And all that <religion type="place">Heaven</religion> surmise/was <!-- was is in line and surmise is variant --> -</line>
         </stanza>
     </body>
 </poem>

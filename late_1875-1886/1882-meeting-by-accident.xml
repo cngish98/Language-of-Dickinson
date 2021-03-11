@@ -15,12 +15,12 @@
         <stanza> 
             <line>Meeting by Accident,</line>
             <line>We hovered by design -</line>
-            <line>As often as a Century</line>
+            <line>As often as a <time>Century</time></line>
             <line>An error so divine</line>
             <line>Is ratified by Destiny,</line>
-            <line>But Destiny is old</line>
-            <line>And economical of Bliss</line>
-            <line>As Midas is of Gold -</line>
+            <line>But Destiny is <time>old</time></line>
+            <line>And <wealth>economical of Bliss</wealth></line>
+            <line>As Midas is of <wealth>Gold</wealth> -</line>
         </stanza>
     </body>
 </poem>

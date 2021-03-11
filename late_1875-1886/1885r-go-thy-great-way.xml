@@ -14,10 +14,10 @@
     <body>
         <stanza> 
             <line>Go thy great way!</line>
-            <line>The Stars thou meetst</line>
+            <line>The <nature nature_type="space">Stars</nature> thou meetst</line>
             <line>Are even as Thyself -</line>
-            <line>For what are Stars but Asterisks</line>
-            <line>To point a human Life?</line>
+            <line>For what are <nature nature_type="space">Stars</nature> but Asterisks</line>
+            <line>To point a human <life>Life</life>?</line>
         </stanza>
     </body>
 </poem>

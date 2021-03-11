@@ -13,13 +13,13 @@
     
     <body>
         <stanza> 
-            <line>The Bird her punctual music brings</line>
+            <line>The <animal animal_type="bird">Bird</animal> her punctual <music>music</music> brings</line>
             <line>And lays it in its place -</line>
-            <line>It's place is in the Human Heart</line>
-            <line>And in the Heavenly Grace -</line>
+            <line>It's <place>place</place> is in the <physical_body>Human Heart</physical_body></line>
+            <line>And in the <religion type="place">Heavenly</religion> Grace -</line>
             <line>What respite from her thrilling toil</line>
             <line>Did Beauty ever take -</line>
-            <line>But Work might be electric Rest</line>
+            <line>But <labor>Work</labor> might be electric Rest</line>
             <line>To those that Magic make -</line>
         </stanza>
     </body>

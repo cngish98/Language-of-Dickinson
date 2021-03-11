@@ -13,14 +13,14 @@
     
     <body>
         <stanza> 
-            <line>The going from a world we know</line>
-            <line>To one a wonder still</line>
+            <line><death>The going from a world we know</death></line>
+            <line>To <religion type="place">one a wonder still</religion></line>
             <line>Is like the child's adversity</line>
-            <line>Whose vista is a hill,</line>
-            <line>Behind the hill is sorcery</line>
+            <line>Whose <place>vista</place> is a <nature nature_type="earth">hill</nature>,</line>
+            <line>Behind the <nature nature_type="earth">hill</nature> is sorcery</line>
             <line>And everything unknown,</line>
             <line>But will the secret compensate</line>
-            <line>For climbing it alone?</line>
+            <line>For climbing it <solitude>alone?</solitude></line>
         </stanza>
     </body>
 </poem>

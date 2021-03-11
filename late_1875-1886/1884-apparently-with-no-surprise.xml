@@ -14,13 +14,13 @@
     <body>
         <stanza> 
             <line>Apparently with no surprise</line>
-            <line>To any happy Flower</line>
-            <line>The Frost beheads it at it's play -</line>
+            <line>To any happy <nature nature_type="earth">Flower</nature></line>
+            <line>The <nature nature_type="general">Frost</nature> beheads it at it's play -</line>
             <line>In accidental power -</line>
             <line>The blonde Assassin passes on -</line>
-            <line>The Sun proceeds unmoved</line>
-            <line>To measure off another Day</line>
-            <line>For an Approving God.</line>
+            <line>The <nature nature_type="space">Sun</nature> proceeds unmoved</line>
+            <line>To measure off another <time>Day</time></line>
+            <line>For an Approving <religion type="person">God</religion>.</line>
         </stanza>
     </body>
 </poem>

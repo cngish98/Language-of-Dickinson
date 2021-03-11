@@ -13,13 +13,13 @@
     
     <body>
         <stanza> 
-            <line>The Auctioneer of Parting</line>
+            <line>The Auctioneer of <loss>Parting</loss></line>
             <line>His "Going, going, gone"</line>
-            <line>Shouts even from the Crucifix,</line>
+            <line>Shouts even from the <religion type="thing">Crucifix</religion>,</line>
             <line>And brings his Hammer down -</line>
-            <line>He only sells the Wilderness,</line>
+            <line>He only sells the <nature nature_type="general">Wilderness</nature>,</line>
             <line>The prices of Despair</line>
-            <line>Range from a single human Heart</line>
+            <line>Range from a single <physical_body>human Heart</physical_body></line>
             <line>To Two - not any more -</line>
         </stanza>
     </body>

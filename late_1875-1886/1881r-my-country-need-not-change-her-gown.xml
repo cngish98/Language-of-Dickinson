@@ -13,17 +13,17 @@
     
     <body>
         <stanza>
-            <line>My country need not change her gown,</line>
+            <line>My <place>country</place> need not change her gown,</line>
             <line>Her triple suit as sweet</line>
-            <line>As when 'twas cut at Lexington,</line>
+            <line>As when 'twas <loss>cut</loss> at <place>Lexington</place>,</line>
             <line>And first pronounced "a fit."</line>
         </stanza>
 
         <stanza>
-            <line>Great Britain disapproves, "the stars";</line>
+            <line><place>Great Britain</place> disapproves, <nature nature_type="space">"the stars"</nature>;</line>
             <line>Disparagement discreet, -</line>
             <line>There's something in their attitude</line>
-            <line>That taunts her bayonet.</line>
+            <line>That taunts her <war type="thing">bayonet</war>.</line>
         </stanza>
     </body>
 </poem>

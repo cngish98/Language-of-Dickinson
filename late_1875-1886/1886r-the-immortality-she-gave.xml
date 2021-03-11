@@ -13,10 +13,10 @@
     
     <body>
         <stanza> 
-            <line>The immortality she gave</line>
-            <line>We borrowed at her Grave -</line>
+            <line>The <life>immortality</life> she gave</line>
+            <line>We borrowed at her <death>Grave</death> -</line>
             <line>For just one Plaudit famishing,</line>
-            <line>The Might of Human love -</line>
+            <line>The Might of Human <love>love</love> -</line>
         </stanza>
     </body>
 </poem>

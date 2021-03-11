@@ -13,10 +13,10 @@
     
     <body>
         <stanza> 
-            <line>Witchcraft was hung, in History,</line>
-            <line>But History and I</line>
+            <line>Witchcraft was hung, in <memory>History</memory>,</line>
+            <line>But <memory>History and I</memory></line>
             <line>Find all the Witchcraft that we need</line>
-            <line>Around us, every Day -</line>
+            <line>Around us, every <time>Day</time> -</line>
         </stanza>
     </body>
 </poem>

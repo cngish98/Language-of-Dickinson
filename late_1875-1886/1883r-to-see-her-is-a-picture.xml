@@ -14,13 +14,13 @@
     <body>
         <stanza> 
             <line>To see her is a Picture -</line>
-            <line>To hear her is a Tune -</line>
+            <line>To hear her is a <music>Tune</music> -</line>
             <line>To know her an Intemperance</line>
-            <line>As innocent as June -</line>
+            <line>As innocent as <time>June</time> -</line>
             <line>To know her not - Affliction -</line>
             <line>To own her for a Friend</line>
-            <line>A warmth as near as if the Sun</line>
-            <line>Were shining in your Hand.</line>
+            <line>A warmth as near as if the <nature nature_type="space">Sun</nature></line>
+            <line>Were <light>shining</light> in your <physical_body>Hand</physical_body>.</line>
         </stanza>
     </body>
 </poem>
