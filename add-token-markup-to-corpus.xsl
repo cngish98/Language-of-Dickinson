@@ -17,18 +17,30 @@
     <!-- TODO (maybe): Punctuation is tokenized inconsistently,     -->
     <!--   sometimes separately, sometimes as part of word          -->
     <!-- ========================================================== -->
+    <!-- Housekeeping                                               -->
+    <!-- ========================================================== -->
     <xsl:output method="xml" indent="yes"/>
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:strip-space elements="line"/>
+    <!-- ========================================================== -->
+    <!-- Data                                                       -->
+    <!-- ========================================================== -->
     <xsl:variable name="corpus" as="document-node()+" select="
             collection('early_1850-1862') |
             collection('late_1875-1886') |
             collection('middle_1863-1874')"/>
+    <!-- ========================================================== -->
+    <!-- Dispatch each document for processing                      -->
+    <!-- TODO: apply templates instead of for-each?                 -->
+    <!-- ========================================================== -->
     <xsl:template name="xsl:initial-template">
         <xsl:for-each select="$corpus">
             <xsl:apply-templates select="."/>
         </xsl:for-each>
     </xsl:template>
+    <!-- ========================================================== -->
+    <!-- Templates to process each document                         -->
+    <!-- ========================================================== -->
     <xsl:template match="/">
         <xsl:variable name="filename"
             select="'word-tokenized/' || tokenize(base-uri(), '/')[last()]"/>
@@ -59,5 +71,4 @@
             </token>
         </xsl:for-each>
     </xsl:template>
-
 </xsl:stylesheet>
