@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171578</source>
       <recipient>Josiah and Elizabeth Holland</recipient>
       <poem_themes>nature, existence, music</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -106,6 +107,7 @@
                <token xml:id="t_10_2">Implement</token>
             </science>
             <token xml:id="t_10_3">,</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="modal-aux-verb" possible_string="could"/>
             <token xml:id="t_10_4">be</token>
             <token xml:id="t_10_5">seen</token>
             <token xml:id="t_10_6">-</token>
@@ -146,7 +148,7 @@ And lo, Her silver Principle
 Supplanted all the rest.
 
 At Half past Seven, Element
-Nor Implement, be seen -
+Nor Implement, be seen -               ([could] be seen)
 And Place was where the Presence was
 Circumference between.
 -->

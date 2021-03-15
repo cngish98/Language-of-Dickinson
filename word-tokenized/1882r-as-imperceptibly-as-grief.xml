@@ -17,7 +17,7 @@
             <token xml:id="t_1_3">as</token>
             <death>
                <token xml:id="t_1_4">Grief</token>
-            </death>
+            </death>   <!-- are we always marking grief as death? -->
          </line>
          <line>
             <token xml:id="t_2_1">The</token>

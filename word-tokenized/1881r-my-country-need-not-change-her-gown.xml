@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172694</source>
       <recipient>T. W. Higginson</recipient>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -26,6 +27,7 @@
             <token xml:id="t_2_1">Her</token>
             <token xml:id="t_2_2">triple</token>
             <token xml:id="t_2_3">suit</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="is"/>
             <token xml:id="t_2_4">as</token>
             <token xml:id="t_2_5">sweet</token>
          </line>
@@ -95,7 +97,7 @@
     And first pronounced "a fit."
     
     Great Britain disapproves, "the stars";
-    Disparagement discreet, -
+    Disparagement discreet, -                (not sure what to do with these two lines here...)
     There's something in their attitude
     That taunts her bayonet. 
 -->

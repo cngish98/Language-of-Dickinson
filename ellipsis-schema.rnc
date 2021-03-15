@@ -1,0 +1,8 @@
+token = element token { xml:id, text }
+xml:id = attribute xml:id { text }
+
+ellipsis = element ellipsis { ellipsis_type, subject_string?, elided_pos, possible_string?, v? }
+ellipsis_type = attribute ellipsis_type { "nominal" | "verbal" | "clausal" }
+elided_pos = attribute elided_pos { text }
+possible_string = attribute possible_string { text }
+v = attribute v { xsd:int }

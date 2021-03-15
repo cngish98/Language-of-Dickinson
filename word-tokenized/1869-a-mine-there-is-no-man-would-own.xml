@@ -65,7 +65,7 @@
       <stanza>
          <line>
             <wealth>
-               <token xml:id="t_8_1">Potosi</token>
+               <token xml:id="t_8_1">Potosi</token>     <!-- place too? -->
             </wealth>
             <token xml:id="t_8_2">never</token>
             <token xml:id="t_8_3">to</token>

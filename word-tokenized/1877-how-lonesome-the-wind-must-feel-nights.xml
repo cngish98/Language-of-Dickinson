@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172451</source>
       <recipient>none</recipient>
       <poem_themes>nature, emotion, solitude</poem_themes>
+      <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -152,9 +153,9 @@
       </stanza>
    </body>
 </poem>
-<!--POST PLAIN TEXT OF POEM BELOW -->
+
 <!-- 
-    How lonesome the Wind must feel Nights -
+   How lonesome the Wind must feel Nights - 
     When People have put out the Lights
     And everything that has an Inn
     Closes his/the shutter and goes in -
@@ -167,5 +168,5 @@
     How mighty the Wind must feel Morns
     Encamping on a thousand dawns
     Espousing each and spurning all
-    Then soaring to his  Turret/Temple Tall - 
+    Then soaring to his Turret/Temple Tall - 
 -->

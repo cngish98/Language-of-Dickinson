@@ -7,7 +7,8 @@
       <poem_number>J1648</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12173043</source>
       <recipient>T. W. Higginson</recipient>
-      <poem_themes/>
+      <poem_themes/> <!-- are we leaving this empty? life? maybe something like humanity? (even though that is not one of our schema themes? -->
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -18,6 +19,7 @@
             </life>
             <token xml:id="t_1_3">she</token>
             <token xml:id="t_1_4">gave</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="DO-pronoun" possible_string="us"/>
          </line>
          <line>
             <token xml:id="t_2_1">We</token>
@@ -34,6 +36,7 @@
             <token xml:id="t_3_2">just</token>
             <token xml:id="t_3_3">one</token>
             <token xml:id="t_3_4">Plaudit</token>
+            <ellipsis ellipsis_type="verbal" subject_string="Might" elided_pos="aux-verb" possible_string="was"/> <!-- see comment at bottom of page -->
             <token xml:id="t_3_5">famishing,</token>
          </line>
          <line>
@@ -55,4 +58,7 @@
     We borrowed at her Grave -
     For just one Plaudit famishing,
     The Might of Human love - 
+    
+    -The Might of Human love was famishing for just one Plaudit-
+    For just one Plaudit, the Might of Human love [was] famishing
 -->

@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171790</source>
       <recipient>none</recipient>
       <poem_themes>solitude, law, violence</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -62,6 +63,7 @@
             <token xml:id="t_5_8">I</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-pronoun" possible_string="it"/>
             <token xml:id="t_6_1">Immediately</token>
             <token xml:id="t_6_2">grew</token>
          </line>
@@ -329,7 +331,7 @@ But what redress can be
 For an offense nor here nor there
 So not in Equity -
 That Larceny of time and mind
-The marrow of the Day
+The marrow of the Day            (ellipsis here??)
 By spider, or forbid it Lord
 That I should specify.
 -->

@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172433</source>
       <recipient>none</recipient>
       <poem_themes>religion, uncertainty</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -38,6 +39,7 @@
             <religion type="place">
                <token xml:id="t_4_3">vicinity</token>
             </religion>
+            <ellipsis ellipsis_type="clausal" possible_string="we can"/>
             <token xml:id="t_4_4">infer,</token>
          </line>
          <!--elision?? -->

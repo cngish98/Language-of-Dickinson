@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172867</source>
       <recipient>Cornelia (Nellie) Peck Sweetser</recipient>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -21,6 +22,7 @@
          </line>
          <line>
             <token xml:id="t_2_1">Cakes</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="modal-aux-verb" possible_string="will"/>
             <token xml:id="t_2_2">reign</token>
             <token xml:id="t_2_3">but</token>
             <token xml:id="t_2_4">a</token>

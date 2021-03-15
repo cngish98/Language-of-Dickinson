@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171903</source>
       <recipient>none</recipient>
       <poem_themes>social norms, nature</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -33,6 +34,7 @@
             <token xml:id="t_3_3">ourselves</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-pronoun" possible_string="we"/>
             <token xml:id="t_4_1">Have</token>
             <social_norm>
                <token xml:id="t_4_2">etiquettes</token>

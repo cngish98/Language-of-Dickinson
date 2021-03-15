@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171673</source>
       <recipient>none</recipient>
       <poem_themes>violence, the mind, emotion</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -48,6 +49,7 @@
          <line>
             <token xml:id="t_4_1">Oh</token>
             <token xml:id="t_4_2">cunning</token>
+            <ellipsis ellipsis_type="clausal" possible_string="was the"/>
             <violence>
                <token xml:id="t_4_3">wreck</token>
             </violence>
@@ -203,10 +205,10 @@ And let no Witness in
 
 The mind was built for mighty Freight
 For dread occasion planned
-How often foundering at Sea
+How often foundering at Sea    (?)
 Ostensibly, on Land
 
-A not admitting of the wound
+A not admitting of the wound (?)
 Until it grew so wide
 That all my Life had entered it
 And there were  space  room troughs beside
@@ -214,5 +216,5 @@ And there were  space  room troughs beside
 A closing of the simple lid
 That opened to the sun
 Until the tender Carpenter
-Perpetual nail it down -
+Perpetual nail it down -      (perpetual[ly] - how to mark up ellipsis within the token level??)
 -->

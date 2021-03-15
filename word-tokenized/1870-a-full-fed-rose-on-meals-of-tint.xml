@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171760</source>
       <recipient>Susan Dickinson</recipient>
       <poem_themes>nature, death, love</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -40,6 +41,7 @@
          </line>
          <line>
             <token xml:id="t_3_1">In</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="determiner-article" possible_string="the"/>
             <token xml:id="t_3_2">process</token>
             <token xml:id="t_3_3">of</token>
             <token xml:id="t_3_4">the</token>
@@ -72,6 +74,7 @@
          <!--assuming this is death, ie "forfeit" of life -->
          <line>
             <token xml:id="t_6_1">Itself,</token>
+            <ellipsis ellipsis_type="verbal" possible_string="is"/>
             <love>
                <token xml:id="t_6_2">adored</token>
             </love>
@@ -102,11 +105,11 @@
    </body>
 </poem>
 <!-- 
-A full fed Rose on meals of Tint
+A full fed Rose on meals of Tint            (full fed rose became a dinner for a bee in the process of the noon)
 A Dinner for a Bee
 In process of the Noon became -
-Each bright Mortality
-The Forfeit is of Creature fair
+Each bright Mortality                  
+The Forfeit is of Creature fair        (The forfeit of creature fair is each bright mortality??) 
 Itself, adored before
 Submitting for our unknown sake
 To be esteemed no more

@@ -8,10 +8,12 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171599</source>
       <recipient>body</recipient>
       <poem_themes>body, interpersonal relationships, wealth</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
          <line>
+            <ellipsis ellipsis_type="nominal" elided_pos="DO-pronoun" possible_string="they"/>
             <token xml:id="t_1_1">Themself</token>
             <token xml:id="t_1_2">are</token>
             <token xml:id="t_1_3">all</token>
@@ -23,11 +25,13 @@
          </line>
          <!--could "themself" be a character? -->
          <line>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-pronoun" possible_string="I"/>
             <token xml:id="t_2_1">Myself</token>
             <token xml:id="t_2_2">a</token>
             <physical_body>
                <token xml:id="t_2_3">freckled</token>
             </physical_body>
+            <ellipsis ellipsis_type="nominal"/>  <!-- more markup? -->
             <token xml:id="t_2_4">-</token>
             <token xml:id="t_2_5">be</token>
             <token xml:id="t_2_6">-</token>
@@ -60,6 +64,7 @@
          <line>
             <token xml:id="t_5_1">Would</token>
             <token xml:id="t_5_2">you</token>
+            <ellipsis ellipsis_type="clausal"/> <!-- more markup -->
             <token xml:id="t_5_3">-</token>
             <token xml:id="t_5_4">instead</token>
             <token xml:id="t_5_5">of</token>

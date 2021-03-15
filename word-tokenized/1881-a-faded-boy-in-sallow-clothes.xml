@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172727</source>
       <recipient>none</recipient>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -40,12 +41,15 @@
             <token xml:id="t_3_5">-</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="is" v="1"/>
+            <ellipsis ellipsis_type="clausal" v="2"/>
             <token xml:id="t_4_1">A</token>
             <token xml:id="t_4_2">statesman's</token>
             <life>
                <token xml:id="t_4_3">Embryo</token>
             </life>
             <token xml:id="t_4_4">-</token>
+            <ellipsis ellipsis_type="clausal" v="2"/>
          </line>
       </stanza>
       <stanza>
@@ -73,7 +77,8 @@
             <token xml:id="t_6_6">thanked</token>
          </line>
          <line>
-            <token xml:id="t_7_1">Remanded</token>
+            <ellipsis ellipsis_type="verbal" subject_string="Cows" elided_pos="link-verb" possible_string="are"/>
+            <token xml:id="t_7_1">Remanded</token> <!-- "remanded" as a law word? -->
             <token xml:id="t_7_2">to</token>
             <token xml:id="t_7_3">a</token>
             <token xml:id="t_7_4">Ballad's</token>

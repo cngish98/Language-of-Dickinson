@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172249</source>
       <recipient>none</recipient>
       <poem_themes>religion, death?, emotion</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -45,6 +46,7 @@
                <token xml:id="t_4_2">Monster</token>
             </variant>
             <token xml:id="t_4_3">spectacle</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="is"/>
             <token xml:id="t_4_4">in</token>
             <token xml:id="t_4_5">sight</token>
          </line>
@@ -131,7 +133,7 @@
             <token xml:id="t_12_1">Upon</token>
             <token xml:id="t_12_2">this</token>
             <token xml:id="t_12_3">trusty</token>
-            <token xml:id="t_12_4">word</token>
+            <token xml:id="t_12_4">word</token>   <!-- writing markup? -->
             <token xml:id="t_12_5">-</token>
          </line>
       </stanza>
@@ -142,7 +144,7 @@
     Escape is such a thankful Word
     I often in the Night
     Consider it unto myself
-    No  Monster spectacle in sight
+    No Monster spectacle in sight
     
     Escape - it is the Basket
     In which the Heart is caught

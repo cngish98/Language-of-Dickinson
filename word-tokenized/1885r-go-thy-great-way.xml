@@ -8,10 +8,12 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12173019</source>
       <recipient>Benjamin Kimball</recipient>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
          <line>
+            <ellipsis ellipsis_type="nominal" elided_pos="pronoun" possible_string="you"/>
             <token xml:id="t_1_1">Go</token>
             <token xml:id="t_1_2">thy</token>
             <token xml:id="t_1_3">great</token>

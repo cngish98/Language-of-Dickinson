@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171834</source>
       <recipient>Edward (Ned) Dickinson</recipient>
       <poem_themes>emotion, childhood, social norms</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -168,7 +169,7 @@
    </body>
 </poem>
 <!-- 
-A little Dog that wags his tail
+A little Dog that wags his tail     (not really ellipsis, but kind of?)
 And knows no other joy
 Of such a little Dog am I
 Reminded by a Boy
@@ -180,7 +181,7 @@ I honestly suppose -
 
 
 The Cat that in the Corner dwells
-Her martial Day forgot
+Her martial Day forgot          (seems like clausal ellipsis here, not sure)
 The Mouse but a Tradition now
 Of her desireless Lot
 

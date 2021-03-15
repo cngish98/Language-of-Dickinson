@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171681</source>
       <recipient>none</recipient>
       <poem_themes>writing, religion, war</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -91,6 +92,7 @@
             </war>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="adverb" possible_string="when"/>
             <variant>
                <token xml:id="t_8_1">Advanced</token>
             </variant>
@@ -152,10 +154,10 @@ Till I have  vainer  further finer tried -
 The Poet  probed searched Philology
 And  when  just was about to ring
 for the suspended Candidate
- Advanced There came unsummoned in -
+ Advanced There came unsummoned in -   (with what we have marked as variants, there needs to be a "when" before "advanced" or "there")
 
 That portion of the Vision
 The Word applied to fill
 Not unto nomination
-The Cherubim reveal -
+The Cherubim reveal -     (ellipsis here??)
 -->

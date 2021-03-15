@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172842</source>
       <recipient>Susan Dickinson</recipient>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -35,6 +36,7 @@
             <token xml:id="t_3_1">To</token>
             <token xml:id="t_3_2">know</token>
             <token xml:id="t_3_3">her</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="is"/>
             <token xml:id="t_3_4">an</token>
             <token xml:id="t_3_5">Intemperance</token>
          </line>
@@ -52,6 +54,7 @@
             <token xml:id="t_5_2">know</token>
             <token xml:id="t_5_3">her</token>
             <token xml:id="t_5_4">not</token>
+            <ellipsis ellipsis_type="clausal" elided_pos="verb" possible_string="is an"/> <!-- also need to add determiner to pos!! -but how to? -->
             <token xml:id="t_5_5">-</token>
             <token xml:id="t_5_6">Affliction</token>
             <token xml:id="t_5_7">-</token>
@@ -65,6 +68,7 @@
             <token xml:id="t_6_6">Friend</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="is"/>
             <token xml:id="t_7_1">A</token>
             <token xml:id="t_7_2">warmth</token>
             <token xml:id="t_7_3">as</token>
@@ -101,4 +105,7 @@
     To own her for a Friend
     A warmth as near as if the Sun
     Were shining in your Hand. 
+    
+    "her" here referring to Susan??
 -->
+

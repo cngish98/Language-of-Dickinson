@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171742</source>
       <recipient>none</recipient>
       <poem_themes>time, nature, solitude, war?</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -101,6 +102,7 @@
          </line>
          <line>
             <token xml:id="t_11_1">Instinct</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="aux-verb" possible_string="is"/>
             <token xml:id="t_11_2">picking</token>
             <token xml:id="t_11_3">up</token>
             <token xml:id="t_11_4">the</token>
@@ -121,7 +123,7 @@
 <!-- 
 After a hundred years
 Nobody  knew knows the Place
-Agony that enacted there
+Agony that enacted there    (that [was] enacted there?)
 Motionless as Peace
 
 Weeds triumphant ranged

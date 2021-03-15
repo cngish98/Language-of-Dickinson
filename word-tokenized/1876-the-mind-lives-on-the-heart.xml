@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172269</source>
       <recipient>T.W. Higginson</recipient>
       <poem_themes>the mind, body, eating, emotion</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -61,6 +62,7 @@
             <token xml:id="t_5_5">omit</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <physical_body body_type="ailment">
                <token xml:id="t_6_1">Emaciate</token>
             </physical_body>
@@ -81,13 +83,14 @@
             <token xml:id="t_7_4">it</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="is"/>
             <token xml:id="t_8_1">So</token>
             <token xml:id="t_8_2">absolute.</token>
          </line>
       </stanza>
    </body>
 </poem>
-<!--POST PLAIN TEXT OF POEM BELOW -->
+
 <!--     
     The Mind lives on the Heart
     Like any Parasite -
@@ -98,4 +101,6 @@
     Emaciate the Wit -
     The Aliment of it
     So absolute. 
+    
+    parasite and aliment 
 -->

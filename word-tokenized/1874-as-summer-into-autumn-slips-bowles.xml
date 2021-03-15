@@ -9,6 +9,7 @@
       <source>https://www.edickinson.org/editions/1/image_sets/12177578</source>
       <recipient>Samuel Bowles</recipient>
       <poem_themes>nature, time</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -29,6 +30,7 @@
             <time>
                <token xml:id="t_3_1">slips</token>
             </time>
+            <ellipsis ellipsis_type="clausal"/>
          </line>
       </stanza>
       <stanza>
@@ -204,7 +206,7 @@ loved -
 So we evade
 the Charge
 of Years
-One one On one attempting shy
+One one On one attempting shy   (attempting to shy? not really sure what she is saying here)
 The Circumvention
 of the Shaft
 Of Life's

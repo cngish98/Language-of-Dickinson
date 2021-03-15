@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171896</source>
       <recipient>Susan Dickinson</recipient>
       <poem_themes>nature</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -28,6 +29,7 @@
             <token xml:id="t_2_1">And</token>
             <token xml:id="t_2_2">thought</token>
             <token xml:id="t_2_3">it</token>
+            <ellipsis ellipsis_type="verbal" possible_string="was"/>
             <token xml:id="t_2_4">very</token>
             <token xml:id="t_2_5">nice</token>
          </line>
@@ -54,6 +56,7 @@
       <stanza>
          <line>
             <token xml:id="t_5_1">Invigorated,</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-pronoun" possible_string="he"/>
             <token xml:id="t_5_2">waded</token>
          </line>
          <line>
@@ -82,3 +85,15 @@
       </stanza>
    </body>
 </poem>
+
+<!-- 
+A Sparrow took a Slice of Twig
+And thought it very nice
+I think, because his empty Plate
+Was handed Nature twice -   (was handed [by] nature twice?)
+
+Invigorated, waded
+In all the deepest Sky
+Until his little Figure
+Was forfeited away -
+-->

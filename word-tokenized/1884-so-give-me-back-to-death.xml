@@ -8,11 +8,13 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12173004</source>
       <recipient>none</recipient>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
          <line>
             <token xml:id="t_1_1">So</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-noun" possible_string="you"/>
             <token xml:id="t_1_2">give</token>
             <token xml:id="t_1_3">me</token>
             <token xml:id="t_1_4">back</token>
@@ -23,6 +25,7 @@
             <token xml:id="t_1_7">-</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="give me back to"/>
             <token xml:id="t_2_1">The</token>
             <death>
                <token xml:id="t_2_2">Death</token>
@@ -38,6 +41,7 @@
             <token xml:id="t_3_2">that</token>
             <token xml:id="t_3_3">it</token>
             <token xml:id="t_3_4">deprived</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="DO-pronoun" possible_string="me"/>
             <token xml:id="t_3_5">of</token>
             <token xml:id="t_3_6">thee</token>
             <token xml:id="t_3_7">-</token>
@@ -85,11 +89,13 @@
          </line>
          <line>
             <token xml:id="t_8_1">And</token>
+            <ellipsis ellipsis_type="clausal" possible_string="it's size is"/>
             <token xml:id="t_8_2">all</token>
             <token xml:id="t_8_3">that</token>
             <religion type="place">
                <token xml:id="t_8_4">Heaven</token>
             </religion>
+            <ellipsis ellipsis_type="verbal" elided_pos="modal-aux-verb" possible_string="can"/> <!-- only if "surmise" is the variant used! how to markup?? -->
             <token xml:id="t_8_5">surmise/was</token>
             <!-- was is in line and surmise is variant -->
             <token xml:id="t_8_6">-</token>
@@ -99,7 +105,7 @@
 </poem>
 <!--POST PLAIN TEXT OF POEM BELOW -->
 <!--     
-    So give me back to Death -
+    So give me back to Death - (imperative?)
     The Death I never feared
     Except that it deprived of thee -
     And now, by Life deprived,

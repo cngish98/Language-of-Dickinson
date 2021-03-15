@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171862</source>
       <recipient>T.W. Higginson</recipient>
       <poem_themes>nature, emotion</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -23,6 +24,7 @@
             <token xml:id="t_1_7">House</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="it was" v="1"/>
             <token xml:id="t_2_1">A</token>
             <token xml:id="t_2_2">Sea</token>
             <token xml:id="t_2_3">of</token>
@@ -33,6 +35,7 @@
          </line>
          <line>
             <token xml:id="t_3_1">And</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-pronoun" possible_string="it" v="1"/>
             <token xml:id="t_3_2">rose</token>
             <token xml:id="t_3_3">and</token>
             <token xml:id="t_3_4">fell</token>
@@ -50,6 +53,7 @@
          </line>
          <line>
             <token xml:id="t_5_1">For</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="determiner-article" possible_string="the"/>
             <token xml:id="t_5_2">Captain</token>
             <token xml:id="t_5_3">was</token>
             <token xml:id="t_5_4">the</token>
@@ -59,6 +63,7 @@
          </line>
          <line>
             <token xml:id="t_6_1">For</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="determiner-article" possible_string="the"/>
             <variant>
                <token xml:id="t_6_2">steersman</token>
             </variant>
@@ -95,6 +100,6 @@ And rose and fell the magic Planks
 That sailed without a care -
 For Captain was the Butterfly
 For  steersman Helmsman was the Bee
-And an entire universe
+And an entire universe     (inversion here) -ellipsis??
 For the delighted crew.
 -->
