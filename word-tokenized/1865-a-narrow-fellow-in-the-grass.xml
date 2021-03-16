@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171356</source>
       <recipient>T.W. Higginson</recipient>
       <poem_themes>nature, humankind</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -28,8 +29,9 @@
             <token xml:id="t_2_1">Occasionally</token>
             <token xml:id="t_2_2">rides</token>
             <token xml:id="t_2_3">-</token>
+            <ellipsis ellipsis_type="" elided_pos=""/> <!-- elided word could be a DO-noun or adverb? as in "rides away..."-->
          </line>
-         <!--elision or just an intransitive verb? -->
+         <!--elision or just an intransitive verb? --> <!-- I haven't really seen rides as an intransitive verb... -->
          <line>
             <character name="you">
                <token xml:id="t_3_1">You</token>
@@ -244,9 +246,9 @@
 </poem>
 <!-- 
 A narrow Fellow in the Grass
-Occasionally rides -
-You may have met Him - did you not
-His notice sudden is -
+Occasionally rides -           (usually "rides" is a transitive verb)
+You may have met Him - did you not   ("did you not" - a question? but then would be "have you not?" so then what here??)
+His notice sudden is -   (His notice is sudden - his notice? noticing him is sudden? usually notice is not a subject noun)
 
 The Grass divides as with a Comb -
 A spotted shaft is seen -
@@ -271,4 +273,6 @@ But never met this Fellow
 Attended, or alone
 Without a tighter breathing
 And Zero at the Bone -
+
+-come back and look at ellipsis!!
 -->

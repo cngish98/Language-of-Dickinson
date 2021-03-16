@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12170641</source>
       <recipient>Susan Dickinson</recipient>
       <poem_themes>the mind, supernatural, fear, violence</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -34,6 +35,7 @@
             <token xml:id="t_2_5">a</token>
             <token xml:id="t_2_6">House</token>
             <token xml:id="t_2_7">-</token>
+            <ellipsis ellipsis_type="clausal" possible_string="to be haunted"/>
          </line>
          <line>
             <token xml:id="t_3_1">The</token>
@@ -63,6 +65,7 @@
             <token xml:id="t_5_6">Meeting</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="is an"/> <!-- is it clausal?? -->
             <supernatural>
                <token xml:id="t_6_1">External</token>
                <token xml:id="t_6_2">Ghost</token>
@@ -138,6 +141,7 @@
             <emotion emotion_type="fear">
                <token xml:id="t_14_2">startle</token>
             </emotion>
+            <ellipsis ellipsis_type="nominal" elided_pos="DO"/>
             <token xml:id="t_14_3">most</token>
             <token xml:id="t_14_4">-</token>
          </line>
@@ -207,7 +211,7 @@ External Ghost
 Than it's interior Confronting -
 That Cooler Host.
 
-Far safer, through an Abbey gallop,
+Far safer, through an Abbey gallop,      (ellipisis in this stanza??)
 The Stones a'chase -
 Than Unarmed, one's a'self encounter -
 In lonesome Place -
@@ -215,10 +219,10 @@ In lonesome Place -
 Ourself behind ourself, concealed -
 Should startle most -
 Assassin hid in our Apartment
-Be Horror's least.
+Be Horror's least.  (there is ellipsis here, but not sure how to markup - the assassin hidden in our apartment is horror's least (of the least horror))
 
 The Body - borrows a Revolver -
 He bolts the Door -
-O'erlooking a superior spectre -
+O'erlooking a superior spectre -    (something before O'erlooking??)
 Or More 
 -->

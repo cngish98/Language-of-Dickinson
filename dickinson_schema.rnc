@@ -36,7 +36,7 @@ line = element line { mixed
 a_token = element token { id, text }
 id = attribute xml:id { text }
 
-ellipsis = element ellipsis { ellipsis_type, subject_string?, elided_pos, possible_string?, v? }
+ellipsis = element ellipsis { ellipsis_type, subject_string?, elided_pos?, possible_string?, v? }
 ellipsis_type = attribute ellipsis_type { "nominal" | "verbal" | "clausal" }
 subject_string = attribute subject_string { text } 
 elided_pos = attribute elided_pos { text }
