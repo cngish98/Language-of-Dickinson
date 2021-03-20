@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/1/image_sets/12173315 </source>
       <recipient/>
       <poem_themes>Nautical</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -18,9 +19,11 @@
             <nature nature_type="water">
                <token xml:id="t_1_4">sea</token>
             </nature>
+            <ellipsis ellipsis_type="clausal" possible_string="is the pilot" v="1"/>
             <token xml:id="t_1_5">-</token>
             <token xml:id="t_1_6">sailing</token>
             <token xml:id="t_1_7">silently</token>
+            <ellipsis ellipsis_type="clausal" possible_string="is the pilot" v="2"/>
          </line>
          <line>
             <token xml:id="t_2_1">Ho!</token>
@@ -43,6 +46,7 @@
             <token xml:id="t_4_5">-</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_5_1">Where</token>
             <token xml:id="t_5_2">the</token>
             <nature nature_type="general">
@@ -95,7 +99,7 @@
       </stanza>
    </body>
 </poem>
-<!--POST PLAIN TEXT OF POEM BELOW 
+<!-- 
 
 On this wondrous sea - sailing silently - 
 Ho! Pilot! Ho! 
@@ -104,7 +108,7 @@ Where no breakers roar -
 Where the storm is o'er? 
 
 In the silent West 
-Many - the sails at rest - 
+Many - the sails at rest -   (ellipsis here, but how to markup?)
 The anchors fast. 
 Thither I pilot thee - 
 Land! Ho! Eternity! 

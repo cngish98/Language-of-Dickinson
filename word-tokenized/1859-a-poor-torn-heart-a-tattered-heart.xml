@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/2/image_sets/12169210 </source>
       <recipient>Susan Dickinson</recipient>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -29,6 +30,7 @@
          </line>
          <line>
             <token xml:id="t_2_1">That</token>
+            <ellipsis ellipsis_type="" possible_string="neither"/>   <!-- not sure what this would be called -->
             <token xml:id="t_2_2">sat</token>
             <token xml:id="t_2_3">it</token>
             <token xml:id="t_2_4">down</token>
@@ -110,6 +112,7 @@
             <token xml:id="t_10_5">--</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-noun" possible_string="the angels"/>
             <token xml:id="t_11_1">Tenderly</token>
             <token xml:id="t_11_2">took</token>
             <token xml:id="t_11_3">it</token>
@@ -138,6 +141,7 @@
             <token xml:id="t_13_7">--</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_14_1">There</token>
             <token xml:id="t_14_2">--</token>
             <token xml:id="t_14_3">gathered</token>

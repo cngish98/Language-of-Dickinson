@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/1/image_sets/12173317 </source>
       <recipient>Susan Dickinson</recipient>
       <poem_themes>Nature</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -122,6 +123,7 @@
             </physical_body>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_14_1">Held</token>
             <token xml:id="t_14_2">in</token>
             <token xml:id="t_14_3">a</token>
@@ -167,6 +169,7 @@
             <token xml:id="t_19_5">,</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_20_1">In</token>
             <token xml:id="t_20_2">a</token>
             <token xml:id="t_20_3">more</token>
@@ -190,6 +193,7 @@
             <token xml:id="t_22_6">,</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_23_1">Each</token>
             <token xml:id="t_23_2">little</token>
             <token xml:id="t_23_3">discord</token>
@@ -243,9 +247,9 @@
       </stanza>
    </body>
 </poem>
-<!--POST PLAIN TEXT OF POEM BELOW 
+<!--
 
-I have a Bird in spring 
+        I have a Bird in spring 
         Which for myself doth sing - 
         The spring decoys. 
         And as the summer nears - 
@@ -254,7 +258,7 @@ I have a Bird in spring
         
         Yet do I not repine 
         Knowing that Bird of mine 
-        Though flown - 
+        Though flown -             (I am tempted to not mark this as ellipsis bc it is not as overt)
         Learneth beyond the sea 
         Melody new for me 
         And will return. 
@@ -263,7 +267,7 @@ I have a Bird in spring
         Held in a truer Land 
         Are mine - 
         And though they now depart, 
-        Tell I my doubting heart 
+        Tell I my doubting heart     (I tell my...)
         They're thine. 
         
         In a serener Bright, 
@@ -277,6 +281,6 @@ I have a Bird in spring
         Knowing that Bird of mine 
         Though flown 
         Shall in a distant tree 
-        Bright melody for me 
+        Bright melody for me      (return bright melody for me)
         Return.  
 -->

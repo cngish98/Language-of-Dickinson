@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/2/image_sets/12169691 </source>
       <recipient/>
       <poem_themes>Time</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -20,13 +21,14 @@
             <token xml:id="t_1_4">--</token>
          </line>
          <line>
+            <ellipsis ellipsis_type=""/>
             <token xml:id="t_2_1">Not</token>
             <token xml:id="t_2_2">the</token>
             <token xml:id="t_2_3">Mantel's</token>
             <token xml:id="t_2_4">--</token>
          </line>
          <line>
-            <token xml:id="t_3_1">Geneva's</token>
+            <token xml:id="t_3_1">Geneva's</token>  <!-- place? -->
             <token xml:id="t_3_2">farthest</token>
             <token xml:id="t_3_3">skill</token>
          </line>
@@ -71,12 +73,12 @@
             <token xml:id="t_8_2">quivered</token>
             <token xml:id="t_8_3">out</token>
             <token xml:id="t_8_4">of</token>
-            <token xml:id="t_8_5">Decimals</token>
+            <token xml:id="t_8_5">Decimals</token>   <!-- numbers -->
             <token xml:id="t_8_6">--</token>
          </line>
          <line>
             <token xml:id="t_9_1">Into</token>
-            <token xml:id="t_9_2">Degreeless</token>
+            <token xml:id="t_9_2">Degreeless</token>  <!-- numbers -->
             <time>
                <token xml:id="t_9_3">Noon</token>
             </time>
@@ -122,7 +124,7 @@
       </stanza>
       <stanza>
          <line>
-            <token xml:id="t_14_1">stares</token>
+            <token xml:id="t_14_1">stares</token>  <!-- are these variants? -->
             <token xml:id="t_14_2">Nods</token>
             <token xml:id="t_14_3">from</token>
             <token xml:id="t_14_4">the</token>
@@ -164,8 +166,8 @@
 </poem>
 <!--POST PLAIN TEXT OF POEM BELOW 
 
-A Clock stopped - 
-        Not the Mantel's - 
+        A Clock stopped - 
+        Not the Mantel's -          ([it was] not / [but] not)
         Geneva's farthest skill 
         Cant put the puppet bowing - 
         That just now dangled still - 
@@ -181,7 +183,7 @@ A Clock stopped -
         While cool - concernless No - 
         
         stares Nods from the Gilded pointers - 
-        Nods from the Seconds slim - 
+        Nods from the Seconds slim -   (a variant line or another line about nodding that needs an "and"?)
         Decades of Arrogance between 
         The Dial life - 
         And Him - 

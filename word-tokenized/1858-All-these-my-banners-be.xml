@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/1/image_sets/12173412 </source>
       <recipient/>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -52,8 +53,9 @@
          </line>
          <line>
             <token xml:id="t_6_1">My</token>
-            <token xml:id="t_6_2">chancel</token>
+            <token xml:id="t_6_2">chancel</token>   <!-- religious -->
             <token xml:id="t_6_3">-</token>
+            <ellipsis ellipsis_type="verbal" possible_string="is"/>
             <token xml:id="t_6_4">all</token>
             <token xml:id="t_6_5">the</token>
             <token xml:id="t_6_6">plain</token>

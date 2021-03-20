@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/2/image_sets/12169202 </source>
       <recipient>Susan Dickinson</recipient>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -157,6 +158,7 @@
          <line>
             <token xml:id="t_14_1">How</token>
             <token xml:id="t_14_2">nonchalant</token>
+            <ellipsis ellipsis_type="verbal" possible_string="is"/>
             <token xml:id="t_14_3">the</token>
             <nature nature_type="general">
                <token xml:id="t_14_4">Hedge</token>
@@ -164,6 +166,7 @@
             <token xml:id="t_14_5">!</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="it is"/>
             <token xml:id="t_15_1">As</token>
             <token xml:id="t_15_2">if</token>
             <token xml:id="t_15_3">the</token>
@@ -182,8 +185,8 @@
 </poem>
 <!--POST PLAIN TEXT OF POEM BELOW 
 
-A Lady red - amid the Hill 
-Her annual secret keeps! 
+A Lady red - amid the Hill   (a red lady)
+Her annual secret keeps!     (keeps her annual secret)
 A Lady white, within the Field 
 In Placid Lily sleeps! 
 
@@ -194,7 +197,7 @@ Who may expected be?
 
 The Neighbors do not yet suspect! 
 The Woods exchange a smile! 
-Orchard, and Buttercup, and Bird 
+Orchard, and Buttercup, and Bird   (ellipsis here??)
 In such a little while! 
 
 And yet, how still the Landscape stands! 

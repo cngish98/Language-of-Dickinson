@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/2/image_sets/12169129 </source>
       <recipient/>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -20,6 +21,7 @@
             </nature>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="I robbed"/>
             <token xml:id="t_2_1">The</token>
             <nature nature_type="earth">
                <token xml:id="t_2_2">trusting</token>
@@ -79,7 +81,8 @@
             <nature nature_type="earth">
                <token xml:id="t_9_5">Hemlock</token>
             </nature>
-            <token xml:id="t_9_6">--</token>
+            <token xml:id="t_9_6">-</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="say"/>
          </line>
          <line>
             <token xml:id="t_10_1">What</token>
@@ -100,9 +103,9 @@ I robbed the Woods
 The trusting Woods. 
 The unsuspecting Trees 
 Brought out their 
-Burs and mosses 
-My fantasy to please. 
-I scanned their trinkets curious - 
+Burs and mosses   (to please my fantasy)
+My fantasy to please.   
+I scanned their trinkets curious -    (curiously?) (then what to do about ellipsis??)
 I grasped - I bore away - 
 What will the solemn Hemlock - 
 What will the Oak tree say? 

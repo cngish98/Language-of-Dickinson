@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/2/image_sets/12170021 </source>
       <recipient/>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -21,6 +22,7 @@
             </physical_body>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="that is"/>
             <token xml:id="t_2_1">Imperfectly</token>
             <token xml:id="t_2_2">beheld</token>
             <token xml:id="t_2_3">--</token>
@@ -88,7 +90,7 @@
         For fear it be dispelled - 
         
         But peers beyond her mesh - 
-        And wishes - and denies - 
+        And wishes - and denies -      (what to do with ellipsis here??)
         Lest Interview - annul a want 
         That Image - satisfies - 
 

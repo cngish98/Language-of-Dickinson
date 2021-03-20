@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/2/image_sets/12169036</source>
       <recipient>Austin Dickinson</recipient>
       <poem_themes>nature</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -16,10 +17,11 @@
             <token xml:id="t_1_2">is</token>
             <token xml:id="t_1_3">another</token>
             <nature nature_type="general">
-               <token xml:id="t_1_4">sky</token>
+               <token xml:id="t_1_4">sky</token>   <!-- I can't remember if we were doing sky as air or general -->
             </nature>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="that is"/>
             <token xml:id="t_2_1">Ever</token>
             <token xml:id="t_2_2">serene</token>
             <token xml:id="t_2_3">and</token>
@@ -53,7 +55,7 @@
             </nature>
             <token xml:id="t_5_5">,</token>
             <character name="Austin">
-               <token xml:id="t_5_6">Austin</token>
+               <token xml:id="t_5_6">Austin</token>  <!-- needs relation_with attribute -->
             </character>
             <token xml:id="t_5_7">,</token>
          </line>
@@ -134,7 +136,7 @@
       </stanza>
    </body>
 </poem>
-<!--POST PLAIN TEXT OF POEM BELOW 
+<!--
 
 There is another sky, 
 Ever serene and fair, 

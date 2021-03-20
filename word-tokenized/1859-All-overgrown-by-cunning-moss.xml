@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/2/image_sets/12169261 </source>
       <recipient/>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -22,6 +23,7 @@
             <token xml:id="t_1_6">,</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_2_1">All</token>
             <token xml:id="t_2_2">interspersed</token>
             <token xml:id="t_2_3">with</token>
@@ -60,6 +62,7 @@
             <token xml:id="t_5_5">others</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="" possible_string="who"/>  <!-- what type -->
             <token xml:id="t_6_1">When</token>
             <nature nature_type="general">
                <token xml:id="t_6_2">frosts</token>
@@ -88,6 +91,7 @@
       <stanza>
          <line>
             <token xml:id="t_9_1">But</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-noun" possible_string="this bird"/>
             <token xml:id="t_9_2">differed</token>
             <token xml:id="t_9_3">in</token>
             <token xml:id="t_9_4">returning</token>
@@ -144,7 +148,7 @@
          </line>
          <line>
             <place>
-               <token xml:id="t_15_1">Gethsemane</token>
+               <token xml:id="t_15_1">Gethsemane</token>  <!-- religious place -->
             </place>
             <token xml:id="t_15_2">can</token>
             <token xml:id="t_15_3">tell</token>
@@ -162,7 +166,7 @@
             <token xml:id="t_17_2">reached</token>
             <token xml:id="t_17_3">the</token>
             <place>
-               <token xml:id="t_17_4">Asphodel</token>
+               <token xml:id="t_17_4">Asphodel</token>  <!-- Greek mythology -->
             </place>
             <token xml:id="t_17_5">!</token>
          </line>
@@ -185,7 +189,7 @@
             <physical_body>
                <token xml:id="t_19_4">ear</token>
             </physical_body>
-            <token xml:id="t_19_5">--</token>
+            <token xml:id="t_19_5">-</token>
          </line>
          <line>
             <token xml:id="t_20_1">Oh</token>
@@ -203,7 +207,7 @@
          <line>
             <token xml:id="t_21_1">When</token>
             <character name="Bronte">
-               <token xml:id="t_21_2">"Bronte"</token>
+               <token xml:id="t_21_2">"Bronte"</token>  <!-- writing too -->
             </character>
             <token xml:id="t_21_3">entered</token>
             <token xml:id="t_21_4">there!</token>

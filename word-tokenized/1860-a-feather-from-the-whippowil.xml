@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/2/image_sets/12169401 </source>
       <recipient>Samual Bowler and Mary Bowles</recipient>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -48,6 +49,7 @@
                <token xml:id="t_4_2">Opera</token>
             </music>
             <token xml:id="t_4_3">--</token>
+            <ellipsis ellipsis_type="verbal" possible_string="is"/>
             <nature nature_type="water">
                <token xml:id="t_4_4">the</token>
                <token xml:id="t_4_5">Springs</token>
@@ -79,6 +81,7 @@
                <token xml:id="t_7_3">Egg</token>
             </nature>
             <token xml:id="t_7_4">,</token>
+            <ellipsis ellipsis_type="verbal" possible_string="is"/>
             <token xml:id="t_7_5">what</token>
             <token xml:id="t_7_6">School</token>
             <token xml:id="t_7_7">Boys</token>
@@ -95,8 +98,8 @@
 </poem>
 <!--POST PLAIN TEXT OF POEM BELOW 
 
-A feather from the Whippowil 
-        That everlasting - sings! 
+        A feather from the Whippowil 
+        That everlasting - sings!    (the whippowil is everlastingly singing)
         Whose galleries - are Sunrise - 
         Whose Opera - the Springs - 
         Whose Emerald Nest the Ages spin 

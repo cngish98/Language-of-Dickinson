@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/2/image_sets/12170168 </source>
       <recipient/>
       <poem_themes>Mystical</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>  <!-- lots of ellipsis, but challenging to get through -->
    </metadata>
    <body>
       <stanza>
@@ -43,7 +44,7 @@
          </line>
          <line>
             <token xml:id="t_4_1">The</token>
-            <token xml:id="t_4_2">Maker's</token>
+            <token xml:id="t_4_2">Maker's</token>   <!-- God? markup as religious person -->
             <token xml:id="t_4_3">Ladders</token>
             <token xml:id="t_4_4">stop</token>
             <token xml:id="t_4_5">--</token>
@@ -169,7 +170,7 @@
       </stanza>
    </body>
 </poem>
-<!--POST PLAIN TEXT OF POEM BELOW 
+<!--
 
         A Solemn thing within the Soul 
         To feel itself get ripe - 

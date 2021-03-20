@@ -8,10 +8,12 @@
       <source> https://www.edickinson.org/editions/2/image_sets/12169971 </source>
       <recipient/>
       <poem_themes>Death</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="there was"/>
             <token xml:id="t_1_1">A</token>
             <token xml:id="t_1_2">House</token>
             <token xml:id="t_1_3">upon</token>
@@ -21,12 +23,14 @@
          </line>
          <line>
             <token xml:id="t_2_1">That</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="determiner-art" possible_string="a"/>
             <token xml:id="t_2_2">Wagon</token>
             <token xml:id="t_2_3">never</token>
             <token xml:id="t_2_4">reached</token>
             <token xml:id="t_2_5">--</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="" possible_string="where"/>
             <token xml:id="t_3_1">No</token>
             <death>
                <token xml:id="t_3_2">Dead</token>
@@ -39,6 +43,7 @@
             <token xml:id="t_3_8">--</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_4_1">No</token>
             <token xml:id="t_4_2">Peddler's</token>
             <token xml:id="t_4_3">Cart</token>
@@ -49,6 +54,7 @@
       </stanza>
       <stanza>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="there was a house"/>
             <token xml:id="t_5_1">Whose</token>
             <token xml:id="t_5_2">Chimney</token>
             <token xml:id="t_5_3">never</token>
@@ -95,6 +101,7 @@
       </stanza>
       <stanza>
          <line>
+            <ellipsis ellipsis_type="clausal"/>  <!-- what, though?) -->
             <token xml:id="t_9_1">Whose</token>
             <death>
                <token xml:id="t_9_2">fate</token>
@@ -146,7 +153,7 @@
         Caught Sunrise first - and Sunset - last - 
         Then - held an Empty Pane - 
         
-        Whose fate - Conjecture knew - 
+        Whose fate - Conjecture knew -    (ellipsis??)
         No other neighbor - did - 
         And what it was - we never lisped - 
         Because He - never told - 

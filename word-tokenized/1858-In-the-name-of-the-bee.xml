@@ -7,7 +7,7 @@
       <poem_number>F23A</poem_number>
       <source> https://www.edickinson.org/editions/1/image_sets/12173394 </source>
       <recipient/>
-      <poem_themes>Animal</poem_themes>
+      <poem_themes>Animal</poem_themes>    <!-- also religious maybe? The whole poem is styled after the closing line of a prayer, but the addressee is not God -->
    </metadata>
    <body>
       <stanza>
@@ -43,9 +43,9 @@
       </stanza>
    </body>
 </poem>
-<!--POST PLAIN TEXT OF POEM BELOW 
+<!--
 
-In the name of the Bee - 
+In the name of the Bee -    (not really sure what to do with ellipsis here because this poem reflects the style of the last line of a prayer)
 And of the Butterfly - 
 And of the Breeze - Amen! 
 

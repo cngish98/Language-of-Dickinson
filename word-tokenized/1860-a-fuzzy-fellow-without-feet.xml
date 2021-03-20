@@ -8,6 +8,7 @@
       <source> https://www.edickinson.org/editions/1/image_sets/12173881 </source>
       <recipient/>
       <poem_themes>Caterpillar</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -42,6 +43,7 @@
             <token xml:id="t_4_1">And</token>
             <token xml:id="t_4_2">his</token>
             <token xml:id="t_4_3">complexion,</token>
+            <ellipsis ellipsis_type="" possible_string="of"/>
             <token xml:id="t_4_4">dun!</token>
          </line>
       </stanza>
@@ -58,6 +60,7 @@
          </line>
          <line>
             <token xml:id="t_6_1">Sometime,</token>
+            <ellipsis ellipsis_type="clausal" possible_string="he dwelleth"/>
             <token xml:id="t_6_2">opon</token>
             <token xml:id="t_6_3">a</token>
             <nature nature_type="earth">
@@ -84,6 +87,7 @@
          <line>
             <token xml:id="t_9_1">All</token>
             <token xml:id="t_9_2">this</token>
+            <ellipsis ellipsis_type="clausal" possible_string="he does"/>
             <token xml:id="t_9_3">in</token>
             <time>
                <token xml:id="t_9_4">summer</token>
@@ -117,7 +121,7 @@
             <token xml:id="t_12_1">And</token>
             <token xml:id="t_12_2">struts</token>
             <token xml:id="t_12_3">in</token>
-            <token xml:id="t_12_4">s</token>
+            <token xml:id="t_12_4">s</token>   <!-- just one word sewing?? -->
             <token xml:id="t_12_5">e</token>
             <token xml:id="t_12_6">wing</token>
             <token xml:id="t_12_7">silk!</token>
@@ -132,6 +136,7 @@
             <token xml:id="t_13_5">Lady,</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-noun" possible_string="he"/>
             <token xml:id="t_14_1">Emerges</token>
             <token xml:id="t_14_2">in</token>
             <token xml:id="t_14_3">the</token>
@@ -141,6 +146,7 @@
             <token xml:id="t_14_5">!</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="" possible_string="with"/>  <!-- type?? -->
             <token xml:id="t_15_1">A</token>
             <nature nature_type="animal">
                <token xml:id="t_15_2">Feather</token>
@@ -196,7 +202,7 @@
    </body>
 </poem>
 <!--POST PLAIN TEXT OF POEM BELOW 
- A fuzzy fellow, without feet - 
+        A fuzzy fellow, without feet - 
         Yet doth exceeding run! 
         Of velvet, is his Countenance - 
         And his complexion, dun! 
@@ -209,7 +215,7 @@
         All this in summer - 
         But when winds alarm the Forest Folk, 
         He taketh Damask Residence - 
-        And struts in s e wing silk! 
+        And struts in sewing silk! 
         
         Then, finer than a Lady, 
         Emerges in the spring! 
@@ -218,7 +224,7 @@
         
         
         By men, yclept Caterpillar! 
-        By me! But who am I, 
+        By me! But who am I,    (ellipsis after by me?)
         To tell the pretty secret 
         Of the Butterfly! 
 -->

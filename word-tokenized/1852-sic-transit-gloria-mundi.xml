@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<poem>
+<poem>          <!-- we may need to add a language element because this poem has a few instances of Latin -->
    <metadata>
-      <first_line/>
+      <first_line/>   <!-- what are we doing for first line here? -->
       <date period="early">1852</date>
       <poem_number>F2A</poem_number>
       <source> https://www.edickinson.org/editions/1/image_sets/12173309 </source>
       <recipient/>
       <poem_themes>Triumph</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -70,7 +71,7 @@
          <line>
             <token xml:id="t_9_1">Hurrah</token>
             <token xml:id="t_9_2">for</token>
-            <character name="Petey Parley">
+            <character name="Peter Parley">
                <token xml:id="t_9_3">Peter</token>
                <token xml:id="t_9_4">Parley</token>
             </character>
@@ -104,7 +105,7 @@
       <stanza>
          <line>
             <character name="Peter">
-               <token xml:id="t_13_1">Peter</token>
+               <token xml:id="t_13_1">Peter</token>   <!-- do we think this is the same Peter from earlier in the poem? if so, should probably have @name be the same for both -->
             </character>
             <token xml:id="t_13_2">put</token>
             <token xml:id="t_13_3">up</token>
@@ -122,7 +123,7 @@
          </line>
          <line>
             <token xml:id="t_15_1">Tell</token>
-            <token xml:id="t_15_2">Luna,</token>
+            <token xml:id="t_15_2">Luna,</token>    <!-- reference to moon? -->
             <eating>
                <token xml:id="t_15_3">tea</token>
             </eating>
@@ -134,7 +135,7 @@
             <token xml:id="t_16_2">call</token>
             <token xml:id="t_16_3">your</token>
             <character name="Mars">
-               <token xml:id="t_16_4">brother</token>
+               <token xml:id="t_16_4">brother</token>    <!-- any particular reason why character element is wrapped around brother too? -->
                <token xml:id="t_16_5">Mars</token>
             </character>
          </line>
@@ -148,7 +149,7 @@
                <token xml:id="t_17_4">apple</token>
             </eating>
             <character name="Adam">
-               <token xml:id="t_17_5">Adam</token>
+               <token xml:id="t_17_5">Adam</token>    <!-- this is definitely a religious reference here with Adam and the apple - change character element to religion element -->
             </character>
          </line>
          <line>
@@ -244,7 +245,7 @@
             <memory>
                <token xml:id="t_29_1">During</token>
                <token xml:id="t_29_2">my</token>
-               <token xml:id="t_29_3">education</token>
+               <token xml:id="t_29_3">education</token>   <!-- why is this marked up as memory? -->
             </memory>
          </line>
          <line>
@@ -351,10 +352,12 @@
          </line>
          <line>
             <token xml:id="t_43_1">Rascality,</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="is"/>
             <token xml:id="t_43_2">heroic</token>
          </line>
          <line>
             <token xml:id="t_44_1">Insolvency,</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="is"/>
             <token xml:id="t_44_2">sublime</token>
          </line>
       </stanza>
@@ -371,7 +374,7 @@
             <token xml:id="t_46_1">Laid</token>
             <token xml:id="t_46_2">down</token>
             <token xml:id="t_46_3">on</token>
-            <token xml:id="t_46_4">Bunker</token>
+            <token xml:id="t_46_4">Bunker</token>    <!-- isn't this a reference to war? -->
             <token xml:id="t_46_5">Hill</token>
          </line>
          <line>
@@ -383,6 +386,7 @@
             <time>
                <token xml:id="t_47_6">morn'g</token>
             </time>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="are"/>
          </line>
          <line>
             <token xml:id="t_48_1">Yet</token>
@@ -545,7 +549,7 @@
          <line>
             <token xml:id="t_67_1">Then</token>
             <token xml:id="t_67_2">farewell</token>
-            <token xml:id="t_67_3">Tuscarora</token>
+            <token xml:id="t_67_3">Tuscarora</token>   <!-- place or tribe? -->
          </line>
          <line>
             <token xml:id="t_68_1">And</token>
@@ -557,12 +561,12 @@
       </stanza>
    </body>
 </poem>
-<!--POST PLAIN TEXT OF POEM BELOW 
+<!--
 
 Sic transit gloria mundi 
         "How doth the busy bee" 
         Dum vivamus vivamus 
-        I stay mine enemy! 
+        I stay mine enemy!   (mine = my own)
         
         Oh veni vidi vici! 
         Oh caput cap-a-pie! 
@@ -599,9 +603,9 @@ Sic transit gloria mundi
         That gravitation stumbling 
         Fell from an apple tree 
         
-        The Earth uponopon itsit's axis 
+        The Earth upon it's axis 
         Was once supposed to turn 
-        By way of a gymnastic 
+        By way of a gymnastic    (is this a noun instead of an adj in her time? - if not, then elided word is a noun being described by "gymnastic")
         In honor to the sun 
         
         It was the brave Columbus 
@@ -625,7 +629,7 @@ Sic transit gloria mundi
         Each with a solemn musket 
         A marching to the skies! 
         
-        A coward will remain, Sir, 
+        A coward will remain, Sir,  (who is this "sir" she keeps talking about?)
         Until the fight is done; 
         But an immortal hero 
         Will take his hat and run. 
