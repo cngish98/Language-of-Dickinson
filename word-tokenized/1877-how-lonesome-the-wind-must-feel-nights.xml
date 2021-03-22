@@ -76,7 +76,6 @@
             <time>
                <token xml:id="t_5_7">Noons</token>
             </time>
-            <light/>
          </line>
          <line>
             <token xml:id="t_6_1">Stepping</token>
@@ -116,13 +115,12 @@
             <time>
                <token xml:id="t_9_7">Morns</token>
             </time>
-            <light/>
          </line>
          <line>
             <token xml:id="t_10_1">Encamping</token>
             <token xml:id="t_10_2">on</token>
             <token xml:id="t_10_3">a</token>
-            <nature nature_type="air">
+            <nature nature_type="general">
                <token xml:id="t_10_4">thousand</token>
                <token xml:id="t_10_5">dawns</token>
             </nature>

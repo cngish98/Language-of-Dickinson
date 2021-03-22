@@ -6,8 +6,9 @@
       <date period="early">1858</date>
       <poem_number>F23A</poem_number>
       <source> https://www.edickinson.org/editions/1/image_sets/12173394 </source>
-      <recipient/>
-      <poem_themes>Animal</poem_themes>    <!-- also religious maybe? The whole poem is styled after the closing line of a prayer, but the addressee is not God -->
+      <recipient>none</recipient>
+      <poem_themes>Animal, Religious, Nature</poem_themes>    <!-- also religious maybe? The whole poem is styled after the closing line of a prayer, but the addressee is not God -->
+      <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -35,8 +36,9 @@
             <token xml:id="t_3_1">And</token>
             <token xml:id="t_3_2">of</token>
             <token xml:id="t_3_3">the</token>
-            <nature nature_type="air"/>
+            <nature nature_type="air">
             <token xml:id="t_3_4">Breeze</token>
+            </nature>   
             <token xml:id="t_3_5">-</token>
             <token xml:id="t_3_6">Amen!</token>
          </line>
