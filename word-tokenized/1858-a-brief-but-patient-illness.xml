@@ -68,8 +68,9 @@
          <line>
             <token xml:id="t_7_1">An</token>
             <token xml:id="t_7_2">aged</token>
-            <character name="Bee"/>
+            <animal animal_type="bee">
             <token xml:id="t_7_3">Bee</token>
+            </animal>
             <token xml:id="t_7_4">addressed</token>
             <token xml:id="t_7_5">us</token>
             <token xml:id="t_7_6">-</token>

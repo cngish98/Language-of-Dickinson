@@ -41,8 +41,9 @@
             </music>
             <token xml:id="t_3_3">still,</token>
             <token xml:id="t_3_4">when</token>
-            <animal animal_type="bird"/>
+            <animal animal_type="bird">
             <token xml:id="t_3_5">Whippowil</token>
+            </animal>
          </line>
          <line>
             <token xml:id="t_4_1">And</token>

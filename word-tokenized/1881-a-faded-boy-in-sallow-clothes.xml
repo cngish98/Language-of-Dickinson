@@ -28,8 +28,9 @@
             <emotion emotion_type="lonesome">
                <token xml:id="t_2_4">lonesome</token>
             </emotion>
-            <animal animal_type="cow"/>
+            <animal animal_type="cow">
             <token xml:id="t_2_5">Cow</token>
+            </animal>
          </line>
          <line>
             <token xml:id="t_3_1">To</token>

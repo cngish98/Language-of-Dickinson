@@ -86,6 +86,7 @@
             </labor>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_7_1">For</token>
             <emotion emotion_type="fear">
                <token xml:id="t_7_2">dread</token>
@@ -96,6 +97,7 @@
          <line>
             <token xml:id="t_8_1">How</token>
             <token xml:id="t_8_2">often</token>
+            <ellipsis ellipsis_type="clausal" possible_string="the mind is"/>
             <violence>
                <token xml:id="t_8_3">foundering</token>
             </violence>
@@ -105,7 +107,9 @@
             </nature>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="but"/>
             <token xml:id="t_9_1">Ostensibly,</token>
+            <ellipsis ellipsis_type="clausal" possible_string="is not foundering"/>
             <token xml:id="t_9_2">on</token>
             <nature nature_type="earth">
                <token xml:id="t_9_3">Land</token>
@@ -114,6 +118,7 @@
       </stanza>
       <stanza>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="there was"/>
             <token xml:id="t_10_1">A</token>
             <token xml:id="t_10_2">not</token>
             <token xml:id="t_10_3">admitting</token>
@@ -157,6 +162,7 @@
       </stanza>
       <stanza>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="there was"/>
             <token xml:id="t_14_1">A</token>
             <death>
                <token xml:id="t_14_2">closing</token>
@@ -198,8 +204,8 @@
 </poem>
 <!-- 
 A great Hope fell
-You heard no crash noise
-The  havoc  damage Ruin was within
+You heard no crash noise     (noise)
+The  havoc  damage Ruin was within   (ruin)
 Oh cunning wreck that told no tale
 And let no Witness in
 

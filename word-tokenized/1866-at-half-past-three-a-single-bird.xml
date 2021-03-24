@@ -22,8 +22,9 @@
             <token xml:id="t_1_5">,</token>
             <token xml:id="t_1_6">a</token>
             <token xml:id="t_1_7">single</token>
-            <animal animal_type="bird"/>
+            <animal animal_type="bird">
             <token xml:id="t_1_8">Bird</token>
+            </animal>
          </line>
          <line>
             <token xml:id="t_2_1">Unto</token>
@@ -58,10 +59,9 @@
                <token xml:id="t_5_4">Four</token>
             </time>
             <token xml:id="t_5_5">,</token>
-            <animal>
+            <science>
                <token xml:id="t_5_6">Experiment</token>
-            </animal>
-            <science/>
+            </science>
          </line>
          <line>
             <token xml:id="t_6_1">Had</token>
@@ -75,11 +75,9 @@
             <token xml:id="t_7_2">lo,</token>
             <token xml:id="t_7_3">Her</token>
             <token xml:id="t_7_4">silver</token>
-            <music>
+            <token xml:id="t_7_5">Principle</token>
                <token xml:id="t_7_5">Principle</token>
-            </music>
          </line>
-         <!--I think this is relating to music? -->
          <line>
             <token xml:id="t_8_1">Supplanted</token>
             <token xml:id="t_8_2">all</token>
@@ -96,10 +94,9 @@
                <token xml:id="t_9_4">Seven</token>
             </time>
             <token xml:id="t_9_5">,</token>
-            <animal>
+            <science>
                <token xml:id="t_9_6">Element</token>
-            </animal>
-            <science/>
+            </science>
          </line>
          <line>
             <token xml:id="t_10_1">Nor</token>

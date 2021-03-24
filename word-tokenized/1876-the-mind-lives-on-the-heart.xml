@@ -27,8 +27,9 @@
          <line>
             <token xml:id="t_2_1">Like</token>
             <token xml:id="t_2_2">any</token>
-            <physical_body body_type="ailment"/>
+            <physical_body body_type="ailment">
             <token xml:id="t_2_3">Parasite</token>
+            </physical_body>
             <token xml:id="t_2_4">-</token>
          </line>
          <line>

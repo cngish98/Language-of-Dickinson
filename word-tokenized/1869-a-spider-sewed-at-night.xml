@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171721</source>
       <recipient>Susan Dickinson</recipient>
       <poem_themes>animals, nature, darkness, light, writing?, religion?</poem_themes>
+      <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -35,11 +36,9 @@
             <writing>
                <token xml:id="t_3_3">Arc</token>
                <token xml:id="t_3_4">of</token>
-            </writing>
-            <religion type="thing"/>
-            <light>
                <token xml:id="t_3_5">White</token>
-            </light>
+            </writing>
+            <religion type="thing"/> 
             <token xml:id="t_3_6">.</token>
          </line>
          <!--two interpretations,  one of the arc being the world as God created it, the other being the

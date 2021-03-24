@@ -29,7 +29,9 @@
             <token xml:id="t_2_1">Occasionally</token>
             <token xml:id="t_2_2">rides</token>
             <token xml:id="t_2_3">-</token>
-            <ellipsis ellipsis_type="" elided_pos=""/> <!-- elided word could be a DO-noun or adverb? as in "rides away..."-->
+            <ellipsis ellipsis_type="nominal" elided_pos="DO-noun" v="1"/> 
+            <ellipsis ellipsis_type="verbal" elided_pos="adverb" v="2"/>
+            <!-- elided word could be a DO-noun or adverb? as in "rides away..."-->
          </line>
          <!--elision or just an intransitive verb? --> <!-- I haven't really seen rides as an intransitive verb... -->
          <line>
@@ -183,8 +185,9 @@
             <character name="nature" relation_with="you">
                <token xml:id="t_17_3">Nature's</token>
             </character>
-            <nature nature_type="general"/>
+            <nature nature_type="general">
             <token xml:id="t_17_4">People</token>
+            </nature>
          </line>
          <line>
             <token xml:id="t_18_1">I</token>
@@ -214,7 +217,7 @@
       <stanza>
          <line>
             <token xml:id="t_21_1">But</token>
-            <!--elision here? no subject -->
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-pronoun" possible_string="I"/>
             <token xml:id="t_21_2">never</token>
             <token xml:id="t_21_3">met</token>
             <token xml:id="t_21_4">this</token>
@@ -247,8 +250,8 @@
 <!-- 
 A narrow Fellow in the Grass
 Occasionally rides -           (usually "rides" is a transitive verb)
-You may have met Him - did you not   ("did you not" - a question? but then would be "have you not?" so then what here??)
-His notice sudden is -   (His notice is sudden - his notice? noticing him is sudden? usually notice is not a subject noun)
+You may have met Him - did you not   
+His notice sudden is -   
 
 The Grass divides as with a Comb -
 A spotted shaft is seen -

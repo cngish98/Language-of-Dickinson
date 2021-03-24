@@ -118,8 +118,9 @@
             </character>
             <token xml:id="t_14_2">arrange</token>
             <token xml:id="t_14_3">the</token>
-            <nature nature_type="space"/>
+            <nature nature_type="space">
             <token xml:id="t_14_4">stars</token>
+            </nature>   
          </line>
          <line>
             <token xml:id="t_15_1">Tell</token>
