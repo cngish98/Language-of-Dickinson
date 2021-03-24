@@ -54,11 +54,12 @@ p {
     width: 160px;
 }
 
-#project-overview, #about-us {
+.text-box {
     border: 1px solid black;
-    margin: 90px;
+    margin-bottom: 50px;
     padding: 30px;
 }
 
 .text-content {
+    margin: 50px 150px 50px 150px;
 }
