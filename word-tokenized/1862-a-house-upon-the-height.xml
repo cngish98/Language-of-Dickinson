@@ -19,7 +19,7 @@
             <token xml:id="t_1_3">upon</token>
             <token xml:id="t_1_4">the</token>
             <token xml:id="t_1_5">Hight</token>
-            <token xml:id="t_1_6">--</token>
+            <token xml:id="t_1_6">-</token>
          </line>
          <line>
             <token xml:id="t_2_1">That</token>
@@ -27,7 +27,7 @@
             <token xml:id="t_2_2">Wagon</token>
             <token xml:id="t_2_3">never</token>
             <token xml:id="t_2_4">reached</token>
-            <token xml:id="t_2_5">--</token>
+            <token xml:id="t_2_5">-</token>
          </line>
          <line>
             <ellipsis ellipsis_type="" possible_string="where"/>
@@ -40,16 +40,16 @@
             <token xml:id="t_3_5">ever</token>
             <token xml:id="t_3_6">carried</token>
             <token xml:id="t_3_7">down</token>
-            <token xml:id="t_3_8">--</token>
+            <token xml:id="t_3_8">-</token>
          </line>
          <line>
             <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_4_1">No</token>
             <token xml:id="t_4_2">Peddler's</token>
             <token xml:id="t_4_3">Cart</token>
-            <token xml:id="t_4_4">--</token>
+            <token xml:id="t_4_4">-</token>
             <token xml:id="t_4_5">approached</token>
-            <token xml:id="t_4_6">--</token>
+            <token xml:id="t_4_6">-</token>
          </line>
       </stanza>
       <stanza>
@@ -59,12 +59,12 @@
             <token xml:id="t_5_2">Chimney</token>
             <token xml:id="t_5_3">never</token>
             <token xml:id="t_5_4">smoked</token>
-            <token xml:id="t_5_5">--</token>
+            <token xml:id="t_5_5">-</token>
          </line>
          <line>
             <token xml:id="t_6_1">Whose</token>
             <token xml:id="t_6_2">Windows</token>
-            <token xml:id="t_6_3">--</token>
+            <token xml:id="t_6_3">-</token>
             <time>
                <token xml:id="t_6_4">Night</token>
             </time>
@@ -72,7 +72,7 @@
             <time>
                <token xml:id="t_6_6">Morn</token>
             </time>
-            <token xml:id="t_6_7">--</token>
+            <token xml:id="t_6_7">-</token>
          </line>
          <line>
             <token xml:id="t_7_1">Caught</token>
@@ -80,23 +80,23 @@
                <token xml:id="t_7_2">Sunrise</token>
             </nature>
             <token xml:id="t_7_3">first</token>
-            <token xml:id="t_7_4">--</token>
+            <token xml:id="t_7_4">-</token>
             <token xml:id="t_7_5">and</token>
             <nature nature_type="space">
                <token xml:id="t_7_6">Sunset</token>
             </nature>
-            <token xml:id="t_7_7">--</token>
+            <token xml:id="t_7_7">-</token>
             <token xml:id="t_7_8">last</token>
-            <token xml:id="t_7_9">--</token>
+            <token xml:id="t_7_9">-</token>
          </line>
          <line>
             <token xml:id="t_8_1">Then</token>
-            <token xml:id="t_8_2">--</token>
+            <token xml:id="t_8_2">-</token>
             <token xml:id="t_8_3">held</token>
             <token xml:id="t_8_4">an</token>
             <token xml:id="t_8_5">Empty</token>
             <token xml:id="t_8_6">Pane</token>
-            <token xml:id="t_8_7">--</token>
+            <token xml:id="t_8_7">-</token>
          </line>
       </stanza>
       <stanza>
@@ -106,37 +106,37 @@
             <death>
                <token xml:id="t_9_2">fate</token>
             </death>
-            <token xml:id="t_9_3">--</token>
+            <token xml:id="t_9_3">-</token>
             <token xml:id="t_9_4">Conjecture</token>
             <token xml:id="t_9_5">knew</token>
-            <token xml:id="t_9_6">--</token>
+            <token xml:id="t_9_6">-</token>
          </line>
          <line>
             <token xml:id="t_10_1">No</token>
             <token xml:id="t_10_2">other</token>
             <token xml:id="t_10_3">neighbor</token>
-            <token xml:id="t_10_4">--</token>
+            <token xml:id="t_10_4">-</token>
             <token xml:id="t_10_5">did</token>
-            <token xml:id="t_10_6">--</token>
+            <token xml:id="t_10_6">-</token>
          </line>
          <line>
             <token xml:id="t_11_1">And</token>
             <token xml:id="t_11_2">what</token>
             <token xml:id="t_11_3">it</token>
             <token xml:id="t_11_4">was</token>
-            <token xml:id="t_11_5">--</token>
+            <token xml:id="t_11_5">-</token>
             <token xml:id="t_11_6">we</token>
             <token xml:id="t_11_7">never</token>
             <token xml:id="t_11_8">lisped</token>
-            <token xml:id="t_11_9">--</token>
+            <token xml:id="t_11_9">-</token>
          </line>
          <line>
             <token xml:id="t_12_1">Because</token>
             <token xml:id="t_12_2">He</token>
-            <token xml:id="t_12_3">--</token>
+            <token xml:id="t_12_3">-</token>
             <token xml:id="t_12_4">never</token>
             <token xml:id="t_12_5">told</token>
-            <token xml:id="t_12_6">--</token>
+            <token xml:id="t_12_6">-</token>
          </line>
       </stanza>
    </body>

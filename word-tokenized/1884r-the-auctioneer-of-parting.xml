@@ -74,9 +74,9 @@
          <line>
             <token xml:id="t_8_1">To</token>
             <token xml:id="t_8_2">Two</token>
-            <ellipsis ellipsis_type="nominal" elided_pos="noun" possible_string="human heart"/> <!-- check pos -->
+            <ellipsis ellipsis_type="nominal" elided_pos="noun" possible_string="human hearts"/> <!-- check pos -->
             <token xml:id="t_8_3">-</token>
-            <ellipsis ellipsis_type="" elided_pos=""/>
+            <ellipsis ellipsis_type="clausal" elided_pos="and"/>
             <token xml:id="t_8_4">not</token>
             <token xml:id="t_8_5">any</token>
             <token xml:id="t_8_6">more</token>

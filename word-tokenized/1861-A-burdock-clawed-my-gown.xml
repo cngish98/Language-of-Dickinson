@@ -2,7 +2,7 @@
 <?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>
    <metadata>
-      <first_line>A Burdock -- clawed my Gown</first_line>
+      <first_line>A Burdock - clawed my Gown</first_line>
       <date period="early">1861</date>
       <poem_number>J229</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169556 </source>
@@ -17,11 +17,11 @@
             <nature nature_type="earth">
                <token xml:id="t_1_2">Burdock</token>
             </nature>
-            <token xml:id="t_1_3">--</token>
+            <token xml:id="t_1_3">-</token>
             <token xml:id="t_1_4">clawed</token>
             <token xml:id="t_1_5">my</token>
             <token xml:id="t_1_6">Gown</token>
-            <token xml:id="t_1_7">--</token>
+            <token xml:id="t_1_7">-</token>
          </line>
          <line>
             <ellipsis ellipsis_type="clausal" possible_string="it was"/>
@@ -30,14 +30,14 @@
             <nature nature_type="earth">
                <token xml:id="t_2_2">Burdock's</token>
             </nature>
-            <token xml:id="t_2_3">--</token>
+            <token xml:id="t_2_3">-</token>
             <token xml:id="t_2_4">blame</token>
-            <token xml:id="t_2_5">--</token>
+            <token xml:id="t_2_5">-</token>
          </line>
          <line>
             <token xml:id="t_3_1">But</token>
             <token xml:id="t_3_2">mine</token>
-            <token xml:id="t_3_3">--</token>
+            <token xml:id="t_3_3">-</token>
          </line>
          <line>
             <token xml:id="t_4_1">Who</token>
@@ -51,7 +51,7 @@
                <token xml:id="t_5_2">Burdock's</token>
                <token xml:id="t_5_3">Den</token>
             </nature>
-            <token xml:id="t_5_4">--</token>
+            <token xml:id="t_5_4">-</token>
          </line>
       </stanza>
       <stanza>
@@ -60,11 +60,11 @@
                <token xml:id="t_6_1">A</token>
                <token xml:id="t_6_2">Bog</token>
             </nature>
-            <token xml:id="t_6_3">--</token>
+            <token xml:id="t_6_3">-</token>
             <token xml:id="t_6_4">affronts</token>
             <token xml:id="t_6_5">my</token>
             <token xml:id="t_6_6">shoe</token>
-            <token xml:id="t_6_7">--</token>
+            <token xml:id="t_6_7">-</token>
          </line>
          <line>
             <token xml:id="t_7_1">What</token>
@@ -73,10 +73,10 @@
             <nature nature_type="water">
                <token xml:id="t_7_4">Bogs</token>
             </nature>
-            <token xml:id="t_7_5">--</token>
+            <token xml:id="t_7_5">-</token>
             <token xml:id="t_7_6">to</token>
             <token xml:id="t_7_7">do</token>
-            <token xml:id="t_7_8">--</token>
+            <token xml:id="t_7_8">-</token>
          </line>
          <line>
             <token xml:id="t_8_1">The</token>
@@ -84,7 +84,7 @@
             <token xml:id="t_8_3">Trade</token>
             <token xml:id="t_8_4">they</token>
             <token xml:id="t_8_5">know</token>
-            <token xml:id="t_8_6">--</token>
+            <token xml:id="t_8_6">-</token>
          </line>
          <line>
             <ellipsis ellipsis_type="verbal" possible_string="is"/>
@@ -96,7 +96,7 @@
          <line>
             <token xml:id="t_10_1">Ah,</token>
             <token xml:id="t_10_2">pity</token>
-            <token xml:id="t_10_3">--</token>
+            <token xml:id="t_10_3">-</token>
             <token xml:id="t_10_4">then!</token>
          </line>
       </stanza>
@@ -114,7 +114,7 @@
             <animal animal_type="elephants">
                <token xml:id="t_12_2">Elephants</token>
             </animal>
-            <token xml:id="t_12_3">--</token>
+            <token xml:id="t_12_3">-</token>
             <token xml:id="t_12_4">calm</token>
             <physical_body>
                <token xml:id="t_12_5">eyes</token>

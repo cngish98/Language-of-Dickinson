@@ -2,13 +2,13 @@
 <?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>
    <metadata>
-      <first_line>A darting fear -- a pomp -- a tear --</first_line>
+      <first_line>A darting fear - a pomp - a tear -</first_line>
       <date period="early">1859</date>
       <poem_number>J87</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169235 </source>
       <recipient>Mary Haven</recipient>
       <poem_themes>Fear</poem_themes>
-      <!-- unsure about ellipsis -->
+      <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -18,17 +18,17 @@
             <emotion emotion_type="fear">
                <token xml:id="t_1_3">fear</token>
             </emotion>
-            <token xml:id="t_1_4">--</token>
+            <token xml:id="t_1_4">-</token>
             <emotion emotion_type="triumph">
                <token xml:id="t_1_5">a</token>
                <token xml:id="t_1_6">pomp</token>
             </emotion>
-            <token xml:id="t_1_7">--</token>
+            <token xml:id="t_1_7">-</token>
             <emotion emotion_type="sadness">
                <token xml:id="t_1_8">a</token>
                <token xml:id="t_1_9">tear</token>
             </emotion>
-            <token xml:id="t_1_10">--</token>
+            <token xml:id="t_1_10">-</token>
          </line>
          <line>
             <token xml:id="t_2_1">A</token>

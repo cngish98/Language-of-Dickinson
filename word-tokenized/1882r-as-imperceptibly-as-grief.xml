@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172768</source>
       <recipient>T. W. Higginson</recipient>
       <poem_themes/>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -29,6 +30,7 @@
             <token xml:id="t_2_5">-</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="it was"/>
             <token xml:id="t_3_1">Too</token>
             <token xml:id="t_3_2">imperceptible</token>
             <token xml:id="t_3_3">at</token>
@@ -64,6 +66,7 @@
             <token xml:id="t_7_5">herself</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="nominal" elided_pos="determiner-art" possible_string="a"/>
             <token xml:id="t_8_1">Sequestered</token>
             <token xml:id="t_8_2">Afternoon</token>
             <token xml:id="t_8_3">-</token>

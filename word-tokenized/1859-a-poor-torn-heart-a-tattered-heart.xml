@@ -30,8 +30,7 @@
          </line>
          <line>
             <token xml:id="t_2_1">That</token>
-            <ellipsis ellipsis_type="" possible_string="neither"/>   <!-- not sure what this would be called -->
-            <token xml:id="t_2_2">sat</token>
+            <ellipsis ellipsis_type="clausal" elided_pos="corr-conjunction" possible_string="neither"/>   
             <token xml:id="t_2_3">it</token>
             <token xml:id="t_2_4">down</token>
             <token xml:id="t_2_5">to</token>

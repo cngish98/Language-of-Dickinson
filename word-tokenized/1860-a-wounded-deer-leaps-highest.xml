@@ -2,12 +2,13 @@
 <?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>
    <metadata>
-      <first_line>A Wounded Deer -- leaps highest</first_line>
+      <first_line>A Wounded Deer - leaps highest</first_line>
       <date period="early">1860</date>
       <poem_number>J165</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169409 </source>
       <recipient/>
       <poem_themes/>
+      <ellipsis_present>no</ellipsis_present> <!-- could come back -->
    </metadata>
    <body>
       <stanza>
@@ -17,10 +18,10 @@
             <animal animal_type="deer">
                <token xml:id="t_1_3">Deer</token>
             </animal>
-            <token xml:id="t_1_4">--</token>
+            <token xml:id="t_1_4">-</token>
             <token xml:id="t_1_5">leaps</token>
             <token xml:id="t_1_6">highest</token>
-            <token xml:id="t_1_7">--</token>
+            <token xml:id="t_1_7">-</token>
          </line>
          <line>
             <token xml:id="t_2_1">I've</token>
@@ -30,7 +31,7 @@
                <token xml:id="t_2_4">Hunter</token>
             </character>
             <token xml:id="t_2_5">tell</token>
-            <token xml:id="t_2_6">--</token>
+            <token xml:id="t_2_6">-</token>
          </line>
          <line>
             <token xml:id="t_3_1">'Tis</token>
@@ -41,7 +42,7 @@
             <death>
                <token xml:id="t_3_6">death</token>
             </death>
-            <token xml:id="t_3_7">--</token>
+            <token xml:id="t_3_7">-</token>
          </line>
          <line>
             <token xml:id="t_4_1">And</token>
@@ -96,7 +97,7 @@
             <emotion emotion_type="anguish">
                <token xml:id="t_9_6">Anguish</token>
             </emotion>
-            <token xml:id="t_9_7">--</token>
+            <token xml:id="t_9_7">-</token>
          </line>
          <line>
             <token xml:id="t_10_1">In</token>
@@ -131,7 +132,7 @@
         'Tis but the Extasy of death - 
         And then the Brake is still! 
         
-        The Smitten Rock that gushes!    (not sure if I want to mark for ellipsis here)
+        The Smitten Rock that gushes!    (not sure if I want to mark for ellipsis here) - i think i want to leave this 
         The trampled Steel that springs! (not sure if I want to mark for ellipsis here)
         A Cheek is always redder 
         Just where the Hectic stings! 

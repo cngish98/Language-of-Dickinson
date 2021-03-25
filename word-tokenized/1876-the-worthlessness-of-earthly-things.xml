@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172325</source>
       <recipient>none</recipient>
       <poem_themes>religion, nature</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -38,6 +39,7 @@
             <token xml:id="t_3_1">And</token>
             <token xml:id="t_3_2">then</token>
             <token xml:id="t_3_3">-</token>
+            <ellipsis ellipsis_type="nominal"/>
             <token xml:id="t_3_4">enforces</token>
             <token xml:id="t_3_5">their</token>
             <emotion emotion_type="happiness">

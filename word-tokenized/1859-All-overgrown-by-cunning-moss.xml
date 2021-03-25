@@ -62,7 +62,7 @@
             <token xml:id="t_5_5">others</token>
          </line>
          <line>
-            <ellipsis ellipsis_type="" possible_string="who"/>  <!-- what type -->
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="that"/>  
             <token xml:id="t_6_1">When</token>
             <nature nature_type="general">
                <token xml:id="t_6_2">frosts</token>
@@ -222,7 +222,7 @@
         The little cage of "Currer Bell" 
         In quiet "Haworth" laid. 
         
-        This Bird - observing others 
+        This Bird - observing others     (This bird, observing others that retire to other latitudes when frost became too sharp, quietly did the same)
         When frosts too sharp became 
         Retire to other latitudes - 
         Quietly did the same - 

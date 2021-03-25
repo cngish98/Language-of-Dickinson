@@ -8,7 +8,7 @@
       <source> https://www.edickinson.org/editions/1/image_sets/12173327 </source>
       <recipient/>
       <poem_themes>Seasonal</poem_themes>
-      <!-- unsure about ellipsis -->
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -35,6 +35,7 @@
             <token xml:id="t_2_5">flown!</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="grant I may be"/>
             <token xml:id="t_3_1">Thy</token>
             <music>
                <token xml:id="t_3_2">music</token>
@@ -61,5 +62,6 @@
 
         Summer for thee, grant I may be 
         When Summer days are flown! 
-        Thy music still, when Whippowil 
+        Thy music still, when Whippowil
+        and oriole - are done!
 -->

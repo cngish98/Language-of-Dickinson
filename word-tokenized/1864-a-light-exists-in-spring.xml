@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12170969</source>
       <recipient>Susan Dickinson</recipient>
       <poem_themes>nature, time</poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -160,6 +161,7 @@
       </stanza>
       <stanza>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="with"/>
             <token xml:id="t_17_1">A</token>
             <token xml:id="t_17_2">quality</token>
             <token xml:id="t_17_3">of</token>
