@@ -7,7 +7,10 @@
       <poem_number>J1198</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171862</source>
       <recipient>T.W. Higginson</recipient>
-      <poem_themes>nature, emotion</poem_themes>
+      <poem_themes>
+         <theme>emotion</theme>
+         <theme>nature</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

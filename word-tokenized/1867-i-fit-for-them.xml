@@ -7,7 +7,12 @@
       <poem_number>J1109</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171638</source>
       <recipient>none</recipient>
-      <poem_themes>labor, writing, solitude, the mind</poem_themes>
+      <poem_themes>
+         <theme>labor</theme>
+         <theme>the mind</theme>
+         <theme>solitude</theme>
+         <theme>writing</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

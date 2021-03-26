@@ -7,7 +7,11 @@
       <poem_number>J1259</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12172016</source>
       <recipient>T.W. Higginson</recipient>
-      <poem_themes>nature, the mind, solitude</poem_themes>
+      <poem_themes>
+         <theme>the mind</theme>
+         <theme>nature</theme>
+         <theme>solitude</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

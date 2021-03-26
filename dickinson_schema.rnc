@@ -13,8 +13,8 @@ recipient = element recipient { text }
 
 poem_themes = element poem_themes { theme+ } 
 theme = element theme { "emotion" | "animal" | "nature" | "love" | "death" | "life" | "memory" | "childhood" | 
-    "time" | "social norms" | "war" | "religion" | "writing" | "science" | "music" | 
-    "law" | "the mind" | "the body" | "solitude" | "supernatural" | "violence" | 
+    "time" | "social norms" | "war" | "religion" | "writing" | "science" | "music" |
+    "law" | "the mind" | "the body" | "solitude" | "supernatural" | "violence" | "eating" | "relationships" |
     "wealth" | "labor" | "social class" | "light" | "darkness" | "uncertainty" | "loss" }
 ellipsis_present = element ellipsis_present { "yes" | "no" | "ambiguous"} 
 

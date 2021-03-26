@@ -8,7 +8,10 @@
       <!--Franklin version: there is no Johnson version addressed solely to Bowles -->
       <source>https://www.edickinson.org/editions/1/image_sets/12177578</source>
       <recipient>Samuel Bowles</recipient>
-      <poem_themes>nature, time</poem_themes>
+      <poem_themes>
+         <theme>nature</theme>
+         <theme>time</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

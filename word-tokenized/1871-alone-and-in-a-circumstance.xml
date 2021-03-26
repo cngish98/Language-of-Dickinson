@@ -7,7 +7,11 @@
       <poem_number>J1167</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171790</source>
       <recipient>none</recipient>
-      <poem_themes>solitude, law, violence</poem_themes>
+      <poem_themes>
+         <theme>law</theme>
+         <theme>solitude</theme>
+         <theme>violence</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

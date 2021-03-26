@@ -7,7 +7,12 @@
       <poem_number>J883</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171126</source>
       <recipient>none</recipient>
-      <poem_themes>writing/poetry, light, memory, human experience</poem_themes>
+      <poem_themes>
+         <theme>life</theme>
+         <theme>light</theme>
+         <theme>memory</theme>
+         <theme>writing</theme>
+     </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

@@ -7,7 +7,10 @@
       <poem_number>J742</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12170725</source>
       <recipient>none</recipient>
-      <poem_themes>nature, solitude</poem_themes>
+      <poem_themes>
+         <theme>nature</theme>
+         <theme>solitude</theme>
+      </poem_themes>
    </metadata>
    <body>
       <stanza>

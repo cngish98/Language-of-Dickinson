@@ -7,7 +7,11 @@
       <poem_number>J1105</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171628</source>
       <recipient>Susan Dickinson</recipient>
-      <poem_themes>social norms, relationships, the mind</poem_themes>
+      <poem_themes>
+         <theme>the mind</theme>
+         <theme>relationships</theme>
+         <theme>social norms</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

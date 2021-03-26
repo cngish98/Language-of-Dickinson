@@ -7,7 +7,12 @@
       <poem_number>J1247</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171981</source>
       <recipient>Susan Dickinson</recipient>
-      <poem_themes>writing, love, religion, death</poem_themes>
+      <poem_themes>
+         <theme>death</theme>
+         <theme>love</theme>
+         <theme>religion</theme>
+         <theme>writing</theme>
+      </poem_themes>
       <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>

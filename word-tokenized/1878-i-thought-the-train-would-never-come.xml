@@ -7,7 +7,10 @@
       <poem_number>J1449</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12172526</source>
       <recipient>none</recipient>
-      <poem_themes>emotion, love</poem_themes>
+      <poem_themes>
+         <theme>emotion</theme>
+         <theme>love</theme>
+      </poem_themes>
       <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>

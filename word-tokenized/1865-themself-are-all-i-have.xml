@@ -7,7 +7,11 @@
       <poem_number>J1094</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171599</source>
       <recipient>body</recipient>
-      <poem_themes>body, interpersonal relationships, wealth</poem_themes>
+      <poem_themes>
+         <theme>the body</theme>
+         <theme>relationships</theme>
+         <theme>wealth</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

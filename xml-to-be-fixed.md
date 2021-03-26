@@ -23,8 +23,10 @@ ___
 1882-As imperceptibly as Grief
 1884-The Auctioneer of Parting
 1885-The earth has many keys
+
 all early poems
 last half of late poems
+remember to fix the `<themes>` element in the metadata!
 
 ___
 

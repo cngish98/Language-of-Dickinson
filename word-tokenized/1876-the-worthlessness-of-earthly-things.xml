@@ -7,7 +7,10 @@
       <poem_number>J1373</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12172325</source>
       <recipient>none</recipient>
-      <poem_themes>religion, nature</poem_themes>
+      <poem_themes>
+         <theme>nature</theme>
+         <theme>religion</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
@@ -21,7 +24,6 @@
                <token xml:id="t_1_5">things</token>
             </nature>
          </line>
-         <!--might this count as animals? plants? or just anything mortal ? humans too ? -->
          <line>
             <token xml:id="t_2_1">The</token>
             <music>
@@ -46,7 +48,6 @@
                <token xml:id="t_3_6">delight</token>
             </emotion>
          </line>
-         <!--elision here?-->
          <line>
             <token xml:id="t_4_1">Till</token>
             <religion type="thing">

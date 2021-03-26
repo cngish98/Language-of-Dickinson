@@ -8,8 +8,17 @@
       <!--Franklin: no recipient in Johnston version -->
       <source>https://www.edickinson.org/editions/1/image_sets/12177487</source>
       <recipient>T.W. Higginson</recipient>
-      <poem_themes>religion, interpersonal relationships, death, life, love</poem_themes>
+      <poem_themes>
+         <theme>death</theme>
+         <theme>life</theme>
+         <theme>love</theme>
+         <theme>relationships</theme>
+         <theme>religion</theme>
+    </poem_themes>
+    <ellipsis_present></ellipsis_present>
    </metadata>
+   
+   
    <body>
       <stanza>
          <line>

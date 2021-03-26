@@ -7,7 +7,11 @@
       <poem_number>J1185</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171834</source>
       <recipient>Edward (Ned) Dickinson</recipient>
-      <poem_themes>emotion, childhood, social norms</poem_themes>
+      <poem_themes>
+         <theme>childhood</theme>
+         <theme>emotion</theme>
+         <theme>social norms</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

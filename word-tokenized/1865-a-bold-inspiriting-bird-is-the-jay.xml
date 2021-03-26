@@ -9,7 +9,11 @@
       <!--Franklin: this poem and recipient not available in Johnston -->
       <source>https://www.edickinson.org/editions/1/image_sets/12176511</source>
       <recipient>Susan Dickinson</recipient>
-      <poem_themes>nature</poem_themes> <!-- about nature, but it has strong law/war (not sure what to name the group these both belong to) terminology going on -->
+      <poem_themes>
+         <theme>law</theme>
+         <theme>nature</theme>
+         <theme>war</theme>
+      </poem_themes> 
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

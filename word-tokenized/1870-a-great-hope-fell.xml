@@ -7,7 +7,11 @@
       <poem_number>J1123</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171673</source>
       <recipient>none</recipient>
-      <poem_themes>violence, the mind, emotion</poem_themes>
+      <poem_themes>
+         <theme>emotion</theme>
+         <theme>the mind</theme>
+         <theme>violence</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

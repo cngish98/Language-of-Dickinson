@@ -7,7 +7,12 @@
       <poem_number>J1147</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171742</source>
       <recipient>none</recipient>
-      <poem_themes>time, nature, solitude, war?</poem_themes>
+      <poem_themes>
+         <theme>nature</theme>
+         <theme>solitude</theme>
+         <theme>time</theme>
+         <theme>war</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

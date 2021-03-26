@@ -7,7 +7,10 @@
       <poem_number>J1219</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171914</source>
       <recipient>none</recipient>
-      <poem_themes>interpersonal relationships, memory</poem_themes>
+      <poem_themes>
+         <theme>memory</theme>
+         <theme>relationships</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

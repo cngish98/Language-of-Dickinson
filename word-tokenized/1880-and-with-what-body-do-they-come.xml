@@ -7,7 +7,11 @@
       <poem_number>J1492</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12172636</source>
       <recipient>Perez Dickinson Cowan</recipient>
-      <poem_themes>religion, the body, light</poem_themes>
+      <poem_themes>
+         <theme>the body</theme>
+         <theme>light</theme>
+         <theme>religion</theme>
+      </poem_themes>
       <ellipsis_present>ambiguous</ellipsis_present>
    </metadata>
    <body>

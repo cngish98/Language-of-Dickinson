@@ -7,7 +7,13 @@
       <poem_number>J1138</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12171721</source>
       <recipient>Susan Dickinson</recipient>
-      <poem_themes>animals, nature, darkness, light, writing?, religion?</poem_themes>
+      <poem_themes>
+         <theme>darkness</theme>
+         <theme>light</theme>
+         <theme>nature</theme>
+         <theme>religion</theme>
+         <theme>writing</theme>
+      </poem_themes>
       <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>

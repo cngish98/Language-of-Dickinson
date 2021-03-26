@@ -8,7 +8,10 @@
       <!--also Franklin edition, but it has a recipient while the Johnson one does not -->
       <source>https://www.edickinson.org/editions/1/image_sets/12176926</source>
       <recipient>Susan Dickinson</recipient>
-      <poem_themes>wealth, labor</poem_themes>
+      <poem_themes>
+         <theme>labor</theme>
+         <theme>wealth</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

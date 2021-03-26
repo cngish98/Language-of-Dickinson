@@ -7,7 +7,11 @@
       <poem_number>J1418</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12172451</source>
       <recipient>none</recipient>
-      <poem_themes>nature, emotion, solitude</poem_themes>
+      <poem_themes>
+         <theme>emotion</theme>
+         <theme>nature</theme>
+         <theme>solitude</theme>
+      </poem_themes>
       <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>

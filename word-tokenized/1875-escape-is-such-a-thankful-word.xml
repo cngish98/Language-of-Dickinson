@@ -7,7 +7,11 @@
       <poem_number>J1347</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12172249</source>
       <recipient>none</recipient>
-      <poem_themes>religion, death?, emotion</poem_themes>
+      <poem_themes>
+         <theme>death</theme>
+         <theme>emotion</theme>
+         <theme>religion</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
@@ -133,7 +137,7 @@
             <token xml:id="t_12_1">Upon</token>
             <token xml:id="t_12_2">this</token>
             <token xml:id="t_12_3">trusty</token>
-            <token xml:id="t_12_4">word</token>   <!-- writing markup? -->
+            <writing><token xml:id="t_12_4">word</token></writing>   
             <token xml:id="t_12_5">-</token>
          </line>
       </stanza>
