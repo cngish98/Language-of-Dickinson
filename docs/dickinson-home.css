@@ -27,6 +27,11 @@ h3 {
     text-align: center;
 }
 
+#about-heading {
+    color: black;
+    font-size: 35px;
+}
+
 .heading-container {
     padding-top: 15px;
 }
