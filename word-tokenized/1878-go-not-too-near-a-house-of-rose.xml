@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12172490</source>
       <recipient>Sarah Tuckerman</recipient>
       <poem_themes>nature, violence, emotion</poem_themes>
+      <ellipsis_present></ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -55,7 +56,6 @@
             </war>
             <token xml:id="t_4_5">-</token>
          </line>
-         <!--marked up as war but idk if that's what she means -->
          <line>
             <token xml:id="t_5_1">Nor</token>
             <token xml:id="t_5_2">try</token>

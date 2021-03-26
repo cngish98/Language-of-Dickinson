@@ -16,12 +16,11 @@
             <token xml:id="t_1_1">The</token>
             <token xml:id="t_1_2">Fact</token>
             <token xml:id="t_1_3">that</token>
-            <nature nature_type="earth">
+            <nature nature_type="general">
                <token xml:id="t_1_4">Earth</token>
             </nature>
             <token xml:id="t_1_5">Earth</token>
             <token xml:id="t_1_6">is</token>
-            <!--not sure if this is the best way to tag earth -->
             <religion type="place">
                <token xml:id="t_1_7">Heaven</token>
             </religion>
@@ -29,7 +28,7 @@
          </line>
          <line>
             <token xml:id="t_2_1">Whether</token>
-            <token xml:id="t_2_2">Heaven</token>
+            <religion type="place"><token xml:id="t_2_2">Heaven</token></religion>
             <token xml:id="t_2_3">is</token>
             <token xml:id="t_2_4">Heaven</token>
             <uncertainty>

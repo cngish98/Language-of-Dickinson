@@ -11,10 +11,6 @@ ___
 1852-Sic transit gloria mundi
 1859- All overgrown by cunning moss
 1861- A Clock stopped
-1869-A mine there is no man would own
-1875-To pile like Thunder to it's close
-1877-The Fact that Earth is Heaven –
-1878-Go not too near a House of Rose –
 1882-As imperceptibly as Grief
 
 ___

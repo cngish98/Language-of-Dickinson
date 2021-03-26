@@ -17,12 +17,10 @@
             <token xml:id="t_1_1">A</token>
             <nature nature_type="earth">
                <token xml:id="t_1_2">Mine</token>
-            </nature>
+            </nature><wealth/>
             <token xml:id="t_1_3">there</token>
             <token xml:id="t_1_4">is</token>
          </line>
-         <!--not sure if "nature" is the theme but
-                not sure what else to tag it -->
          <line>
             <solitude>
                <token xml:id="t_2_1">no</token>
@@ -47,8 +45,6 @@
             </social_norm>
             <token xml:id="t_5_2">by</token>
          </line>
-         <!--the idea of respect/social dignity and demeaning could be part of social norm?
-                Not sure though -->
          <line>
             <token xml:id="t_6_1">exclusive</token>
             <wealth>
@@ -66,7 +62,7 @@
       <stanza>
          <line>
             <wealth>
-               <token xml:id="t_8_1">Potosi</token>     <!-- place too? -->
+               <token xml:id="t_8_1">Potosi</token>  
             </wealth>
             <token xml:id="t_8_2">never</token>
             <token xml:id="t_8_3">to</token>
@@ -96,7 +92,6 @@
                <token xml:id="t_12_2">Misers</token>
             </social_class>
          </line>
-         <!--not sure if wealth is the right word for "misers" -->
          <line>
             <labor>
                <token xml:id="t_13_1">wring</token>
@@ -117,9 +112,6 @@
             <place/>
             <token xml:id="t_15_3">in</token>
          </line>
-         <!--"Indies" is an allusion to a real 
-                place, but used as a metaphor here, not sure
-            if this should be specified through an attribute or not-->
          <line>
             <token xml:id="t_16_1">the</token>
             <token xml:id="t_16_2">Ground!</token>

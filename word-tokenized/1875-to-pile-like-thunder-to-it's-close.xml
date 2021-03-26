@@ -8,6 +8,7 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12171981</source>
       <recipient>Susan Dickinson</recipient>
       <poem_themes>writing, love, religion, death</poem_themes>
+      <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -38,7 +39,6 @@
             <token xml:id="t_3_3">created</token>
             <token xml:id="t_3_4">hid</token>
          </line>
-         <!-- Could this possibly be religious? -->
          <line>
             <token xml:id="t_4_1">This</token>
             <token xml:id="t_4_2">-</token>
@@ -63,7 +63,6 @@
             <token xml:id="t_5_7">come</token>
             <token xml:id="t_5_8">-</token>
          </line>
-         <!--comparison with loss: should this be marked up somehow? -->
          <line>
             <token xml:id="t_6_1">We</token>
             <token xml:id="t_6_2">both</token>
@@ -72,7 +71,6 @@
             <token xml:id="t_6_5">prove</token>
             <token xml:id="t_6_6">-</token>
          </line>
-         <!--ellipsis here ? -->
          <line>
             <token xml:id="t_7_1">Experience</token>
             <token xml:id="t_7_2">either</token>
