@@ -146,7 +146,7 @@
             <token xml:id="t_14_5">!</token>
          </line>
          <line>
-            <ellipsis ellipsis_type="" possible_string="with"/>  <!-- type?? -->
+            <ellipsis ellipsis_type="clausal" elided_pos="preposition" possible_string="with"/>  <!-- explain clausal decision -->
             <token xml:id="t_15_1">A</token>
             <nature nature_type="animal">
                <token xml:id="t_15_2">Feather</token>

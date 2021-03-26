@@ -40,6 +40,7 @@
             <token xml:id="t_3_3">-</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="it was I"/>
             <token xml:id="t_4_1">Who</token>
             <token xml:id="t_4_2">went</token>
             <token xml:id="t_4_3">too</token>
@@ -90,12 +91,13 @@
             <ellipsis ellipsis_type="verbal" possible_string="is"/>
             <token xml:id="t_9_1">The</token>
             <token xml:id="t_9_2">splashing</token>
-            <ellipsis ellipsis_type="" possible_string="of"/>
             <token xml:id="t_9_3">Men!</token>
          </line>
          <line>
             <token xml:id="t_10_1">Ah,</token>
+            <ellipsis ellipsis_type="clausal" possible_string="what a"/>
             <token xml:id="t_10_2">pity</token>
+            <ellipsis ellipsis_type="clausal" possible_string="it is"/>
             <token xml:id="t_10_3">-</token>
             <token xml:id="t_10_4">then!</token>
          </line>
@@ -106,6 +108,7 @@
             <animal animal_type="minnow">
                <token xml:id="t_11_2">Minnows</token>
             </animal>
+            <ellipsis ellipsis_type="nominal" elided_pos="pronoun" possible_string="who"/>
             <token xml:id="t_11_3">can</token>
             <token xml:id="t_11_4">despise!</token>
          </line>
@@ -115,6 +118,7 @@
                <token xml:id="t_12_2">Elephants</token>
             </animal>
             <token xml:id="t_12_3">-</token>
+            <ellipsis ellipsis_type="clausal" elided_pos="preposition" possible_string="with"/>
             <token xml:id="t_12_4">calm</token>
             <physical_body>
                <token xml:id="t_12_5">eyes</token>

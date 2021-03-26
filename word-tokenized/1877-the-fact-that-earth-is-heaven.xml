@@ -11,7 +11,7 @@
          <theme>life</theme>
          <theme>religion</theme>
       </poem_themes>
-      <ellipsis_present>no</ellipsis_present>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -73,6 +73,7 @@
          </line>
          <line>
             <token xml:id="t_7_1">But</token>
+            <ellipsis ellipsis_type="clausal" possible_string="must confirm us"/>
             <token xml:id="t_7_2">that</token>
             <token xml:id="t_7_3">it</token>
             <token xml:id="t_7_4">would</token>
