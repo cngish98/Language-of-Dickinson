@@ -12,7 +12,7 @@
          <theme>nature</theme>
          <theme>violence</theme>
       </poem_themes>
-      <ellipsis_present></ellipsis_present>
+      <ellipsis_present>no</ellipsis_present> <!-- imperatives - explain decision in methodology section -->
    </metadata>
    <body>
       <stanza>
@@ -107,5 +107,5 @@
     Nor try to tie the Butterfly,      (imperative)
     Nor climb the Bars of Ecstasy,     (imperative)
     In insecurity to lie
-    Is Joy's insuring quality.
+    Is Joy's insuring quality.    (Joy's insuring quality is to lie in insecurity)
 -->

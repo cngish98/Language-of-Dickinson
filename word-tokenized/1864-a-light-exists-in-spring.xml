@@ -37,7 +37,7 @@
             <token xml:id="t_3_1">At</token>
             <time>
                <token xml:id="t_3_2">any</token>
-               <token xml:id="t_3_3">otherperiod</token>
+               <token xml:id="t_3_3">otherperiod</token> <!-- tokenization messed up -->
             </time>
             <token xml:id="t_3_4">-</token>
          </line>
@@ -164,7 +164,7 @@
       </stanza>
       <stanza>
          <line>
-            <ellipsis ellipsis_type="clausal" possible_string="with"/>
+            <ellipsis ellipsis_type="clausal" elided_pos="preposition" possible_string="with"/> <!-- explain clausal markup -->
             <token xml:id="t_17_1">A</token>
             <token xml:id="t_17_2">quality</token>
             <token xml:id="t_17_3">of</token>
