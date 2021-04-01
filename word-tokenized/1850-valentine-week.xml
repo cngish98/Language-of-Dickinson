@@ -7,7 +7,11 @@
       <poem_number>J1</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12169032</source>
       <recipient>Elbridge Gridley Bowdoin</recipient>
-      <poem_themes/>
+      <poem_themes>
+         <theme>romance</theme>
+         <theme>courtship</theme>
+         <theme>nature</theme>
+      </poem_themes>
       <!-- revisit! letter format -->
    </metadata>
    <body>

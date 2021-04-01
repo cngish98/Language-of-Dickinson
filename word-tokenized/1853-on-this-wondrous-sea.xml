@@ -6,8 +6,10 @@
       <date period="early">1853</date>
       <poem_number>F3B</poem_number>
       <source> https://www.edickinson.org/editions/1/image_sets/12173315 </source>
-      <recipient/>
-      <poem_themes>Nautical</poem_themes>
+      <recipient>Susan Dickinson</recipient>
+      <poem_themes>
+         <themes>nautical</themes>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

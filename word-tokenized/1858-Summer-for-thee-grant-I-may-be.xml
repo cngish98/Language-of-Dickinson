@@ -2,12 +2,15 @@
 <?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>
    <metadata>
-      <first_line/>
+      <first_line>Summer for thee, grant I may be</first_line>
       <date period="early">1858</date>
       <poem_number>F6A</poem_number>
       <source> https://www.edickinson.org/editions/1/image_sets/12173327 </source>
-      <recipient/>
-      <poem_themes>Seasonal</poem_themes>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>seasonal</theme>
+         <theme>nature</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

@@ -6,8 +6,11 @@
       <date period="early">1860</date>
       <poem_number>J165</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169409 </source>
-      <recipient/>
-      <poem_themes/>
+      <recipient>Susan Dickinson</recipient>
+      <poem_themes>
+         <theme>nature</theme>
+         <theme>animal</theme>
+      </poem_themes>
       <ellipsis_present>no</ellipsis_present> <!-- could come back -->
    </metadata>
    <body>

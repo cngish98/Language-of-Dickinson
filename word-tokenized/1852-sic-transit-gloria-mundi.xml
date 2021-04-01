@@ -2,12 +2,14 @@
 <?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>          <!-- we may need to add a language element because this poem has a few instances of Latin -->
    <metadata>
-      <first_line/>   <!-- what are we doing for first line here? -->
+      <first_line>Sic transit gloria mundi</first_line>   <!-- what are we doing for first line here? -->
       <date period="early">1852</date>
       <poem_number>F2A</poem_number>
       <source> https://www.edickinson.org/editions/1/image_sets/12173309 </source>
-      <recipient/>
-      <poem_themes>Triumph</poem_themes>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>triumph</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
@@ -135,8 +137,8 @@
             <token xml:id="t_16_1">And</token>
             <token xml:id="t_16_2">call</token>
             <token xml:id="t_16_3">your</token>
+            <token xml:id="t_16_4">brother</token>   
             <character name="Mars">
-               <token xml:id="t_16_4">brother</token>    <!-- any particular reason why character element is wrapped around brother too? -->
                <token xml:id="t_16_5">Mars</token>
             </character>
          </line>
@@ -149,9 +151,9 @@
             <eating>
                <token xml:id="t_17_4">apple</token>
             </eating>
-            <character name="Adam">
+            <religion>
                <token xml:id="t_17_5">Adam</token>    <!-- this is definitely a religious reference here with Adam and the apple - change character element to religion element -->
-            </character>
+            </religion>
          </line>
          <line>
             <token xml:id="t_18_1">And</token>
@@ -375,8 +377,10 @@
             <token xml:id="t_46_1">Laid</token>
             <token xml:id="t_46_2">down</token>
             <token xml:id="t_46_3">on</token>
+            <war>
             <token xml:id="t_46_4">Bunker</token>    <!-- isn't this a reference to war? -->
             <token xml:id="t_46_5">Hill</token>
+            </war>
          </line>
          <line>
             <token xml:id="t_47_1">And</token>
@@ -550,7 +554,9 @@
          <line>
             <token xml:id="t_67_1">Then</token>
             <token xml:id="t_67_2">farewell</token>
-            <token xml:id="t_67_3">Tuscarora</token>   <!-- place or tribe? -->
+            <place>
+            <token xml:id="t_67_3">Tuscarora</token> 
+            </place>  
          </line>
          <line>
             <token xml:id="t_68_1">And</token>

@@ -2,12 +2,14 @@
 <?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>
    <metadata>
-      <first_line/>
+      <first_line>When Katie walks, this simple pair accompany her side</first_line>
       <date period="early">1857</date>
       <poem_number>J222</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169539 </source>
       <recipient>Catherine Scott Turner Anthon</recipient>
-      <poem_themes>Love</poem_themes>
+      <poem_themes>
+         <theme>love</theme>
+      </poem_themes>
       <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>

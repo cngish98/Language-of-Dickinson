@@ -7,7 +7,10 @@
       <poem_number>J1583</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12172881</source>
       <recipient>none</recipient>
-      <poem_themes/>
+      <poem_themes>
+         <theme>witchcraft</theme>
+         <theme>history</theme>
+      </poem_themes>
       <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>

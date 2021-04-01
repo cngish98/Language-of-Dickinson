@@ -7,7 +7,10 @@
       <poem_number>J1603</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12172935</source>
       <recipient>Louise and Frances Norcross</recipient>
-      <poem_themes/>
+      <poem_themes>
+         <theme>death</theme>
+         <theme>afterlife</theme>
+      </poem_themes>
       <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>

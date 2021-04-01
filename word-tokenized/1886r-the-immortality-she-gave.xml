@@ -7,7 +7,9 @@
       <poem_number>J1648</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12173043</source>
       <recipient>T. W. Higginson</recipient>
-      <poem_themes/> <!-- are we leaving this empty? life? maybe something like humanity? (even though that is not one of our schema themes? -->
+      <poem_themes>
+         <theme>humanity</theme>
+      </poem_themes> <!-- are we leaving this empty? life? maybe something like humanity? (even though that is not one of our schema themes? -->
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

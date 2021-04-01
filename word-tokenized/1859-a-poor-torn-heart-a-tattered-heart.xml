@@ -7,7 +7,10 @@
       <poem_number>J78</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169210 </source>
       <recipient>Susan Dickinson</recipient>
-      <poem_themes/>
+      <poem_themes>
+         <theme>love</theme>
+         <theme>nature</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

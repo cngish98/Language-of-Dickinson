@@ -6,8 +6,11 @@
       <date period="early">1858</date>
       <poem_number>J42</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169129 </source>
-      <recipient/>
-      <poem_themes/>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>dread</theme>
+         <theme>time</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

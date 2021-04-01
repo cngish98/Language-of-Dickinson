@@ -7,7 +7,11 @@
       <poem_number>J159</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169396 </source>
       <recipient>Susan Dickinson</recipient>
-      <poem_themes/>
+      <poem_themes>
+         <theme>motivation</theme>
+         <theme>hope</theme>
+         <theme>neccesities</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

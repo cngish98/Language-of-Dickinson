@@ -7,7 +7,9 @@
       <poem_number>J1638</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12173019</source>
       <recipient>Benjamin Kimball</recipient>
-      <poem_themes/>
+      <poem_themes>
+         <theme>nature</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

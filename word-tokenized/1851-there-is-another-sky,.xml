@@ -2,12 +2,14 @@
 <?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>
    <metadata>
-      <first_line/>
+      <first_line>There is another sky</first_line>
       <date period="early">1851</date>
       <poem_number>J2</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169036</source>
       <recipient>Austin Dickinson</recipient>
-      <poem_themes>nature</poem_themes>
+      <poem_themes>
+         <theme>nature</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

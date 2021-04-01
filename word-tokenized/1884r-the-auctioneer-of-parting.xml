@@ -7,7 +7,10 @@
       <poem_number>J1612</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12172956</source>
       <recipient>Mabel Todd</recipient>
-      <poem_themes/>
+      <poem_themes>
+         <theme>fate</theme>
+         <theme>seperation</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

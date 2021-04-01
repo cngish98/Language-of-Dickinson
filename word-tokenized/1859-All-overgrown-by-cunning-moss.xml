@@ -6,8 +6,10 @@
       <date period="early">1859</date>
       <poem_number>J148</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169261 </source>
-      <recipient/>
-      <poem_themes/>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>nature</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

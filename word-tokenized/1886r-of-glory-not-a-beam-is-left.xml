@@ -7,7 +7,9 @@
       <poem_number>J1647</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12173041</source>
       <recipient>T. W. Higginson</recipient>
-      <poem_themes/>
+      <poem_themes>
+         <theme>glory</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

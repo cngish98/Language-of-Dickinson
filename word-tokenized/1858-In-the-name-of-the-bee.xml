@@ -2,12 +2,16 @@
 <?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>
    <metadata>
-      <first_line/>
+      <first_line>In the name of the bee</first_line>
       <date period="early">1858</date>
       <poem_number>F23A</poem_number>
       <source> https://www.edickinson.org/editions/1/image_sets/12173394 </source>
       <recipient>none</recipient>
-      <poem_themes>Animal, Religious, Nature</poem_themes>    <!-- also religious maybe? The whole poem is styled after the closing line of a prayer, but the addressee is not God -->
+      <poem_themes>
+         <theme>animal</theme>
+         <theme>religion</theme>
+         <theme>nature</theme>
+      </poem_themes>    <!-- also religious maybe? The whole poem is styled after the closing line of a prayer, but the addressee is not God -->
       <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>

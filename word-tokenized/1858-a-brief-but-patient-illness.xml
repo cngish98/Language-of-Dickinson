@@ -6,8 +6,10 @@
       <date period="early">1858</date>
       <poem_number>F22A</poem_number>
       <source> https://www.edickinson.org/editions/1/image_sets/12173394 </source>
-      <recipient/>
-      <poem_themes>Aferlife</poem_themes>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>afterlife</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>

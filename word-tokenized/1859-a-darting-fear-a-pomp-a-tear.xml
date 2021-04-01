@@ -7,7 +7,9 @@
       <poem_number>J87</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169235 </source>
       <recipient>Mary Haven</recipient>
-      <poem_themes>Fear</poem_themes>
+      <poem_themes>
+         <theme>fear</theme>
+      </poem_themes>
       <ellipsis_present>no</ellipsis_present>
    </metadata>
    <body>
