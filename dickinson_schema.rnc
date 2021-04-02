@@ -1,0 +1,137 @@
+# # # # # # #
+#  Metadata #
+# # # # # # #
+start = poem 
+poem = element poem { metadata, body } 
+metadata = element metadata { first_line, date, poem_number, source, recipient, poem_themes, ellipsis_present }                                                                         
+first_line = element first_line { text }
+date = element date { xsd:gYear, period } 
+period = attribute period { "early" | "middle" | "late" } 
+poem_number = element poem_number { text } # I am keeping it as "poem_number" because "number" could get mixed up with numbering the lines
+source = element source { text }
+recipient = element recipient { text } 
+
+poem_themes = element poem_themes { theme+ } 
+theme = element theme { "emotion" | "animal" | "nature" | "love" | "death" | "life" | "memory" | "childhood" | 
+    "time" | "social norms" | "war" | "religion" | "writing" | "science" | "music" |
+    "law" | "the mind" | "the body" | "solitude" | "supernatural" | "violence" | "eating" | "relationships" |
+    "wealth" | "labor" | "social class" | "light" | "darkness" | "uncertainty" | "loss" }
+ellipsis_present = element ellipsis_present { "yes" | "no" | "ambiguous"} 
+
+# write "none" for ones that don't have a recipient, 
+#and then for multiple recipients just wrote how they appear on the archive (ex: <recipient>Louise and Frances Norcross</recipient>
+
+# # # # #
+#  Body #
+# # # # #
+body = element body { stanza+ }
+stanza = element stanza { line+ }
+line = element line { mixed 
+    { ( a_token | ellipsis | variant | character | emotion 
+    | animal | place | nature | love | death | life | memory | childhood | 
+    time | social_norm | war | religion | writing | science | music | 
+    law | mind | physical_body | eating | solitude | supernatural | violence | 
+    wealth | labor | social_class | light | darkness | uncertainty | loss )* } }
+
+
+# # # # # # # # # #
+#  Inline content #
+# # # # # # # # # #
+
+a_token = element token { id, text }
+id = attribute xml:id { text }
+
+ellipsis = element ellipsis { ellipsis_type, subject_string?, elided_pos?, possible_string?, v? }
+ellipsis_type = attribute ellipsis_type { "nominal" | "verbal" | "clausal" | "ambiguous"}
+subject_string = attribute subject_string { text } 
+elided_pos = attribute elided_pos { text }
+possible_string = attribute possible_string { text }
+v = attribute v { xsd:int }
+
+variant = element variant { a_token* } 
+# this refers to the parts of a poem like where a word is shown in superscript on the archive websites, indicating that multiple possible words could be used
+
+character = element character { name, relation_with?, judgment?, a_token* } # include only if the character is extremely important to the theme of the poem as a whole
+name = attribute name { text }
+relation_with = attribute relation_with { text } 
+judgment = attribute judgment { "positive" | "negative" | "neutral" }
+    # this judgment attribute can be used with multiple elements (action, emotion, love, war, death, etc), should always be optional
+
+emotion = element emotion { emotion_type?, a_token* } 
+emotion_type = attribute emotion_type { text } # happiness, sadness, fear, anger, etc. 
+
+animal = element animal { animal_type?, a_token* } 
+animal_type = attribute animal_type { text } 
+
+place = element place { a_token* }
+
+nature = element nature { nature_type, a_token* } 
+nature_type = attribute nature_type { "air" | "fire" | "water" | "earth" | "animal" | "space" | "general" } 
+# space can be the sun, stars, moon, etc. 
+
+love = element love { love_type?, judgment?, a_token* } 
+love_type = attribute love_type { "familial" | "platonic" | "romantic" | "admiration" } 
+# by admiration, I mean love for things that may not be human, like admiring a pet, or parts of nature...maybe there's a better word? 
+
+life = element life { judgment?, a_token* } # discussions of being alive / being human, human nature, etc.
+death = element death { judgment?, a_token* } 
+
+memory = element memory { a_token* } 
+
+childhood = element childhood { a_token* }
+
+social_norm = element social_norm { judgment?, a_token* } 
+
+time = element time { a_token* } # could include duration / time of day, etc. 
+
+war = element war { type?, judgment?, a_token* }
+type = attribute type { "person" | "place" | "thing" } 
+
+religion = element religion { type?, judgment?, a_token* } # religious words or themes 
+
+writing = element writing { a_token* } #references to writing/verse/prose within the poems themselves 
+# add theme back if needed? 
+
+science = element science { a_token* }
+
+music = element music { a_token* }
+
+law = element law { type?, judgment?, a_token* } # officials in the legal field, like bailiffs, magistrates, enforcing / defending of laws 
+
+mind = element mind { a_token* } 
+
+physical_body = element physical_body { body_type?, a_token* } # not to be confused with the <body> of the poem
+body_type = attribute body_type { text } # if she is talking about disease, ailments, etc. 
+
+eating = element eating { a_token* } # can apply to food, hunger, eating
+
+solitude = element solitude { judgment?, a_token* } 
+
+uncertainty = element uncertainty { judgment?, a_token* }
+
+violence = element violence { a_token* }
+
+wealth = element wealth { a_token* }
+labor = element labor { a_token* } 
+social_class = element social_class { a_token* } # because "class" is sometimes a programming terms 
+
+supernatural = element supernatural { a_token* } 
+
+light = element light { judgment?, a_token* }
+darkness = element darkness { judgment?, a_token* }
+
+loss = element loss { a_token* } #can cover disappearing as well, like birds flying away 
+
+
+# # # # # #
+#  To Do  #
+# # # # # #
+
+# NOTE OTHER POSSIBLE THEMES / IMAGERY FOR MARKUP HERE:  
+    # discipline / academic fields of study ? 
+    # allusion
+    # actions action = element action { agent, type?, judgment?, negation?, text }
+    # duration?, of_day?, season?, 
+# maybe we can mark emphasis with <em> ? not totally sure if this is exclusive to HTML though...
+# Include more elements for analyzing linguistic features (syntax, maybe - Caroline this might depend on you) 
+# Maybe make some of the attributes for these elements optional, because they could get redundant typing them each time    cng: yeah that could be good  
