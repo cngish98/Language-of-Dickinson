@@ -10,6 +10,8 @@ period = attribute period { "early" | "middle" | "late" }
 poem_number = element poem_number { text } # I am keeping it as "poem_number" because "number" could get mixed up with numbering the lines
 source = element source { text }
 recipient = element recipient { text } 
+# write "none" for ones that don't have a recipient, 
+#and then for multiple recipients just wrote how they appear on the archive (ex: <recipient>Louise and Frances Norcross</recipient>
 
 poem_themes = element poem_themes { theme+ } 
 theme = element theme { "emotion" | "animal" | "nature" | "love" | "death" | "life" | "memory" | "childhood" | 
@@ -18,8 +20,6 @@ theme = element theme { "emotion" | "animal" | "nature" | "love" | "death" | "li
     "wealth" | "labor" | "social class" | "light" | "darkness" | "uncertainty" | "loss" }
 ellipsis_present = element ellipsis_present { "yes" | "no" | "ambiguous"} 
 
-# write "none" for ones that don't have a recipient, 
-#and then for multiple recipients just wrote how they appear on the archive (ex: <recipient>Louise and Frances Norcross</recipient>
 
 # # # # #
 #  Body #

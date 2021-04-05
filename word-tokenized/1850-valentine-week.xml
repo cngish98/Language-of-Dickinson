@@ -8,10 +8,11 @@
       <source>https://www.edickinson.org/editions/2/image_sets/12169032</source>
       <recipient>Elbridge Gridley Bowdoin</recipient>
       <poem_themes>
-         <theme>romance</theme>
-         <theme>courtship</theme>
+         <theme>relationships</theme>
+         <theme>love</theme>
          <theme>nature</theme>
       </poem_themes>
+      <ellipsis_present>no</ellipsis_present>
       <!-- revisit! letter format -->
    </metadata>
    <body>
@@ -25,7 +26,7 @@
             <token xml:id="t_2_2">ye</token>
             <token xml:id="t_2_3">muses</token>
             <token xml:id="t_2_4">nine,</token>
-            <token xml:id="t_2_5">sing</token>
+            <music><token xml:id="t_2_5">sing</token></music>
             <token xml:id="t_2_6">me</token>
             <token xml:id="t_2_7">a</token>
             <token xml:id="t_2_8">strain</token>
@@ -39,7 +40,7 @@
             <token xml:id="t_3_5">and</token>
             <token xml:id="t_3_6">tie</token>
             <token xml:id="t_3_7">my</token>
-            <token xml:id="t_3_8">Valentine!</token>
+            <love><token xml:id="t_3_8">Valentine!</token></love>
          </line>
       </stanza>
       <stanza>
@@ -142,14 +143,14 @@
             <token xml:id="t_9_6">his</token>
             <token xml:id="t_9_7">consort,</token>
             <token xml:id="t_9_8">the</token>
-            <nature nature_type="general">
+            <nature nature_type="space">
                <token xml:id="t_9_9">moon</token>
             </nature>
             <token xml:id="t_9_10">,</token>
             <token xml:id="t_9_11">and</token>
             <token xml:id="t_9_12">then</token>
             <token xml:id="t_9_13">the</token>
-            <nature nature_type="general">
+            <nature nature_type="space">
                <token xml:id="t_9_14">sun</token>
             </nature>
             <token xml:id="t_9_15">;</token>
@@ -166,7 +167,7 @@
             <token xml:id="t_10_7">who</token>
             <token xml:id="t_10_8">obey</token>
             <token xml:id="t_10_9">shall</token>
-            <emotion emotion_type="happiness&gt;">
+            <emotion emotion_type="happiness">
                <token xml:id="t_10_10">happy</token>
             </emotion>
             <token xml:id="t_10_11">be,</token>
@@ -177,14 +178,14 @@
             <token xml:id="t_11_3">not</token>
             <token xml:id="t_11_4">serve</token>
             <token xml:id="t_11_5">the</token>
-            <token xml:id="t_11_6">sovreign,</token>
+            <religion><token xml:id="t_11_6">sovreign,</token></religion>
             <token xml:id="t_11_7">be</token>
             <token xml:id="t_11_8">hanged</token>
             <token xml:id="t_11_9">on</token>
             <death>
                <token xml:id="t_11_10">fatal</token>
             </death>
-            <nature nature_type="general">
+            <nature nature_type="earth">
                <token xml:id="t_11_11">tree</token>
             </nature>
             <token xml:id="t_11_12">.</token>
@@ -211,8 +212,8 @@
             <token xml:id="t_13_5">seeketh,</token>
             <token xml:id="t_13_6">on</token>
             <token xml:id="t_13_7">this</token>
-            <token xml:id="t_13_8">terrestial</token>
-            <token xml:id="t_13_9">ball;</token>
+            <nature nature_type="space"><token xml:id="t_13_8">terrestial</token>
+               <token xml:id="t_13_9">ball;</token></nature>
          </line>
          <line>
             <token xml:id="t_14_1">The</token>
@@ -222,12 +223,12 @@
             <token xml:id="t_14_3">doth</token>
             <token xml:id="t_14_4">court</token>
             <token xml:id="t_14_5">the</token>
-            <nature nature_type="general">
+            <nature nature_type="earth">
                <token xml:id="t_14_6">flower</token>
             </nature>
             <token xml:id="t_14_7">,</token>
             <token xml:id="t_14_8">the</token>
-            <nature nature_type="general">
+            <nature nature_type="earth">
                <token xml:id="t_14_9">flower</token>
             </nature>
             <token xml:id="t_14_10">his</token>
@@ -257,7 +258,7 @@
             <token xml:id="t_16_3">doth</token>
             <token xml:id="t_16_4">woo</token>
             <token xml:id="t_16_5">the</token>
-            <token xml:id="t_16_6">branches,</token>
+            <nature nature_type="earth"><token xml:id="t_16_6">branches,</token></nature>
             <token xml:id="t_16_7">the</token>
             <token xml:id="t_16_8">branches</token>
             <token xml:id="t_16_9">they</token>
@@ -284,7 +285,7 @@
             <token xml:id="t_18_3">doth</token>
             <token xml:id="t_18_4">walk</token>
             <token xml:id="t_18_5">the</token>
-            <nature nature_type="general">
+            <nature nature_type="water">
                <token xml:id="t_18_6">seashore</token>
             </nature>
             <token xml:id="t_18_7">humming</token>
@@ -303,14 +304,14 @@
                <token xml:id="t_19_2">wave</token>
             </nature>
             <token xml:id="t_19_3">with</token>
-            <token xml:id="t_19_4">eye</token>
+            <physical_body><token xml:id="t_19_4">eye</token></physical_body>
             <token xml:id="t_19_5">so</token>
             <token xml:id="t_19_6">pensive,</token>
             <token xml:id="t_19_7">looketh</token>
             <token xml:id="t_19_8">to</token>
             <token xml:id="t_19_9">see</token>
             <token xml:id="t_19_10">the</token>
-            <nature nature_type="general">
+            <nature nature_type="space">
                <token xml:id="t_19_11">moon</token>
             </nature>
             <token xml:id="t_19_12">,</token>
@@ -365,13 +366,13 @@
             <token xml:id="t_22_11">bride,</token>
          </line>
          <line>
-            <time>
+            <darkness>
                <token xml:id="t_23_1">Night</token>
-            </time>
+            </darkness>
             <token xml:id="t_23_2">unto</token>
-            <time>
+            <light>
                <token xml:id="t_23_3">day</token>
-            </time>
+            </light>
             <token xml:id="t_23_4">is</token>
             <token xml:id="t_23_5">married,</token>
             <time>
@@ -384,7 +385,7 @@
             <token xml:id="t_23_9">;</token>
          </line>
          <line>
-            <nature nature_type="general">
+            <nature nature_type="earth">
                <token xml:id="t_24_1">Earth</token>
             </nature>
             <token xml:id="t_24_2">is</token>
@@ -556,7 +557,7 @@
             <token xml:id="t_35_6">sitting</token>
             <token xml:id="t_35_7">upon</token>
             <token xml:id="t_35_8">the</token>
-            <nature nature_type="general">
+            <nature nature_type="earth">
                <token xml:id="t_35_9">tree</token>
             </nature>
             <token xml:id="t_35_10">;</token>
@@ -564,7 +565,7 @@
          <line>
             <token xml:id="t_36_1">Approach</token>
             <token xml:id="t_36_2">that</token>
-            <nature nature_type="general">
+            <nature nature_type="earth">
                <token xml:id="t_36_3">tree</token>
             </nature>
             <token xml:id="t_36_4">with</token>
@@ -629,7 +630,7 @@
             <token xml:id="t_40_1">And</token>
             <token xml:id="t_40_2">bring</token>
             <token xml:id="t_40_3">the</token>
-            <token xml:id="t_40_4">fife,</token>
+            <music><token xml:id="t_40_4">fife,</token></music>
             <token xml:id="t_40_5">and</token>
             <music>
                <token xml:id="t_40_6">trumpet</token>
