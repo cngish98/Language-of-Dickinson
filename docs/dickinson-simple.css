@@ -56,6 +56,8 @@ li {
 
 .menu a:link {
     color: #967D4A;
+    margin-top: 10px;
+    margin-bottom: 5px;
     text-decoration: underline;
 }
 
@@ -76,18 +78,20 @@ p {
     padding-top: 15px;
 }
 .menu {
+  background-color: #EAECDA;
   display: flex;
   font-family: "Bitter", serif;
   font-size: 25px;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px 20px 10px 20px;
+  padding: 0px 20px 10px 20px;
   width: 90%;
 }
 
 #portrait {
     float: right;
+    margin-bottom: 20px;
     margin-right: 20px;
     height: 15%;
     width: 15%;
