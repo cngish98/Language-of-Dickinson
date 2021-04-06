@@ -8,7 +8,7 @@
       <source> https://www.edickinson.org/editions/1/image_sets/12173309 </source>
       <recipient>none</recipient>
       <poem_themes>
-         <theme>triumph</theme>
+         <theme>relationships</theme>
       </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
@@ -281,8 +281,14 @@
             <nature nature_type="earth">
                <token xml:id="t_33_2">Earth</token>
             </nature>
-            <token xml:id="t_33_3">opon</token>
-            <token xml:id="t_33_4">it's</token>
+            <token xml:id="t_33_3">upon</token>
+            <variant>
+               <token xml:id="">opon</token>
+            </variant>
+            <token xml:id="t_33_4">its</token>
+            <variant>
+               <token xml:id="">its</token>
+            </variant>
             <token xml:id="t_33_5">axis</token>
          </line>
          <line>
@@ -570,7 +576,7 @@
 </poem>
 <!--
 
-Sic transit gloria mundi 
+        Sic transit gloria mundi 
         "How doth the busy bee" 
         Dum vivamus vivamus 
         I stay mine enemy!   (mine = my own)
