@@ -9,7 +9,8 @@
       <recipient>none</recipient>
       <poem_themes>
          <theme>nature</theme>
-         <theme>seasonal</theme>
+         <theme>light</theme>
+         <theme>religion</theme>
       </poem_themes>
       <ellipsis_present>no</ellipsis_present>
    </metadata>

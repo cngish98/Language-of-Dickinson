@@ -7,7 +7,10 @@
       <poem_number>J1524</poem_number>
       <source>https://www.edickinson.org/editions/2/image_sets/12172727</source>
       <recipient>none</recipient>
-      <poem_themes/>
+      <poem_themes>
+         <theme>nature</theme>
+         <theme>time</theme>
+      </poem_themes>
       <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
