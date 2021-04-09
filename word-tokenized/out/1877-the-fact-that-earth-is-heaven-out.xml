@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>The Fact that Earth is Heaven -</first_line>
+      <date period="late">1877</date>
+      <poem_number>J1408</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12172424</source>
+      <recipient>Austin Dickinson</recipient>
+      <poem_themes>
+         <theme>life</theme>
+         <theme>religion</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">The</token>
+            <token xml:id="t_1_2">Fact</token>
+            <token xml:id="t_1_3">that</token>
+            <nature nature_type="general">
+               <token xml:id="t_1_4">Earth</token>
+            </nature>
+            <token xml:id="t_1_5">Earth</token>
+            <token xml:id="t_1_6">is</token>
+            <religion type="place">
+               <token xml:id="t_1_7">Heaven</token>
+            </religion>
+            <token xml:id="t_1_8">-</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Whether</token>
+            <religion type="place">
+               <token xml:id="t_2_2">Heaven</token>
+            </religion>
+            <token xml:id="t_2_3">is</token>
+            <token xml:id="t_2_4">Heaven</token>
+            <uncertainty>
+               <token xml:id="t_2_5">or</token>
+               <token xml:id="t_2_6">not</token>
+            </uncertainty>
+         </line>
+         <line>
+            <token xml:id="t_3_1">If</token>
+            <token xml:id="t_3_2">not</token>
+            <token xml:id="t_3_3">an</token>
+            <law>
+               <token xml:id="t_3_4">Affidavit</token>
+            </law>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Of</token>
+            <token xml:id="t_4_2">that</token>
+            <religion type="place">
+               <token xml:id="t_4_3">specific</token>
+               <token xml:id="t_4_4">Spot</token>
+            </religion>
+         </line>
+         <!--referring to heaven -->
+         <line>
+            <token xml:id="t_5_1">Not</token>
+            <token xml:id="t_5_2">only</token>
+            <token xml:id="t_5_3">must</token>
+            <token xml:id="t_5_4">confirm</token>
+            <token xml:id="t_5_5">us</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">That</token>
+            <token xml:id="t_6_2">it</token>
+            <token xml:id="t_6_3">is</token>
+            <token xml:id="t_6_4">not</token>
+            <token xml:id="t_6_5">for</token>
+            <token xml:id="t_6_6">us</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">But</token>
+            <ellipsis ellipsis_type="clausal" possible_string="must confirm us"/>
+            <token xml:id="t_7_2">that</token>
+            <token xml:id="t_7_3">it</token>
+            <token xml:id="t_7_4">would</token>
+            <token xml:id="t_7_5">affront</token>
+            <token xml:id="t_7_6">us</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">To</token>
+            <token xml:id="t_8_2">dwell</token>
+            <token xml:id="t_8_3">in</token>
+            <religion type="place" judgment="negative">
+               <token xml:id="t_8_4">such</token>
+               <token xml:id="t_8_5">a</token>
+               <token xml:id="t_8_6">place</token>
+            </religion>
+            <token xml:id="t_8_7">-</token>
+         </line>
+         <!-- Heaven as unsuitable and even offending to suggest humans should go there -->
+      </stanza>
+   </body>
+</poem>
+<!--     
+    The Fact that Earth is Heaven -
+    Whether Heaven is Heaven or not
+    If not an Affidavit
+    Of that specific Spot
+    Not only must confirm us
+    That it is not for us
+    But that it would affront us
+    To dwell in such a place - 
+-->

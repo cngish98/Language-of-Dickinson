@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>As summer into autumn slips</first_line>
+      <date period="middle">1874</date>
+      <poem_number>F1341C</poem_number>
+      <!--Franklin version: there is no Johnson version addressed solely to Bowles -->
+      <source>https://www.edickinson.org/editions/1/image_sets/12177578</source>
+      <recipient>Samuel Bowles</recipient>
+      <poem_themes>
+         <theme>nature</theme>
+         <theme>time</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">As</token>
+            <time>
+               <token xml:id="t_1_2">Summer</token>
+            </time>
+         </line>
+         <!--could be nature too but I feel it's more like time in this poem -->
+         <line>
+            <token xml:id="t_2_1">into</token>
+            <time>
+               <token xml:id="t_2_2">Autumn</token>
+            </time>
+         </line>
+         <line>
+            <time>
+               <token xml:id="t_3_1">slips</token>
+            </time>
+            <ellipsis ellipsis_type="clausal"/>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_4_1">And</token>
+            <token xml:id="t_4_2">yet</token>
+         </line>
+         <line>
+            <token xml:id="t_5_1">we</token>
+            <token xml:id="t_5_2">sooner</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">say</token>
+         </line>
+         <line>
+            <time>
+               <token xml:id="t_7_1">"The</token>
+               <token xml:id="t_7_2">Summer"</token>
+               <token xml:id="t_7_3">than</token>
+               <token xml:id="t_7_4">"the</token>
+               <token xml:id="t_7_5">Autumn",</token>
+            </time>
+            <emotion emotion_type="fear">
+               <token xml:id="t_7_6">lest</token>
+            </emotion>
+         </line>
+         <!-- i say fear bc it sounds like implies the fear of moving on, acknowledging the passage of time
+            not sure if it's the best word though -->
+         <line>
+            <token xml:id="t_8_1">We</token>
+            <token xml:id="t_8_2">turn</token>
+            <token xml:id="t_8_3">the</token>
+         </line>
+         <line>
+            <nature nature_type="space">
+               <token xml:id="t_9_1">Sun</token>
+            </nature>
+            <token xml:id="t_9_2">away,</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_10_1">And</token>
+            <token xml:id="t_10_2">almost</token>
+         </line>
+         <line>
+            <token xml:id="t_11_1">count</token>
+            <time>
+               <token xml:id="t_11_2">it</token>
+            </time>
+            <token xml:id="t_11_3">an</token>
+         </line>
+         <!--specifically the passing of time -->
+         <line>
+            <token xml:id="t_12_1">Affront</token>
+            <token xml:id="t_12_2">the</token>
+         </line>
+         <line>
+            <token xml:id="t_13_1">presence</token>
+            <token xml:id="t_13_2">to</token>
+         </line>
+         <line>
+            <time>
+               <token xml:id="t_14_1">concede</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_15_1">Of</token>
+            <token xml:id="t_15_2">one</token>
+            <token xml:id="t_15_3">however</token>
+         </line>
+         <line>
+            <love love_type="admiration">
+               <token xml:id="t_16_1">lovely</token>
+            </love>
+            <token xml:id="t_16_2">,</token>
+            <token xml:id="t_16_3">not</token>
+         </line>
+         <line>
+            <token xml:id="t_17_1">The</token>
+            <token xml:id="t_17_2">one</token>
+         </line>
+         <line>
+            <token xml:id="t_18_1">that</token>
+            <token xml:id="t_18_2">we</token>
+            <token xml:id="t_18_3">have</token>
+         </line>
+         <line>
+            <love love_type="admiration">
+               <token xml:id="t_19_1">loved</token>
+            </love>
+            <token xml:id="t_19_2">-</token>
+         </line>
+         <!-- admiration for the seasons and nature -->
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_20_1">So</token>
+            <token xml:id="t_20_2">we</token>
+            <token xml:id="t_20_3">evade</token>
+         </line>
+         <!--should evasion be marked up as fear ? -->
+         <line>
+            <token xml:id="t_21_1">the</token>
+            <token xml:id="t_21_2">Charge</token>
+         </line>
+         <line>
+            <token xml:id="t_22_1">of</token>
+            <time>
+               <token xml:id="t_22_2">Years</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_23_1">On</token>
+            <token xml:id="t_23_2">one</token>
+            <token xml:id="t_23_3">attempting</token>
+            <token xml:id="t_23_4">shy</token>
+         </line>
+         <line>
+            <token xml:id="t_24_1">The</token>
+            <token xml:id="t_24_2">Circumvention</token>
+         </line>
+         <line>
+            <token xml:id="t_25_1">of</token>
+            <token xml:id="t_25_2">the</token>
+            <token xml:id="t_25_3">Shaft</token>
+         </line>
+         <line>
+            <token xml:id="t_26_1">Of</token>
+            <life>
+               <token xml:id="t_26_2">Life's</token>
+            </life>
+         </line>
+         <line>
+            <time>
+               <token xml:id="t_27_1">declivity</token>
+            </time>
+            <death/>
+            <token xml:id="t_27_2">.</token>
+         </line>
+         <!--could reference time or death?
+            marked up both just in case-->
+      </stanza>
+   </body>
+</poem>
+<!-- 
+As Summer
+into Autumn
+slips
+
+And yet
+we sooner
+say
+"The Summer" than "the Autumn", lest
+We turn the
+Sun away,
+
+And almost
+count it an
+Affront the
+presence to
+concede
+Of one however
+lovely, not
+The one
+that we have
+loved -
+
+So we evade
+the Charge
+of Years
+One one On one attempting shy   (attempting to shy? not really sure what she is saying here)
+The Circumvention
+of the Shaft
+Of Life's
+declivity.
+-->
+<!-- 
+
+-->

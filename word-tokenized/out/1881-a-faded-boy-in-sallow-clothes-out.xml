@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A faded Boy - in sallow Clothes</first_line>
+      <date period="late">1881</date>
+      <poem_number>J1524</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12172727</source>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>nature</theme>
+         <theme>time</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">A</token>
+            <token xml:id="t_1_2">faded</token>
+            <token xml:id="t_1_3">Boy</token>
+            <token xml:id="t_1_4">-</token>
+            <token xml:id="t_1_5">in</token>
+            <token xml:id="t_1_6">sallow</token>
+            <token xml:id="t_1_7">Clothes</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Who</token>
+            <token xml:id="t_2_2">drove</token>
+            <token xml:id="t_2_3">a</token>
+            <emotion emotion_type="lonesome">
+               <token xml:id="t_2_4">lonesome</token>
+            </emotion>
+            <animal animal_type="cow">
+               <token xml:id="t_2_5">Cow</token>
+            </animal>
+         </line>
+         <line>
+            <token xml:id="t_3_1">To</token>
+            <token xml:id="t_3_2">pastures</token>
+            <token xml:id="t_3_3">of</token>
+            <religion type="place">
+               <token xml:id="t_3_4">Oblivion</token>
+            </religion>
+            <token xml:id="t_3_5">-</token>
+         </line>
+         <line>
+            <ellipsis ellipsis_type="verbal"
+                      elided_pos="verb"
+                      possible_string="is"
+                      v="1"/>
+            <ellipsis ellipsis_type="clausal" v="2"/>
+            <token xml:id="t_4_1">A</token>
+            <token xml:id="t_4_2">statesman's</token>
+            <life>
+               <token xml:id="t_4_3">Embryo</token>
+            </life>
+            <token xml:id="t_4_4">-</token>
+            <ellipsis ellipsis_type="clausal" v="2"/>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">The</token>
+            <token xml:id="t_5_2">Boys</token>
+            <token xml:id="t_5_3">that</token>
+            <token xml:id="t_5_4">whistled</token>
+            <token xml:id="t_5_5">are</token>
+            <loss>
+               <token xml:id="t_5_6">extinct</token>
+            </loss>
+            <token xml:id="t_5_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">The</token>
+            <animal animal_type="cow">
+               <token xml:id="t_6_2">Cows</token>
+            </animal>
+            <token xml:id="t_6_3">that</token>
+            <eating>
+               <token xml:id="t_6_4">fed</token>
+            </eating>
+            <token xml:id="t_6_5">and</token>
+            <token xml:id="t_6_6">thanked</token>
+         </line>
+         <line>
+            <ellipsis ellipsis_type="verbal"
+                      subject_string="Cows"
+                      elided_pos="link-verb"
+                      possible_string="are"/>
+            <token xml:id="t_7_1">Remanded</token>
+            <!-- "remanded" as a law word? -->
+            <token xml:id="t_7_2">to</token>
+            <token xml:id="t_7_3">a</token>
+            <token xml:id="t_7_4">Ballad's</token>
+            <place>
+               <token xml:id="t_7_5">Barn</token>
+            </place>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Or</token>
+            <token xml:id="t_8_2">Clover's</token>
+            <token xml:id="t_8_3">Retrospect</token>
+            <token xml:id="t_8_4">-</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
+    A faded Boy - in sallow Clothes
+    Who drove a lonesome Cow
+    To pastures of Oblivion -
+    A statesman's Embryo -
+    
+    The Boys that whistled are extinct -
+    The Cows that fed and thanked
+    Remanded to a Ballad's Barn
+    Or Clover's Retrospect - 
+-->

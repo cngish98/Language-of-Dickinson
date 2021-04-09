@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>Oh Sumptuous moment</first_line>
+      <date period="middle">1868</date>
+      <poem_number>J1125</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171679</source>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>time</theme>
+         <theme>violence</theme>
+      </poem_themes>
+      <ellipsis_present>ambiguous</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">Oh</token>
+            <token xml:id="t_1_2">Sumptuous</token>
+            <time>
+               <token xml:id="t_1_3">moment</token>
+            </time>
+         </line>
+         <line>
+            <time>
+               <token xml:id="t_2_1">Slower</token>
+            </time>
+            <token xml:id="t_2_2">go</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">That</token>
+            <token xml:id="t_3_2">I</token>
+            <token xml:id="t_3_3">may</token>
+            <token xml:id="t_3_4">gloat</token>
+            <token xml:id="t_3_5">on</token>
+            <token xml:id="t_3_6">thee</token>
+            <token xml:id="t_3_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">'Twill</token>
+            <token xml:id="t_4_2">never</token>
+            <token xml:id="t_4_3">be</token>
+            <token xml:id="t_4_4">the</token>
+            <token xml:id="t_4_5">same</token>
+            <token xml:id="t_4_6">to</token>
+            <eating>
+               <token xml:id="t_4_7">starve</token>
+            </eating>
+         </line>
+         <line>
+            <token xml:id="t_5_1">Now</token>
+            <token xml:id="t_5_2">I</token>
+            <wealth>
+               <token xml:id="t_5_3">abundance</token>
+            </wealth>
+            <token xml:id="t_5_4">see</token>
+            <token xml:id="t_5_5">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_6_1">Which</token>
+            <token xml:id="t_6_2">was</token>
+            <token xml:id="t_6_3">to</token>
+            <physical_body body_type="ailment">
+               <token xml:id="t_6_4">famish</token>
+            </physical_body>
+            <eating/>
+            <death/>
+            <token xml:id="t_6_5">,</token>
+            <token xml:id="t_6_6">then</token>
+            <token xml:id="t_6_7">or</token>
+            <token xml:id="t_6_8">now</token>
+            <token xml:id="t_6_9">-</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">The</token>
+            <token xml:id="t_7_2">difference</token>
+            <token xml:id="t_7_3">of</token>
+            <time>
+               <token xml:id="t_7_4">Day</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Ask</token>
+            <token xml:id="t_8_2">him</token>
+            <token xml:id="t_8_3">unto</token>
+            <token xml:id="t_8_4">the</token>
+            <violence>
+               <token xml:id="t_8_5">Gallows</token>
+            </violence>
+            <death/>
+            <token xml:id="t_8_6">led</token>
+            <token xml:id="t_8_7">-</token>
+         </line>
+         <!--elision here? -->
+         <line>
+            <token xml:id="t_9_1">By</token>
+            <token xml:id="t_9_2">With</token>
+            <time>
+               <token xml:id="t_9_3">morning</token>
+            </time>
+            <token xml:id="t_9_4">in</token>
+            <token xml:id="t_9_5">the</token>
+            <nature nature_type="air">
+               <token xml:id="t_9_6">sky</token>
+            </nature>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--Also a kind of vague poem that I didn't find interpretations for: I am guessing that she wants to savor time 
+    before it meets its end at the "gallows." There could possibly be more you can go into with this, for sure-->
+<!-- at this point I am wondering if we should add an "ambiguous" ellipsis option -->
+<!-- 
+Oh Sumptuous moment
+Slower go            (imperative)
+ Till That I  can may gloat on thee -
+'Twill never be the same to starve
+ Since Now  that I abundance see -
+
+Which was to famish, then or now -
+The difference of Day
+ to Ask him unto the Gallows  called led -
+ By With morning in the sky                        
+-->

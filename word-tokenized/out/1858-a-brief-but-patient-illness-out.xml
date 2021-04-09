@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A brief, but patient illness</first_line>
+      <date period="early">1858</date>
+      <poem_number>F22A</poem_number>
+      <source> https://www.edickinson.org/editions/1/image_sets/12173394 </source>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>darkness</theme>
+         <theme>religion</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">A</token>
+            <token xml:id="t_1_2">brief,</token>
+            <token xml:id="t_1_3">but</token>
+            <token xml:id="t_1_4">patient</token>
+            <token xml:id="t_1_5">illness</token>
+            <token xml:id="t_1_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">An</token>
+            <time>
+               <token xml:id="t_2_2">hour</token>
+            </time>
+            <token xml:id="t_2_3">to</token>
+            <token xml:id="t_2_4">prepare</token>
+            <token xml:id="t_2_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">And</token>
+            <token xml:id="t_3_2">one</token>
+            <token xml:id="t_3_3">below,</token>
+            <token xml:id="t_3_4">this</token>
+            <time>
+               <token xml:id="t_3_5">morning</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Is</token>
+            <token xml:id="t_4_2">where</token>
+            <token xml:id="t_4_3">the</token>
+            <religion type="person">
+               <token xml:id="t_4_4">angels</token>
+            </religion>
+            <token xml:id="t_4_5">are</token>
+            <token xml:id="t_4_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_5_1">It</token>
+            <token xml:id="t_5_2">was</token>
+            <token xml:id="t_5_3">a</token>
+            <token xml:id="t_5_4">short</token>
+            <token xml:id="t_5_5">procession</token>
+            <token xml:id="t_5_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">The</token>
+            <character name="Bobolink">
+               <token xml:id="t_6_2">Bobolink</token>
+            </character>
+            <token xml:id="t_6_3">was</token>
+            <token xml:id="t_6_4">there</token>
+            <token xml:id="t_6_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">An</token>
+            <token xml:id="t_7_2">aged</token>
+            <animal animal_type="bee">
+               <token xml:id="t_7_3">Bee</token>
+            </animal>
+            <token xml:id="t_7_4">addressed</token>
+            <token xml:id="t_7_5">us</token>
+            <token xml:id="t_7_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">And</token>
+            <token xml:id="t_8_2">then</token>
+            <token xml:id="t_8_3">we</token>
+            <token xml:id="t_8_4">knelt</token>
+            <token xml:id="t_8_5">in</token>
+            <religion>
+               <token xml:id="t_8_6">prayer</token>
+            </religion>
+            <token xml:id="t_8_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_9_1">We</token>
+            <token xml:id="t_9_2">trust</token>
+            <token xml:id="t_9_3">that</token>
+            <token xml:id="t_9_4">she</token>
+            <token xml:id="t_9_5">was</token>
+            <token xml:id="t_9_6">willing</token>
+            <token xml:id="t_9_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_10_1">We</token>
+            <token xml:id="t_10_2">ask</token>
+            <token xml:id="t_10_3">that</token>
+            <token xml:id="t_10_4">we</token>
+            <token xml:id="t_10_5">may</token>
+            <token xml:id="t_10_6">be</token>
+            <token xml:id="t_10_7">-</token>
+            <ellipsis ellipsis_type="ambiguous"/>
+            <!-- what to call this? -->
+         </line>
+         <line>
+            <time>
+               <token xml:id="t_11_1">Summer</token>
+            </time>
+            <token xml:id="t_11_2">-</token>
+            <token xml:id="t_11_3">Sister</token>
+            <token xml:id="t_11_4">-</token>
+            <religion type="person">
+               <token xml:id="t_11_5">Seraph!</token>
+            </religion>
+         </line>
+         <line>
+            <token xml:id="t_12_1">Let</token>
+            <token xml:id="t_12_2">us</token>
+            <token xml:id="t_12_3">go</token>
+            <token xml:id="t_12_4">with</token>
+            <token xml:id="t_12_5">thee!</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+    A brief, but patient illness - 
+        An hour to prepare - 
+        And one below, this morning 
+        Is where the angels are - 
+        It was a short procession - 
+        The Bobolink was there - 
+        An aged Bee addressed us - 
+        And then we knelt in prayer - 
+        We trust that she was willing - 
+        We ask that we may be - 
+        Summer - Sister - Seraph! 
+        Let us go with thee!
+        -->

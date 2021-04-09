@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A great hope fell</first_line>
+      <date period="middle">1870</date>
+      <poem_number>J1123</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171673</source>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>emotion</theme>
+         <theme>the mind</theme>
+         <theme>violence</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">A</token>
+            <token xml:id="t_1_2">great</token>
+            <emotion emotion_type="disappointment">
+               <token xml:id="t_1_3">Hope</token>
+               <token xml:id="t_1_4">fell</token>
+            </emotion>
+         </line>
+         <!--assuming this is about emotion -->
+         <line>
+            <token xml:id="t_2_1">You</token>
+            <token xml:id="t_2_2">heard</token>
+            <token xml:id="t_2_3">no</token>
+            <violence>
+               <token xml:id="t_2_4">crash</token>
+            </violence>
+            <token xml:id="t_2_5">noise</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">The</token>
+            <violence/>
+            <token xml:id="t_3_2">Ruin</token>
+            <token xml:id="t_3_3">was</token>
+            <mind>
+               <token xml:id="t_3_4">within</token>
+            </mind>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Oh</token>
+            <token xml:id="t_4_2">cunning</token>
+            <ellipsis ellipsis_type="clausal" possible_string="was the"/>
+            <violence>
+               <token xml:id="t_4_3">wreck</token>
+            </violence>
+            <token xml:id="t_4_4">that</token>
+            <writing>
+               <token xml:id="t_4_5">told</token>
+               <token xml:id="t_4_6">no</token>
+               <token xml:id="t_4_7">tale</token>
+            </writing>
+         </line>
+         <!--does that count as writing?-->
+         <line>
+            <token xml:id="t_5_1">And</token>
+            <solitude judgment="negative">
+               <token xml:id="t_5_2">let</token>
+               <token xml:id="t_5_3">no</token>
+               <token xml:id="t_5_4">Witness</token>
+               <token xml:id="t_5_5">in</token>
+            </solitude>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <mind>
+               <token xml:id="t_6_1">The</token>
+               <token xml:id="t_6_2">mind</token>
+            </mind>
+            <token xml:id="t_6_3">was</token>
+            <token xml:id="t_6_4">built</token>
+            <token xml:id="t_6_5">for</token>
+            <labor>
+               <token xml:id="t_6_6">mighty</token>
+               <token xml:id="t_6_7">Freight</token>
+            </labor>
+         </line>
+         <line>
+            <ellipsis ellipsis_type="clausal"
+                      elided_pos="conjunction"
+                      possible_string="and"/>
+            <token xml:id="t_7_1">For</token>
+            <emotion emotion_type="fear">
+               <token xml:id="t_7_2">dread</token>
+            </emotion>
+            <token xml:id="t_7_3">occasion</token>
+            <token xml:id="t_7_4">planned</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">How</token>
+            <token xml:id="t_8_2">often</token>
+            <ellipsis ellipsis_type="clausal" possible_string="the mind is"/>
+            <violence>
+               <token xml:id="t_8_3">foundering</token>
+            </violence>
+            <token xml:id="t_8_4">at</token>
+            <nature nature_type="water">
+               <token xml:id="t_8_5">Sea</token>
+            </nature>
+         </line>
+         <line>
+            <ellipsis ellipsis_type="clausal"
+                      elided_pos="conjunction"
+                      possible_string="but"/>
+            <token xml:id="t_9_1">Ostensibly,</token>
+            <ellipsis ellipsis_type="clausal" possible_string="is not foundering"/>
+            <token xml:id="t_9_2">on</token>
+            <nature nature_type="earth">
+               <token xml:id="t_9_3">Land</token>
+            </nature>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <ellipsis ellipsis_type="clausal" possible_string="there was"/>
+            <token xml:id="t_10_1">A</token>
+            <token xml:id="t_10_2">not</token>
+            <token xml:id="t_10_3">admitting</token>
+            <token xml:id="t_10_4">of</token>
+            <token xml:id="t_10_5">the</token>
+            <physical_body body_type="ailment">
+               <token xml:id="t_10_6">wound</token>
+            </physical_body>
+         </line>
+         <line>
+            <token xml:id="t_11_1">Until</token>
+            <token xml:id="t_11_2">it</token>
+            <token xml:id="t_11_3">grew</token>
+            <token xml:id="t_11_4">so</token>
+            <token xml:id="t_11_5">wide</token>
+         </line>
+         <line>
+            <token xml:id="t_12_1">That</token>
+            <token xml:id="t_12_2">all</token>
+            <token xml:id="t_12_3">my</token>
+            <life>
+               <token xml:id="t_12_4">Life</token>
+            </life>
+            <token xml:id="t_12_5">had</token>
+            <token xml:id="t_12_6">entered</token>
+            <token xml:id="t_12_7">it</token>
+         </line>
+         <line>
+            <token xml:id="t_13_1">And</token>
+            <token xml:id="t_13_2">there</token>
+            <token xml:id="t_13_3">were</token>
+            <token xml:id="t_13_4">troughs</token>
+            <token xml:id="t_13_5">beside</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <ellipsis ellipsis_type="clausal" possible_string="there was"/>
+            <token xml:id="t_14_1">A</token>
+            <death>
+               <token xml:id="t_14_2">closing</token>
+               <token xml:id="t_14_3">of</token>
+               <token xml:id="t_14_4">the</token>
+               <token xml:id="t_14_5">simple</token>
+               <token xml:id="t_14_6">lid</token>
+            </death>
+         </line>
+         <!--I am interpreting this to be a coffin -->
+         <line>
+            <token xml:id="t_15_1">That</token>
+            <token xml:id="t_15_2">opened</token>
+            <token xml:id="t_15_3">to</token>
+            <token xml:id="t_15_4">the</token>
+            <nature nature_type="space">
+               <token xml:id="t_15_5">sun</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_16_1">Until</token>
+            <token xml:id="t_16_2">the</token>
+            <token xml:id="t_16_3">tender</token>
+            <token xml:id="t_16_4">Carpenter</token>
+         </line>
+         <line>
+            <time>
+               <token xml:id="t_17_1">Perpetual</token>
+            </time>
+            <labor>
+               <token xml:id="t_17_2">nail</token>
+               <token xml:id="t_17_3">it</token>
+               <token xml:id="t_17_4">down</token>
+            </labor>
+            <token xml:id="t_17_5">-</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!-- 
+A great Hope fell
+You heard no crash noise     (noise)
+The  havoc  damage Ruin was within   (ruin)
+Oh cunning wreck that told no tale
+And let no Witness in
+
+The mind was built for mighty Freight
+For dread occasion planned
+How often foundering at Sea    (?)
+Ostensibly, on Land
+
+A not admitting of the wound (?)
+Until it grew so wide
+That all my Life had entered it
+And there were  space  room troughs beside
+
+A closing of the simple lid
+That opened to the sun
+Until the tender Carpenter
+Perpetual nail it down -      (perpetual[ly] - how to mark up ellipsis within the token level??)
+-->

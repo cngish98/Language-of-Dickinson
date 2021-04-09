@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>How lonesome the Wind must feel Nights -</first_line>
+      <date period="late">1877</date>
+      <poem_number>J1418</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12172451</source>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>emotion</theme>
+         <theme>nature</theme>
+         <theme>solitude</theme>
+      </poem_themes>
+      <ellipsis_present>no</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">How</token>
+            <solitude>
+               <token xml:id="t_1_2">lonesome</token>
+            </solitude>
+            <token xml:id="t_1_3">the</token>
+            <nature nature_type="air">
+               <token xml:id="t_1_4">Wind</token>
+            </nature>
+            <token xml:id="t_1_5">must</token>
+            <token xml:id="t_1_6">feel</token>
+            <darkness>
+               <token xml:id="t_1_7">Nights</token>
+            </darkness>
+            <time/>
+            <token xml:id="t_1_8">-</token>
+         </line>
+         <!--marking up time of day
+                    as both light/dark and as time, because both seem relevant -->
+         <line>
+            <token xml:id="t_2_1">When</token>
+            <token xml:id="t_2_2">People</token>
+            <token xml:id="t_2_3">have</token>
+            <token xml:id="t_2_4">put</token>
+            <token xml:id="t_2_5">out</token>
+            <token xml:id="t_2_6">the</token>
+            <light>
+               <token xml:id="t_2_7">Lights</token>
+            </light>
+         </line>
+         <line>
+            <token xml:id="t_3_1">And</token>
+            <token xml:id="t_3_2">everything</token>
+            <token xml:id="t_3_3">that</token>
+            <token xml:id="t_3_4">has</token>
+            <token xml:id="t_3_5">an</token>
+            <token xml:id="t_3_6">Inn</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Closes</token>
+            <token xml:id="t_4_2">the</token>
+            <token xml:id="t_4_3">shutter</token>
+            <token xml:id="t_4_4">and</token>
+            <token xml:id="t_4_5">goes</token>
+            <token xml:id="t_4_6">in</token>
+            <token xml:id="t_4_7">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">How</token>
+            <emotion emotion_type="self-importance">
+               <token xml:id="t_5_2">pompous</token>
+            </emotion>
+            <token xml:id="t_5_3">the</token>
+            <token xml:id="t_5_4">Wind</token>
+            <token xml:id="t_5_5">must</token>
+            <token xml:id="t_5_6">feel</token>
+            <time>
+               <token xml:id="t_5_7">Noons</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_6_1">Stepping</token>
+            <token xml:id="t_6_2">to</token>
+            <token xml:id="t_6_3">incorporeal</token>
+            <music>
+               <token xml:id="t_6_4">Tunes</token>
+            </music>
+         </line>
+         <line>
+            <token xml:id="t_7_1">Correcting</token>
+            <token xml:id="t_7_2">errors</token>
+            <token xml:id="t_7_3">of</token>
+            <nature nature_type="air">
+               <token xml:id="t_7_4">the</token>
+               <token xml:id="t_7_5">sky</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_8_1">And</token>
+            <token xml:id="t_8_2">clarifying</token>
+            <nature nature_type="general">
+               <token xml:id="t_8_3">scenery</token>
+            </nature>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_9_1">How</token>
+            <emotion emotion_type="strength">
+               <token xml:id="t_9_2">mighty</token>
+            </emotion>
+            <token xml:id="t_9_3">the</token>
+            <token xml:id="t_9_4">Wind</token>
+            <token xml:id="t_9_5">must</token>
+            <token xml:id="t_9_6">feel</token>
+            <time>
+               <token xml:id="t_9_7">Morns</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_10_1">Encamping</token>
+            <token xml:id="t_10_2">on</token>
+            <token xml:id="t_10_3">a</token>
+            <nature nature_type="general">
+               <token xml:id="t_10_4">thousand</token>
+               <token xml:id="t_10_5">dawns</token>
+            </nature>
+            <time/>
+         </line>
+         <line>
+            <token xml:id="t_11_1">Espousing</token>
+            <token xml:id="t_11_2">each</token>
+            <token xml:id="t_11_3">and</token>
+            <token xml:id="t_11_4">spurning</token>
+            <token xml:id="t_11_5">all</token>
+         </line>
+         <line>
+            <token xml:id="t_12_1">Then</token>
+            <token xml:id="t_12_2">soaring</token>
+            <token xml:id="t_12_3">to</token>
+            <token xml:id="t_12_4">his</token>
+            <religion type="place">
+               <token xml:id="t_12_5">Temple</token>
+            </religion>
+            <token xml:id="t_12_6">Tall</token>
+            <token xml:id="t_12_7">-</token>
+         </line>
+         <!--not sure if this temple is religious or not-->
+      </stanza>
+   </body>
+</poem>
+<!-- 
+   How lonesome the Wind must feel Nights - 
+    When People have put out the Lights
+    And everything that has an Inn
+    Closes his/the shutter and goes in -
+    
+    How pompous the Wind must feel Noons
+    Stepping to incorporeal Tunes
+    Correcting errors of the sky
+    And clarifying scenery
+    
+    How mighty the Wind must feel Morns
+    Encamping on a thousand dawns
+    Espousing each and spurning all
+    Then soaring to his Turret/Temple Tall - 
+-->

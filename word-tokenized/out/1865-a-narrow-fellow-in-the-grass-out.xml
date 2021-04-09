@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A narrow Fellow in the Grass</first_line>
+      <date period="middle">1865</date>
+      <poem_number>J986</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171356</source>
+      <recipient>T.W. Higginson</recipient>
+      <poem_themes>
+         <theme>emotion</theme>
+         <theme>nature</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <animal animal_type="snake">
+               <token xml:id="t_1_1">A</token>
+               <token xml:id="t_1_2">narrow</token>
+               <token xml:id="t_1_3">Fellow</token>
+            </animal>
+            <token xml:id="t_1_4">in</token>
+            <token xml:id="t_1_5">the</token>
+            <nature nature_type="earth">
+               <token xml:id="t_1_6">Grass</token>
+            </nature>
+         </line>
+         <!--Specified animal type because she does not explicitly specify -->
+         <line>
+            <token xml:id="t_2_1">Occasionally</token>
+            <token xml:id="t_2_2">rides</token>
+            <token xml:id="t_2_3">-</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="DO-noun" v="1"/>
+            <ellipsis ellipsis_type="verbal" elided_pos="adverb" v="2"/>
+            <!-- elided word could be a DO-noun or adverb? as in "rides away..."-->
+         </line>
+         <!--elision or just an intransitive verb? -->
+         <!-- I haven't really seen rides as an intransitive verb... -->
+         <line>
+            <character name="you">
+               <token xml:id="t_3_1">You</token>
+            </character>
+            <token xml:id="t_3_2">may</token>
+            <token xml:id="t_3_3">have</token>
+            <token xml:id="t_3_4">met</token>
+            <token xml:id="t_3_5">Him</token>
+            <token xml:id="t_3_6">-</token>
+            <token xml:id="t_3_7">did</token>
+            <token xml:id="t_3_8">you</token>
+            <token xml:id="t_3_9">not</token>
+         </line>
+         <!--not sure if she is addressing the recipient or not -->
+         <line>
+            <token xml:id="t_4_1">His</token>
+            <token xml:id="t_4_2">notice</token>
+            <token xml:id="t_4_3">sudden</token>
+            <token xml:id="t_4_4">is</token>
+            <token xml:id="t_4_5">-</token>
+         </line>
+         <!--elision -->
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">The</token>
+            <nature nature_type="earth">
+               <token xml:id="t_5_2">Grass</token>
+            </nature>
+            <token xml:id="t_5_3">divides</token>
+            <token xml:id="t_5_4">as</token>
+            <token xml:id="t_5_5">with</token>
+            <token xml:id="t_5_6">a</token>
+            <token xml:id="t_5_7">Comb</token>
+            <token xml:id="t_5_8">-</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">A</token>
+            <token xml:id="t_6_2">spotted</token>
+            <token xml:id="t_6_3">shaft</token>
+            <token xml:id="t_6_4">is</token>
+            <token xml:id="t_6_5">seen</token>
+            <token xml:id="t_6_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">And</token>
+            <token xml:id="t_7_2">then</token>
+            <token xml:id="t_7_3">it</token>
+            <token xml:id="t_7_4">closes</token>
+            <token xml:id="t_7_5">at</token>
+            <token xml:id="t_7_6">your</token>
+            <physical_body>
+               <token xml:id="t_7_7">feet</token>
+            </physical_body>
+         </line>
+         <line>
+            <token xml:id="t_8_1">And</token>
+            <token xml:id="t_8_2">opens</token>
+            <token xml:id="t_8_3">further</token>
+            <token xml:id="t_8_4">on</token>
+            <token xml:id="t_8_5">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_9_1">He</token>
+            <token xml:id="t_9_2">likes</token>
+            <token xml:id="t_9_3">a</token>
+            <nature nature_type="water">
+               <token xml:id="t_9_4">Boggy</token>
+               <token xml:id="t_9_5">Acre</token>
+            </nature>
+         </line>
+         <!--not sure if it counts as land or water -->
+         <line>
+            <token xml:id="t_10_1">A</token>
+            <token xml:id="t_10_2">Floor</token>
+            <token xml:id="t_10_3">too</token>
+            <token xml:id="t_10_4">cool</token>
+            <token xml:id="t_10_5">for</token>
+            <eating>
+               <token xml:id="t_10_6">Corn</token>
+            </eating>
+            <token xml:id="t_10_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_11_1">Yet</token>
+            <childhood>
+               <token xml:id="t_11_2">when</token>
+               <token xml:id="t_11_3">a</token>
+               <token xml:id="t_11_4">Boy</token>
+            </childhood>
+            <token xml:id="t_11_5">,</token>
+            <token xml:id="t_11_6">and</token>
+            <physical_body>
+               <token xml:id="t_11_7">Barefoot</token>
+            </physical_body>
+            <token xml:id="t_11_8">-</token>
+         </line>
+         <line>
+            <token xml:id="t_12_1">I</token>
+            <token xml:id="t_12_2">more</token>
+            <token xml:id="t_12_3">than</token>
+            <token xml:id="t_12_4">once</token>
+            <token xml:id="t_12_5">at</token>
+            <time>
+               <token xml:id="t_12_6">Noon</token>
+            </time>
+         </line>
+         <line>
+            <token xml:id="t_13_1">Have</token>
+            <token xml:id="t_13_2">passed,</token>
+            <token xml:id="t_13_3">I</token>
+            <token xml:id="t_13_4">thought,</token>
+            <token xml:id="t_13_5">a</token>
+            <token xml:id="t_13_6">Whip</token>
+            <token xml:id="t_13_7">lash</token>
+         </line>
+         <line>
+            <token xml:id="t_14_1">Unbraiding</token>
+            <token xml:id="t_14_2">in</token>
+            <token xml:id="t_14_3">the</token>
+            <nature nature_type="space">
+               <token xml:id="t_14_4">Sun</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_15_1">When</token>
+            <token xml:id="t_15_2">stooping</token>
+            <token xml:id="t_15_3">to</token>
+            <token xml:id="t_15_4">secure</token>
+            <token xml:id="t_15_5">it</token>
+         </line>
+         <line>
+            <token xml:id="t_16_1">It</token>
+            <token xml:id="t_16_2">wrinkled,</token>
+            <token xml:id="t_16_3">and</token>
+            <loss>
+               <token xml:id="t_16_4">was</token>
+               <token xml:id="t_16_5">gone</token>
+            </loss>
+            <token xml:id="t_16_6">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_17_1">Several</token>
+            <token xml:id="t_17_2">of</token>
+            <character name="nature" relation_with="you">
+               <token xml:id="t_17_3">Nature's</token>
+            </character>
+            <nature nature_type="general">
+               <token xml:id="t_17_4">People</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_18_1">I</token>
+            <token xml:id="t_18_2">know,</token>
+            <token xml:id="t_18_3">and</token>
+            <token xml:id="t_18_4">they</token>
+            <token xml:id="t_18_5">know</token>
+            <token xml:id="t_18_6">me</token>
+            <token xml:id="t_18_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_19_1">I</token>
+            <token xml:id="t_19_2">feel</token>
+            <token xml:id="t_19_3">for</token>
+            <token xml:id="t_19_4">them</token>
+            <token xml:id="t_19_5">a</token>
+            <token xml:id="t_19_6">transport</token>
+         </line>
+         <line>
+            <token xml:id="t_20_1">Of</token>
+            <emotion emotion_type="affection">
+               <token xml:id="t_20_2">cordiality</token>
+            </emotion>
+            <token xml:id="t_20_3">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_21_1">But</token>
+            <ellipsis ellipsis_type="nominal"
+                      elided_pos="subject-pronoun"
+                      possible_string="I"/>
+            <token xml:id="t_21_2">never</token>
+            <token xml:id="t_21_3">met</token>
+            <token xml:id="t_21_4">this</token>
+            <token xml:id="t_21_5">Fellow</token>
+         </line>
+         <line>
+            <token xml:id="t_22_1">Attended,</token>
+            <token xml:id="t_22_2">or</token>
+            <token xml:id="t_22_3">alone</token>
+         </line>
+         <line>
+            <token xml:id="t_23_1">Without</token>
+            <token xml:id="t_23_2">a</token>
+            <emotion emotion_type="fear">
+               <token xml:id="t_23_3">tighter</token>
+               <token xml:id="t_23_4">breathing</token>
+            </emotion>
+         </line>
+         <line>
+            <token xml:id="t_24_1">And</token>
+            <token xml:id="t_24_2">Zero</token>
+            <token xml:id="t_24_3">at</token>
+            <token xml:id="t_24_4">the</token>
+            <token xml:id="t_24_5">Bone</token>
+            <token xml:id="t_24_6">-</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!-- 
+A narrow Fellow in the Grass
+Occasionally rides -           (usually "rides" is a transitive verb)
+You may have met Him - did you not   
+His notice sudden is -   
+
+The Grass divides as with a Comb -
+A spotted shaft is seen -
+And then it closes at your feet
+And opens further on -
+
+He likes a Boggy Acre
+A Floor too cool for Corn -
+Yet when a Boy, and Barefoot -
+I more than once at Noon
+Have passed, I thought, a Whip lash
+Unbraiding in the Sun
+When stooping to secure it
+It wrinkled, and was gone -
+
+Several of Nature's People
+I know, and they know me -
+I feel for them a transport
+Of cordiality -
+
+But never met this Fellow
+Attended, or alone
+Without a tighter breathing
+And Zero at the Bone -
+
+-come back and look at ellipsis!!
+-->

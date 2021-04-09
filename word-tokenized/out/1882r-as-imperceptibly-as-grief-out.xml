@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>As imperceptibly as Grief</first_line>
+      <date period="late">1882</date>
+      <poem_number>J1540</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12172768</source>
+      <recipient>T. W. Higginson</recipient>
+      <poem_themes>
+         <theme>time</theme>
+         <theme>nature</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">As</token>
+            <token xml:id="t_1_2">imperceptibly</token>
+            <token xml:id="t_1_3">as</token>
+            <death>
+               <token xml:id="t_1_4">Grief</token>
+            </death>
+            <!-- are we always marking grief as death? -->
+         </line>
+         <line>
+            <token xml:id="t_2_1">The</token>
+            <time>
+               <token xml:id="t_2_2">Summer</token>
+            </time>
+            <token xml:id="t_2_3">lapsed</token>
+            <token xml:id="t_2_4">away</token>
+            <token xml:id="t_2_5">-</token>
+         </line>
+         <line>
+            <ellipsis ellipsis_type="clausal" possible_string="it was"/>
+            <token xml:id="t_3_1">Too</token>
+            <token xml:id="t_3_2">imperceptible</token>
+            <token xml:id="t_3_3">at</token>
+            <token xml:id="t_3_4">last</token>
+         </line>
+         <line>
+            <token xml:id="t_4_1">To</token>
+            <token xml:id="t_4_2">seem</token>
+            <token xml:id="t_4_3">like</token>
+            <token xml:id="t_4_4">Perfidy</token>
+            <token xml:id="t_4_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_5_1">A</token>
+            <token xml:id="t_5_2">Quietness</token>
+            <token xml:id="t_5_3">distilled</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">As</token>
+            <time>
+               <token xml:id="t_6_2">Twilight</token>
+            </time>
+            <token xml:id="t_6_3">long</token>
+            <token xml:id="t_6_4">begun,</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">Or</token>
+            <nature nature_type="general">
+               <token xml:id="t_7_2">Nature</token>
+            </nature>
+            <token xml:id="t_7_3">spending</token>
+            <token xml:id="t_7_4">with</token>
+            <token xml:id="t_7_5">herself</token>
+         </line>
+         <line>
+            <ellipsis ellipsis_type="nominal"
+                      elided_pos="determiner-art"
+                      possible_string="a"/>
+            <token xml:id="t_8_1">Sequestered</token>
+            <token xml:id="t_8_2">Afternoon</token>
+            <token xml:id="t_8_3">-</token>
+         </line>
+         <line>
+            <token xml:id="t_9_1">The</token>
+            <time>
+               <token xml:id="t_9_2">Dusk</token>
+            </time>
+            <token xml:id="t_9_3">drew</token>
+            <token xml:id="t_9_4">earlier</token>
+            <token xml:id="t_9_5">in</token>
+            <token xml:id="t_9_6">-</token>
+         </line>
+         <line>
+            <token xml:id="t_10_1">The</token>
+            <time>
+               <token xml:id="t_10_2">Morning</token>
+            </time>
+            <token xml:id="t_10_3">foreign</token>
+            <light>
+               <token xml:id="t_10_4">shone</token>
+            </light>
+            <token xml:id="t_10_5">-</token>
+         </line>
+         <line>
+            <token xml:id="t_11_1">A</token>
+            <token xml:id="t_11_2">courteous,</token>
+            <token xml:id="t_11_3">yet</token>
+            <token xml:id="t_11_4">harrowing</token>
+            <token xml:id="t_11_5">Grace,</token>
+         </line>
+         <line>
+            <token xml:id="t_12_1">As</token>
+            <token xml:id="t_12_2">Guest,</token>
+            <token xml:id="t_12_3">that</token>
+            <token xml:id="t_12_4">would</token>
+            <token xml:id="t_12_5">be</token>
+            <token xml:id="t_12_6">gone</token>
+            <token xml:id="t_12_7">-</token>
+         </line>
+         <line>
+            <token xml:id="t_13_1">And</token>
+            <token xml:id="t_13_2">thus,</token>
+            <token xml:id="t_13_3">without</token>
+            <token xml:id="t_13_4">a</token>
+            <token xml:id="t_13_5">Wing</token>
+         </line>
+         <line>
+            <token xml:id="t_14_1">Or</token>
+            <token xml:id="t_14_2">service</token>
+            <token xml:id="t_14_3">of</token>
+            <token xml:id="t_14_4">a</token>
+            <token xml:id="t_14_5">Keel</token>
+         </line>
+         <line>
+            <token xml:id="t_15_1">Our</token>
+            <time>
+               <token xml:id="t_15_2">Summer</token>
+            </time>
+            <token xml:id="t_15_3">made</token>
+            <token xml:id="t_15_4">her</token>
+            <light>
+               <token xml:id="t_15_5">light</token>
+            </light>
+            <token xml:id="t_15_6">escape</token>
+         </line>
+         <line>
+            <token xml:id="t_16_1">Into</token>
+            <token xml:id="t_16_2">the</token>
+            <token xml:id="t_16_3">Beautiful.</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW -->
+<!--     
+    As imperceptibly as Grief
+    The Summer lapsed away -
+    Too imperceptible at last
+    To seem like Perfidy -
+    A Quietness distilled
+    As Twilight long begun,
+    Or Nature spending with herself
+    Sequestered Afternoon -
+    The Dusk drew earlier in -
+    The Morning foreign shone -
+    A courteous, yet harrowing Grace,
+    As Guest, that would be gone -
+    And thus, without a Wing
+    Or service of a Keel
+    Our Summer made her light escape
+    Into the Beautiful. 
+-->

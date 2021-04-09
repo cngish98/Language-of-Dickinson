@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>Shall I take thee, the Poet said</first_line>
+      <date period="middle">1868</date>
+      <poem_number>J1126</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171681</source>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>religion</theme>
+         <theme>war</theme>
+         <theme>writing</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">Shall</token>
+            <token xml:id="t_1_2">I</token>
+            <token xml:id="t_1_3">take</token>
+            <token xml:id="t_1_4">thee,</token>
+            <token xml:id="t_1_5">the</token>
+            <writing>
+               <token xml:id="t_1_6">Poet</token>
+            </writing>
+            <token xml:id="t_1_7">said</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">To</token>
+            <token xml:id="t_2_2">the</token>
+            <token xml:id="t_2_3">propounded</token>
+            <writing>
+               <token xml:id="t_2_4">word</token>
+            </writing>
+            <token xml:id="t_2_5">?</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">Be</token>
+            <token xml:id="t_3_2">stationed</token>
+            <token xml:id="t_3_3">with</token>
+            <token xml:id="t_3_4">the</token>
+            <war>
+               <token xml:id="t_3_5">Candidates</token>
+            </war>
+         </line>
+         <!--maybe it's a stretch to equate this to war? but "stationed"
+                makes me think it is a warlike metaphor -->
+         <line>
+            <token xml:id="t_4_1">Till</token>
+            <token xml:id="t_4_2">I</token>
+            <token xml:id="t_4_3">have</token>
+            <token xml:id="t_4_4">finer</token>
+            <token xml:id="t_4_5">tried</token>
+            <token xml:id="t_4_6">-</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">The</token>
+            <token xml:id="t_5_2">Poet</token>
+            <token xml:id="t_5_3">searched</token>
+            <writing>
+               <token xml:id="t_5_4">Philogy</token>
+            </writing>
+         </line>
+         <line>
+            <token xml:id="t_6_1">And</token>
+            <token xml:id="t_6_2">was</token>
+            <token xml:id="t_6_3">about</token>
+            <token xml:id="t_6_4">to</token>
+            <token xml:id="t_6_5">ring</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">for</token>
+            <token xml:id="t_7_2">the</token>
+            <token xml:id="t_7_3">suspended</token>
+            <war>
+               <token xml:id="t_7_4">Candidate</token>
+            </war>
+         </line>
+         <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="adverb" possible_string="when"/>
+            <war/>
+            <token xml:id="t_8_1">There</token>
+            <token xml:id="t_8_2">came</token>
+            <token xml:id="t_8_3">unsummoned</token>
+            <token xml:id="t_8_4">in</token>
+            <token xml:id="t_8_5">-</token>
+         </line>
+         <!--also "advanced" as warlike imagery? -->
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_9_1">That</token>
+            <token xml:id="t_9_2">portion</token>
+            <token xml:id="t_9_3">of</token>
+            <token xml:id="t_9_4">the</token>
+            <religion type="thing">
+               <token xml:id="t_9_5">Vision</token>
+            </religion>
+            <writing/>
+         </line>
+         <line>
+            <token xml:id="t_10_1">The</token>
+            <token xml:id="t_10_2">Word</token>
+            <war>
+               <token xml:id="t_10_3">applied</token>
+            </war>
+            <token xml:id="t_10_4">to</token>
+            <token xml:id="t_10_5">fill</token>
+         </line>
+         <line>
+            <token xml:id="t_11_1">Not</token>
+            <token xml:id="t_11_2">unto</token>
+            <war>
+               <token xml:id="t_11_3">nomination</token>
+            </war>
+         </line>
+         <line>
+            <token xml:id="t_12_1">The</token>
+            <religion type="person">
+               <token xml:id="t_12_2">Cherubim</token>
+            </religion>
+            <love/>
+            <token xml:id="t_12_3">reveal</token>
+            <token xml:id="t_12_4">-</token>
+         </line>
+         <!--cherubim is religious, but it also has the connotation of love, so I tagged it as such -->
+      </stanza>
+   </body>
+</poem>
+<!-- 
+Shall I take thee, the Poet said
+To the propounded word?
+Be stationed with the Candidates
+Till I have  vainer  further finer tried -
+
+The Poet  probed searched Philology
+And  when  just was about to ring    (when and just are variants)
+for the suspended Candidate
+ Advanced There came unsummoned in -   (advanced is variant) (with what we have marked as variants, there needs to be a "when" before "advanced" or "there")
+
+That portion of the Vision
+The Word applied to fill
+Not unto nomination
+The Cherubim reveal -     (ellipsis here??)
+-->

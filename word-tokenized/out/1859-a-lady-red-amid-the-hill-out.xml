@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>A Lady red -- amid the Hill</first_line>
+      <date period="early">1859</date>
+      <poem_number>J74</poem_number>
+      <source> https://www.edickinson.org/editions/2/image_sets/12169202 </source>
+      <recipient>Susan Dickinson</recipient>
+      <poem_themes>
+         <theme>nature</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">A</token>
+            <character name="Lady red">
+               <token xml:id="t_1_2">Lady</token>
+               <token xml:id="t_1_3">red</token>
+            </character>
+            <token xml:id="t_1_4">--</token>
+            <token xml:id="t_1_5">amid</token>
+            <token xml:id="t_1_6">the</token>
+            <nature nature_type="earth">
+               <token xml:id="t_1_7">Hill</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_2_1">Her</token>
+            <time>
+               <token xml:id="t_2_2">annual</token>
+            </time>
+            <token xml:id="t_2_3">secret</token>
+            <token xml:id="t_2_4">keeps!</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">A</token>
+            <character name="Lady red">
+               <token xml:id="t_3_2">Lady</token>
+               <token xml:id="t_3_3">white</token>
+            </character>
+            <token xml:id="t_3_4">,</token>
+            <token xml:id="t_3_5">within</token>
+            <token xml:id="t_3_6">the</token>
+            <nature nature_type="earth">
+               <token xml:id="t_3_7">Field</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_4_1">In</token>
+            <nature nature_type="general">
+               <token xml:id="t_4_2">Placid</token>
+               <token xml:id="t_4_3">Lily</token>
+            </nature>
+            <token xml:id="t_4_4">sleeps!</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_5_1">The</token>
+            <token xml:id="t_5_2">tidy</token>
+            <nature nature_type="air">
+               <token xml:id="t_5_3">Breezes</token>
+            </nature>
+            <token xml:id="t_5_4">,</token>
+            <token xml:id="t_5_5">with</token>
+            <token xml:id="t_5_6">their</token>
+            <token xml:id="t_5_7">Brooms</token>
+            <token xml:id="t_5_8">--</token>
+         </line>
+         <line>
+            <token xml:id="t_6_1">Sweep</token>
+            <token xml:id="t_6_2">vale</token>
+            <token xml:id="t_6_3">--</token>
+            <token xml:id="t_6_4">and</token>
+            <nature nature_type="earth">
+               <token xml:id="t_6_5">hill</token>
+            </nature>
+            <token xml:id="t_6_6">--</token>
+            <token xml:id="t_6_7">and</token>
+            <nature nature_type="earth">
+               <token xml:id="t_6_8">tree!</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_7_1">Prithee,</token>
+            <token xml:id="t_7_2">My</token>
+            <token xml:id="t_7_3">pretty</token>
+            <social_class>
+               <token xml:id="t_7_4">Housewives</token>
+            </social_class>
+            <token xml:id="t_7_5">!</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">Who</token>
+            <token xml:id="t_8_2">may</token>
+            <token xml:id="t_8_3">expected</token>
+            <token xml:id="t_8_4">be?</token>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_9_1">The</token>
+            <token xml:id="t_9_2">Neighbors</token>
+            <token xml:id="t_9_3">do</token>
+            <token xml:id="t_9_4">not</token>
+            <token xml:id="t_9_5">yet</token>
+            <token xml:id="t_9_6">suspect!</token>
+         </line>
+         <line>
+            <token xml:id="t_10_1">The</token>
+            <nature nature_type="earth">
+               <token xml:id="t_10_2">Woods</token>
+            </nature>
+            <token xml:id="t_10_3">exchange</token>
+            <token xml:id="t_10_4">a</token>
+            <emotion emotion_type="happiness">
+               <token xml:id="t_10_5">smile!</token>
+            </emotion>
+         </line>
+         <line>
+            <nature nature_type="earth">
+               <token xml:id="t_11_1">Orchard</token>
+            </nature>
+            <token xml:id="t_11_2">,</token>
+            <token xml:id="t_11_3">and</token>
+            <nature nature_type="earth">
+               <token xml:id="t_11_4">Buttercup</token>
+            </nature>
+            <token xml:id="t_11_5">,</token>
+            <token xml:id="t_11_6">and</token>
+            <animal animal_type="bird">
+               <token xml:id="t_11_7">Bird</token>
+            </animal>
+         </line>
+         <line>
+            <token xml:id="t_12_1">In</token>
+            <token xml:id="t_12_2">such</token>
+            <token xml:id="t_12_3">a</token>
+            <time>
+               <token xml:id="t_12_4">little</token>
+               <token xml:id="t_12_5">while!</token>
+            </time>
+         </line>
+      </stanza>
+      <stanza>
+         <line>
+            <token xml:id="t_13_1">And</token>
+            <token xml:id="t_13_2">yet,</token>
+            <token xml:id="t_13_3">how</token>
+            <token xml:id="t_13_4">still</token>
+            <token xml:id="t_13_5">the</token>
+            <nature nature_type="earth">
+               <token xml:id="t_13_6">Landscape</token>
+            </nature>
+            <token xml:id="t_13_7">stands!</token>
+         </line>
+         <line>
+            <token xml:id="t_14_1">How</token>
+            <token xml:id="t_14_2">nonchalant</token>
+            <ellipsis ellipsis_type="verbal" possible_string="is"/>
+            <token xml:id="t_14_3">the</token>
+            <nature nature_type="general">
+               <token xml:id="t_14_4">Hedge</token>
+            </nature>
+            <token xml:id="t_14_5">!</token>
+         </line>
+         <line>
+            <ellipsis ellipsis_type="clausal" possible_string="it is"/>
+            <token xml:id="t_15_1">As</token>
+            <token xml:id="t_15_2">if</token>
+            <token xml:id="t_15_3">the</token>
+            <religion>
+               <token xml:id="t_15_4">"Resurrection"</token>
+            </religion>
+         </line>
+         <line>
+            <token xml:id="t_16_1">Were</token>
+            <token xml:id="t_16_2">nothing</token>
+            <token xml:id="t_16_3">very</token>
+            <token xml:id="t_16_4">strange!</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+A Lady red - amid the Hill   (a red lady)
+Her annual secret keeps!     (keeps her annual secret)
+A Lady white, within the Field 
+In Placid Lily sleeps! 
+
+The tidy Breezes, with their Brooms - 
+Sweep vale - and hill - and tree! 
+Prithee, My pretty Housewives! 
+Who may expected be? 
+
+The Neighbors do not yet suspect! 
+The Woods exchange a smile! 
+Orchard, and Buttercup, and Bird   (ellipsis here??)
+In such a little while! 
+
+And yet, how still the Landscape stands! 
+How nonchalant the Hedge! 
+As if the "Resurrection" 
+Were nothing very strange! 
+-->

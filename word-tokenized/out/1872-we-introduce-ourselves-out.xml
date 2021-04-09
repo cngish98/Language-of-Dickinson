@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>We introduce ourselves</first_line>
+      <date period="middle">1872</date>
+      <poem_number>J1214</poem_number>
+      <source>https://www.edickinson.org/editions/2/image_sets/12171903</source>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>the mind</theme>
+         <theme>nature</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">We</token>
+            <token xml:id="t_1_2">introduce</token>
+            <token xml:id="t_1_3">ourselves</token>
+         </line>
+         <line>
+            <token xml:id="t_2_1">To</token>
+            <nature nature_type="space">
+               <token xml:id="t_2_2">Planets</token>
+            </nature>
+            <token xml:id="t_2_3">and</token>
+            <token xml:id="t_2_4">to</token>
+            <nature nature_type="earth">
+               <token xml:id="t_2_5">Flowers</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_3_1">But</token>
+            <token xml:id="t_3_2">with</token>
+            <token xml:id="t_3_3">ourselves</token>
+         </line>
+         <line>
+            <ellipsis ellipsis_type="nominal"
+                      elided_pos="subject-pronoun"
+                      possible_string="we"/>
+            <token xml:id="t_4_1">Have</token>
+            <social_norm>
+               <token xml:id="t_4_2">etiquettes</token>
+            </social_norm>
+         </line>
+         <line>
+            <emotion emotion_type="embarrassment">
+               <token xml:id="t_5_1">Embarrassments</token>
+            </emotion>
+         </line>
+         <line>
+            <token xml:id="t_6_1">And</token>
+            <emotion emotion_type="wonder">
+               <token xml:id="t_6_2">awes</token>
+            </emotion>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!-- 
+We introduce ourselves
+To Planets and to Flowers
+But with ourselves
+Have etiquettes
+Embarrassments
+And awes
+-->

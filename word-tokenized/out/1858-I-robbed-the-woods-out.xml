@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+   <metadata>
+      <first_line>I robbed the woods</first_line>
+      <date period="early">1858</date>
+      <poem_number>J41</poem_number>
+      <source> https://www.edickinson.org/editions/2/image_sets/12169129 </source>
+      <recipient>none</recipient>
+      <poem_themes>
+         <theme>nature</theme>
+      </poem_themes>
+      <ellipsis_present>yes</ellipsis_present>
+   </metadata>
+   <body>
+      <stanza>
+         <line>
+            <token xml:id="t_1_1">I</token>
+            <token xml:id="t_1_2">robbed</token>
+            <token xml:id="t_1_3">the</token>
+            <nature nature_type="earth">
+               <token xml:id="t_1_4">Woods</token>
+            </nature>
+         </line>
+         <line>
+            <ellipsis ellipsis_type="clausal" possible_string="I robbed"/>
+            <token xml:id="t_2_1">The</token>
+            <nature nature_type="earth">
+               <token xml:id="t_2_2">trusting</token>
+               <token xml:id="t_2_3">Woods</token>
+            </nature>
+            <token xml:id="t_2_4">.</token>
+         </line>
+         <line>
+            <token xml:id="t_3_1">The</token>
+            <token xml:id="t_3_2">unsuspecting</token>
+            <nature nature_type="earth">
+               <token xml:id="t_3_3">Trees</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_4_1">Brought</token>
+            <token xml:id="t_4_2">out</token>
+            <token xml:id="t_4_3">their</token>
+         </line>
+         <line>
+            <token xml:id="t_5_1">Burs</token>
+            <token xml:id="t_5_2">and</token>
+            <nature nature_type="earth">
+               <token xml:id="t_5_3">mosses</token>
+            </nature>
+         </line>
+         <line>
+            <token xml:id="t_6_1">My</token>
+            <token xml:id="t_6_2">fantasy</token>
+            <token xml:id="t_6_3">to</token>
+            <token xml:id="t_6_4">please.</token>
+         </line>
+         <line>
+            <token xml:id="t_7_1">I</token>
+            <token xml:id="t_7_2">scanned</token>
+            <token xml:id="t_7_3">their</token>
+            <token xml:id="t_7_4">trinkets</token>
+            <token xml:id="t_7_5">curious</token>
+            <token xml:id="t_7_6">--</token>
+         </line>
+         <line>
+            <token xml:id="t_8_1">I</token>
+            <token xml:id="t_8_2">grasped</token>
+            <token xml:id="t_8_3">--</token>
+            <token xml:id="t_8_4">I</token>
+            <token xml:id="t_8_5">bore</token>
+            <token xml:id="t_8_6">away</token>
+            <token xml:id="t_8_7">--</token>
+         </line>
+         <line>
+            <token xml:id="t_9_1">What</token>
+            <token xml:id="t_9_2">will</token>
+            <token xml:id="t_9_3">the</token>
+            <emotion emotion_type="sadness">
+               <token xml:id="t_9_4">solemn</token>
+            </emotion>
+            <nature nature_type="earth">
+               <token xml:id="t_9_5">Hemlock</token>
+            </nature>
+            <token xml:id="t_9_6">-</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="say"/>
+         </line>
+         <line>
+            <token xml:id="t_10_1">What</token>
+            <token xml:id="t_10_2">will</token>
+            <token xml:id="t_10_3">the</token>
+            <nature nature_type="earth">
+               <token xml:id="t_10_4">Oak</token>
+               <token xml:id="t_10_5">tree</token>
+            </nature>
+            <token xml:id="t_10_6">say?</token>
+         </line>
+      </stanza>
+   </body>
+</poem>
+<!--POST PLAIN TEXT OF POEM BELOW 
+
+I robbed the Woods 
+The trusting Woods. 
+The unsuspecting Trees 
+Brought out their 
+Burs and mosses   (to please my fantasy)
+My fantasy to please.   
+I scanned their trinkets curious -    (curiously?) (then what to do about ellipsis??)
+I grasped - I bore away - 
+What will the solemn Hemlock - 
+What will the Oak tree say? 
+
+
+ -->
