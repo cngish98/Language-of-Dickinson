@@ -1,0 +1,73 @@
+/* I copied over the parts of the styling from our Dickinson site so that
+ * things would have the same feel and I could see if I liked it. */ 
+
+body {
+    background-color: #F7F8F1;
+}
+
+h1 {
+  color: black;
+  font-family: "Bitter", serif;
+  font-size: 300%;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
+h2 {
+    color: #6E8B4C;
+    font-family: "Open Sans", sans-serif;
+    font-size: 150%;
+    padding-left: 40px;
+    text-align: left;
+}
+
+h3 {color: #568f56;
+    font-family: "Open Sans", sans-serif;
+    font-size: 110%;
+    padding-left: 40px
+    
+}
+
+li {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    padding-left: 60px;
+}
+
+span.religion {color: blue
+    
+}
+
+span.uncertainty {color: purple
+    
+}
+
+span.nominal {color: pink
+
+}
+
+span.verbal {color: green
+
+}
+
+span.clausal {color: orange
+    
+}
+
+span.ambiguous {color: red
+
+}
+
+.text-box {
+    border: 1px solid black;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width: 65%;
+}
