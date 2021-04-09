@@ -32,7 +32,7 @@
             <token xml:id="t_2_5">-</token>
          </line>
          <line>
-            <ellipsis ellipsis_type="" possible_string="where"/>
+            <ellipsis ellipsis_type="clausal" possible_string="where"/>
             <token xml:id="t_3_1">No</token>
             <death>
                <token xml:id="t_3_2">Dead</token>

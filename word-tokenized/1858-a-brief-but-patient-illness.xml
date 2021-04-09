@@ -106,7 +106,7 @@
             <token xml:id="t_10_5">may</token>
             <token xml:id="t_10_6">be</token>
             <token xml:id="t_10_7">-</token>
-            <ellipsis ellipsis_type=""/>    <!-- what to call this? -->
+            <ellipsis ellipsis_type="ambiguous"/>    <!-- what to call this? -->
          </line>
          <line>
             <time>
