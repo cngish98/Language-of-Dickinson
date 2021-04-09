@@ -13,7 +13,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="gish_04-07_xslt-06.css"/>
+                <link rel="stylesheet" type="text/css" href="reading_view-1.css"/>
                 <title>Dickinson Poems</title>
             </head>
             <body>
