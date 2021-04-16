@@ -71,3 +71,8 @@ span.ambiguous {color: red
     padding: 30px;
     width: 65%;
 }
+
+.sidebar-box {
+    border: 1px solid black;
+    width: 65%;
+}

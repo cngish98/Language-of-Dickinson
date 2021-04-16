@@ -5,6 +5,9 @@
     version="3.0">
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
+    
+    <xsl:variable name="poems_corpus"
+        select="collection('tokenized-poems/?select=*.xml')"/>
 
     <!-- first draft of what we could potentially do for the reading view
         definitely needs revisiting
@@ -17,8 +20,23 @@
                 <title>Dickinson Poems</title>
             </head>
             <body>
+                <div class='sidebar-box'>
+                    <h5>Tags: ellipsis</h5>
+                    <div class='sidebar-selecting-container'>
+                        <input type="checkbox" id="nominal" name="nominal"/>
+                            <label for="nominal">Nominal</label><br/>
+                        <input type="checkbox" id="verbal" name="verbal"/>
+                        <label for="verbal">Verbal</label><br/>
+                        <input type="checkbox" id="clausal" name="clausal"/>
+                        <label for="clausal">Clausal</label><br/>
+                        <input type="checkbox" id="ambiguous" name="ambiguous"/>
+                        <label for="ambiguous">Ambiguous</label>
+                    
+                    </div>
+                </div>
                <div class="text-box">
-                   <xsl:apply-templates/>
+                   <!-- <xsl:apply-templates select="$poems_corpus//metadata"/>
+                   <xsl:apply-templates select="$poems_corpus//body"/> -->
                </div>
             </body>
         </html>
