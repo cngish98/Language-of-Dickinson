@@ -12,13 +12,41 @@
     <xsl:template name="xsl:initial-template">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="reading_view-1.css"/> <!-- edit href for output location -->
-                <title>Dickinson Poems</title>
+                <title>Emily Dickinson &amp; Ellipsis</title>
+                <link rel="stylesheet" type="text/css" href="reading_view-1.css"/>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter%7COpen+Sans" />
+                <link rel="shortcut icon" type="image/jpeg" href="dickinson-portrait.jpeg"/>
             </head>
             <body>
+                
+                
+                <div class="heading-container">
+                    <img src="dickinson-portrait.jpeg" id="portrait" alt="portrait of Emily Dickinson"/>
+                    <h1>EMILY DICKINSON &amp; ELLIPSIS</h1>
+                    <h2>a digital humanities project</h2>
+                </div>
+                
+                <div class='menu-container'>
+                    <div class='menu'>
+                        <a href='index.xhtml'>home</a>
+                        
+                        <a href='about.xhtml'>about</a>
+                        
+                        <a href='corpus.xhtml'>corpus</a>
+                        
+                        <a href='methods.xhtml'>methods</a>
+                        
+                        <a href='results.xhtml'>results</a>
+                    </div>
+                </div>
+                
                 <div class='sidebar-box'>
-                    <h5>Tags: ellipsis</h5>
+                    <!--Ideally should be hidden when the viewer is only 
+                    looking at the table -->
+                    <h2 class="sidebar-header">I want to highlight:</h2>
+           
                     <div class='sidebar-selecting-container'>
+                        <h3 class="sidebar-header">Ellipsis</h3>
                         <input type="checkbox" id="nominal" name="nominal"/>
                             <label for="nominal">Nominal</label><br/>
                         <input type="checkbox" id="verbal" name="verbal"/>
@@ -28,19 +56,64 @@
                         <input type="checkbox" id="ambiguous" name="ambiguous"/>
                         <label for="ambiguous">Ambiguous</label>
                     </div>
+                    
+                    <div class='sidebar-selecting-container'>
+                        <h3 class="sidebar-header">Theme</h3>
+                        <input type="checkbox" id="nature" name="nature"/>
+                        <label for="nature">Nature</label><br/>
+                        <input type="checkbox" id="religion" name="religion"/>
+                        <label for="religion">Religion</label><br/>
+                        <input type="checkbox" id="writing" name="writing"/>
+                        <label for="writing">Writing</label><br/>
+                    </div>
                 </div>
+                
+                <h1>Dickinson's Poems</h1>
+                <h2>Search for poems here</h2>
+                <table> 
+                    <tr>
+                        <th>First line / title</th>
+                        <th>Date</th>
+                        <th>Recipient?</th>
+                        <th>Ellipsis present?</th>
+                        <th>Themes</th>
+                    </tr>
+                    
+                    <xsl:apply-templates select="$poems_corpus//metadata" mode="table"/>
+                </table>
+                
                <div class="text-box">
                    <xsl:apply-templates select="$poems_corpus"/>
-<!--                    <xsl:apply-templates select="$poems_corpus//metadata"/>
-                   <xsl:apply-templates select="$poems_corpus//body"/> -->
                </div>
             </body>
         </html>
     </xsl:template>
 
 <!-- METADATA -->
+    
+    <xsl:template match="metadata" mode="table">
+        <tr>
+            <td>
+                <a href="#poem{first_line}"><xsl:apply-templates select="first_line"/>
+                </a>
+            </td>
+            <td>
+                <xsl:apply-templates select="date"/>
+            </td>
+            <td>
+                <xsl:apply-templates select="recipient"/>
+            </td>
+            <td>
+                <xsl:apply-templates select="ellipsis_present"/>
+            </td>
+            <td>
+                <xsl:apply-templates select="poem_themes"/>
+            </td>
+        </tr>
+    </xsl:template>
+    
     <xsl:template match="metadata">
-        <h1>
+        <h1 id="poem{first_line}">
             <xsl:text>"</xsl:text>
             <xsl:apply-templates select="first_line"/>
             <xsl:text>"</xsl:text>
@@ -61,6 +134,7 @@
     </xsl:template>
  
  <!-- BODY -->
+    
     <xsl:template match="stanza">
         <p>
             <xsl:apply-templates/>
