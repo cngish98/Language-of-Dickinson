@@ -6,13 +6,9 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
     
-    <xsl:variable name="poems_corpus"
-        select="collection('tokenized-poems/?select=*.xml')"/>
-
-    <!-- first draft of what we could potentially do for the reading view
-        definitely needs revisiting
-    -->
-
+<!--    <xsl:variable name="poems_corpus"
+        select="collection('tokenized-poems/?select=*.xml')"/>-->
+    
     <xsl:template match="/">
         <html>
             <head>
@@ -31,10 +27,10 @@
                         <label for="clausal">Clausal</label><br/>
                         <input type="checkbox" id="ambiguous" name="ambiguous"/>
                         <label for="ambiguous">Ambiguous</label>
-                    
                     </div>
                 </div>
                <div class="text-box">
+                   <xsl:apply-templates/>
                    <!-- <xsl:apply-templates select="$poems_corpus//metadata"/>
                    <xsl:apply-templates select="$poems_corpus//body"/> -->
                </div>
@@ -59,7 +55,7 @@
             <xsl:text> period</xsl:text>
         </h2>
         <h3>
-            <xsl:text>themes: </xsl:text>
+            <xsl:text>themes: </xsl:text>       <!-- how do we want these to be shown / separated on the site? -->
             <xsl:apply-templates select="poem_themes"/>
         </h3>
     </xsl:template>
@@ -78,6 +74,16 @@
         </xsl:if>
     </xsl:template>
     
+    <!-- inserts a [...] for every instance of ellipsis -->
+    <xsl:template match="ellipsis">
+        <xsl:text>[...</xsl:text>
+        <span class="{@ellipsis_type}">
+            <xsl:apply-templates/>
+        </span>
+        <xsl:text>]</xsl:text>
+    </xsl:template>
+    
+    <!-- inserts possible string into [ ] for every instance of ellipsis --> <!-- Q: what happens, then, when there is no possible string? -->
     <xsl:template match="ellipsis">
         <xsl:text>[</xsl:text>
         <span class="{@ellipsis_type}">
@@ -87,7 +93,7 @@
         <xsl:text>]</xsl:text>
     </xsl:template>
     
-    <xsl:template match="variant | character | emotion 
+    <xsl:template match="character | emotion 
         | animal | place | nature | love | death | life | memory | childhood | 
         time | social_norm | war | religion | writing | science | music | 
         law | mind | physical_body | eating | solitude | supernatural | violence | 

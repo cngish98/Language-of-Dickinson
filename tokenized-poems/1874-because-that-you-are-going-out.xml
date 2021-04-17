@@ -15,7 +15,7 @@
          <theme>relationships</theme>
          <theme>religion</theme>
       </poem_themes>
-      <ellipsis_present/>
+      <ellipsis_present>ambiguous</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -535,7 +535,7 @@ have been
 A Thing I
 never knew
 As Paradise
-fictitoiusfictitious
+fictitious
 Until the Realm
 of you -
 
