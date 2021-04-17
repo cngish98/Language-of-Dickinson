@@ -27,11 +27,11 @@
             <token xml:id="t_1_10">--</token>
          </line>
          <line>
-            <ellipsis ellipsis_type="clausal" elided_pos="conjunction"/>
             <token xml:id="t_2_1">A</token>
             <token xml:id="t_2_2">little</token>
             <token xml:id="t_2_3">trust</token>
             <token xml:id="t_2_4">--</token>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_2_5">a</token>
             <token xml:id="t_2_6">demijohn</token>
             <token xml:id="t_2_7">--</token>
@@ -49,12 +49,14 @@
             <token xml:id="t_4_2">portly,</token>
             <token xml:id="t_4_3">mind!</token>
             <token xml:id="t_4_4">but</token>
+            <ellipsis ellipsis_type="clausal" possible_string="they can keep it"/>
             <token xml:id="t_4_5">breathing</token>
             <token xml:id="t_4_6">--</token>
             <token xml:id="t_4_7">warm</token>
             <token xml:id="t_4_8">--</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="and as"/>
             <token xml:id="t_5_1">Conscious</token>
             <token xml:id="t_5_2">--</token>
             <token xml:id="t_5_3">as</token>
@@ -81,6 +83,7 @@
             <token xml:id="t_7_8">--</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" possible_string="and"/>
             <token xml:id="t_8_1">A</token>
             <token xml:id="t_8_2">brief</token>
             <token xml:id="t_8_3">Campaign</token>

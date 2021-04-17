@@ -71,6 +71,7 @@
             <token xml:id="t_8_3">whole</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="ambiguous"/>
             <token xml:id="t_9_1">Force</token>
             <nature nature_type="fire">
                <token xml:id="t_9_2">Flame</token>

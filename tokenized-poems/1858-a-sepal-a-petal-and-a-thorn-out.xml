@@ -42,7 +42,7 @@
                <token xml:id="t_2_5">morn</token>
             </time>
             <token xml:id="t_2_6">-</token>
-            <ellipsis ellipsis_type="verbal"/>
+            <ellipsis ellipsis_type="ambiguous"/>
             <!-- do not know much more than this -->
          </line>
          <line>
@@ -75,7 +75,7 @@
                <token xml:id="t_4_7">trees</token>
             </nature>
             <token xml:id="t_4_8">-</token>
-            <ellipsis ellipsis_type="verbal"/>
+            <ellipsis ellipsis_type="ambiguous"/>
             <!-- do not know much more than this -->
          </line>
          <line>

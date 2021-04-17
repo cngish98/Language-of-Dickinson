@@ -37,6 +37,7 @@
             </music>
          </line>
          <line>
+            <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_3_1">Whose</token>
             <token xml:id="t_3_2">galleries</token>
             <token xml:id="t_3_3">--</token>
@@ -94,6 +95,7 @@
             <token xml:id="t_8_1">In</token>
             <token xml:id="t_8_2">"Recess"</token>
             <token xml:id="t_8_3">--</token>
+            <ellipsis ellipsis_type="verbal" possible_string="is"/>
             <token xml:id="t_8_4">Overhead!</token>
          </line>
       </stanza>

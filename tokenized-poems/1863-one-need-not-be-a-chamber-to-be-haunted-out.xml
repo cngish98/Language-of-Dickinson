@@ -70,7 +70,7 @@
             <token xml:id="t_5_6">Meeting</token>
          </line>
          <line>
-            <ellipsis ellipsis_type="clausal" possible_string="is an"/>
+            <ellipsis ellipsis_type="verbal" possible_string="is an"/>
             <!-- is it clausal?? -->
             <supernatural>
                <token xml:id="t_6_1">External</token>

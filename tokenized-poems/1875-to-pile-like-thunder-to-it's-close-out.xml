@@ -13,7 +13,7 @@
          <theme>religion</theme>
          <theme>writing</theme>
       </poem_themes>
-      <ellipsis_present>no</ellipsis_present>
+      <ellipsis_present>yes</ellipsis_present>
    </metadata>
    <body>
       <stanza>
@@ -58,6 +58,7 @@
       <stanza>
          <line>
             <token xml:id="t_5_1">Or</token>
+            <ellipsis ellipsis_type="clausal" possible_string="this would be"/>
             <love>
                <token xml:id="t_5_2">Love</token>
             </love>

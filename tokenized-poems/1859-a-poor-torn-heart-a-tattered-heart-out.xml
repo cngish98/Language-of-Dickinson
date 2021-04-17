@@ -93,6 +93,7 @@
                <token xml:id="t_8_3">unknown</token>
             </place>
             <token xml:id="t_8_4">.</token>
+            <ellipsis ellipsis_type="ambiguous"/>
          </line>
       </stanza>
       <stanza>
@@ -138,6 +139,7 @@
          <line>
             <token xml:id="t_13_1">There</token>
             <token xml:id="t_13_2">--</token>
+            <ellipsis ellipsis_type="ambiguous"/>
             <token xml:id="t_13_3">sandals</token>
             <token xml:id="t_13_4">for</token>
             <token xml:id="t_13_5">the</token>
@@ -147,9 +149,6 @@
             <token xml:id="t_13_7">--</token>
          </line>
          <line>
-            <ellipsis ellipsis_type="clausal"
-                      elided_pos="conjunction"
-                      possible_string="and"/>
             <token xml:id="t_14_1">There</token>
             <token xml:id="t_14_2">--</token>
             <token xml:id="t_14_3">gathered</token>
@@ -180,7 +179,7 @@
 </poem>
 <!--POST PLAIN TEXT OF POEM BELOW 
 A poor - torn heart - a tattered heart - 
-That sat it down to rest - 
+That sat it down to rest -         (sat itself down)
 Nor noticed that the 
 Ebbing Day Flowed silver to the West 
 Nor noticed Night did soft descend - 

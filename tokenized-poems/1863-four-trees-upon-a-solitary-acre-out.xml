@@ -76,6 +76,7 @@
                <token xml:id="t_6_1">The</token>
                <token xml:id="t_6_2">Wind</token>
             </nature>
+            <ellipsis ellipsis_type="ambiguous"/>
             <token xml:id="t_6_3">-</token>
          </line>
          <line>
@@ -109,6 +110,7 @@
          </line>
          <line>
             <token xml:id="t_10_1">They</token>
+            <ellipsis ellipsis_type="verbal" possible_string="give"/>
             <token xml:id="t_10_2">-</token>
             <token xml:id="t_10_3">Him</token>
             <token xml:id="t_10_4">-</token>
@@ -172,6 +174,7 @@
          </line>
          <!--elision?-->
          <line>
+            <ellipsis ellipsis_type="ambiguous"/>
             <uncertainty>
                <token xml:id="t_16_1">Unknown</token>
             </uncertainty>

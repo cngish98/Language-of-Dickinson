@@ -63,6 +63,7 @@
             <token xml:id="t_5_5">appears,</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="nominal" elided_pos="determiner-art" possible_string="the"/>
             <animal animal_type="bird">
                <token xml:id="t_6_1">Robin</token>
             </animal>

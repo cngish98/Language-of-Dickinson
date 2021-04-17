@@ -17,6 +17,7 @@
    <body>
       <stanza>
          <line>
+            <ellipsis ellipsis_type="verbal" possible_string="it is"/>
             <token xml:id="t_1_1">A</token>
             <token xml:id="t_1_2">Solemn</token>
             <token xml:id="t_1_3">thing</token>
@@ -77,8 +78,10 @@
       </stanza>
       <stanza>
          <line>
+            <ellipsis ellipsis_type="verbal" possible_string="it is"/>
             <token xml:id="t_7_1">A</token>
             <token xml:id="t_7_2">Wonderful</token>
+            <ellipsis ellipsis_type="clausal" possible_string="thing within the soul"/>
             <token xml:id="t_7_3">--</token>
             <token xml:id="t_7_4">to</token>
             <token xml:id="t_7_5">feel</token>
@@ -138,6 +141,7 @@
             <emotion emotion_type="solemn">
                <token xml:id="t_13_2">solemnest</token>
             </emotion>
+            <ellipsis ellipsis_type="verbal" possible_string="it is"/>
             <token xml:id="t_13_3">--</token>
             <token xml:id="t_13_4">to</token>
             <token xml:id="t_13_5">know</token>
@@ -162,6 +166,7 @@
             </nature>
          </line>
          <line>
+            <ellipsis ellipsis_type="ambiguous"/>
             <token xml:id="t_16_1">The</token>
             <token xml:id="t_16_2">Single</token>
             <token xml:id="t_16_3">--</token>

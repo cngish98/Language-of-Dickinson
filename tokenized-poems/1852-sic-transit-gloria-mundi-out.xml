@@ -360,12 +360,12 @@
          </line>
          <line>
             <token xml:id="t_43_1">Rascality,</token>
-            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="is"/>
+            <ellipsis ellipsis_type="verbal" elided_pos="copula" possible_string="is"/>
             <token xml:id="t_43_2">heroic</token>
          </line>
          <line>
             <token xml:id="t_44_1">Insolvency,</token>
-            <ellipsis ellipsis_type="verbal" elided_pos="verb" possible_string="is"/>
+            <ellipsis ellipsis_type="verbal" elided_pos="copula" possible_string="is"/>
             <token xml:id="t_44_2">sublime</token>
          </line>
       </stanza>

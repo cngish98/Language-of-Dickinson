@@ -71,6 +71,7 @@
          </line>
          <line>
             <token xml:id="t_7_1">Many</token>
+            <ellipsis ellipsis_type="ambiguous"/>
             <token xml:id="t_7_2">-</token>
             <token xml:id="t_7_3">the</token>
             <token xml:id="t_7_4">sails</token>

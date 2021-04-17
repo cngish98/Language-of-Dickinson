@@ -58,7 +58,7 @@
             <token xml:id="t_6_2">chancel</token>
             <!-- religious -->
             <token xml:id="t_6_3">-</token>
-            <ellipsis ellipsis_type="verbal" possible_string="is"/>
+            <ellipsis ellipsis_type="verbal" elided_pos="copula" possible_string="is"/>
             <token xml:id="t_6_4">all</token>
             <token xml:id="t_6_5">the</token>
             <token xml:id="t_6_6">plain</token>

@@ -134,6 +134,7 @@
             <animal animal_type="bird">
                <token xml:id="t_11_7">Bird</token>
             </animal>
+            <ellipsis ellipsis_type="ambiguous"/>
          </line>
          <line>
             <token xml:id="t_12_1">In</token>
@@ -160,7 +161,7 @@
          <line>
             <token xml:id="t_14_1">How</token>
             <token xml:id="t_14_2">nonchalant</token>
-            <ellipsis ellipsis_type="verbal" possible_string="is"/>
+            <ellipsis ellipsis_type="verbal" elided_pos="copula" possible_string="is"/>
             <token xml:id="t_14_3">the</token>
             <nature nature_type="general">
                <token xml:id="t_14_4">Hedge</token>

@@ -22,6 +22,7 @@
                <token xml:id="t_1_3">fellow</token>
             </animal>
             <token xml:id="t_1_4">,</token>
+            <ellipsis ellipsis_type="verbal" elided_pos="copula" possible_string="is"/>
             <token xml:id="t_1_5">without</token>
             <physical_body>
                <token xml:id="t_1_6">feet</token>
@@ -30,6 +31,7 @@
          </line>
          <line>
             <token xml:id="t_2_1">Yet</token>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-pronoun" possible_string="he"/>
             <token xml:id="t_2_2">doth</token>
             <token xml:id="t_2_3">exceeding</token>
             <token xml:id="t_2_4">run!</token>
@@ -184,6 +186,7 @@
          <line>
             <token xml:id="t_18_1">By</token>
             <token xml:id="t_18_2">me!</token>
+            <ellipsis ellipsis_type="ambiguous"/>
             <token xml:id="t_18_3">But</token>
             <token xml:id="t_18_4">who</token>
             <token xml:id="t_18_5">am</token>

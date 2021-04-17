@@ -185,6 +185,7 @@
             <religion>
                <token xml:id="t_11_6">sovreign,</token>
             </religion>
+            <ellipsis ellipsis_type="verbal" elided_pos="aux-verb" possible_string="will"/>
             <token xml:id="t_11_7">be</token>
             <token xml:id="t_11_8">hanged</token>
             <token xml:id="t_11_9">on</token>
@@ -394,6 +395,7 @@
             <time>
                <token xml:id="t_23_8">eventide</token>
             </time>
+            <ellipsis ellipsis_type="verbal" possible_string="is married"/>
             <token xml:id="t_23_9">;</token>
          </line>
          <line>
@@ -469,11 +471,14 @@
             <token xml:id="t_28_10">lone,</token>
          </line>
          <line>
+            <ellipsis ellipsis_type="nominal" elided_pos="subject-pronoun" possible_string="you" v="1"/>
+            <ellipsis ellipsis_type="clausal" possible_string="and" v="2"/>
             <token xml:id="t_29_1">Wilt</token>
             <token xml:id="t_29_2">have</token>
             <token xml:id="t_29_3">no</token>
             <token xml:id="t_29_4">kind</token>
             <token xml:id="t_29_5">companion,</token>
+            <ellipsis ellipsis_type="clausal" possible_string="because" v="2"/>
             <token xml:id="t_29_6">thou</token>
             <token xml:id="t_29_7">reap'st</token>
             <token xml:id="t_29_8">what</token>
@@ -483,6 +488,7 @@
          </line>
          <line>
             <token xml:id="t_30_1">Hast</token>
+            <ellipsis ellipsis_type="nominal" possible_string="you"/>
             <token xml:id="t_30_2">never</token>
             <token xml:id="t_30_3">silent</token>
             <token xml:id="t_30_4">hours,</token>
@@ -626,6 +632,7 @@
             <token xml:id="t_39_4">what</token>
             <token xml:id="t_39_5">she</token>
             <token xml:id="t_39_6">asketh,</token>
+            <ellipsis ellipsis_type="clausal" possible_string="be it"/>
             <token xml:id="t_39_7">jewel,</token>
             <token xml:id="t_39_8">or</token>
             <animal animal_type="bird">
@@ -681,7 +688,7 @@
         Unwind the solemn twine, and tie my Valentine!
         
         Oh the Earth was made for lovers, for damsel, and hopeless swain,
-        For sighing, and gentle whispering, and unity made of twain.
+        For sighing, and gentle whispering, and unity made of twain.   (taking this as a list of sorts, not marking any ellipsis)
         All things do go a courting, in earth, or sea, or air,
         God hath made nothing single but thee in His world so fair!
         The bride, and then the bridegroom, the two, and then the one,

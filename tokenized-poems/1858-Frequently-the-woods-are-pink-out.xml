@@ -27,7 +27,7 @@
          <line>
             <token xml:id="t_2_1">Frequently,</token>
             <ellipsis ellipsis_type="nominal"
-                      elided_pos="subject-noun"
+                      elided_pos="subject-np"
                       possible_string="the woods"/>
             <token xml:id="t_2_2">are</token>
             <token xml:id="t_2_3">brown.</token>
@@ -101,6 +101,7 @@
          </line>
          <line>
             <token xml:id="t_11_1">Wonderful</token>
+            <ellipsis ellipsis_type="ambiguous"/>
          </line>
          <line>
             <token xml:id="t_12_1">By</token>
@@ -118,7 +119,7 @@ Frequently the hills undress
 Behind my native town - 
 Oft a head is crested 
 I was wont to see - 
-And as oft a cran n y          (ellipsis from here on idk)
+And as oft a cran n y          (ellipsis from here on)
 Where it used to be - 
 And the Earth - they tell me 
 On it's axis turned! 

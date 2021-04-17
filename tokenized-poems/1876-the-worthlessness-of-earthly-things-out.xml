@@ -41,7 +41,7 @@
             <token xml:id="t_3_1">And</token>
             <token xml:id="t_3_2">then</token>
             <token xml:id="t_3_3">-</token>
-            <ellipsis ellipsis_type="nominal"/>
+            <ellipsis ellipsis_type="nominal" possible_string="it"/>
             <token xml:id="t_3_4">enforces</token>
             <token xml:id="t_3_5">their</token>
             <emotion emotion_type="happiness">
