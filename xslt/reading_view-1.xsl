@@ -6,13 +6,13 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
     
-<!--    <xsl:variable name="poems_corpus"
-        select="collection('tokenized-poems/?select=*.xml')"/>-->
+    <xsl:variable name="poems_corpus" as="document-node()+"
+        select="collection('../tokenized-poems/?select=*.xml')"/>
     
-    <xsl:template match="/">
+    <xsl:template name="xsl:initial-template">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="reading_view-1.css"/>
+                <link rel="stylesheet" type="text/css" href="reading_view-1.css"/> <!-- edit href for output location -->
                 <title>Dickinson Poems</title>
             </head>
             <body>
@@ -30,8 +30,8 @@
                     </div>
                 </div>
                <div class="text-box">
-                   <xsl:apply-templates/>
-                   <!-- <xsl:apply-templates select="$poems_corpus//metadata"/>
+                   <xsl:apply-templates select="$poems_corpus"/>
+<!--                    <xsl:apply-templates select="$poems_corpus//metadata"/>
                    <xsl:apply-templates select="$poems_corpus//body"/> -->
                </div>
             </body>
@@ -83,7 +83,7 @@
         <xsl:text>]</xsl:text>
     </xsl:template>
     
-    <!-- inserts possible string into [ ] for every instance of ellipsis --> <!-- Q: what happens, then, when there is no possible string? -->
+<!--    <!-\- inserts possible string into [ ] for every instance of ellipsis -\-> <!-\- Q: what happens, then, when there is no possible string? -\->
     <xsl:template match="ellipsis">
         <xsl:text>[</xsl:text>
         <span class="{@ellipsis_type}">
@@ -91,7 +91,7 @@
             <xsl:apply-templates select="@possible_string"/>
         </span>
         <xsl:text>]</xsl:text>
-    </xsl:template>
+    </xsl:template>-->
     
     <xsl:template match="character | emotion 
         | animal | place | nature | love | death | life | memory | childhood | 
