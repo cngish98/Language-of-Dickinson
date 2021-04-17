@@ -102,6 +102,35 @@ a:hover {
   width: 90%;
 }
 
+/*  Filtering panel at the top with checkboxes */
+input[type="checkbox"] {
+    margin-left: 10%;
+}
+
+label {
+    font-size: 90%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.sidebar-header {
+    text-align: left;
+}
+
+.poems-filtering-box {
+    background-color: #EAECDA;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    width: 90%;
+}
+
+.poems-filtering-container {
+    padding: 10px;
+}
 
 /*  Sidebar with checkboxes */
 input[type="checkbox"] {
