@@ -184,7 +184,7 @@
         </tr>
     </xsl:template>
 
-<!--=====================POEMS DISPLAY=============================================-->
+    <!--=====================POEMS DISPLAY=============================================-->
     <xsl:template match="metadata">
         <h1 id="poem{first_line}">
             <xsl:text>"</xsl:text>

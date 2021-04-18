@@ -1,4 +1,6 @@
-/* General styling */
+/* 
+ * 
+ * General styling */
 
 body {
     background-color: #F7F8F1;
@@ -70,7 +72,10 @@ a:hover {
     width: 65%;
 }
 
-/*  Navigational menu */
+/*  Navigational menu 
+ * 
+ * 
+ * */
 .menu a:link {
     color: #967D4A;
     margin-top: 10px;
@@ -101,7 +106,10 @@ a:hover {
   width: 90%;
 }
 
-/*  Filtering panel at the top with checkboxes */
+/*  Filtering panel at the top with checkboxes 
+ * 
+ * 
+ * */
 input[type="checkbox"] {
     margin-left: 10%;
 }
@@ -131,7 +139,10 @@ label {
     padding: 10px;
 }
 
-/*  Sidebar with checkboxes */
+/*  Sidebar with checkboxes 
+ * 
+ * 
+ * */
 input[type="checkbox"] {
     margin-left: 10%;
 }
@@ -151,16 +162,23 @@ label {
     background-color: #EAECDA;
     border: 1px solid black;
     float: left;
+    left: 5%;
     padding-right: 5%;
     padding-bottom: 1%;
-    width: 20%;
+    /* position: fixed; */
+    top: 5%;
+    width: 25%;
+    z-index: 1; 
 }
 
 .sidebar-selecting-container {
     padding: 10px;
 }
 
-/* Table of contents */
+/* Table of contents 
+ * 
+ * 
+ * */
 table {
     margin-bottom: 50px;
 }
@@ -178,7 +196,10 @@ td, th {
   vertical-align: middle;
 }
 
-/* Tooltip styling */
+/* Tooltip styling 
+ * 
+ * 
+ * */
 
 .tooltip {
   border-bottom: 1px dotted black; 
@@ -206,7 +227,10 @@ td, th {
   visibility: visible;
 }
 
-/* Styling for elements in the poems */
+/* Styling for elements in the poems 
+ * 
+ * 
+ * */
 
 span {
     font-weight: bold;
