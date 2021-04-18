@@ -139,6 +139,8 @@ input[type="checkbox"] {
 label {
     font-size: 90%;
     font-family: "Open Sans", sans-serif;
+    padding-bottom: 5%;
+    text-align: center;
 }
 
 .sidebar-header {
@@ -180,7 +182,6 @@ td, th {
 
 .tooltip {
   border-bottom: 1px dotted black; 
-  display: inline-block;
   position: relative;
 }
 
@@ -207,26 +208,38 @@ td, th {
 
 /* Styling for elements in the poems */
 
-span.religion {color: blue
-    
+span.body, span.eating, span.violence {
+    color: red;
 }
 
-span.uncertainty {color: purple
-    
+span.character {
+    color: #d56cd9; /* pinkish */
 }
 
-span.nominal {color: pink
-
+span.emotion, span.love, span.loss, span.mind, span.solitude, span.uncertainty {
+    color: purple;
 }
 
-span.verbal {color: green
-
+span.law, span.music, span.science, span.writing {
+    color: #856a6c; /* reddish-mauve color */
 }
 
-span.clausal {color: orange
-    
+span.nature, span.animal {
+    color: green;
 }
 
-span.ambiguous {color: red
+span.religion, span.supernatural {  
+    color: #2a5fa3;  /*  muted blue */
+}
 
+span.social_norms, span.social_class, span.war, span.wealth, span.labor {
+    color: #b09012; /* ochre */
+}
+
+span.childhood, span.memory, span.time {
+    color: #9b93bd; /*  periwinkle */
+}
+
+span.life, span.death, span.light, span.darkness {
+    color: #88cf9f; /* minty  */
 }

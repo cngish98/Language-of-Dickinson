@@ -20,7 +20,7 @@
             </head>
             <body>
 
-
+<!--=====================Website header and menu=================================-->
                 <div class="heading-container">
                     <img src="dickinson-portrait.jpeg" id="portrait"
                         alt="portrait of Emily Dickinson"/>
@@ -41,7 +41,8 @@
                         <a href="results.xhtml">results</a>
                     </div>
                 </div>
-
+                
+<!--==================Checkboxes for filtering poems=================================-->
                 <h1>Dickinson's Poems</h1>
                 <div class="poems-filtering-box">
                     <h2 class="sidebar-header">I want to view poems by:</h2>
@@ -83,6 +84,7 @@
                     </div>
                 </div>
 
+<!--=====================Sidebar: checkboxes for adding color to attributes=================================-->
                 <div class="sidebar-box">
                     <!--Ideally should be hidden when the viewer is only 
                     looking at the table -->
@@ -90,6 +92,7 @@
 
                     <div class="sidebar-selecting-container">
                         <h3 class="sidebar-header">Ellipsis</h3>
+                        
                         <input type="checkbox" id="nominal" name="nominal"/>
                         <label for="nominal">Nominal</label>
                         <br/>
@@ -105,18 +108,38 @@
 
                     <div class="sidebar-selecting-container">
                         <h3 class="sidebar-header">Theme</h3>
+                        
+                        <input type="checkbox" id="disciplines" name="disciplines"/>
+                        <label for="disciplines"><strong>The body and related concepts</strong> (eating, violence)</label>
+                        <br/>
+                        <input type="checkbox" id="disciplines" name="disciplines"/>
+                        <label for="disciplines"><strong>Disciplines</strong> (law, music, science, writing)</label>
+                        <br/>
+                        <input type="checkbox" id="emotion" name="emotion"/>
+                        <label for="emotion"><strong>Emotions / state of mind</strong> (emotions, loss, love, the mind, solitude, uncertainty)</label>
+                        <br/>
                         <input type="checkbox" id="nature" name="nature"/>
-                        <label for="nature">Nature</label>
+                        <label for="nature"><strong>Nature and animals</strong></label>
+                        <br/>
+                        <input type="checkbox" id="relationships" name="relationships"/>
+                        <label for="relationships"><strong>Interpersonal relationships</strong> (characters)</label>
                         <br/>
                         <input type="checkbox" id="religion" name="religion"/>
-                        <label for="religion">Religion</label>
+                        <label for="religion"><strong>Religion and the supernatural</strong></label>
                         <br/>
-                        <input type="checkbox" id="writing" name="writing"/>
-                        <label for="writing">Writing</label>
+                        <input type="checkbox" id="social" name="social"/>
+                        <label for="social"><strong>Social constructs and allusions</strong> (social norms, social class, war, wealth, labor)</label>
+                        <br/>
+                        <input type="checkbox" id="time" name="time"/>
+                        <label for="time"><strong>Time-based experiences</strong> (childhood, memory, time)</label>
+                        <br/>
+                        <input type="checkbox" id="abstract" name="abstract"/>
+                        <label for="abstract"><strong>Other abstract concepts</strong> (life, death, light, darkness)</label>
                         <br/>
                     </div>
                 </div>
 
+<!--=====================Table of contents=============================================-->
                 <h2>Not sure where to start? Search here!</h2>
                 <table>
                     <tr>
@@ -137,7 +160,7 @@
         </html>
     </xsl:template>
 
-    <!-- METADATA -->
+    <!-- METADATA FOR TABLE -->
 
     <xsl:template match="metadata" mode="table">
         <tr>
@@ -156,11 +179,12 @@
                 <xsl:apply-templates select="ellipsis_present"/>
             </td>
             <td>
-                <xsl:apply-templates select="poem_themes"/>
+                <xsl:apply-templates select="string-join(poem_themes//theme, ', ')"/>
             </td>
         </tr>
     </xsl:template>
 
+<!--=====================POEMS DISPLAY=============================================-->
     <xsl:template match="metadata">
         <h1 id="poem{first_line}">
             <xsl:text>"</xsl:text>
@@ -178,8 +202,7 @@
         </h2>
         <h3>
             <xsl:text>themes: </xsl:text>
-            <!-- how do we want these to be shown / separated on the site? -->
-            <xsl:apply-templates select="poem_themes"/>
+            <xsl:apply-templates select="string-join(poem_themes//theme, ', ')"/>
         </h3>
     </xsl:template>
 
@@ -200,15 +223,15 @@
 
     <!-- inserts a [...] for every instance of ellipsis -->
     <xsl:template match="ellipsis">
-        <p class="tooltip">[...]
+        <span class="tooltip">[...]
         <span class="tooltiptext">
             <xsl:apply-templates/>
             <xsl:apply-templates select="@possible_string"/>
             <xsl:text> (</xsl:text>
             <xsl:apply-templates select="@ellipsis_type"/>
-            <xsl:text> ellipsis)</xsl:text>
+            <xsl:text>)</xsl:text>
         </span>
-        </p>
+        </span>
     </xsl:template>
     
     <!--<span class="{@ellipsis_type}">
