@@ -1,5 +1,4 @@
-/* I copied over the parts of the styling from our Dickinson site so that
- * things would have the same feel and I could see if I liked it. */ 
+/* General styling */
 
 body {
     background-color: #F7F8F1;
@@ -177,7 +176,37 @@ td, th {
   vertical-align: middle;
 }
 
+/* Tooltip styling */
+
+.tooltip {
+  border-bottom: 1px dotted black; 
+  display: inline-block;
+  position: relative;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  background-color: #EAECDA;
+  border-radius: 6px;
+  color: black;
+  margin-left: -60px;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  left: 50%;
+  visibility: hidden;
+  width: 120px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 /* Styling for elements in the poems */
+
 span.religion {color: blue
     
 }

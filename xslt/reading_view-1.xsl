@@ -200,12 +200,22 @@
 
     <!-- inserts a [...] for every instance of ellipsis -->
     <xsl:template match="ellipsis">
-        <xsl:text>[...</xsl:text>
-        <span class="{@ellipsis_type}">
+        <p class="tooltip">[...]
+        <span class="tooltiptext">
             <xsl:apply-templates/>
+            <xsl:apply-templates select="@possible_string"/>
+            <xsl:text> (</xsl:text>
+            <xsl:apply-templates select="@ellipsis_type"/>
+            <xsl:text> ellipsis)</xsl:text>
         </span>
-        <xsl:text>]</xsl:text>
+        </p>
     </xsl:template>
+    
+    <!--<span class="{@ellipsis_type}">
+        <xsl:apply-templates/>
+        <xsl:apply-templates select="@possible_string"/>
+    </span>
+    </p>-->
 
     <!--    <!-\- inserts possible string into [ ] for every instance of ellipsis -\-> <!-\- Q: what happens, then, when there is no possible string? -\->
     <xsl:template match="ellipsis">
