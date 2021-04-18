@@ -208,6 +208,10 @@ td, th {
 
 /* Styling for elements in the poems */
 
+span {
+    font-weight: bold;
+}
+
 span.body, span.eating, span.violence {
     color: red;
 }
