@@ -207,6 +207,10 @@
             <xsl:text> period</xsl:text>
         </h2>
         <h3>
+            <xsl:text>Recipient(s): </xsl:text>
+            <xsl:apply-templates select="recipient"/>
+        </h3>
+        <h3>
             <xsl:text>themes: </xsl:text>
             <xsl:apply-templates select="string-join(poem_themes//theme, ', ')"/>
         </h3>
