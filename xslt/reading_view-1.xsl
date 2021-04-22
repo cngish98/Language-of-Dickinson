@@ -14,6 +14,7 @@
             <head>
                 <title>Emily Dickinson &amp; Ellipsis</title>
                 <link rel="stylesheet" type="text/css" href="reading_view-1.css"/>
+                <script src="show-hide-table.js"/>
                 <link rel="stylesheet"
                     href="https://fonts.googleapis.com/css?family=Bitter%7COpen+Sans"/>
                 <link rel="shortcut icon" type="image/jpeg" href="dickinson-portrait.jpeg"/>
@@ -24,8 +25,8 @@
                 <div class="heading-container">
                     <img src="dickinson-portrait.jpeg" id="portrait"
                         alt="portrait of Emily Dickinson"/>
-                    <h1>EMILY DICKINSON &amp; ELLIPSIS</h1>
-                    <h2>a digital humanities project</h2>
+                    <h1 id="main-header-1">EMILY DICKINSON &amp; ELLIPSIS</h1>
+                    <h2 id="main-header-2">a digital humanities project</h2>
                 </div>
 
                 <div class="menu-container">
@@ -84,12 +85,30 @@
                     </div>
                 </div>
 
-<!--=====================Sidebar: checkboxes for adding color to attributes=================================-->
+<!--=====================Table of contents=============================================-->
+               <div class="show-hide-table">
+                <button onclick="showDropdown()" class="dropdownButton">Not sure where to start? Click here to search!</button>
+                <h2 class="below-button">(Click again to hide)</h2>
+                <table id="dropdownTable" class="dropdownContent">
+                    <tr>
+                        <th>First line / title</th>
+                        <th>Date</th>
+                        <th>Recipient?</th>
+                        <th>Ellipsis present?</th>
+                        <th>Themes</th>
+                    </tr>
+
+                    <xsl:apply-templates select="$poems_corpus//metadata" mode="table"/>
+                </table>
+               </div>
+                
+                <!--=====================Sidebar: checkboxes for adding color to attributes=================================-->
+
                 <div class="sidebar-box">
                     <!--Ideally should be hidden when the viewer is only 
                     looking at the table -->
                     <h2 class="sidebar-header">I want to highlight:</h2>
-
+                    
                     <div class="sidebar-selecting-container">
                         <h3 class="sidebar-header">Ellipsis</h3>
                         
@@ -105,7 +124,7 @@
                         <input type="checkbox" id="ambiguous" name="ambiguous"/>
                         <label for="ambiguous">Ambiguous</label>
                     </div>
-
+                    
                     <div class="sidebar-selecting-container">
                         <h3 class="sidebar-header">Theme</h3>
                         
@@ -138,21 +157,9 @@
                         <br/>
                     </div>
                 </div>
-
-<!--=====================Table of contents=============================================-->
-                <h2>Not sure where to start? Search here!</h2>
-                <table>
-                    <tr>
-                        <th>First line / title</th>
-                        <th>Date</th>
-                        <th>Recipient?</th>
-                        <th>Ellipsis present?</th>
-                        <th>Themes</th>
-                    </tr>
-
-                    <xsl:apply-templates select="$poems_corpus//metadata" mode="table"/>
-                </table>
-
+                
+               <!--Display the poems -->
+                
                 <div class="text-box">
                     <xsl:apply-templates select="$poems_corpus"/>
                 </div>
@@ -165,7 +172,7 @@
     <xsl:template match="metadata" mode="table">
         <tr>
             <td>
-                <a href="#poem{first_line}">
+                <a href="#poem{translate(//first_line, ' ', '-')}">
                     <xsl:apply-templates select="first_line"/>
                 </a>
             </td>
@@ -183,10 +190,9 @@
             </td>
         </tr>
     </xsl:template>
-
     <!--=====================POEMS DISPLAY=============================================-->
     <xsl:template match="metadata">
-        <h1 id="poem{first_line}">
+        <h1 id="poem{translate(//first_line, ' ', '-')}">
             <xsl:text>"</xsl:text>
             <xsl:apply-templates select="first_line"/>
             <xsl:text>"</xsl:text>

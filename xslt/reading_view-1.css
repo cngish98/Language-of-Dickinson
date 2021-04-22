@@ -9,16 +9,17 @@ body {
 h1 {
   color: black;
   font-family: "Bitter", serif;
-  font-size: 300%;
+  font-size: 200%;
   padding-left: 20px;
   padding-bottom: 0px;
   text-align: left; 
 }
 
+
 h2 {
     color: #6E8B4C;
     font-family: "Open Sans", sans-serif;
-    font-size: 150%;
+    font-size: 130%;
     padding-left: 40px;
     text-align: left;
 }
@@ -55,21 +56,39 @@ a:hover {
   text-decoration: none;
 }
 
+#main-header-1 {
+  color: black;
+  font-family: "Bitter", serif;
+  font-size: 200%;
+  margin-top: 0.25%;
+  margin-bottom: 0.25%;
+  text-align: left; 
+}
+
+
+#main-header-2 {
+    color: #6E8B4C;
+    font-family: "Open Sans", sans-serif;
+    font-size: 130%;
+    padding-left: 40px;
+    text-align: left;
+}
+
 #portrait {
     float: right;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    height: 15%;
-    width: 15%;
+    margin-bottom: 1%;
+    margin-right: 3%;
+    height: 10%;
+    width: 10%;
 }
 
 .text-box {
     border: 1px solid black;
     margin-bottom: 50px;
-    margin-left: auto;
+    margin-left: 40%;
     margin-right: auto;
     padding: 30px;
-    width: 65%;
+    width: 50%;
 }
 
 /*  Navigational menu 
@@ -98,7 +117,7 @@ a:hover {
   background-color: #EAECDA;
   display: flex;
   font-family: "Bitter", serif;
-  font-size: 25px;
+  font-size: 130%;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
@@ -127,6 +146,7 @@ label {
     background-color: #EAECDA;
     border: 1px solid black;
     display: flex;
+    height: 20%;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
@@ -163,6 +183,7 @@ label {
     border: 1px solid black;
     float: left;
     left: 5%;
+    margin-left: 5%;
     padding-right: 5%;
     padding-bottom: 1%;
     /* position: fixed; */
@@ -187,13 +208,48 @@ table, tr, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     font-family: "Open Sans", sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 td, th {
   padding: 10px;
   vertical-align: middle;
+}
+/* Show/hide table of contents
+ * 
+ * 
+ */
+ 
+.dropdownButton {
+    background-color: #F7F8F1;
+    border: none;
+    color: #967D4A;
+    font-family: "Open Sans", sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 30%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.below-button {
+    color: #967D4A;
+    font-family: "Open Sans", sans-serif;
+    font-size: 130%;
+    font-weight: bold;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.dropdownContent {
+  display: none; /* hide it by default */
+}
+
+.show {
+    border: none;
+    display: block; /* show it when clicked */
 }
 
 /* Tooltip styling 

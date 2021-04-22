@@ -5,7 +5,7 @@ body {
 h1 {
   color: black;
   font-family: "Bitter", serif;
-  font-size: 300%;
+  font-size: 200%;
   padding-left: 20px;
   padding-bottom: 0px;
   text-align: left;
@@ -14,7 +14,7 @@ h1 {
 h2 {
     color: #6E8B4C;
     font-family: "Open Sans", sans-serif;
-    font-size: 150%;
+    font-size: 100%;
     padding-left: 20px;
     text-align: left;
 }
@@ -81,7 +81,7 @@ p {
   background-color: #EAECDA;
   display: flex;
   font-family: "Bitter", serif;
-  font-size: 25px;
+  font-size: 130%;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
@@ -89,12 +89,30 @@ p {
   width: 90%;
 }
 
+#main-header-1 {
+  color: black;
+  font-family: "Bitter", serif;
+  font-size: 200%;
+  margin-top: 0.25%;
+  margin-bottom: 0.25%;
+  text-align: left; 
+}
+
+
+#main-header-2 {
+    color: #6E8B4C;
+    font-family: "Open Sans", sans-serif;
+    font-size: 130%;
+    padding-left: 40px;
+    text-align: left;
+}
+
 #portrait {
     float: right;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    height: 15%;
-    width: 15%;
+    margin-bottom: 1%;
+    margin-right: 3%;
+    height: 10%;
+    width: 10%;
 }
 
 .text-box {
