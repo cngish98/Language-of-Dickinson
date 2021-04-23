@@ -107,6 +107,11 @@ p {
     text-align: left;
 }
 
+#cc-license {
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
 #portrait {
     float: right;
     margin-bottom: 1%;

@@ -22,26 +22,7 @@
             <body>
 
 <!--=====================Website header and menu=================================-->
-                <div class="heading-container">
-                    <img src="dickinson-portrait.jpeg" id="portrait"
-                        alt="portrait of Emily Dickinson"/>
-                    <h1 id="main-header-1">EMILY DICKINSON &amp; ELLIPSIS</h1>
-                    <h2 id="main-header-2">a digital humanities project</h2>
-                </div>
-
-                <div class="menu-container">
-                    <div class="menu">
-                        <a href="index.xhtml">home</a>
-
-                        <a href="about.xhtml">about</a>
-
-                        <a href="corpus.xhtml">corpus</a>
-
-                        <a href="methods.xhtml">methods</a>
-
-                        <a href="results.xhtml">results</a>
-                    </div>
-                </div>
+                <xsl:comment>#include virtual="website-header-and-navbar.html" </xsl:comment>
                 
 <!--==================Checkboxes for filtering poems=================================-->
                 <h1>Dickinson's Poems</h1>
@@ -72,7 +53,7 @@
                     </div>
                     
                     <div class="poems-filtering-container">
-                        <h3 class="sidebar-header">Ellipsis / no ellipsis</h3>
+                        <h3 class="sidebar-header">Ellipsis presence</h3>
                         <input type="checkbox" id="yes-ellipsis" name="yes-ellipsis"/>
                         <label for="yes-ellipsis">Yes</label>
                         <br/>
@@ -103,27 +84,9 @@
                </div>
                 
                 <!--=====================Sidebar: checkboxes for adding color to attributes=================================-->
-
+               <div class="sidebar-textbox-align">
                 <div class="sidebar-box">
-                    <!--Ideally should be hidden when the viewer is only 
-                    looking at the table -->
                     <h2 class="sidebar-header">I want to highlight:</h2>
-                    
-                    <div class="sidebar-selecting-container">
-                        <h3 class="sidebar-header">Ellipsis</h3>
-                        
-                        <input type="checkbox" id="nominal" name="nominal"/>
-                        <label for="nominal">Nominal</label>
-                        <br/>
-                        <input type="checkbox" id="verbal" name="verbal"/>
-                        <label for="verbal">Verbal</label>
-                        <br/>
-                        <input type="checkbox" id="clausal" name="clausal"/>
-                        <label for="clausal">Clausal</label>
-                        <br/>
-                        <input type="checkbox" id="ambiguous" name="ambiguous"/>
-                        <label for="ambiguous">Ambiguous</label>
-                    </div>
                     
                     <div class="sidebar-selecting-container">
                         <h3 class="sidebar-header">Theme</h3>
@@ -163,6 +126,7 @@
                 <div class="text-box">
                     <xsl:apply-templates select="$poems_corpus"/>
                 </div>
+             </div>
             </body>
         </html>
     </xsl:template>

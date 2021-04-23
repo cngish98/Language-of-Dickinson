@@ -182,11 +182,11 @@ label {
     background-color: #EAECDA;
     border: 1px solid black;
     float: left;
-    left: 5%;
+    left: 0.5%;
     margin-left: 5%;
     padding-right: 5%;
     padding-bottom: 1%;
-    /* position: fixed; */
+    /*  position: fixed; */
     top: 5%;
     width: 25%;
     z-index: 1; 
@@ -194,6 +194,10 @@ label {
 
 .sidebar-selecting-container {
     padding: 10px;
+}
+
+.sidebar-textbox-align {
+   /* display: flex; */
 }
 
 /* Table of contents 
