@@ -13,24 +13,40 @@ window.addEventListener('DOMContentLoaded', function () {
     for (var i = 0; i < checkboxes.length; i++) {
         checkboxes[i].addEventListener('change', filter_poems, false)
     }
+    document.getElementById('dropdownButton').addEventListener('click', toggle_table, false);
 },
 false);
 function filter_poems() {
     /*
-     * Find all table rows
      * Find all checkboxes
-     * Get the @id values of the ones that are unchecked
+     * Get the @id values of the checkboxes that are unchecked
+     */
+    const checkboxes = document.querySelectorAll('.poems-filtering-container > input');
+    var unchecked_boxes_array = Array. from (checkboxes).filter(item => ! item.checked).map(item => item.id);
+    /* Find all table rows (toc_poems)
      * Show each table row (momentarily)
      * Hide each table row that contains an unchecked @id value
      */
-    const poems = document.querySelectorAll('#dropdownTable > tr');
-    const checkboxes = document.querySelectorAll('.poems-filtering-container > input');
-    var unchecked_boxes_array = Array. from (checkboxes).filter(item => ! item.checked).map(item => item.id);
-    console.log(unchecked_boxes_array);
+    const toc_poems = document.querySelectorAll('#dropdownTable > tr');
+    for (var i = 0; i < toc_poems.length; i++) {
+        toc_poems[i].style.display = 'table-row';
+        if (Array. from (toc_poems[i].classList).some(item => unchecked_boxes_array.includes(item))) {
+            toc_poems[i].style.display = 'none';
+        }
+    }
+    /* Find all poems (poems)
+     * Show each poem (momentarily)
+     * Hide each poem that contains an unchecked @id  value
+     *  */
+    const poems = document.getElementsByClassName('poem');
     for (var i = 0; i < poems.length; i++) {
-        poems[i].style.display = 'table-row';
+        poems[i].style.display = 'block';
         if (Array. from (poems[i].classList).some(item => unchecked_boxes_array.includes(item))) {
             poems[i].style.display = 'none';
         }
     }
+}
+function toggle_table() {
+    const toc = document.getElementById('dropdownTable');
+    toc.classList.toggle('hide');
 }

@@ -14,7 +14,6 @@
             <head>
                 <title>Emily Dickinson &amp; Ellipsis</title>
                 <link rel="stylesheet" type="text/css" href="reading_view-1.css"/>
-                <script src="show-hide-table.js"/>
                 <script src="filter-poems.js"/>
                 <link rel="stylesheet"
                     href="https://fonts.googleapis.com/css?family=Bitter%7COpen+Sans"/>
@@ -30,7 +29,6 @@
                 <h1>Dickinson's Poems</h1>
                 <div class="poems-filtering-box">
                     <h2 class="sidebar-header">I want to view poems by:</h2>
-
                     <div class="poems-filtering-container">
                         <h3 class="sidebar-header">Time period written</h3>
                         <input type="checkbox" id="early" name="early" checked="checked"/>
@@ -73,11 +71,12 @@
                 </div>
 
                 <!--=====================Table of contents=============================================-->
-                <div class="show-hide-table">
-                    <button onclick="showDropdown()" class="dropdownButton">Not sure where to start?
-                        Click here to search!</button>
-                    <h2 class="below-button">(Click again to hide)</h2>
-                    <table id="dropdownTable" class="dropdownContent">
+                <div id="show-hide-table">
+                    <div id="dropdownButton">
+                        <h2>Not sure where to start? Click here to search!</h2>
+                        <h3>(Click again to hide)</h3>
+                    </div>
+                    <table id="dropdownTable" class="dropdownContent hide">
                         <tr>
                             <th>First line / title</th>
                             <th>Date</th>
@@ -85,7 +84,6 @@
                             <th>Ellipsis present?</th>
                             <th>Themes</th>
                         </tr>
-
                         <xsl:apply-templates select="$poems_corpus//metadata" mode="table"/>
                     </table>
                 </div>
@@ -206,6 +204,21 @@
         </tr>
     </xsl:template>
     <!--=====================POEMS DISPLAY=============================================-->
+    <xsl:template match="poem">
+        <xsl:variable name="period" as="xs:string" select="metadata/date/@period"/>
+        <xsl:variable name="ellipsis" as="xs:string"
+            select="metadata/ellipsis_present || '-ellipsis'"/>
+        <xsl:variable name="recipient" as="xs:string" select="
+                if (metadata/recipient eq 'none') then
+                    'yes-recipient'
+                else
+                    'no-recipient'"/>
+        <div>
+            <xsl:attribute name="class"
+                select="string-join(('poem', $period, $ellipsis, $recipient), ' ')"/>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
     <xsl:template match="metadata">
         <h1 id="poem{translate(//first_line, ' ', '-')}">
             <xsl:text>"</xsl:text>

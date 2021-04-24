@@ -1,18 +1,18 @@
 /* 
- * 
- * General styling */
+ * General styling 
+ * */
 
 body {
     background-color: #F7F8F1;
 }
 
 h1 {
-  color: black;
-  font-family: "Bitter", serif;
-  font-size: 200%;
-  padding-left: 20px;
-  padding-bottom: 0px;
-  text-align: left; 
+    color: black;
+    font-family: "Bitter", serif;
+    font-size: 200%;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    text-align: left;
 }
 
 
@@ -42,27 +42,27 @@ p {
 }
 
 a:link {
-  color: blue;
-  text-decoration: none;
+    color: blue;
+    text-decoration: none;
 }
 
 a:visited {
-  color: purple;
-  text-decoration: none;
+    color: purple;
+    text-decoration: none;
 }
 
 a:hover {
-  color: red;
-  text-decoration: none;
+    color: red;
+    text-decoration: none;
 }
 
 #main-header-1 {
-  color: black;
-  font-family: "Bitter", serif;
-  font-size: 200%;
-  margin-top: 0.25%;
-  margin-bottom: 0.25%;
-  text-align: left; 
+    color: black;
+    font-family: "Bitter", serif;
+    font-size: 200%;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+    text-align: left;
 }
 
 
@@ -91,9 +91,8 @@ a:hover {
     width: 50%;
 }
 
-/*  Navigational menu 
- * 
- * 
+/*  
+ * Navigational menu 
  * */
 .menu a:link {
     color: #967D4A;
@@ -106,7 +105,8 @@ a:hover {
     color: black;
 }
 
-.menu a:visited, .menu a:hover {
+.menu a:visited,
+.menu a:hover {
     text-decoration: underline;
 }
 
@@ -114,22 +114,21 @@ a:hover {
     padding-top: 15px;
 }
 .menu {
-  background-color: #EAECDA;
-  display: flex;
-  font-family: "Bitter", serif;
-  font-size: 130%;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 20px 10px 20px;
-  width: 90%;
+    background-color: #EAECDA;
+    display: flex;
+    font-family: "Bitter", serif;
+    font-size: 130%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px 10px 20px;
+    width: 90%;
 }
 
-/*  Filtering panel at the top with checkboxes 
- * 
- * 
+/*  
+ * Filtering panel at the top with checkboxes 
  * */
-input[type="checkbox"] {
+input[type = "checkbox"] {
     margin-left: 10%;
 }
 
@@ -159,11 +158,10 @@ label {
     padding: 10px;
 }
 
-/*  Sidebar with checkboxes 
- * 
- * 
+/*  
+ * Sidebar with checkboxes 
  * */
-input[type="checkbox"] {
+input[type = "checkbox"] {
     margin-left: 10%;
 }
 
@@ -189,7 +187,7 @@ label {
     /*  position: fixed; */
     top: 5%;
     width: 25%;
-    z-index: 1; 
+    z-index: 1;
 }
 
 .sidebar-selecting-container {
@@ -197,48 +195,54 @@ label {
 }
 
 .sidebar-textbox-align {
-   /* display: flex; */
+    /* display: flex; */
 }
 
-/* Table of contents 
- * 
- * 
+/* 
+ * Table of contents 
  * */
 table {
+    /* Stabilize table width, so that it doesn't jump
+    * when the content width changes 
+    * */
+    width: calc(100% - 6em);
+    margin-left: 3em;
+    margin-right: 3em;
     margin-bottom: 50px;
+    border-collapse: collapse;
 }
 
-table, tr, th, td {
+tr,
+th,
+td {
     border: 1px solid black;
     border-collapse: collapse;
     font-family: "Open Sans", sans-serif;
-    margin-left: 3%;
-    margin-right: 3%;
 }
 
-td, th {
-  padding: 10px;
-  vertical-align: middle;
+td,
+th {
+    padding: 10px;
+    vertical-align: middle;
 }
-/* Show/hide table of contents
- * 
- * 
- */
- 
-.dropdownButton {
+
+/* Show/hide table of contents wrapper 
+ * #dropdownButton is a <div>, rather than a button */
+#show-hide-table {
+    margin-top: 3em;
+}
+#dropdownButton > h2 {
     background-color: #F7F8F1;
     border: none;
     color: #967D4A;
     font-family: "Open Sans", sans-serif;
     font-size: 150%;
     font-weight: bold;
-    margin-top: 3%;
-    margin-left: 30%;
     text-align: center;
     text-decoration: underline;
 }
 
-.below-button {
+#dropdownButton > h3 {
     color: #967D4A;
     font-family: "Open Sans", sans-serif;
     font-size: 130%;
@@ -247,44 +251,38 @@ td, th {
     text-align: center;
 }
 
-.dropdownContent {
-  display: none; /* hide it by default */
+.hide {
+    display: none; /* show it when clicked */
 }
 
-.show {
-    border: none;
-    display: block; /* show it when clicked */
-}
-
-/* Tooltip styling 
- * 
- * 
+/* 
+ * Tooltip styling 
  * */
 
 .tooltip {
-  border-bottom: 1px dotted black; 
-  position: relative;
+    border-bottom: 1px dotted black;
+    position: relative;
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
-  background-color: #EAECDA;
-  border-radius: 6px;
-  color: black;
-  margin-left: -60px;
-  padding: 5px 0;
-  position: absolute;
-  text-align: center;
-  top: 100%;
-  left: 50%;
-  visibility: hidden;
-  width: 120px;
-  position: absolute;
-  z-index: 1;
+    background-color: #EAECDA;
+    border-radius: 6px;
+    color: black;
+    margin-left: -60px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    left: 50%;
+    visibility: hidden;
+    width: 120px;
+    position: absolute;
+    z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
+    visibility: visible;
 }
 
 /* Styling for elements in the poems 
@@ -296,7 +294,9 @@ span {
     font-weight: bold;
 }
 
-span.body, span.eating, span.violence {
+span.body,
+span.eating,
+span.violence {
     color: red;
 }
 
@@ -304,30 +304,49 @@ span.character {
     color: #d56cd9; /* pinkish */
 }
 
-span.emotion, span.love, span.loss, span.mind, span.solitude, span.uncertainty {
+span.emotion,
+span.love,
+span.loss,
+span.mind,
+span.solitude,
+span.uncertainty {
     color: purple;
 }
 
-span.law, span.music, span.science, span.writing {
+span.law,
+span.music,
+span.science,
+span.writing {
     color: #f08d0c; /* orange ish */
 }
 
-span.nature, span.animal {
+span.nature,
+span.animal {
     color: green;
 }
 
-span.religion, span.supernatural {  
-    color: #2a5fa3;  /*  muted blue */
+span.religion,
+span.supernatural {
+    color: #2a5fa3; /*  muted blue */
 }
 
-span.social_norms, span.social_class, span.war, span.wealth, span.labor {
+span.social_norms,
+span.social_class,
+span.war,
+span.wealth,
+span.labor {
     color: #b09012; /* ochre */
 }
 
-span.childhood, span.memory, span.time {
+span.childhood,
+span.memory,
+span.time {
     color: #9b93bd; /*  periwinkle */
 }
 
-span.life, span.death, span.light, span.darkness {
+span.life,
+span.death,
+span.light,
+span.darkness {
     color: #88cf9f; /* minty  */
 }
