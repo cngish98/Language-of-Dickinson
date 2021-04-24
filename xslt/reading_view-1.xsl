@@ -180,9 +180,9 @@
             <xsl:variable name="ellipsis" as="xs:string" select="ellipsis_present || '-ellipsis'"/>
             <xsl:variable name="recipient" as="xs:string" select="
                     if (recipient eq 'none') then
-                        'yes-recipient'
+                        'no-recipient'
                     else
-                        'no-recipient'"/>
+                        'yes-recipient'"/>
             <xsl:attribute name="class" select="string-join(($period, $ellipsis, $recipient), ' ')"/>
             <td>
                 <a href="#poem{translate(//first_line, ' ', '-')}">
@@ -210,9 +210,9 @@
             select="metadata/ellipsis_present || '-ellipsis'"/>
         <xsl:variable name="recipient" as="xs:string" select="
                 if (metadata/recipient eq 'none') then
-                    'yes-recipient'
+                    'no-recipient'
                 else
-                    'no-recipient'"/>
+                    'yes-recipient'"/>
         <div>
             <xsl:attribute name="class"
                 select="string-join(('poem', $period, $ellipsis, $recipient), ' ')"/>
