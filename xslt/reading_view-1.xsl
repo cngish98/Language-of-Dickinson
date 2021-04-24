@@ -84,7 +84,9 @@
                             <th>Ellipsis present?</th>
                             <th>Themes</th>
                         </tr>
-                        <xsl:apply-templates select="$poems_corpus//metadata" mode="table"/>
+                        <xsl:apply-templates select="$poems_corpus//metadata" mode="table">
+                            <xsl:sort select="date"/>
+                        </xsl:apply-templates>
                     </table>
                 </div>
 
@@ -144,7 +146,9 @@
                     <!--Display the poems -->
 
                     <div class="text-box">
-                        <xsl:apply-templates select="$poems_corpus"/>
+                        <xsl:apply-templates select="$poems_corpus">
+                            <xsl:sort select="descendant::metadata/date"/>
+                        </xsl:apply-templates>
                     </div>
                 </div>
             </body>
