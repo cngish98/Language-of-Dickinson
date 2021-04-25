@@ -193,6 +193,10 @@
                         </xsl:apply-templates>
                     </div>
                 </div>
+                <footer>
+                    <img id="cc-license" alt="Creative Commons License"
+                        src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+                </footer>
             </body>
         </html>
     </xsl:template>
