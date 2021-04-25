@@ -186,13 +186,13 @@ label {
     margin-left: 5%;
     padding-right: 5%;
     padding-bottom: 1%;
-    /*  position: fixed; */
+    position: sticky;
     top: 5%;
     width: 25%;
     z-index: 1;
 }
 
-.sidebar-selecting-container {
+#sidebar-selecting-container {
     padding: 10px;
 }
 
@@ -296,59 +296,68 @@ span {
     font-weight: bold;
 }
 
-span.body,
-span.eating,
-span.violence {
+/* body : meta-body */
+span.body.highlight,
+span.eating.highlight,
+span.violence.highlight {
     color: red;
 }
 
-span.character {
-    color: #d56cd9; /* pinkish */
-}
-
-span.emotion,
-span.love,
-span.loss,
-span.mind,
-span.solitude,
-span.uncertainty {
-    color: purple;
-}
-
-span.law,
-span.music,
-span.science,
-span.writing {
+/* disciplines : meta-disciplines */
+span.law.highlight,
+span.music.highlight,
+span.science.highlight,
+span.writing.highlight {
     color: #f08d0c; /* orange ish */
 }
 
-span.nature,
-span.animal {
+/* emotions / state of mind : meta-emotions */
+span.emotion.highlight,
+span.love.highlight,
+span.loss.highlight,
+span.mind.highlight,
+span.solitude.highlight,
+span.uncertainty.highlight {
+    color: purple;
+}
+
+/* nature and animals : meta-nature */
+span.nature.highlight,
+span.animal.highlight {
     color: green;
 }
 
-span.religion,
-span.supernatural {
+/* interpersonal relations : meta-relationships */
+span.character.highlight {
+    color: #d56cd9; /* pinkish */
+}
+
+/* religion and the supernatural : meta-religion */
+span.religion.highlight,
+span.supernatural.highlight {
     color: #2a5fa3; /*  muted blue */
 }
 
-span.social_norms,
-span.social_class,
-span.war,
-span.wealth,
-span.labor {
+/* social constructs and allusions */
+span.social_norms.highlight,
+span.social_class.highlight,
+span.war.highlight,
+span.wealth.highlight,
+span.labor.highlight {
     color: #b09012; /* ochre */
 }
 
-span.childhood,
-span.memory,
-span.time {
+/* time-based experiences */
+span.childhood.highlight,
+span.memory.highlight,
+span.time.highlight {
     color: #9b93bd; /*  periwinkle */
 }
 
-span.life,
-span.death,
-span.light,
-span.darkness {
+/* other abstract concepts */
+span.life.highlight,
+span.death.highlight,
+span.light.highlight,
+span.darkness.highlight {
     color: #88cf9f; /* minty  */
 }

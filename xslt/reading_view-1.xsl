@@ -5,10 +5,53 @@
     version="3.0">
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
-
+    <!-- ================================================================ -->
+    <!-- Stylesheet variables                                             -->
+    <!--                                                                  -->
+    <!-- $poems_corpus : collection of XML documents, one per poem        -->
+    <!-- $metatheme-by-theme : map from 31 inline themes to 9 checkboxes  -->
+    <!-- ================================================================ -->
     <xsl:variable name="poems_corpus" as="document-node()+"
         select="collection('../tokenized-poems/?select=*.xml')"/>
+    <xsl:variable name="metatheme-by-theme" as="map(*)">
+        <!-- ============================================================ -->
+        <!-- Map the 31 inline theme elements to the 9 meta-themes        -->
+        <!-- supported by the checkboxes in the interface                 -->
+        <!-- ============================================================ -->
+        <xsl:map>
+            <xsl:for-each select="('body', 'eating', 'violence')">
+                <xsl:map-entry key="." select="'meta-body'"/>
+            </xsl:for-each>
+            <xsl:for-each select="('law', 'music', 'science', 'writing')">
+                <xsl:map-entry key="." select="'meta-disciplines'"/>
+            </xsl:for-each>
+            <xsl:for-each select="('emotion', 'loss', 'love', 'mind', 'solitude', 'uncertainty')">
+                <xsl:map-entry key="." select="'meta-emotions'"/>
+            </xsl:for-each>
+            <xsl:for-each select="('nature', 'animal')">
+                <xsl:map-entry key="." select="'meta-nature'"/>
+            </xsl:for-each>
+            <xsl:for-each select="('character')">
+                <xsl:map-entry key="." select="'meta-relationships'"/>
+            </xsl:for-each>
+            <xsl:for-each select="('religion', 'supernatural')">
+                <xsl:map-entry key="." select="'meta-religion'"/>
+            </xsl:for-each>
+            <xsl:for-each select="('social_norms', 'social_class', 'war', 'wealth', 'labor')">
+                <xsl:map-entry key="." select="'meta-social'"/>
+            </xsl:for-each>
+            <xsl:for-each select="('childhood', 'memory', 'time')">
+                <xsl:map-entry key="." select="'meta-time'"/>
+            </xsl:for-each>
+            <xsl:for-each select="('darkness', 'death', 'life', 'light')">
+                <xsl:map-entry key="." select="'meta-abstract'"/>
+            </xsl:for-each>
+        </xsl:map>
+    </xsl:variable>
 
+    <!-- ============================================================ -->
+    <!-- Templates                                                    -->
+    <!-- ============================================================ -->
     <xsl:template name="xsl:initial-template">
         <html>
             <head>
@@ -94,50 +137,49 @@
                 <div class="sidebar-textbox-align">
                     <div class="sidebar-box">
                         <h2 class="sidebar-header">I want to highlight:</h2>
-
-                        <div class="sidebar-selecting-container">
+                        <div id="sidebar-selecting-container">
                             <h3 class="sidebar-header">Theme</h3>
 
-                            <input type="checkbox" id="body" name="body"/>
-                            <label for="body"><strong style="color:red;">The body and related
+                            <input type="checkbox" id="meta-body" name="meta-body"/>
+                            <label for="meta-body"><strong style="color:red;">The body and related
                                     concepts</strong> (eating, violence)</label>
                             <br/>
-                            <input type="checkbox" id="disciplines" name="disciplines"/>
-                            <label for="disciplines"><strong style="color:#f08d0c;"
+                            <input type="checkbox" id="meta-disciplines" name="meta-disciplines"/>
+                            <label for="meta-disciplines"><strong style="color:#f08d0c;"
                                     >Disciplines</strong> (law, music, science, writing)</label>
                             <br/>
-                            <input type="checkbox" id="emotion" name="emotion"/>
-                            <label for="emotion"><strong style="color:purple;">Emotions / state of
-                                    mind</strong> (emotions, loss, love, the mind, solitude,
-                                uncertainty)</label>
+                            <input type="checkbox" id="meta-emotions" name="meta-emotions"/>
+                            <label for="meta-emotions"><strong style="color:purple;">Emotions /
+                                    state of mind</strong> (emotions, loss, love, the mind,
+                                solitude, uncertainty)</label>
                             <br/>
-                            <input type="checkbox" id="nature" name="nature"/>
-                            <label for="nature">
+                            <input type="checkbox" id="meta-nature" name="meta-nature"/>
+                            <label for="meta-nature">
                                 <strong style="color:green;">Nature and animals</strong>
                             </label>
                             <br/>
-                            <input type="checkbox" id="relationships" name="relationships"/>
-                            <label for="relationships"><strong style="color:#d56cd9;">Interpersonal
-                                    relationships</strong> (characters and reference to
-                                people)</label>
+                            <input type="checkbox" id="meta-relationships" name="meta-relationships"/>
+                            <label for="meta-relationships"><strong style="color:#d56cd9;"
+                                    >Interpersonal relationships</strong> (characters and reference
+                                to people)</label>
                             <br/>
-                            <input type="checkbox" id="religion" name="religion"/>
-                            <label for="religion">
+                            <input type="checkbox" id="meta-religion" name="meta-religion"/>
+                            <label for="meta-religion">
                                 <strong style="color:#2a5fa3;">Religion and the
                                     supernatural</strong>
                             </label>
                             <br/>
-                            <input type="checkbox" id="social" name="social"/>
-                            <label for="social"><strong style="color:#b09012;">Social constructs and
-                                    allusions</strong> (social norms, social class, war, wealth,
-                                labor)</label>
+                            <input type="checkbox" id="meta-social" name="meta-social"/>
+                            <label for="meta-social"><strong style="color:#b09012;">Social
+                                    constructs and allusions</strong> (social norms, social class,
+                                war, wealth, labor)</label>
                             <br/>
-                            <input type="checkbox" id="time" name="time"/>
-                            <label for="time"><strong style="color:#9b93bd;">Time-based
+                            <input type="checkbox" id="meta-time" name="meta-time"/>
+                            <label for="meta-time"><strong style="color:#9b93bd;">Time-based
                                     experiences</strong> (childhood, memory, time)</label>
                             <br/>
-                            <input type="checkbox" id="abstract" name="abstract"/>
-                            <label for="abstract"><strong style="color:#88cf9f;">Other abstract
+                            <input type="checkbox" id="meta-abstract" name="meta-abstract"/>
+                            <label for="meta-abstract"><strong style="color:#88cf9f;">Other abstract
                                     concepts</strong> (life, death, light, darkness)</label>
                             <br/>
                         </div>
@@ -297,7 +339,8 @@
             time | social_norm | war | religion | writing | science | music |
             law | mind | physical_body | eating | solitude | supernatural | violence |
             wealth | labor | social_class | light | darkness | uncertainty | loss">
-        <span class="{name()}">
+        <!-- meta-theme is retrieved from stylesheet variable -->
+        <span class="{string-join((name(), $metatheme-by-theme(name())), ' ')}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>

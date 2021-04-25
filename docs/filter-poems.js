@@ -7,6 +7,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }
     /* Attach event listener to toggle for dropdown table */
     document.getElementById('dropdownButton').addEventListener('click', toggle_table, false);
+    /* Attach event listener to toggle theme highlighting */
+    const sidebar_checkboxes = document.querySelectorAll('#sidebar-selecting-container > input');
+    for (var i = 0; i < sidebar_checkboxes.length; i++) {
+        sidebar_checkboxes[i].addEventListener('change', toggle_color, false)
+    }
 });
 function filter_poems() {
     /*
@@ -26,7 +31,7 @@ function filter_poems() {
             toc_poems[i].style.display = 'none';
         }
     }
- 
+    
     /* Find all poems (poems)
      * Show each poem (momentarily)
      * Hide each poem that contains an unchecked @id  value
@@ -43,4 +48,13 @@ function toggle_table() {
     /* Toggle 'hide' @class value for table */
     const toc = document.getElementById('dropdownTable');
     toc.classList.toggle('hide');
+}
+function toggle_color() {
+    /* Toggle color for selected meta-theme */
+    const theme_to_toggle = this.id;
+    const spans_to_toggle = document.getElementsByClassName(theme_to_toggle);
+    // console.log(theme_to_toggle, spans_to_toggle);
+    for (var i = 0; i < spans_to_toggle.length; i++) {
+        spans_to_toggle[i].classList.toggle('highlight');
+    }
 }
