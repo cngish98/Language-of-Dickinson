@@ -56,7 +56,7 @@
         <html>
             <head>
                 <title>Emily Dickinson &amp; Ellipsis</title>
-                <link rel="stylesheet" type="text/css" href="reading_view-1.css"/>
+                <link rel="stylesheet" type="text/css" href="reading_view.css"/>
                 <script src="filter-poems.js"/>
                 <link rel="stylesheet"
                     href="https://fonts.googleapis.com/css?family=Bitter%7COpen+Sans"/>
