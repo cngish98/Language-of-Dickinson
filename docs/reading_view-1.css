@@ -84,9 +84,11 @@ a:hover {
 
 .text-box {
     border: 1px solid black;
+    height: 50%;
     margin-bottom: 50px;
     margin-left: 40%;
     margin-right: auto;
+    overflow-y: scroll;
     padding: 30px;
     width: 50%;
 }
@@ -151,7 +153,7 @@ label {
     margin-right: auto;
     padding-right: 5%;
     padding-bottom: 1%;
-    width: 90%;
+    width: 80%;
 }
 
 .poems-filtering-container {

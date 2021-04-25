@@ -1,13 +1,3 @@
-/*
- * Filter poem table and poem display by period, recipient, and ellipsis in response
- * to checkbox events
- *
- * Show or hide table of first lines on request
- *
- * http://dickinson.obdurodon.org, https://github.com/cngish98/Language-of-Dickinson
- * djb, last modified 2021-04-23
- *
- */
 "use strict";
 window.addEventListener('DOMContentLoaded', (event) => {
     /* Attach event listeners to checkboxes */
@@ -36,6 +26,7 @@ function filter_poems() {
             toc_poems[i].style.display = 'none';
         }
     }
+ 
     /* Find all poems (poems)
      * Show each poem (momentarily)
      * Hide each poem that contains an unchecked @id  value
