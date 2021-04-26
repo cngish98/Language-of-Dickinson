@@ -145,7 +145,7 @@
                                     concepts</strong> (eating, violence)</label>
                             <br/>
                             <input type="checkbox" id="meta-disciplines" name="meta-disciplines"/>
-                            <label for="meta-disciplines"><strong style="color:#F18F01;"
+                            <label for="meta-disciplines"><strong style="color:#c97f14;"
                                     >Disciplines</strong> (law, music, science, writing)</label>
                             <br/>
                             <input type="checkbox" id="meta-emotions" name="meta-emotions"/>
