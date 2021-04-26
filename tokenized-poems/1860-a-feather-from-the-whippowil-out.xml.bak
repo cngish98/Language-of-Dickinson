@@ -31,7 +31,7 @@
             <time>
                <token xml:id="t_2_2">everlasting</token>
             </time>
-            <token xml:id="t_2_3">-</token>
+            <token xml:id="t_2_3">--</token>
             <music>
                <token xml:id="t_2_4">sings!</token>
             </music>
@@ -40,25 +40,25 @@
             <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_3_1">Whose</token>
             <token xml:id="t_3_2">galleries</token>
-            <token xml:id="t_3_3">-</token>
+            <token xml:id="t_3_3">--</token>
             <token xml:id="t_3_4">are</token>
             <nature nature_type="space">
                <token xml:id="t_3_5">Sunrise</token>
             </nature>
-            <token xml:id="t_3_6">-</token>
+            <token xml:id="t_3_6">--</token>
          </line>
          <line>
             <token xml:id="t_4_1">Whose</token>
             <music>
                <token xml:id="t_4_2">Opera</token>
             </music>
-            <token xml:id="t_4_3">-</token>
+            <token xml:id="t_4_3">--</token>
             <ellipsis ellipsis_type="verbal" possible_string="is"/>
             <nature nature_type="water">
                <token xml:id="t_4_4">the</token>
                <token xml:id="t_4_5">Springs</token>
             </nature>
-            <token xml:id="t_4_6">-</token>
+            <token xml:id="t_4_6">--</token>
          </line>
          <line>
             <token xml:id="t_5_1">Whose</token>
@@ -73,10 +73,10 @@
          <line>
             <token xml:id="t_6_1">Of</token>
             <token xml:id="t_6_2">mellow</token>
-            <token xml:id="t_6_3">-</token>
+            <token xml:id="t_6_3">--</token>
             <token xml:id="t_6_4">murmuring</token>
             <token xml:id="t_6_5">thread</token>
-            <token xml:id="t_6_6">-</token>
+            <token xml:id="t_6_6">--</token>
          </line>
          <line>
             <token xml:id="t_7_1">Whose</token>
@@ -94,7 +94,7 @@
          <line>
             <token xml:id="t_8_1">In</token>
             <token xml:id="t_8_2">"Recess"</token>
-            <token xml:id="t_8_3">-</token>
+            <token xml:id="t_8_3">--</token>
             <ellipsis ellipsis_type="verbal" possible_string="is"/>
             <token xml:id="t_8_4">Overhead!</token>
          </line>

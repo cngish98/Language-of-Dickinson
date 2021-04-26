@@ -70,7 +70,7 @@
             <nature nature_type="general">
                <token xml:id="t_6_4">fields</token>
             </nature>
-            <token xml:id="t_6_5">-</token>
+            <token xml:id="t_6_5">--</token>
          </line>
          <line>
             <token xml:id="t_7_1">Here</token>

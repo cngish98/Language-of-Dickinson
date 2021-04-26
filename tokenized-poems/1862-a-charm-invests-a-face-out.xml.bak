@@ -27,7 +27,7 @@
             <ellipsis ellipsis_type="clausal" possible_string="that is"/>
             <token xml:id="t_2_1">Imperfectly</token>
             <token xml:id="t_2_2">beheld</token>
-            <token xml:id="t_2_3">-</token>
+            <token xml:id="t_2_3">--</token>
          </line>
          <line>
             <token xml:id="t_3_1">The</token>
@@ -46,7 +46,7 @@
             <token xml:id="t_4_3">it</token>
             <token xml:id="t_4_4">be</token>
             <token xml:id="t_4_5">dispelled</token>
-            <token xml:id="t_4_6">-</token>
+            <token xml:id="t_4_6">--</token>
          </line>
       </stanza>
       <stanza>
@@ -56,20 +56,20 @@
             <token xml:id="t_5_3">beyond</token>
             <token xml:id="t_5_4">her</token>
             <token xml:id="t_5_5">mesh</token>
-            <token xml:id="t_5_6">-</token>
+            <token xml:id="t_5_6">--</token>
          </line>
          <line>
             <token xml:id="t_6_1">And</token>
             <token xml:id="t_6_2">wishes</token>
-            <token xml:id="t_6_3">-</token>
+            <token xml:id="t_6_3">--</token>
             <token xml:id="t_6_4">and</token>
             <token xml:id="t_6_5">denies</token>
-            <token xml:id="t_6_6">-</token>
+            <token xml:id="t_6_6">--</token>
          </line>
          <line>
             <token xml:id="t_7_1">Lest</token>
             <token xml:id="t_7_2">Interview</token>
-            <token xml:id="t_7_3">-</token>
+            <token xml:id="t_7_3">--</token>
             <token xml:id="t_7_4">annul</token>
             <token xml:id="t_7_5">a</token>
             <token xml:id="t_7_6">want</token>
@@ -77,9 +77,9 @@
          <line>
             <token xml:id="t_8_1">That</token>
             <token xml:id="t_8_2">Image</token>
-            <token xml:id="t_8_3">-</token>
+            <token xml:id="t_8_3">--</token>
             <token xml:id="t_8_4">satisfies</token>
-            <token xml:id="t_8_5">-</token>
+            <token xml:id="t_8_5">--</token>
          </line>
       </stanza>
    </body>

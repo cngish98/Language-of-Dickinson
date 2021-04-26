@@ -20,7 +20,7 @@
                <token xml:id="t_1_2">Lady</token>
                <token xml:id="t_1_3">red</token>
             </character>
-            <token xml:id="t_1_4">-</token>
+            <token xml:id="t_1_4">--</token>
             <token xml:id="t_1_5">amid</token>
             <token xml:id="t_1_6">the</token>
             <nature nature_type="earth">
@@ -68,17 +68,17 @@
             <token xml:id="t_5_5">with</token>
             <token xml:id="t_5_6">their</token>
             <token xml:id="t_5_7">Brooms</token>
-            <token xml:id="t_5_8">-</token>
+            <token xml:id="t_5_8">--</token>
          </line>
          <line>
             <token xml:id="t_6_1">Sweep</token>
             <token xml:id="t_6_2">vale</token>
-            <token xml:id="t_6_3">-</token>
+            <token xml:id="t_6_3">--</token>
             <token xml:id="t_6_4">and</token>
             <nature nature_type="earth">
                <token xml:id="t_6_5">hill</token>
             </nature>
-            <token xml:id="t_6_6">-</token>
+            <token xml:id="t_6_6">--</token>
             <token xml:id="t_6_7">and</token>
             <nature nature_type="earth">
                <token xml:id="t_6_8">tree!</token>

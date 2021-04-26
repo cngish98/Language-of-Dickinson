@@ -18,18 +18,18 @@
          <line>
             <token xml:id="t_1_1">A</token>
             <token xml:id="t_1_2">poor</token>
-            <token xml:id="t_1_3">-</token>
+            <token xml:id="t_1_3">--</token>
             <love>
                <token xml:id="t_1_4">torn</token>
                <token xml:id="t_1_5">heart</token>
             </love>
-            <token xml:id="t_1_6">-</token>
+            <token xml:id="t_1_6">--</token>
             <token xml:id="t_1_7">a</token>
             <love>
                <token xml:id="t_1_8">tattered</token>
                <token xml:id="t_1_9">heart</token>
             </love>
-            <token xml:id="t_1_10">-</token>
+            <token xml:id="t_1_10">--</token>
          </line>
          <line>
             <token xml:id="t_2_1">That</token>
@@ -40,7 +40,7 @@
             <token xml:id="t_2_3">down</token>
             <token xml:id="t_2_4">to</token>
             <token xml:id="t_2_5">rest</token>
-            <token xml:id="t_2_6">-</token>
+            <token xml:id="t_2_6">--</token>
          </line>
          <line>
             <token xml:id="t_3_1">Nor</token>
@@ -70,7 +70,7 @@
             <token xml:id="t_5_4">did</token>
             <token xml:id="t_5_5">soft</token>
             <token xml:id="t_5_6">descend</token>
-            <token xml:id="t_5_7">-</token>
+            <token xml:id="t_5_7">--</token>
          </line>
          <line>
             <token xml:id="t_6_1">Nor</token>
@@ -78,7 +78,7 @@
                <token xml:id="t_6_2">Constellation</token>
             </nature>
             <token xml:id="t_6_3">burn</token>
-            <token xml:id="t_6_4">-</token>
+            <token xml:id="t_6_4">--</token>
          </line>
          <line>
             <token xml:id="t_7_1">Intent</token>
@@ -102,7 +102,7 @@
             <religion type="person">
                <token xml:id="t_9_2">angels</token>
             </religion>
-            <token xml:id="t_9_3">-</token>
+            <token xml:id="t_9_3">--</token>
             <token xml:id="t_9_4">happening</token>
             <token xml:id="t_9_5">that</token>
             <token xml:id="t_9_6">way</token>
@@ -114,7 +114,7 @@
                <token xml:id="t_10_3">heart</token>
             </love>
             <token xml:id="t_10_4">espied</token>
-            <token xml:id="t_10_5">-</token>
+            <token xml:id="t_10_5">--</token>
          </line>
          <line>
             <ellipsis ellipsis_type="nominal"
@@ -138,7 +138,7 @@
          </line>
          <line>
             <token xml:id="t_13_1">There</token>
-            <token xml:id="t_13_2">-</token>
+            <token xml:id="t_13_2">--</token>
             <ellipsis ellipsis_type="ambiguous"/>
             <token xml:id="t_13_3">sandals</token>
             <token xml:id="t_13_4">for</token>
@@ -146,18 +146,18 @@
             <physical_body>
                <token xml:id="t_13_6">Barefoot</token>
             </physical_body>
-            <token xml:id="t_13_7">-</token>
+            <token xml:id="t_13_7">--</token>
          </line>
          <line>
             <token xml:id="t_14_1">There</token>
-            <token xml:id="t_14_2">-</token>
+            <token xml:id="t_14_2">--</token>
             <token xml:id="t_14_3">gathered</token>
             <token xml:id="t_14_4">from</token>
             <token xml:id="t_14_5">the</token>
             <nature nature_type="air">
                <token xml:id="t_14_6">gales</token>
             </nature>
-            <token xml:id="t_14_7">-</token>
+            <token xml:id="t_14_7">--</token>
          </line>
          <line>
             <token xml:id="t_15_1">Do</token>

@@ -33,7 +33,7 @@
             <token xml:id="t_2_3">itself</token>
             <token xml:id="t_2_4">get</token>
             <token xml:id="t_2_5">ripe</token>
-            <token xml:id="t_2_6">-</token>
+            <token xml:id="t_2_6">--</token>
          </line>
          <line>
             <token xml:id="t_3_1">And</token>
@@ -41,11 +41,11 @@
                <token xml:id="t_3_2">golden</token>
             </wealth>
             <token xml:id="t_3_3">hang</token>
-            <token xml:id="t_3_4">-</token>
+            <token xml:id="t_3_4">--</token>
             <token xml:id="t_3_5">while</token>
             <token xml:id="t_3_6">farther</token>
             <token xml:id="t_3_7">up</token>
-            <token xml:id="t_3_8">-</token>
+            <token xml:id="t_3_8">--</token>
          </line>
          <line>
             <token xml:id="t_4_1">The</token>
@@ -53,7 +53,7 @@
             <!-- God? markup as religious person -->
             <token xml:id="t_4_3">Ladders</token>
             <token xml:id="t_4_4">stop</token>
-            <token xml:id="t_4_5">-</token>
+            <token xml:id="t_4_5">--</token>
          </line>
          <line>
             <token xml:id="t_5_1">And</token>
@@ -64,16 +64,16 @@
             </nature>
             <token xml:id="t_5_5">far</token>
             <token xml:id="t_5_6">below</token>
-            <token xml:id="t_5_7">-</token>
+            <token xml:id="t_5_7">--</token>
          </line>
          <line>
             <token xml:id="t_6_1">You</token>
             <token xml:id="t_6_2">hear</token>
             <token xml:id="t_6_3">a</token>
             <token xml:id="t_6_4">Being</token>
-            <token xml:id="t_6_5">-</token>
+            <token xml:id="t_6_5">--</token>
             <token xml:id="t_6_6">drop</token>
-            <token xml:id="t_6_7">-</token>
+            <token xml:id="t_6_7">--</token>
          </line>
       </stanza>
       <stanza>
@@ -82,7 +82,7 @@
             <token xml:id="t_7_1">A</token>
             <token xml:id="t_7_2">Wonderful</token>
             <ellipsis ellipsis_type="clausal" possible_string="thing within the soul"/>
-            <token xml:id="t_7_3">-</token>
+            <token xml:id="t_7_3">--</token>
             <token xml:id="t_7_4">to</token>
             <token xml:id="t_7_5">feel</token>
             <token xml:id="t_7_6">the</token>
@@ -102,7 +102,7 @@
             <token xml:id="t_9_2">thought</token>
             <token xml:id="t_9_3">was</token>
             <token xml:id="t_9_4">finished</token>
-            <token xml:id="t_9_5">-</token>
+            <token xml:id="t_9_5">--</token>
          </line>
          <line>
             <token xml:id="t_10_1">Cool</token>
@@ -112,27 +112,27 @@
             <token xml:id="t_10_5">critical</token>
             <token xml:id="t_10_6">of</token>
             <token xml:id="t_10_7">Work</token>
-            <token xml:id="t_10_8">-</token>
+            <token xml:id="t_10_8">--</token>
          </line>
          <line>
             <token xml:id="t_11_1">He</token>
             <token xml:id="t_11_2">shifts</token>
             <token xml:id="t_11_3">the</token>
             <token xml:id="t_11_4">stem</token>
-            <token xml:id="t_11_5">-</token>
+            <token xml:id="t_11_5">--</token>
             <token xml:id="t_11_6">a</token>
             <token xml:id="t_11_7">little</token>
-            <token xml:id="t_11_8">-</token>
+            <token xml:id="t_11_8">--</token>
          </line>
          <line>
             <token xml:id="t_12_1">To</token>
             <token xml:id="t_12_2">give</token>
             <token xml:id="t_12_3">your</token>
             <token xml:id="t_12_4">Gore</token>
-            <token xml:id="t_12_5">-</token>
+            <token xml:id="t_12_5">--</token>
             <token xml:id="t_12_6">a</token>
             <token xml:id="t_12_7">look</token>
-            <token xml:id="t_12_8">-</token>
+            <token xml:id="t_12_8">--</token>
          </line>
       </stanza>
       <stanza>
@@ -142,7 +142,7 @@
                <token xml:id="t_13_2">solemnest</token>
             </emotion>
             <ellipsis ellipsis_type="verbal" possible_string="it is"/>
-            <token xml:id="t_13_3">-</token>
+            <token xml:id="t_13_3">--</token>
             <token xml:id="t_13_4">to</token>
             <token xml:id="t_13_5">know</token>
          </line>
@@ -159,7 +159,7 @@
             <token xml:id="t_15_1">A</token>
             <token xml:id="t_15_2">little</token>
             <token xml:id="t_15_3">nearer</token>
-            <token xml:id="t_15_4">-</token>
+            <token xml:id="t_15_4">--</token>
             <token xml:id="t_15_5">Every</token>
             <nature nature_type="space">
                <token xml:id="t_15_6">Sun</token>
@@ -169,7 +169,7 @@
             <ellipsis ellipsis_type="ambiguous"/>
             <token xml:id="t_16_1">The</token>
             <token xml:id="t_16_2">Single</token>
-            <token xml:id="t_16_3">-</token>
+            <token xml:id="t_16_3">--</token>
             <token xml:id="t_16_4">to</token>
             <token xml:id="t_16_5">some</token>
             <life>

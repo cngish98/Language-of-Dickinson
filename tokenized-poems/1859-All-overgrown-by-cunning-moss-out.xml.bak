@@ -61,7 +61,7 @@
             <animal animal_type="bird">
                <token xml:id="t_5_2">Bird</token>
             </animal>
-            <token xml:id="t_5_3">-</token>
+            <token xml:id="t_5_3">--</token>
             <token xml:id="t_5_4">observing</token>
             <token xml:id="t_5_5">others</token>
          </line>
@@ -84,14 +84,14 @@
             <place>
                <token xml:id="t_7_4">latitudes</token>
             </place>
-            <token xml:id="t_7_5">-</token>
+            <token xml:id="t_7_5">--</token>
          </line>
          <line>
             <token xml:id="t_8_1">Quietly</token>
             <token xml:id="t_8_2">did</token>
             <token xml:id="t_8_3">the</token>
             <token xml:id="t_8_4">same</token>
-            <token xml:id="t_8_5">-</token>
+            <token xml:id="t_8_5">--</token>
          </line>
       </stanza>
       <stanza>
@@ -103,7 +103,7 @@
             <token xml:id="t_9_2">differed</token>
             <token xml:id="t_9_3">in</token>
             <token xml:id="t_9_4">returning</token>
-            <token xml:id="t_9_5">-</token>
+            <token xml:id="t_9_5">--</token>
          </line>
          <line>
             <token xml:id="t_10_1">Since</token>
@@ -115,7 +115,7 @@
             </nature>
             <token xml:id="t_10_4">are</token>
             <token xml:id="t_10_5">green</token>
-            <token xml:id="t_10_6">-</token>
+            <token xml:id="t_10_6">--</token>
          </line>
          <line>
             <token xml:id="t_11_1">Yet</token>
@@ -128,7 +128,7 @@
             </nature>
             <token xml:id="t_11_7">I</token>
             <token xml:id="t_11_8">meet</token>
-            <token xml:id="t_11_9">-</token>
+            <token xml:id="t_11_9">--</token>
          </line>
          <line>
             <token xml:id="t_12_1">Can</token>
@@ -137,13 +137,13 @@
             </animal>
             <token xml:id="t_12_3">be</token>
             <token xml:id="t_12_4">seen</token>
-            <token xml:id="t_12_5">-</token>
+            <token xml:id="t_12_5">--</token>
          </line>
       </stanza>
       <stanza>
          <line>
             <token xml:id="t_13_1">Or</token>
-            <token xml:id="t_13_2">-</token>
+            <token xml:id="t_13_2">--</token>
          </line>
       </stanza>
       <stanza>
@@ -152,7 +152,7 @@
             <token xml:id="t_14_2">from</token>
             <token xml:id="t_14_3">many</token>
             <token xml:id="t_14_4">wanderings</token>
-            <token xml:id="t_14_5">-</token>
+            <token xml:id="t_14_5">--</token>
          </line>
          <line>
             <place>

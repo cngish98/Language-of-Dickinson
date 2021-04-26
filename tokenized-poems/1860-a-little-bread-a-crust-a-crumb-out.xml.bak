@@ -18,23 +18,23 @@
             <token xml:id="t_1_1">A</token>
             <token xml:id="t_1_2">little</token>
             <token xml:id="t_1_3">Bread</token>
-            <token xml:id="t_1_4">-</token>
+            <token xml:id="t_1_4">--</token>
             <token xml:id="t_1_5">a</token>
             <token xml:id="t_1_6">crust</token>
-            <token xml:id="t_1_7">-</token>
+            <token xml:id="t_1_7">--</token>
             <token xml:id="t_1_8">a</token>
             <token xml:id="t_1_9">crumb</token>
-            <token xml:id="t_1_10">-</token>
+            <token xml:id="t_1_10">--</token>
          </line>
          <line>
             <token xml:id="t_2_1">A</token>
             <token xml:id="t_2_2">little</token>
             <token xml:id="t_2_3">trust</token>
-            <token xml:id="t_2_4">-</token>
+            <token xml:id="t_2_4">--</token>
             <ellipsis ellipsis_type="clausal" elided_pos="conjunction" possible_string="and"/>
             <token xml:id="t_2_5">a</token>
             <token xml:id="t_2_6">demijohn</token>
-            <token xml:id="t_2_7">-</token>
+            <token xml:id="t_2_7">--</token>
          </line>
          <line>
             <token xml:id="t_3_1">Can</token>
@@ -42,7 +42,7 @@
             <token xml:id="t_3_3">the</token>
             <token xml:id="t_3_4">soul</token>
             <token xml:id="t_3_5">alive</token>
-            <token xml:id="t_3_6">-</token>
+            <token xml:id="t_3_6">--</token>
          </line>
          <line>
             <token xml:id="t_4_1">Not</token>
@@ -51,14 +51,14 @@
             <token xml:id="t_4_4">but</token>
             <ellipsis ellipsis_type="clausal" possible_string="they can keep it"/>
             <token xml:id="t_4_5">breathing</token>
-            <token xml:id="t_4_6">-</token>
+            <token xml:id="t_4_6">--</token>
             <token xml:id="t_4_7">warm</token>
-            <token xml:id="t_4_8">-</token>
+            <token xml:id="t_4_8">--</token>
          </line>
          <line>
             <ellipsis ellipsis_type="clausal" possible_string="and as"/>
             <token xml:id="t_5_1">Conscious</token>
-            <token xml:id="t_5_2">-</token>
+            <token xml:id="t_5_2">--</token>
             <token xml:id="t_5_3">as</token>
             <token xml:id="t_5_4">old</token>
             <token xml:id="t_5_5">Napoleon,</token>
@@ -76,11 +76,11 @@
             <token xml:id="t_7_1">A</token>
             <token xml:id="t_7_2">modest</token>
             <token xml:id="t_7_3">lot</token>
-            <token xml:id="t_7_4">-</token>
+            <token xml:id="t_7_4">--</token>
             <token xml:id="t_7_5">A</token>
             <token xml:id="t_7_6">fame</token>
             <token xml:id="t_7_7">petite</token>
-            <token xml:id="t_7_8">-</token>
+            <token xml:id="t_7_8">--</token>
          </line>
          <line>
             <ellipsis ellipsis_type="clausal" possible_string="and"/>
@@ -109,7 +109,7 @@
          <line>
             <token xml:id="t_11_1">A</token>
             <token xml:id="t_11_2">Soldier's</token>
-            <token xml:id="t_11_3">-</token>
+            <token xml:id="t_11_3">--</token>
             <token xml:id="t_11_4">balls!</token>
             <token xml:id="t_11_5">Who</token>
             <token xml:id="t_11_6">asketh</token>

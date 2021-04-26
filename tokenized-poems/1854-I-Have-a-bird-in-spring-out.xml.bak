@@ -34,7 +34,7 @@
             <music>
                <token xml:id="t_2_5">sing</token>
             </music>
-            <token xml:id="t_2_6">-</token>
+            <token xml:id="t_2_6">--</token>
          </line>
          <line>
             <token xml:id="t_3_1">The</token>
@@ -51,7 +51,7 @@
                <token xml:id="t_4_4">summer</token>
             </time>
             <token xml:id="t_4_5">nears</token>
-            <token xml:id="t_4_6">-</token>
+            <token xml:id="t_4_6">--</token>
          </line>
          <line>
             <token xml:id="t_5_1">And</token>
@@ -91,7 +91,7 @@
          <line>
             <token xml:id="t_9_1">Though</token>
             <token xml:id="t_9_2">flown</token>
-            <token xml:id="t_9_3">-</token>
+            <token xml:id="t_9_3">--</token>
          </line>
          <line>
             <token xml:id="t_10_1">Learneth</token>
@@ -140,7 +140,7 @@
          <line>
             <token xml:id="t_15_1">Are</token>
             <token xml:id="t_15_2">mine</token>
-            <token xml:id="t_15_3">-</token>
+            <token xml:id="t_15_3">--</token>
          </line>
          <line>
             <token xml:id="t_16_1">And</token>

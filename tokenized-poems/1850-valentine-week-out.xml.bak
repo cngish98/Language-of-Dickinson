@@ -643,7 +643,7 @@
             <nature nature_type="general">
                <token xml:id="t_39_12">flower</token>
             </nature>
-            <token xml:id="t_39_13">-</token>
+            <token xml:id="t_39_13">--</token>
          </line>
          <line>
             <token xml:id="t_40_1">And</token>
@@ -664,7 +664,7 @@
             <music>
                <token xml:id="t_40_12">drum</token>
             </music>
-            <token xml:id="t_40_13">-</token>
+            <token xml:id="t_40_13">--</token>
          </line>
          <line>
             <token xml:id="t_41_1">And</token>
