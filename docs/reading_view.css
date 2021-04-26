@@ -296,7 +296,7 @@ span {
 }
 
 /* body : meta-body */
-span.body.highlight,
+span.physical_body.highlight,
 span.eating.highlight,
 span.violence.highlight {
     color: red;

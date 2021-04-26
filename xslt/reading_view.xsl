@@ -19,7 +19,7 @@
         <!-- supported by the checkboxes in the interface                 -->
         <!-- ============================================================ -->
         <xsl:map>
-            <xsl:for-each select="('body', 'eating', 'violence')">
+            <xsl:for-each select="('physical_body', 'eating', 'violence')">
                 <xsl:map-entry key="." select="'meta-body'"/>
             </xsl:for-each>
             <xsl:for-each select="('law', 'music', 'science', 'writing')">
