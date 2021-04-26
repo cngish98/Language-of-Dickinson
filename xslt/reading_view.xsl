@@ -86,7 +86,7 @@
                     </div>
 
                     <div class="poems-filtering-container">
-                        <h3 class="sidebar-header">Recipient / no recipient</h3>
+                        <h3 class="sidebar-header">Recipient</h3>
                         <input type="checkbox" id="yes-recipient" name="yes-recipient"
                             checked="checked"/>
                         <label for="yes-recipient">Yes</label>
@@ -141,45 +141,45 @@
                             <h3 class="sidebar-header">Theme</h3>
 
                             <input type="checkbox" id="meta-body" name="meta-body"/>
-                            <label for="meta-body"><strong style="color:red;">The body and related
+                            <label for="meta-body"><strong style="color:#FD216E;">The body and related
                                     concepts</strong> (eating, violence)</label>
                             <br/>
                             <input type="checkbox" id="meta-disciplines" name="meta-disciplines"/>
-                            <label for="meta-disciplines"><strong style="color:#f08d0c;"
+                            <label for="meta-disciplines"><strong style="color:#F18F01;"
                                     >Disciplines</strong> (law, music, science, writing)</label>
                             <br/>
                             <input type="checkbox" id="meta-emotions" name="meta-emotions"/>
-                            <label for="meta-emotions"><strong style="color:purple;">Emotions /
+                            <label for="meta-emotions"><strong style="color:#BBA2CD;">Emotions /
                                     state of mind</strong> (emotions, loss, love, the mind,
                                 solitude, uncertainty)</label>
                             <br/>
                             <input type="checkbox" id="meta-nature" name="meta-nature"/>
                             <label for="meta-nature">
-                                <strong style="color:green;">Nature and animals</strong>
+                                <strong style="color:#1B998B;">Nature and animals</strong>
                             </label>
                             <br/>
                             <input type="checkbox" id="meta-relationships" name="meta-relationships"/>
-                            <label for="meta-relationships"><strong style="color:#d56cd9;"
+                            <label for="meta-relationships"><strong style="color:#D88C9A;"
                                     >Interpersonal relationships</strong> (characters and reference
                                 to people)</label>
                             <br/>
                             <input type="checkbox" id="meta-religion" name="meta-religion"/>
                             <label for="meta-religion">
-                                <strong style="color:#2a5fa3;">Religion and the
+                                <strong style="color:#266DD3;">Religion and the
                                     supernatural</strong>
                             </label>
                             <br/>
                             <input type="checkbox" id="meta-social" name="meta-social"/>
-                            <label for="meta-social"><strong style="color:#b09012;">Social
+                            <label for="meta-social"><strong style="color:#ECBB83;">Social
                                     constructs and allusions</strong> (social norms, social class,
                                 war, wealth, labor)</label>
                             <br/>
                             <input type="checkbox" id="meta-time" name="meta-time"/>
-                            <label for="meta-time"><strong style="color:#9b93bd;">Time-based
+                            <label for="meta-time"><strong style="color:#A72608;">Time-based
                                     experiences</strong> (childhood, memory, time)</label>
                             <br/>
                             <input type="checkbox" id="meta-abstract" name="meta-abstract"/>
-                            <label for="meta-abstract"><strong style="color:#88cf9f;">Other abstract
+                            <label for="meta-abstract"><strong style="color:#7F2CCB;">Other abstract
                                     concepts</strong> (life, death, light, darkness)</label>
                             <br/>
                         </div>

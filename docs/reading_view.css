@@ -19,7 +19,7 @@ h1 {
 h2 {
     color: #6E8B4C;
     font-family: "Open Sans", sans-serif;
-    font-size: 130%;
+    font-size: 150%;
     padding-left: 40px;
     text-align: left;
 }
@@ -27,7 +27,7 @@ h2 {
 h3 {
     color: #568f56;
     font-family: "Bitter", serif;
-    font-size: 110%;
+    font-size: 130%;
     padding-left: 40px
 }
 
@@ -299,7 +299,7 @@ span {
 span.physical_body.highlight,
 span.eating.highlight,
 span.violence.highlight {
-    color: red;
+    color: #FD216E;
 }
 
 /* disciplines : meta-disciplines */
@@ -307,7 +307,7 @@ span.law.highlight,
 span.music.highlight,
 span.science.highlight,
 span.writing.highlight {
-    color: #f08d0c; /* orange ish */
+    color: #F18F01; /* orange ish */
 }
 
 /* emotions / state of mind : meta-emotions */
@@ -317,24 +317,24 @@ span.loss.highlight,
 span.mind.highlight,
 span.solitude.highlight,
 span.uncertainty.highlight {
-    color: purple;
+    color: #BBA2CD;
 }
 
 /* nature and animals : meta-nature */
 span.nature.highlight,
 span.animal.highlight {
-    color: green;
+    color: #1B998B;
 }
 
 /* interpersonal relations : meta-relationships */
 span.character.highlight {
-    color: #d56cd9; /* pinkish */
+    color: #D88C9A; /* pinkish */
 }
 
 /* religion and the supernatural : meta-religion */
 span.religion.highlight,
 span.supernatural.highlight {
-    color: #2a5fa3; /*  muted blue */
+    color: #266DD3; /*  muted blue */
 }
 
 /* social constructs and allusions */
@@ -343,14 +343,14 @@ span.social_class.highlight,
 span.war.highlight,
 span.wealth.highlight,
 span.labor.highlight {
-    color: #b09012; /* ochre */
+    color: #ECBB83; /* ochre */
 }
 
 /* time-based experiences */
 span.childhood.highlight,
 span.memory.highlight,
 span.time.highlight {
-    color: #9b93bd; /*  periwinkle */
+    color: #A72608; /*  periwinkle */
 }
 
 /* other abstract concepts */
@@ -358,5 +358,5 @@ span.life.highlight,
 span.death.highlight,
 span.light.highlight,
 span.darkness.highlight {
-    color: #88cf9f; /* minty  */
+    color: #7F2CCB; /* minty  */
 }
