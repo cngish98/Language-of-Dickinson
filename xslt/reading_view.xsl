@@ -315,7 +315,7 @@
                 <xsl:apply-templates/>
                 <xsl:apply-templates select="@possible_string"/>
                 <xsl:if test="@v">
-                    <xsl:text> (</xsl:text>
+                    <xsl:text> (v</xsl:text>
                     <xsl:apply-templates select="@v"/>
                     <xsl:text>)</xsl:text>
                 </xsl:if>
