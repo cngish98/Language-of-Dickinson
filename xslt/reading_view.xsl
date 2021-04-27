@@ -314,6 +314,11 @@
         <span class="tooltip">[...] <span class="tooltiptext">
                 <xsl:apply-templates/>
                 <xsl:apply-templates select="@possible_string"/>
+                <xsl:if test="@v">
+                    <xsl:text> (</xsl:text>
+                    <xsl:apply-templates select="@v"/>
+                    <xsl:text>)</xsl:text>
+                </xsl:if>
                 <xsl:text> (</xsl:text>
                 <xsl:apply-templates select="@ellipsis_type"/>
                 <xsl:text>)</xsl:text>

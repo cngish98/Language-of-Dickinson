@@ -75,7 +75,7 @@
             <token xml:id="t_5_7">-</token>
          </line>
          <line>
-            <ellipsis ellipsis_type="clausal" possible_string="that were"/>
+            <ellipsis ellipsis_type="clausal" possible_string="that were" v="1"/>
             <token xml:id="t_6_1">Capacious</token>
             <token xml:id="t_6_2">as</token>
             <token xml:id="t_6_3">the</token>
@@ -96,11 +96,8 @@
             <token xml:id="t_7_5">-</token>
          </line>
          <line>
-            <ellipsis ellipsis_type="verbal"
-                      elided_pos="verb"
-                      possible_string="are"
-                      v="1"/>
-            <ellipsis ellipsis_type="clausal" possible_string="between" v="2"/>
+            <ellipsis ellipsis_type="verbal" possible_string="are" v="1"/>
+            <ellipsis ellipsis_type="clausal" possible_string="and between" v="2"/>
             <token xml:id="t_8_1">Your</token>
             <mind>
                <token xml:id="t_8_2">Consciousness</token>
