@@ -349,9 +349,12 @@
             law | mind | physical_body | eating | solitude | supernatural | violence |
             wealth | labor | social_class | light | darkness | uncertainty | loss">
         <!-- meta-theme is retrieved from stylesheet variable -->
-        <span class="{string-join((name(), $metatheme-by-theme(name())), ' ')}">
-            <xsl:value-of select="normalize-space(.)"/>
-        </span>
+        <xsl:if test="not(string-length(normalize-space(.)) eq 0)">
+            <!-- currently we throw away empty theme elements (29 instances in corpus) -->
+            <span class="{string-join((name(), $metatheme-by-theme(name())), ' ')}">
+                <xsl:value-of select="normalize-space(.)"/>
+            </span>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="
             text()
@@ -360,14 +363,15 @@
             <!-- 
                 Suppress whitespace-only text nodes if:
                     1. Followed immediately by punctuation other than quotation mark
+                       or dash (looks only at non-empty following siblings)
                     2. Preceded immediately by quotation mark
                     3. Followed immediately by quotation mark that 
                        is at the end of its <line>
                 Otherwise: copy the whitespace into the outpout
             -->
             <xsl:when test="
-                    following-sibling::*[1]
-                    [matches(., '^[^A-Za-z&quot;]$')]"/>
+                    following-sibling::*[not(string-length(normalize-space(.)) eq 0)][1]
+                    [matches(., '^[^-A-Za-z&quot;]$')]"/>
             <xsl:when test="
                     preceding-sibling::*[1]
                     [. eq '&quot;']"/>
