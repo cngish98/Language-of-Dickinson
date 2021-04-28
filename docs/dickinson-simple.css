@@ -132,3 +132,28 @@ p {
 .text-content {
     margin: 50px 150px 50px 150px;
 }
+
+/* Functionality for hiding methods textbox */
+
+button {
+    background-color: #F7F8F1;
+    border: none;
+    color: #967D4A;
+    font-family: "Open Sans", sans-serif;
+    font-size: 130%;
+    font-weight: bold;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.dropdownButton {
+    text-align: center;
+}
+
+.hide {
+    display: none; /* show it when clicked */
+}
+
+.show {
+    display: block;
+}
