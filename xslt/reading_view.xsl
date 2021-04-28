@@ -141,8 +141,8 @@
                             <h3 class="sidebar-header">Theme</h3>
 
                             <input type="checkbox" id="meta-body" name="meta-body"/>
-                            <label for="meta-body"><strong style="color:#FD216E;">The body and related
-                                    concepts</strong> (eating, violence)</label>
+                            <label for="meta-body"><strong style="color:#FD216E;">The body and
+                                    related concepts</strong> (eating, violence)</label>
                             <br/>
                             <input type="checkbox" id="meta-disciplines" name="meta-disciplines"/>
                             <label for="meta-disciplines"><strong style="color:#c97f14;"
@@ -195,7 +195,7 @@
                 </div>
                 <footer>
                     <img id="cc-license" alt="Creative Commons License"
-                        src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+                        src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
                 </footer>
             </body>
         </html>
@@ -350,7 +350,34 @@
             wealth | labor | social_class | light | darkness | uncertainty | loss">
         <!-- meta-theme is retrieved from stylesheet variable -->
         <span class="{string-join((name(), $metatheme-by-theme(name())), ' ')}">
-            <xsl:apply-templates/>
+            <xsl:value-of select="normalize-space(.)"/>
         </span>
+    </xsl:template>
+    <xsl:template match="
+            text()
+            [string-length(normalize-space(.)) eq 0]">
+        <xsl:choose>
+            <!-- 
+                Suppress whitespace-only text nodes if:
+                    1. Followed immediately by punctuation other than quotation mark
+                    2. Preceded immediately by quotation mark
+                    3. Followed immediately by quotation mark that 
+                       is at the end of its <line>
+                Otherwise: copy the whitespace into the outpout
+            -->
+            <xsl:when test="
+                    following-sibling::*[1]
+                    [matches(., '^[^A-Za-z&quot;]$')]"/>
+            <xsl:when test="
+                    preceding-sibling::*[1]
+                    [. eq '&quot;']"/>
+            <xsl:when test="
+                    following-sibling::*[1]
+                    [. eq '&quot;']
+                    [not(following-sibling::*)]"/>
+            <xsl:otherwise>
+                <xsl:copy/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>

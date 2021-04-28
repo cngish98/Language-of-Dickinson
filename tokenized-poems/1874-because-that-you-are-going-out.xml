@@ -27,9 +27,8 @@
             <character name="you" relation_with="I">
                <token xml:id="t_2_1">you</token>
             </character>
-            <token xml:id="t_2_2">you</token>
-            <token xml:id="t_2_3">are</token>
-            <token xml:id="t_2_4">going</token>
+            <token xml:id="t_2_2">are</token>
+            <token xml:id="t_2_3">going</token>
          </line>
          <!-- Higginson did not die until 1911 (he outlived Dickinson, even), so I don't think the poem is about him -->
          <line>
@@ -398,8 +397,7 @@
             <religion type="person">
                <token xml:id="t_68_2">"God</token>
             </religion>
-            <token xml:id="t_68_3">"</token>
-            <token xml:id="t_68_4">is</token>
+            <token xml:id="t_68_3">is</token>
          </line>
          <line>
             <love>
