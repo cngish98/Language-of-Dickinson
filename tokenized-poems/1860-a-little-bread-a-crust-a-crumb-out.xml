@@ -2,7 +2,7 @@
 <?xml-model href="../dickinson_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>
    <metadata>
-      <first_line>A little Bread - a crust - a crumb --</first_line>
+      <first_line>A little Bread - a crust - a crumb -</first_line>
       <date period="early">1860</date>
       <poem_number>J159</poem_number>
       <source> https://www.edickinson.org/editions/2/image_sets/12169396 </source>
