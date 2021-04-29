@@ -6,7 +6,7 @@
     
     <!--===============================Variables==============================================-->
     <xsl:variable name="poems_corpus"
-        select="collection('Language-of-Dickinson/tokenized-poems/?select=*.xml')"/>
+        select="collection('../tokenized-poems/?select=*.xml')"/>
     <xsl:variable name="poem_themes" select="distinct-values($poems_corpus//poem_themes/theme)"/>
     <xsl:variable name="bar_width" select="25" as="xs:double"/>
     <xsl:variable name="bar_spacing" select="$bar_width div 2" as="xs:double"/>
@@ -70,11 +70,11 @@
                         <xsl:value-of select="current-grouping-key()"/>
                     </text>
                     
-                    <!--Labels for numerical values -->
+                    <!--Labels for numerical values
                     <text x="{$mid_bar_position}" y="-{$bar_height + 5}" text-anchor="middle" fill="black"
                         font-size="small">
                         <xsl:value-of select="count(current-group())"/>
-                    </text>
+                    </text>  -->
                 </xsl:for-each-group>
                 
                 <!-- X and Y axes -->
