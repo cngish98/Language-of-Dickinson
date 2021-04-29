@@ -38,11 +38,20 @@
                     <xsl:variable name="position_2" select="50"/>
                     <xsl:variable name="spacing" select="25"/>
                     <xsl:variable name="position" select="((position()-1)*($position_2+$spacing)+30)"/>
-                    
+                    <xsl:variable name="bar_color" as="xs:string" select="
+                        if (current-grouping-key() = ('yes')) then
+                        'green'
+                        else
+                        if (current-grouping-key() = ('no')) then
+                        'red'
+                        else
+                        'yellow'
+                        "/>
                     
                 
                 
-                <rect x="{$position}" y="{-$equation*3}" height="{$equation*3}" width="50" color="green"></rect>
+                <rect x="{$position}" y="{-$equation*3}" height="{$equation*3}" width="50" 
+                    stroke="black" stroke-width=".5" fill="{$bar_color}" />
                     
                 </xsl:for-each-group>
                 
