@@ -22,6 +22,7 @@
             <token xml:id="t_1_4">patient</token>
             <token xml:id="t_1_5">illness</token>
             <token xml:id="t_1_6">-</token>
+            <ellipsis ellipsis_type="ambiguous"/>
          </line>
          <line>
             <token xml:id="t_2_1">An</token>
@@ -134,7 +135,7 @@
 
     A brief, but patient illness - 
         An hour to prepare - 
-        And one below, this morning 
+        And one below, this morning   (one below (on earth) is now (as of this morning) in Heaven (where the angels are)
         Is where the angels are - 
         It was a short procession - 
         The Bobolink was there - 

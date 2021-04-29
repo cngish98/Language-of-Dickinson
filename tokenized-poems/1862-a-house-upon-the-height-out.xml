@@ -107,8 +107,7 @@
       </stanza>
       <stanza>
          <line>
-            <ellipsis ellipsis_type="clausal"/>
-            <!-- what, though?) -->
+            <ellipsis ellipsis_type="clausal" possible_string="there was a house"/>
             <token xml:id="t_9_1">Whose</token>
             <death>
                <token xml:id="t_9_2">fate</token>

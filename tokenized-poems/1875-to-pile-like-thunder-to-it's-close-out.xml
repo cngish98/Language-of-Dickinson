@@ -76,6 +76,7 @@
             <token xml:id="t_6_4">neither</token>
             <token xml:id="t_6_5">prove</token>
             <token xml:id="t_6_6">-</token>
+            <ellipsis ellipsis_type="ambiguous"/>
          </line>
          <line>
             <token xml:id="t_7_1">Experience</token>
