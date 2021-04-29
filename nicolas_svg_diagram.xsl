@@ -18,9 +18,9 @@
                 <line x1="30" y1="-210" x2="300" y2="-210" stroke="grey" stroke-dasharray="4 4 4" stroke-width="2"></line>
                 <line x1="30" y1="-240" x2="300" y2="-240" stroke="grey" stroke-dasharray="4 4 4" stroke-width="2"></line>
                 <line x1="30" y1="-270" x2="300" y2="-270" stroke="grey" stroke-dasharray="4 4 4" stroke-width="2"></line>
-                <text x="42" y="30">No</text>
-                <text x="190" y="30">Yes</text>
-                <text x="88" y="30">Ambiguous</text>
+                <text x="42" y="30">Yes</text>
+                <text x="88" y="30">No</text>
+                <text x="190" y="30">Ambiguous</text>
                 <text x="-3" y="-27">10</text>
                 <text x="-3" y="-57">20</text>
                 <text x="-3" y="-87">30</text>
@@ -34,7 +34,7 @@
                 <text x="150" y="60" text-anchor="middle">Ellipsis Present?</text>
                 <!--<xsl:variable name="rectangle_1" select="distinct-values(//poem/metadata/ellipsis_present)"></xsl:variable>-->
                 <xsl:for-each-group select="$first_select//poem/metadata/ellipsis_present" group-by=".">
-                <xsl:variable name="equation" select="count(current-group())"></xsl:variable>
+                <xsl:variable name="equation" select="count(current-group())"/>
                     <xsl:variable name="position_2" select="50"/>
                     <xsl:variable name="spacing" select="25"/>
                     <xsl:variable name="position" select="((position()-1)*($position_2+$spacing)+30)"/>
@@ -42,7 +42,7 @@
                     
                 
                 
-                <rect x="{$position}" y="{-$equation*3}" height="{$equation*3}" width="50"></rect>
+                <rect x="{$position}" y="{-$equation*3}" height="{$equation*3}" width="50" color="green"></rect>
                     
                 </xsl:for-each-group>
                 
