@@ -690,7 +690,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <p>We left out themes that appear in less than 5 poems.</p>
+                        <p>We left out themes that appear in 5 or less poems.</p>
                     </div>
                 </div>
                 <!--Make sure this </div> stays at the very end of all the data,
