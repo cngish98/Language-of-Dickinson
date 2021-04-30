@@ -36,7 +36,7 @@
                 <xsl:for-each-group select="$poems_corpus//theme" group-by=".">
                     <xsl:sort data-type="text"/>
                     <xsl:variable name="poem_position" select="position() - 1" as="xs:integer"/>
-                    <xsl:variable name="x_position" select="$poem_position * ($bar_spacing + $left_bar_spacing)"
+                    <xsl:variable name="x_position" select="$poem_position * ($bar_spacing + $left_bar_spacing) + $bar_spacing"
                         as="xs:double"/>
                     <xsl:variable name="mid_bar_position" as="xs:double" select="$x_position + $bar_width div 2"/>
                     <xsl:variable name="bar_height" as="xs:double" select="count(current-group()) * $y_scaling"/>
@@ -72,9 +72,9 @@
                     <rect x="{$x_position}" y="-{$bar_height}" stroke="black" stroke-width=".5" fill="{$bar_color}"
                         width="{$bar_width}" height="{$bar_height}"/>
                     
-                    <!--Labels for the poems-->
-                    <text x="{$x_position + $bar_width div 2}" y="20" text-anchor="middle"
-                        font-size="68%">
+                    <!-- theme labels for the poems-->
+                    <text x="{$x_position + $bar_width div 2}" y="20" text-anchor="start"
+                        font-size="medium" transform="rotate(25, {$mid_bar_position}, 10)">
                         <xsl:value-of select="current-grouping-key()"/>
                     </text>
                     
@@ -102,11 +102,11 @@
                 <text x="-5" y="-{$max-height * .75 * $y_scaling}" text-anchor="end" dominant-baseline="middle">36</text>
                 
                 <!-- Other labels -->
-                <text x="{$x_axis_length div 2}" y="60" text-anchor="middle" font-size="x-large"
+                <text x="{$x_axis_length div 2}" y="100" text-anchor="middle" font-size="x-large"
                     >Poem Theme</text>
                 <text x="-50" y="-225" text-anchor="middle" writing-mode="tb"
                     font-size="x-large"># of Poems Containing Theme</text>
-                <text x="{$x_axis_length div 2}" y="100" text-anchor="middle" font-size="xx-large"
+                <text x="{$x_axis_length div 2}" y="150" text-anchor="middle" font-size="xx-large"
                     >Number of Poems Containing a Particular Theme (by Theme)</text>
             </g>
         </svg>
