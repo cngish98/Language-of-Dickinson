@@ -92,11 +92,11 @@
                                 poems in her earliest years of writing.</p>
 
                             <p>For each year within each of the three periods, we aimed to select
-                                the same number of poems with and without a recipient. That way, we
-                                would have a corpus comprised 50% of poems with recipients and 50%
-                                of poems without recipients. We ended up being able to get very
-                                close to these desired percentages, with 43 of our corpus poems
-                                having a recipient and (~48%) and 47 having no recipient (~52%).</p>
+                                the same number of poems with and without a recipient. That way, 50% of
+                                our corpus would have a recipient and 50% would lack a recipient.
+                                We ended up being able to get very close to these desired percentages, 
+                                with 43 of our corpus poems having a recipient (~48%) and 47 having no 
+                                recipient (~52%).</p>
 
                             <p>Each poem was given a &lt;metadata&gt; section that included the
                                 following:</p>
@@ -224,7 +224,8 @@
                                 the Corpus page. When you mouse over the […], a tooltip pops up
                                 first providing information about the possible elided string and
                                 then providing the type of ellipsis in parentheses. For instances of
-                                ellipsis</p>
+                                ellipsis with a @v attribute, the value of @v is located within the 
+                                [...] and as the second piece of information within the tooltip.</p>
                             
                         </div>
                     </div>
