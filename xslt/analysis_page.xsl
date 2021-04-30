@@ -6,6 +6,9 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
 
+    <xsl:variable name="poems_corpus" as="document-node()+"
+        select="collection('../tokenized-poems/?select=*.xml')"/>
+
     <xsl:template name="xsl:initial-template">
         <html>
             <head>
@@ -58,6 +61,8 @@
                         </div>
                     </div>
                     
+                    <!-- I think there needs to be an h1 "RESULTS" here like we have for "OUR METHODOLOGY: an explanation" -->
+                    
                     <!--=====================Simple ellipsis count graphs=================================-->
                     <div class="text-box">
                         <h3>How many of our poems contain ellipsis?</h3>
@@ -77,27 +82,27 @@
                             reading-view.xslt itself too! -->
                     <div class="text-box">
                         <h3>Comparing ellipsis with presence of recipient</h3> <!--edit this title probably!?-->
-                        <table> 
+                        <table>
                             <tr>
                                 <th>Ellipsis presence</th>
-                                <th>Count with poems with recipient</th>
+                                <th>Count of poems with recipient</th>
                                 <th>Count of poems with no recipient</th>
                             </tr>
                             <tr>
                                 <td>Yes</td>
-                                <td><!--insert number of yes ellipsis / yes recipient poems here --></td>
-                                <td><!--insert number of yes ellipsis / no recipient poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::recipient[. != 'none'])"/><!--insert number of yes ellipsis / yes recipient poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::recipient[. = 'none'])"/><!--insert number of yes ellipsis / no recipient poems here --></td>
                             </tr>
                             <tr>
                                 <td>No</td>
-                                <td><!--insert number of no ellipsis / yes recipient poems here --></td>
-                                <td><!--insert number of no ellipsis / no recipient poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::recipient[. != 'none'])"/><!--insert number of no ellipsis / yes recipient poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::recipient[. = 'none'])"/><!--insert number of no ellipsis / no recipient poems here --></td>
                             </tr>
                             <tr>
                                 <td>Ambiguous</td>
-                                <td><!--insert number of ambig ellipsis / yes recipient poems here 
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::recipient[. != 'none'])"/><!--insert number of ambig ellipsis / yes recipient poems here 
                                 for example, this value should be 3 out of 90 poems--></td>
-                                <td><!--insert number of ambig ellipsis / no recipient poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::recipient[. = 'none'])"/><!--insert number of ambig ellipsis / no recipient poems here --></td>
                             </tr>
                         </table>
                     </div>
@@ -115,21 +120,21 @@
                             </tr>
                             <tr>
                                 <td>Yes</td>
-                                <td><!--insert number of yes ellipsis / early period poems here --></td>
-                                <td><!--insert number of yes ellipsis / middle period poems here --></td>
-                                <td><!--insert number of yes ellipsis / late period poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::date[@period = 'early'])"/><!--insert number of yes ellipsis / early period poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::date[@period = 'middle'])"/><!--insert number of yes ellipsis / middle period poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::date[@period = 'late'])"/><!--insert number of yes ellipsis / late period poems here --></td>
                             </tr>
                             <tr>
                                 <td>No</td>
-                                <td><!--insert number of no ellipsis / early period poems here --></td>
-                                <td><!--insert number of no ellipsis / middle period poems here --></td>
-                                <td><!--insert number of no ellipsis / late period poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::date[@period = 'early'])"/><!--insert number of no ellipsis / early period poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::date[@period = 'middle'])"/><!--insert number of no ellipsis / middle period poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::date[@period = 'late'])"/><!--insert number of no ellipsis / late period poems here --></td>
                             </tr>
                             <tr>
                                 <td>Ambiguous</td>
-                                <td><!--insert number of ambig ellipsis / early period poems here --></td>
-                                <td><!--insert number of ambig ellipsis / middle period poems here --></td>
-                                <td><!--insert number of ambig ellipsis / late period poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::date[@period = 'early'])"/><!--insert number of ambig ellipsis / early period poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::date[@period = 'middle'])"/><!--insert number of ambig ellipsis / middle period poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::date[@period = 'late'])"/><!--insert number of ambig ellipsis / late period poems here --></td>
                             </tr>
                         </table>
                     </div>
@@ -164,46 +169,48 @@
                             </tr>
                             <tr>
                                 <td>Yes</td>
-                                <td><!--insert number of yes ellipsis / death themed poems here --></td>
-                                <td><!--insert number of yes ellipsis / emotion themed poems here --></td>
-                                <td><!--insert number of yes ellipsis / life themed poems here --></td>
-                                <td><!--insert number of yes ellipsis / love themed poems here --></td>
-                                <td><!--insert number of yes ellipsis / nature themed poems here --></td>
-                                <td><!--insert number of yes ellipsis / relationships themed poems here --></td>
-                                <td><!--insert number of yes ellipsis / religion themed poems here --></td>
-                                <td><!--insert number of yes ellipsis / solitude themed poems here --></td>
-                                <td><!--insert number of yes ellipsis / the mind themed poems here --></td>
-                                <td><!--insert number of yes ellipsis / time themed poems here --></td>
-                                <td><!--insert number of yes ellipsis / writing themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'death'])"/><!--insert number of yes ellipsis / death themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'emotion'])"/><!--insert number of yes ellipsis / emotion themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'life'])"/><!--insert number of yes ellipsis / life themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'love'])"/><!--insert number of yes ellipsis / love themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'nature'])"/><!--insert number of yes ellipsis / nature themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'relationships'])"/><!--insert number of yes ellipsis / relationships themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'religion'])"/><!--insert number of yes ellipsis / religion themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'solitude'])"/><!--insert number of yes ellipsis / solitude themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'the mind'])"/><!--insert number of yes ellipsis / the mind themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'time'])"/><!--insert number of yes ellipsis / time themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'yes']/preceding-sibling::poem_themes/theme[. = 'writing'])"/><!--insert number of yes ellipsis / writing themed poems here --></td>
                             </tr>
                             <tr>
                                 <td>No</td>
-                                <td><!--insert number of no ellipsis / death themed poems here --></td>
-                                <td><!--insert number of no ellipsis / emotion themed poems here --></td>
-                                <td><!--insert number of no ellipsis / life themed poems here --></td>
-                                <td><!--insert number of no ellipsis / love themed poems here --></td>
-                                <td><!--insert number of no ellipsis / nature themed poems here --></td>
-                                <td><!--insert number of no ellipsis / relationships themed poems here --></td>
-                                <td><!--insert number of no ellipsis / religion themed poems here --></td>
-                                <td><!--insert number of no ellipsis / solitude themed poems here --></td>
-                                <td><!--insert number of no ellipsis / the mind themed poems here --></td>
-                                <td><!--insert number of no ellipsis / time themed poems here --></td>
-                                <td><!--insert number of no ellipsis / writing themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'death'])"/><!--insert number of no ellipsis / death themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'emotion'])"/><!--insert number of no ellipsis / emotion themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'life'])"/><!--insert number of no ellipsis / life themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'love'])"/><!--insert number of no ellipsis / love themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'nature'])"/><!--insert number of no ellipsis / nature themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'relationships'])"/><!--insert number of no ellipsis / relationships themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'religion'])"/><!--insert number of no ellipsis / religion themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'solitude'])"/><!--insert number of no ellipsis / solitude themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'the mind'])"/><!--insert number of no ellipsis / the mind themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'time'])"/><!--insert number of no ellipsis / time themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'no']/preceding-sibling::poem_themes/theme[. = 'writing'])"/><!--insert number of no ellipsis / writing themed poems here --></td>
                             </tr>
                             <tr>
                                 <td>Ambiguous</td> <!--this section maybe we can make smaller, since the purely
-                                    ambiguous poems are very small -->
-                                <td><!--insert number of ambig ellipsis / death themed poems here --></td>
-                                <td><!--insert number of ambig ellipsis / emotion themed poems here --></td>
-                                <td><!--insert number of ambig ellipsis / life themed poems here --></td>
-                                <td><!--insert number of ambig ellipsis / love themed poems here --></td>
-                                <td><!--insert number of ambig ellipsis / nature themed poems here --></td>
-                                <td><!--insert number of ambig ellipsis / relationships themed poems here --></td>
-                                <td><!--insert number of ambig ellipsis / religion themed poems here --></td>
-                                <td><!--insert number of ambig ellipsis / solitude themed poems here --></td>
-                                <td><!--insert number of ambig ellipsis / the mind themed poems here --></td>
-                                <td><!--insert number of ambig ellipsis / time themed poems here --></td>
-                                <td><!--insert number of ambig ellipsis / writing themed poems here --></td>
+                                    ambiguous poems are very small --> 
+                                    <!-- CG: I'm wondering if we even need this ambiguous row at all because all the counts
+                                    are 0 other than 2 (religion and time) and even then, the counts are only 1 for each-->
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'death'])"/><!--insert number of ambig ellipsis / death themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'emotion'])"/><!--insert number of ambig ellipsis / emotion themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'life'])"/><!--insert number of ambig ellipsis / life themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'love'])"/><!--insert number of ambig ellipsis / love themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'nature'])"/><!--insert number of ambig ellipsis / nature themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'relationships'])"/><!--insert number of ambig ellipsis / relationships themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'religion'])"/><!--insert number of ambig ellipsis / religion themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'solitude'])"/><!--insert number of ambig ellipsis / solitude themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'the mind'])"/><!--insert number of ambig ellipsis / the mind themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'time'])"/><!--insert number of ambig ellipsis / time themed poems here --></td>
+                                <td><xsl:apply-templates select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'writing'])"/><!--insert number of ambig ellipsis / writing themed poems here --></td>
                             </tr>
                         </table>
                     </div>
