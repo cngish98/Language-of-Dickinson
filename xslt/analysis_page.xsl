@@ -110,7 +110,7 @@
                             </g>
                         </svg>
                         <!---=========Ellipsis types graph=====-->
-                        <h3>How many times does ellipsis occur throughout the poems?</h3>
+                        <h3>How many times does ellipsis occur throughout the poems? What types of ellipsis?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 100 950 600" width="100%"
                             class="ellipsis-graph">
                             <g transform="translate(80,600)">
