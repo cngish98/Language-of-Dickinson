@@ -33,97 +33,132 @@
                     <div class="text-box dropdownContent show" id="methods-text">
                         <div>
                             <h4>Creation of the Corpus</h4>
-                            <p>Emily Dickinson’s corpus of poems consists of approximately 1,800 poems 
-                                with some poems having a recipient and other poems having no recipient. 
-                                To create a smaller corpus for our project out of this much larger corpus, 
-                                we utilized the <a href="https://www.edickinson.org">Emily Dickinson Archive</a> 
-                                (an open-access website for the manuscripts of Emily Dickinson). The ED 
-                                Archive allows for browsing by image or work, and we browsed by work so that we 
-                                could have easy access to poems’ first lines or titles, year of writing, recipient, 
-                                edition, and number.</p>
-                            
-                            <p>We knew we wanted to examine 4 main variables for each of the poems in our 
-                                corpus – date written, recipient, imagery, and ellipsis. In order to do so, 
-                                and have a representative sample of poems Dickinson wrote throughout her active 
-                                years, we needed to have a large enough corpus and to control some of the variables. 
-                                We decided our corpus should have 90 poems, a fairly large, yet manageable number 
-                                for the limited time period of the project, and that we would choose these 90 poems 
-                                based on date written and presence of a recipient. Imagery and ellipsis, then, would 
-                                be dependent on the poems chosen.</p>
+                            <p>Emily Dickinson wrote approximately 1,800 poems in her lifetime. To
+                                create a smaller corpus for our project out of this much larger
+                                collection, we utilized the <a href="https://www.edickinson.org"
+                                    >Emily Dickinson Archive</a> (an open-access website for the
+                                manuscripts of Emily Dickinson). The ED Archive allows for browsing
+                                by image or work, and we browsed by work so that we could have easy
+                                access to poems’ first lines (or titles), year of writing,
+                                recipient, edition, and number.</p>
 
-                            <p>The Archive includes poems written from 1850 to 1886. This span of 36 years was easily 
-                                divisible by 3 (the number of project developers) which fit perfectly with the decision 
-                                to analyze 90 poems (also divisible by 3). Thus, we were able to divide Dickinson’s 
-                                works into early, middle, and late periods, as follows:</p>
+                            <p>We knew we wanted to examine 4 main variables for each of the poems
+                                in our corpus – date written, recipient, imagery, and ellipsis. In
+                                order to do so, and have a representative sample of poems Dickinson
+                                wrote throughout her active years, we needed to have a large enough
+                                corpus and to control some of the variables. We decided our corpus
+                                should have 90 poems, a fairly large, yet manageable number for the
+                                limited time period of the project, and that we would choose these
+                                90 poems based on date written and presence of a recipient. Imagery
+                                and ellipsis, then, would be dependent on the poems chosen.</p>
+
+                            <p>The Archive includes poems written from 1850 to 1886. This span of 36
+                                years was easily divisible by 3 (the number of project developers)
+                                which fit perfectly with the decision to analyze 90 poems (also
+                                divisible by 3). Thus, we were able to divide Dickinson’s works into
+                                early, middle, and late periods, as follows:</p>
 
                             <ul>
                                 <li><strong>Early: </strong>1850-1862</li>
                                 <li><strong>Middle: </strong>1863-1874</li>
                                 <li><strong>Late: </strong>1875-1886</li>
                             </ul>
-                            
+
                             <p>with 30 poems selected from each period.</p>
-                            
-                            <p>We chose to work predominantly with the Johnson Poems 1955 Edition because of its line 
-                                standardization that better fit the purposes of our project (as we were not as focused 
-                                on manuscript versions and variation between editions). It was up to the discretion 
-                                of the individual team member whether the other edition on the Archive, the Franklin 
-                                Variorum 1998 edition, should be used instead (this choice was dependent on recipient 
-                                vs. no recipient and format of the poem’s text). 15 out of the 90 poems in the corpus 
-                                are from the Franklin Variorum edition, and the remaining 75 are Johnson edition poems. 
-                                Though the Johnson Poems edition contains instances of double dashes “--” we replaced 
-                                all such instances with a single dash “-“ (1) because readers are most used to seeing 
-                                a single dash in Dickinson poems and (2) because “--” is not allowed in XML comments.</p>
-                            
-                            <p>Within each of these periods, we aimed to select anywhere from 2-4 Johnson Edition 
-                                poems per year, depending on how many poems were written each year relative to other 
-                                years from the same period. As is evident in the early period grouping of poems, a 
-                                selection of 2-4 poems per year was not always feasible. You will see that the 30 
-                                poems from the Early Period are not as spaced out between years, with poems written 
-                                during the single year 1858 totaling 10. This is partly because the Archive does not 
-                                contain any poems written in 1856 or 1857 and partly because Dickinson only wrote 
-                                one or two poems in her earliest years of writing.</p>
-                            
-                            <p>For each year within each of the three periods, we aimed to select the same number 
-                                of poems with and without a recipient. That way, we would have a corpus comprised 
-                                50% of poems with recipients and 50% of poems without recipients. We ended up being 
-                                able to get very close to these desired percentages, with 43 of our corpus poems 
+
+                            <p>We chose to work predominantly with the Johnson Poems 1955 Edition
+                                because of its line standardization that better fit the purposes of
+                                our project (as we were not as focused on manuscript versions and
+                                variation between editions). It was up to the discretion of the
+                                individual team member whether the other edition on the Archive, the
+                                Franklin Variorum 1998 edition, should be used instead (this choice
+                                was dependent on recipient vs. no recipient and format of the poem’s
+                                text). 15 out of the 90 poems in the corpus are from the Franklin
+                                Variorum edition, and the remaining 75 are Johnson edition poems.
+                                Though the Johnson Poems edition contains instances of double dashes
+                                “--” we replaced all such instances with a single dash “-“ (1)
+                                because readers are most used to seeing a single dash in Dickinson
+                                poems and (2) because “--” is not allowed in XML comments.</p>
+
+                            <p>Within each of these periods, we aimed to select anywhere from 2-4
+                                Johnson Edition poems per year, depending on how many poems were
+                                written each year relative to other years from the same period. As
+                                is evident in the early period grouping of poems, a selection of 2-4
+                                poems per year was not always feasible. You will see that the 30
+                                poems from the Early Period are not as spaced out between years,
+                                with poems written during the single year 1858 totaling 10. This is
+                                partly because the Archive does not contain any poems written in
+                                1856 or 1857 and partly because Dickinson only wrote one or two
+                                poems in her earliest years of writing.</p>
+
+                            <p>For each year within each of the three periods, we aimed to select
+                                the same number of poems with and without a recipient. That way, we
+                                would have a corpus comprised 50% of poems with recipients and 50%
+                                of poems without recipients. We ended up being able to get very
+                                close to these desired percentages, with 43 of our corpus poems
                                 having a recipient and (~48%) and 47 having no recipient (~52%).</p>
-                            
-                            <p>Each poem was given a &lt;metadata&gt; section that included the following:</p>
-                            
+
+                            <p>Each poem was given a &lt;metadata&gt; section that included the
+                                following:</p>
+
                             <ul>
-                                <li><strong>&lt;first_line&gt;:</strong> the first line of the poem (used as the title)</li>
-                                <li><strong>&lt;date&gt; with a @period attribute:</strong> year written and distinguish poems by 
-                                    early, middle, and late period</li>
-                                <li><strong>&lt;poem_number&gt;:</strong> edition and number of poem within edition for easy searching 
-                                    of poem</li>
-                                <li><strong>&lt;source&gt;:</strong> link to poem page on Emily Dickinson Archive website</li>
-                                <li><strong>&lt;recipient&gt;:</strong> either name of recipient or ‘none’ for poems with no recipient</li>
-                                <li><strong>&lt;poem_themes&gt;:</strong> containing theme elements giving the overall theme(s) of the poem</li>
-                                <li><strong>&lt;ellipsis_present&gt;:</strong> value of ‘yes,’ ‘no,’ or ‘ambiguous’ giving presence of 
-                                    ellipsis in poem</li>
+                                <li><strong>&lt;first_line&gt;:</strong> the first line of the poem
+                                    (used as the title)</li>
+                                <li><strong>&lt;date&gt; with a @period attribute:</strong> year
+                                    written and distinguish poems by early, middle, and late
+                                    period</li>
+                                <li><strong>&lt;poem_number&gt;:</strong> edition and number of poem
+                                    within edition for easy searching of poem</li>
+                                <li><strong>&lt;source&gt;:</strong> link to poem page on Emily
+                                    Dickinson Archive website</li>
+                                <li><strong>&lt;recipient&gt;:</strong> either name of recipient or
+                                    ‘none’ for poems with no recipient</li>
+                                <li><strong>&lt;poem_themes&gt;:</strong> containing theme elements
+                                    giving the overall theme(s) of the poem</li>
+                                <li><strong>&lt;ellipsis_present&gt;:</strong> value of ‘yes,’ ‘no,’
+                                    or ‘ambiguous’ showing the presence of ellipsis in the poem</li>
                             </ul>
-                            
-                            <p>After controlled selection of poems for our corpus and input of the &lt;metadata&gt; section, 
-                                we were able to move into marking up the individual poems for type of imagery and 
-                                instances and type of ellipsis.</p>
+
+                            <p>After controlled selection of poems for our corpus and input of the
+                                &lt;metadata&gt; section, we were able to move into marking up the
+                                individual poems for type of imagery and instances and type of
+                                ellipsis.</p>
 
                             <h4>Imagery markup</h4>
-                            <p>We already knew, from prior study of her poetry, that Dickinson often wrote about 
-                                nature, religion, and emotion, so we expected to markup these areas of imagery. 
-                                Apart from these known common themes, however, we were unsure of what exactly we 
-                                would markup up in terms of imagery. <!-- add more here! --></p>
-                            
-                            <p>*** need more paragraphs ***</p>
-                            
-                            <p>After the entirety of each poem was examined and marked up for imagery, 
-                                the &lt;poem_themes&gt; element of the &lt;metadata&gt; section was updated 
-                                with &lt;theme&gt; elements according to the discretion of the developer.</p>
+                            <p>We already knew, from prior study of her poetry, that Dickinson often
+                                wrote about nature, religion, and emotion, so we expected to markup
+                                these areas of imagery. Apart from these known common themes,
+                                however, we were unsure of what exactly we would markup up in terms
+                                of imagery.</p>
+
+                            <p>As we continued close reading of each poem, we discovered many more
+                                themes that were present throughout the poems, even if they did not
+                                occur as frequently as nature, religion, or emotion. Ultimately, we
+                                tagged words or phrases in the poems with 28 different possible
+                                &lt;theme&gt; elements, such as nature, religion, writing, death,
+                                relationships, and so on. More specifically, and to illustrate an
+                                example, mentions of God, church, hymns, and so on would be tagged
+                                as &lt;religion&gt;. </p>
+
+                            <p>We also included "subcategories" for some of these themes. For
+                                example, nature elements could also have an attribute of "earth,"
+                                "air," "fire," "water," "space," or "general" because Dickinson
+                                often referred to many different types of nature. Ultimately, they
+                                were too specific for our project, which was more about tracking
+                                correlation with ellipsis than analyzing the imagery in particular
+                                depth. However, we did not delete these features from our markup, so
+                                they are still available in the source code on our <a
+                                    href="https://github.com/cngish98/Language-of-Dickinson">
+                                    Github repository</a>.</p>
+
+                            <p>After the entirety of each poem was examined and marked up for
+                                imagery, the &lt;poem_themes&gt; element of the &lt;metadata&gt;
+                                section was updated with &lt;theme&gt; elements according to the
+                                discretion of the individual developer.</p>
 
                             <h4>Ellipsis markup</h4>
                             <p>Elision was categorized as nominal, verbal, or clausal.</p>
-                            
+
                             <p>(talk about v tag here?)</p>
                         </div>
                     </div>
@@ -134,8 +169,8 @@
                     <div class="text-box">
                         <!---=========Ellipsis presence graph=====-->
                         <h3>How many poems in our corpus contain instances of ellipsis?</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 100 900 600" width="100%"
-                            class="ellipsis-graph">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 100 900 600"
+                            width="100%" class="ellipsis-graph">
                             <g transform="translate(80,600)">
                                 <line x1="0" y1="-112.5" x2="500" y2="-112.5" stroke="grey"
                                     stroke-dasharray="4 4 4" stroke-width="2"/>
@@ -177,9 +212,10 @@
                             </g>
                         </svg>
                         <!---=========Ellipsis types graph=====-->
-                        <h3>How many times does each type of ellipsis occur throughout the poem corpus?</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 100 950 600" width="100%"
-                            class="ellipsis-graph">
+                        <h3>How many times does each type of ellipsis occur throughout the poem
+                            corpus?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 100 950 600"
+                            width="100%" class="ellipsis-graph">
                             <g transform="translate(80,600)">
                                 <line x1="0" y1="-112.5" x2="630" y2="-112.5" stroke="grey"
                                     stroke-dasharray="4 4 4" stroke-width="2"/>
@@ -430,13 +466,14 @@
                             </g>
                         </svg>
                         <p>We colored the bars here according to the color of the 9 themes available
-                        to highlight on our corpus page.</p>
+                            to highlight on our corpus page.</p>
                     </div>
 
                     <!--=====================Correlations between ellipsis and recipient=============================-->
 
                     <div class="text-box">
-                        <h3>Comparing <em>ellipsis presence</em> with <em>recipient presence</em></h3>
+                        <h3>Comparing <em>ellipsis presence</em> with <em>recipient
+                            presence</em></h3>
                         <!--edit this title probably!?-->
                         <table>
                             <tr>
@@ -490,7 +527,8 @@
                     <!--=====================Correlations between ellipsis and time period=================================-->
 
                     <div class="text-box">
-                        <h3>Comparing <em>ellipsis presence</em> with <em>time period written</em></h3>
+                        <h3>Comparing <em>ellipsis presence</em> with <em>time period
+                            written</em></h3>
                         <!--edit this title probably!?-->
                         <table>
                             <tr>
@@ -695,69 +733,69 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>Ambiguous</td>
-                                <!--this section maybe we can make smaller, since the purely
-                                    ambiguous poems are very small -->
-                                <!-- CG: I'm wondering if we even need this ambiguous row at all because all the counts
-                                    are 0 other than 2 (religion and time) and even then, the counts are only 1 for each-->
+                                <!--<td>Ambiguous</td>
+                                <!-\-this section maybe we can make smaller, since the purely
+                                    ambiguous poems are very small -\->
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'death'])"/>
-                                    <!--insert number of ambig ellipsis / death themed poems here -->
+                                    <!-\-insert number of ambig ellipsis / death themed poems here -\->
                                 </td>
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'emotion'])"/>
-                                    <!--insert number of ambig ellipsis / emotion themed poems here -->
+                                    <!-\-insert number of ambig ellipsis / emotion themed poems here -\->
                                 </td>
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'life'])"/>
-                                    <!--insert number of ambig ellipsis / life themed poems here -->
+                                    <!-\-insert number of ambig ellipsis / life themed poems here -\->
                                 </td>
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'love'])"/>
-                                    <!--insert number of ambig ellipsis / love themed poems here -->
+                                    <!-\-insert number of ambig ellipsis / love themed poems here -\->
                                 </td>
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'nature'])"/>
-                                    <!--insert number of ambig ellipsis / nature themed poems here -->
+                                    <!-\-insert number of ambig ellipsis / nature themed poems here -\->
                                 </td>
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'relationships'])"/>
-                                    <!--insert number of ambig ellipsis / relationships themed poems here -->
+                                    <!-\-insert number of ambig ellipsis / relationships themed poems here -\->
                                 </td>
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'religion'])"/>
-                                    <!--insert number of ambig ellipsis / religion themed poems here -->
+                                    <!-\-insert number of ambig ellipsis / religion themed poems here -\->
                                 </td>
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'solitude'])"/>
-                                    <!--insert number of ambig ellipsis / solitude themed poems here -->
+                                    <!-\-insert number of ambig ellipsis / solitude themed poems here -\->
                                 </td>
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'the mind'])"/>
-                                    <!--insert number of ambig ellipsis / the mind themed poems here -->
+                                    <!-\-insert number of ambig ellipsis / the mind themed poems here -\->
                                 </td>
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'time'])"/>
-                                    <!--insert number of ambig ellipsis / time themed poems here -->
+                                    <!-\-insert number of ambig ellipsis / time themed poems here -\->
                                 </td>
                                 <td>
                                     <xsl:apply-templates
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'writing'])"/>
-                                    <!--insert number of ambig ellipsis / writing themed poems here -->
-                                </td>
+                                    <!-\-insert number of ambig ellipsis / writing themed poems here -\->
+                                </td>-->
                             </tr>
                         </table>
-                        <p>*We left out themes that appear in 5 or less poems.</p>
+                        <p>We left out themes that appear in 5 or less poems, as well as the poems
+                            with purely ambiguous ellipsis since there are only 5 of them in the
+                            entire corpus.</p>
                     </div>
                 </div>
                 <!--Make sure this </div> stays at the very end of all the data,
