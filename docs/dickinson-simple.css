@@ -133,6 +133,8 @@ p {
     margin: 50px 150px 50px 150px;
 }
 
+/*                  STYLING FOR ANALYSIS PAGE BELOW       */
+
 /* Functionality for hiding methods textbox 
  * 
  * 
@@ -184,6 +186,7 @@ td {
     border: 1px solid black;
     border-collapse: collapse;
     font-family: "Open Sans", sans-serif;
+    text-align: right;
 }
 
 td,
@@ -191,3 +194,21 @@ th {
     padding: 10px;
     vertical-align: middle;
 }
+
+#themes-table {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+}
+
+#themes-table-box {
+    min-width: 100%;
+}
+
+/* Formatting for ellipsis graphs
+ * 
+ *  */
+ .ellipsis-graph {
+     margin-top: 1%;
+     margin-bottom: 1%;
+ }
