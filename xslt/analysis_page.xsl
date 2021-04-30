@@ -205,7 +205,7 @@
                                     phrase</li>
                                 <li><strong>Clausal:</strong> elided material is either both a
                                     verb/verb phrase <em>and</em> a noun/noun phrase or a word that
-                                    join clauses of a sentence (such as a conjunction)</li>
+                                    joins clauses of a sentence (such as a conjunction) so that two clauses are being affected</li>
                                 <li><strong>Ambiguous:</strong> there is elided material, but type
                                     cannot be determined</li>
                             </ul>
