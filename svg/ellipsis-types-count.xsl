@@ -12,7 +12,7 @@
                 <xsl:variable name="bar-width" as="xs:integer" select="100"/>
                 <xsl:variable name="spacing" as="xs:double" select="$bar-width div 2"/>
                 <xsl:variable name="bars" as="xs:double" select="$bar-width + $spacing"/>
-                <xsl:variable name="max-width" as="xs:double" select="3 * $bars + 50"/>
+                <xsl:variable name="max-width" as="xs:double" select="3 * $bars + 180"/>
                 <xsl:variable name="max-height" as="xs:integer" select="90"/>
                 <xsl:variable name="y-scale" as="xs:integer" select="5"/>
 
@@ -38,20 +38,18 @@
 
                 <!-- y-axis ruling line labels -->
                 <text x="-15" y="0" text-anchor="middle">0</text>
-                <text x="-15" y="-{$max-height * $y-scale div 2}" text-anchor="middle">90</text>
-                <text x="-15" y="-{$max-height * $y-scale}" text-anchor="middle">180</text>
+                <text x="-15" y="-{$max-height * $y-scale div 2}" text-anchor="middle">45</text>
+                <text x="-15" y="-{$max-height * $y-scale}" text-anchor="middle">90</text>
 
                 <!-- y-axis label -->
                 <text x="-50" y="-{$max-height * $y-scale div 2}" text-anchor="middle"
-                    writing-mode="tb" font-size="x-large"># of instances occurred throughout all 90
-                    poems</text>
+                    writing-mode="tb" font-size="x-large">Total times encountered</text>
 
                 <!-- title (x-axis) -->
-                <text x="{$max-width div 2}" y="80" text-anchor="middle" font-size="x-large">Total
-                    counts of types of ellipsis</text>
+                <text x="{$max-width div 2}" y="70" text-anchor="middle" font-size="x-large">Types of ellipsis</text>
 
-                <xsl:for-each-group select="$poems-corpus//poem//ellipsis" group-by=".">
-                    <xsl:sort order="descending"/>
+                <xsl:for-each-group select="$poems-corpus//@ellipsis_type" group-by=".">
+                    <xsl:sort order="ascending"/>
 
                     <xsl:variable name="ellipsis-count" select="count(current-group())"/>
 
@@ -63,13 +61,16 @@
                         select="count(current-group()) * $y-scale"/>
 
                     <xsl:variable name="bar_color" as="xs:string" select="
-                            if (current-grouping-key() = ('yes')) then
+                            if (current-grouping-key() = ('nominal')) then
                                 '#A2A77F'
                             else
-                                if (current-grouping-key() = ('no')) then
+                                if (current-grouping-key() = ('verbal')) then
                                     '#4F759B'
                                 else
-                                    '#945780'
+                                    if (current-grouping-key() = ('clausal')) then
+                                    '#7681B3'
+                                    else
+                                        '#945780'
                             "/>
                     <!-- bars (3) -->
                     <rect x="{$x-pos}" y="-{$ellipsis-count * $y-scale}"

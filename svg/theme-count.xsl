@@ -103,11 +103,11 @@
                 
                 <!-- Other labels -->
                 <text x="{$x_axis_length div 2}" y="100" text-anchor="middle" font-size="x-large"
-                    >Poem Theme</text>
+                    >Poem theme</text>
                 <text x="-50" y="-225" text-anchor="middle" writing-mode="tb"
-                    font-size="x-large"># of Poems Containing Theme</text>
-                <text x="{$x_axis_length div 2}" y="150" text-anchor="middle" font-size="xx-large"
-                    >Number of Poems Containing a Particular Theme (by Theme)</text>
+                    font-size="x-large">Number of poems containing theme</text>
+                <!--<text x="{$x_axis_length div 2}" y="150" text-anchor="middle" font-size="xx-large"
+                    >Number of Poems Containing a Particular Theme (by Theme)</text>-->
             </g>
         </svg>
     </xsl:template>

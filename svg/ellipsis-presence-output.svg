@@ -50,8 +50,8 @@
             y="-225"
             text-anchor="middle"
             writing-mode="tb"
-            font-size="x-large"># of Poems</text>
-      <text x="250" y="80" text-anchor="middle" font-size="x-large">Ellipsis Presence</text>
+            font-size="x-large">Total number of poems in our corpus</text>
+      <text x="250" y="60" text-anchor="middle" font-size="x-large">Ellipsis presence?</text>
       <rect x="50"
             y="-340"
             height="340"

@@ -60,14 +60,14 @@
                     
                     <!--=====================Simple ellipsis count graphs=================================-->
                     <div class="text-box">
-                        <h3>Total counts of ellipsis presence</h3>
-                        <h3>Total counts of ellipsis types</h3>
+                        <h3>How many of our poems contain ellipsis?</h3>
+                        <h3>How many times does ellipsis occur throughout the poems?</h3>
                     </div>
 
                     <!--=====================Theme count graph=================================-->
                     
                     <div class="text-box">
-                        <h3>Poems by theme</h3>
+                        <h3>How many poems contain a particular theme? Which themes?</h3>
                     </div>
 
                     <!--=====================Correlations between ellipsis and recipient=============================-->

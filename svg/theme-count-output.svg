@@ -519,12 +519,11 @@
       <text x="-5" y="-480" text-anchor="end" dominant-baseline="middle">48</text>
       <text x="-5" y="-120" text-anchor="end" dominant-baseline="middle">12</text>
       <text x="-5" y="-360" text-anchor="end" dominant-baseline="middle">36</text>
-      <text x="784" y="100" text-anchor="middle" font-size="x-large">Poem Theme</text>
+      <text x="784" y="100" text-anchor="middle" font-size="x-large">Poem theme</text>
       <text x="-50"
             y="-225"
             text-anchor="middle"
             writing-mode="tb"
-            font-size="x-large"># of Poems Containing Theme</text>
-      <text x="784" y="150" text-anchor="middle" font-size="xx-large">Number of Poems Containing a Particular Theme (by Theme)</text>
+            font-size="x-large">Number of poems containing theme</text>
    </g>
 </svg>

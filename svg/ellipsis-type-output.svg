@@ -3,34 +3,34 @@
    <g transform="translate(80,600)">
       <line x1="0"
             y1="-112.5"
-            x2="500"
+            x2="630"
             y2="-112.5"
             stroke="grey"
             stroke-dasharray="4 4 4"
             stroke-width="2"/>
       <line x1="0"
             y1="-225"
-            x2="500"
+            x2="630"
             y2="-225"
             stroke="grey"
             stroke-dasharray="4 4 4"
             stroke-width="2"/>
       <line x1="0"
             y1="-337.5"
-            x2="500"
+            x2="630"
             y2="-337.5"
             stroke="grey"
             stroke-dasharray="4 4 4"
             stroke-width="2"/>
       <line x1="0"
             y1="-450"
-            x2="500"
+            x2="630"
             y2="-450"
             stroke="grey"
             stroke-dasharray="4 4 4"
             stroke-width="2"/>
       <line x1="0"
-            x2="500"
+            x2="630"
             y1="0"
             y2="0"
             stroke="black"
@@ -44,28 +44,65 @@
             stroke-width="2"
             stroke-linecap="square"/>
       <text x="-15" y="0" text-anchor="middle">0</text>
-      <text x="-15" y="-225" text-anchor="middle">90</text>
-      <text x="-15" y="-450" text-anchor="middle">180</text>
+      <text x="-15" y="-225" text-anchor="middle">45</text>
+      <text x="-15" y="-450" text-anchor="middle">90</text>
       <text x="-50"
             y="-225"
             text-anchor="middle"
             writing-mode="tb"
-            font-size="x-large"># of instances occurred throughout all 90
-                    poems</text>
-      <text x="250" y="80" text-anchor="middle" font-size="x-large">Total
-                    counts of types of ellipsis</text>
+            font-size="x-large">Total times encountered</text>
+      <text x="315" y="70" text-anchor="middle" font-size="x-large">Types of ellipsis</text>
       <rect x="50"
-            y="-895"
-            height="895"
+            y="-75"
+            height="75"
             width="100"
             stroke="black"
             stroke-width=".5"
             fill="#945780"/>
-      <text x="100" y="30" text-anchor="middle" font-size="large"/>
+      <text x="100" y="30" text-anchor="middle" font-size="large">ambiguous</text>
       <text x="100"
-            y="-905"
+            y="-85"
             text-anchor="middle"
             fill="black"
-            font-size="medium">179</text>
+            font-size="medium">15</text>
+      <rect x="200"
+            y="-400"
+            height="400"
+            width="100"
+            stroke="black"
+            stroke-width=".5"
+            fill="#7681B3"/>
+      <text x="250" y="30" text-anchor="middle" font-size="large">clausal</text>
+      <text x="250"
+            y="-410"
+            text-anchor="middle"
+            fill="black"
+            font-size="medium">80</text>
+      <rect x="350"
+            y="-185"
+            height="185"
+            width="100"
+            stroke="black"
+            stroke-width=".5"
+            fill="#A2A77F"/>
+      <text x="400" y="30" text-anchor="middle" font-size="large">nominal</text>
+      <text x="400"
+            y="-195"
+            text-anchor="middle"
+            fill="black"
+            font-size="medium">37</text>
+      <rect x="500"
+            y="-235"
+            height="235"
+            width="100"
+            stroke="black"
+            stroke-width=".5"
+            fill="#4F759B"/>
+      <text x="550" y="30" text-anchor="middle" font-size="large">verbal</text>
+      <text x="550"
+            y="-245"
+            text-anchor="middle"
+            fill="black"
+            font-size="medium">47</text>
    </g>
 </svg>
