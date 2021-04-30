@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" height="800" width="1200">
-   <g transform="translate(80,600)">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="-150 100 900 600"
+     width="100%"
+     class="ellipsis-graph">
+   <g>
       <line x1="0"
             y1="-112.5"
             x2="500"

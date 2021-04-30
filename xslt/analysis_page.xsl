@@ -67,7 +67,7 @@
                     <div class="text-box">
                         <!---=========Ellipsis presence graph=====-->
                         <h3>How many of our poems contain ellipsis?</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="800" width="1200"
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 100 900 600" width="100%"
                             class="ellipsis-graph">
                             <g transform="translate(80,600)">
                                 <line x1="0" y1="-112.5" x2="500" y2="-112.5" stroke="grey"
@@ -111,7 +111,7 @@
                         </svg>
                         <!---=========Ellipsis types graph=====-->
                         <h3>How many times does ellipsis occur throughout the poems?</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="800" width="1200"
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 100 950 600" width="100%"
                             class="ellipsis-graph">
                             <g transform="translate(80,600)">
                                 <line x1="0" y1="-112.5" x2="630" y2="-112.5" stroke="grey"
@@ -362,6 +362,8 @@
                                     font-size="x-large">Number of poems containing theme</text>
                             </g>
                         </svg>
+                        <p>We colored the bars here according to the color of the 9 themes available
+                        to highlight on our corpus page.</p>
                     </div>
 
                     <!--=====================Correlations between ellipsis and recipient=============================-->
@@ -688,6 +690,7 @@
                                 </td>
                             </tr>
                         </table>
+                        <p>We left out themes that appear in less than 5 poems.</p>
                     </div>
                 </div>
                 <!--Make sure this </div> stays at the very end of all the data,

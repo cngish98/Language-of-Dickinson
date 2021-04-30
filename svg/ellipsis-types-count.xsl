@@ -4,8 +4,8 @@
     <xsl:output method="xml" indent="yes"/>
 
     <xsl:template name="xsl:initial-template">
-        <svg height="800" width="1200">
-            <g transform="translate(80,600)">
+        <svg viewBox="-100 100 950 600" width="100%" class="ellipsis-graph">
+            <g>
                 <xsl:variable name="poems-corpus" as="document-node()+"
                     select="collection('../tokenized-poems/?select=*.xml')"/>
 

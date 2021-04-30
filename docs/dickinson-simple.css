@@ -205,10 +205,14 @@ th {
     min-width: 100%;
 }
 
-/* Formatting for ellipsis graphs
+/* Formatting for graphs
  * 
  *  */
  .ellipsis-graph {
      margin-top: 1%;
      margin-bottom: 1%;
  }
+ 
+text {
+    font-family: "Open Sans", sans-serif;
+}
