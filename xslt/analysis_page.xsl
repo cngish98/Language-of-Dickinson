@@ -32,31 +32,98 @@
                     </div>
                     <div class="text-box dropdownContent show" id="methods-text">
                         <div>
-                            <h4>Selecting the markup</h4>
-                            <p>To begin our mark up, we selected 90 poems from the <a
-                                    href="https://www.edickinson.org">Emily Dickinson Archive</a>
-                                that span her career. We tried to find a representative sample of
-                                poems that feature not only different time periods, but diverse
-                                recipients, types of imagery, and stylistic choices. </p>
+                            <h4>Creation of the Corpus</h4>
+                            <p>Emily Dickinson’s corpus of poems consists of approximately 1,800 poems 
+                                with some poems having a recipient and other poems having no recipient. 
+                                To create a smaller corpus for our project out of this much larger corpus, 
+                                we utilized the <a href="https://www.edickinson.org">Emily Dickinson Archive</a> 
+                                (an open-access website for the manuscripts of Emily Dickinson). The ED 
+                                Archive allows for browsing by image or work, and we browsed by work so that we 
+                                could have easy access to poems’ first lines or titles, year of writing, recipient, 
+                                edition, and number.</p>
+                            
+                            <p>We knew we wanted to examine 4 main variables for each of the poems in our 
+                                corpus – date written, recipient, imagery, and ellipsis. In order to do so, 
+                                and have a representative sample of poems Dickinson wrote throughout her active 
+                                years, we needed to have a large enough corpus and to control some of the variables. 
+                                We decided our corpus should have 90 poems, a fairly large, yet manageable number 
+                                for the limited time period of the project, and that we would choose these 90 poems 
+                                based on date written and presence of a recipient. Imagery and ellipsis, then, would 
+                                be dependent on the poems chosen.</p>
 
-                            <p>Dickinson was an active poet between the years 1850-1886. Thus, we
-                                divided her work into early, middle, and late periods as
-                                follows:</p>
+                            <p>The Archive includes poems written from 1850 to 1886. This span of 36 years was easily 
+                                divisible by 3 (the number of project developers) which fit perfectly with the decision 
+                                to analyze 90 poems (also divisible by 3). Thus, we were able to divide Dickinson’s 
+                                works into early, middle, and late periods, as follows:</p>
 
                             <ul>
                                 <li><strong>Early: </strong>1850-1862</li>
                                 <li><strong>Middle: </strong>1863-1874</li>
                                 <li><strong>Late: </strong>1875-1886</li>
                             </ul>
+                            
+                            <p>with 30 poems selected from each period.</p>
+                            
+                            <p>We chose to work predominantly with the Johnson Poems 1955 Edition because of its line 
+                                standardization that better fit the purposes of our project (as we were not as focused 
+                                on manuscript versions and variation between editions). It was up to the discretion 
+                                of the individual team member whether the other edition on the Archive, the Franklin 
+                                Variorum 1998 edition, should be used instead (this choice was dependent on recipient 
+                                vs. no recipient and format of the poem’s text). 15 out of the 90 poems in the corpus 
+                                are from the Franklin Variorum edition, and the remaining 75 are Johnson edition poems. 
+                                Though the Johnson Poems edition contains instances of double dashes “--” we replaced 
+                                all such instances with a single dash “-“ (1) because readers are most used to seeing 
+                                a single dash in Dickinson poems and (2) because “--” is not allowed in XML comments.</p>
+                            
+                            <p>Within each of these periods, we aimed to select anywhere from 2-4 Johnson Edition 
+                                poems per year, depending on how many poems were written each year relative to other 
+                                years from the same period. As is evident in the early period grouping of poems, a 
+                                selection of 2-4 poems per year was not always feasible. You will see that the 30 
+                                poems from the Early Period are not as spaced out between years, with poems written 
+                                during the single year 1858 totaling 10. This is partly because the Archive does not 
+                                contain any poems written in 1856 or 1857 and partly because Dickinson only wrote 
+                                one or two poems in her earliest years of writing.</p>
+                            
+                            <p>For each year within each of the three periods, we aimed to select the same number 
+                                of poems with and without a recipient. That way, we would have a corpus comprised 
+                                50% of poems with recipients and 50% of poems without recipients. We ended up being 
+                                able to get very close to these desired percentages, with 43 of our corpus poems 
+                                having a recipient and (~48%) and 47 having no recipient (~52%).</p>
+                            
+                            <p>Each poem was given a &lt;metadata&gt; section that included the following:</p>
+                            
+                            <ul>
+                                <li><strong>&lt;first_line&gt;:</strong> the first line of the poem (used as the title)</li>
+                                <li><strong>&lt;date&gt; with a @period attribute:</strong> year written and distinguish poems by 
+                                    early, middle, and late period</li>
+                                <li><strong>&lt;poem_number&gt;:</strong> edition and number of poem within edition for easy searching 
+                                    of poem</li>
+                                <li><strong>&lt;source&gt;:</strong> link to poem page on Emily Dickinson Archive website</li>
+                                <li><strong>&lt;recipient&gt;:</strong> either name of recipient or ‘none’ for poems with no recipient</li>
+                                <li><strong>&lt;poem_themes&gt;:</strong> containing theme elements giving the overall theme(s) of the poem</li>
+                                <li><strong>&lt;ellipsis_present&gt;:</strong> value of ‘yes,’ ‘no,’ or ‘ambiguous’ giving presence of 
+                                    ellipsis in poem</li>
+                            </ul>
+                            
+                            <p>After controlled selection of poems for our corpus and input of the &lt;metadata&gt; section, 
+                                we were able to move into marking up the individual poems for type of imagery and 
+                                instances and type of ellipsis.</p>
 
                             <h4>Imagery markup</h4>
-                            <p>Our group discussed some of the common themes shown in Dickinson's
-                                work, such as nature, religion, writing, and emotion. We
-                                incorporated these themes into our schema and tagged any instances
-                                of them that we noticed in the poems.</p>
+                            <p>We already knew, from prior study of her poetry, that Dickinson often wrote about 
+                                nature, religion, and emotion, so we expected to markup these areas of imagery. 
+                                Apart from these known common themes, however, we were unsure of what exactly we 
+                                would markup up in terms of imagery. <!-- add more here! --></p>
+                            
+                            <p>*** need more paragraphs ***</p>
+                            
+                            <p>After the entirety of each poem was examined and marked up for imagery, 
+                                the &lt;poem_themes&gt; element of the &lt;metadata&gt; section was updated 
+                                with &lt;theme&gt; elements according to the discretion of the developer.</p>
 
-                            <h4>Elision markup</h4>
+                            <h4>Ellipsis markup</h4>
                             <p>Elision was categorized as nominal, verbal, or clausal.</p>
+                            
                             <p>(talk about v tag here?)</p>
                         </div>
                     </div>
