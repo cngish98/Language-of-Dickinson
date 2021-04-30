@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     
-                    <!-- I think there needs to be an h1 "RESULTS" here like we have for "OUR METHODOLOGY: an explanation" -->
+                    <!-- CG: I think there needs to be an h1 "RESULTS" here like we have for "OUR METHODOLOGY: an explanation" -->
                     
                     <!--=====================Simple ellipsis count graphs=================================-->
                     <div class="text-box">
@@ -77,9 +77,6 @@
 
                     <!--=====================Correlations between ellipsis and recipient=============================-->
                     
-                    <!--I would reference the table-just-one.xslt and table-split.xslt files to see more
-                            about how I applied templates from the corpus. You could also check the 
-                            reading-view.xslt itself too! -->
                     <div class="text-box">
                         <h3>Comparing ellipsis with presence of recipient</h3> <!--edit this title probably!?-->
                         <table>
@@ -155,6 +152,7 @@
                                 ALSO NOTE: This table does not fit within the text box on the website 
                                 just because it is so big. There is probably a way to fix it but I'm
                                 not sure. Either way, lmk what you think.-->
+                                
                                 <th>Death</th>
                                 <th>Emotion</th>
                                 <th>Life</th>
