@@ -184,9 +184,12 @@
                                     recoverable based on the poem’s linguistic and theme-based contexts, while 
                                     others are not. If a possible string was not recoverable, this attribute was 
                                     excluded.)</li>
-                                <li><strong>@v:</strong> Marks an instance of ellipsis as a version with a number. Instances of 
-                                    ellipsis that give a singular reading do not have this attribute. Instances of ellipsis 
-                                    with the same number value of this attribute provide one reading. </li>
+                                <li><strong>@v:</strong> Marks an instance of ellipsis as a version with a number. This attribute is 
+                                    included only if one poem has different readings when instances of ellipsis are placed 
+                                    in different locations. Instances of ellipsis that give a singular reading do not have this attribute. 
+                                    Instances of ellipsis with an identical number value (i.e. '1') of this attribute provide one reading; 
+                                    instances of ellipsis with a different identical number value (i.e. '2') of this attribute 
+                                    provide another reading.</li>
                             </ul>
                             
                             <p>Determination of ellipsis type</p>
