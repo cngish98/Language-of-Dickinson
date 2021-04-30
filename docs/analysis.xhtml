@@ -93,9 +93,9 @@
                   ellipsis.</p>
                <h4>Imagery markup</h4>
                <p>We already knew, from prior study of her poetry, that Dickinson often
-                  wrote about nature, religion, and emotion, so we expected to markup
+                  wrote about nature, religion, and emotion, so we expected to mark up
                   these areas of imagery. Apart from these known common themes,
-                  however, we were unsure of what exactly we would markup up in terms
+                  however, we were unsure of what exactly we would mark up up in terms
                   of imagery.</p>
                <p>As we continued close reading of each poem, we discovered many more
                   themes that were present throughout the poems, even if they did not
@@ -119,7 +119,55 @@
                   section was updated with &lt;theme&gt; elements according to the
                   discretion of the individual developer.</p>
                <h4>Ellipsis markup</h4>
-               <p>Elision was categorized as nominal, verbal, or clausal.</p>
+               <p>Inevitably, because ellipsis is the occurrence of a word or words not 
+                  actually present in a text, we had to come up with a way to show what 
+                  was absent before even beginning markup of ellipsis. For our purposes 
+                  with Emily Dickinson’s poems, we decided an empty &lt;ellipsis&gt; element 
+                  with attributes giving additional information about the elided 
+                  material would be the best course of action.</p>
+               <p>Each &lt;ellipsis&gt; element <em>required</em> an @ellipsis_type 
+                  attribute with an allowed value of ‘nominal,’ ‘verbal,’ ‘clausal,’ or 
+                  ‘ambiguous.’ Additional <em>optional</em> attributes were:</p>
+               <ul>
+                  <li><strong>@elided_pos:</strong> specific part of speech of elided material if type of 
+                     ellipsis was ‘nominal’ or ‘verbal’ (unused in the current project but 
+                     available in the source code in our <a href="https://github.com/cngish98/Language-of-Dickinson">
+                        Github repository</a>)</li>
+                  <li><strong>@subject_string:</strong> the subject of the elided verb or verb phrase
+                     (unused in the current project but available in the source 
+                     code in our <a href="https://github.com/cngish98/Language-of-Dickinson">
+                        Github repository</a>)</li>
+                  <li><strong>@possible_string:</strong> Developer’s suggestion of what the possible elided string 
+                     would be in the determined location of ellipsis (Some elided strings are 
+                     recoverable based on the poem’s linguistic and theme-based contexts, while 
+                     others are not. If a possible string was not recoverable, this attribute was 
+                     excluded.)</li>
+                  <li><strong>@v:</strong> Marks an instance of ellipsis as a version with a number. Instances of 
+                     ellipsis that give a singular reading do not have this attribute. Instances of ellipsis
+                     
+                     with the same number value of this attribute provide one reading. </li>
+               </ul>
+               <p>Determination of ellipsis type</p>
+               <ul>
+                  <li><strong>Nominal:</strong> elided material is a noun or a noun phrase</li>
+                  <li><strong>Verbal:</strong> elided material is a verb or a verb phrase</li>
+                  <li><strong>Clausal:</strong> elided material is either both a verb/verb phrase 
+                     <em>and</em> a noun/noun phrase or a word that join clauses of a sentence (such
+                     as a conjunction)</li>
+                  <li><strong>Ambiguous:</strong> there is elided material, but type cannot be determined</li>
+               </ul>
+               <p>We were mainly looking for more unconventional instances of ellipsis present in 
+                  Dickinson’s poems. As such, elided understood “you” subjects of imperative statements
+                  
+                  were not marked up as instances of ellipsis. </p>
+               <p>After the entirety of each poem was examined and marked up for instances of ellipsis,
+                  
+                  the value of ‘yes,’ ‘no,’ or ‘ambiguous’ was inputted for the &lt;ellipsis_present&gt; 
+                  element of &lt;metadata&gt; section.</p>
+               <p>Each instance of ellipsis is marked by a […] in the reading view of the Corpus 
+                  page. When you mouse over the […], a tooltip pops up first providing information 
+                  about the possible elided string and then providing the type of ellipsis in 
+                  parentheses. For instances of ellipsis</p>
                <p>(talk about v tag here?)</p>
             </div>
          </div>
@@ -381,7 +429,7 @@
                </tr>
                <tr></tr>
             </table>
-            <p>We left out themes that appear in 5 or less poems, as well as the poems
+            <p>We left out themes that appear in 5 or fewer poems as well as the poems
                with purely ambiguous ellipsis since there are only 5 of them in the
                entire corpus.</p>
          </div>
