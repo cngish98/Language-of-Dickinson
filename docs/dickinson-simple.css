@@ -133,7 +133,10 @@ p {
     margin: 50px 150px 50px 150px;
 }
 
-/* Functionality for hiding methods textbox */
+/* Functionality for hiding methods textbox 
+ * 
+ * 
+ * */
 
 button {
     background-color: #F7F8F1;
@@ -156,4 +159,35 @@ button {
 
 .show {
     display: block;
+}
+
+/* Formatting for tables (mostly the analysis tables)
+ * 
+ * 
+ * 
+ */
+ 
+table {
+    /* Stabilize table width, so that it doesn't jump
+    * when the content width changes 
+    * */
+    width: calc(100% - 6em);
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+}
+
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: "Open Sans", sans-serif;
+}
+
+td,
+th {
+    padding: 10px;
+    vertical-align: middle;
 }
