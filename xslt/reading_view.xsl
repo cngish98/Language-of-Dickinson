@@ -311,19 +311,38 @@
 
     <!-- inserts a [...] for every instance of ellipsis -->
     <xsl:template match="ellipsis">
-        <span class="tooltip">[...] <span class="tooltiptext">
-                <xsl:apply-templates/>
-                <xsl:apply-templates select="@possible_string"/>
-                <xsl:if test="@v">
-                    <xsl:text> (v</xsl:text>
+        <xsl:choose>
+            <xsl:when test="@v">
+                <span class="tooltip">
+                    <xsl:text>[ (</xsl:text>
                     <xsl:apply-templates select="@v"/>
+                    <xsl:text>)...]</xsl:text> 
+                    <span class="tooltiptext">
+                    <xsl:apply-templates/>
+                    <xsl:apply-templates select="@possible_string"/>
+                    <xsl:if test="@v">
+                        <xsl:text> (v</xsl:text>
+                        <xsl:apply-templates select="@v"/>
+                        <xsl:text>)</xsl:text>
+                    </xsl:if>
+                    <xsl:text> (</xsl:text>
+                    <xsl:apply-templates select="@ellipsis_type"/>
                     <xsl:text>)</xsl:text>
-                </xsl:if>
-                <xsl:text> (</xsl:text>
-                <xsl:apply-templates select="@ellipsis_type"/>
-                <xsl:text>)</xsl:text>
-            </span>
-        </span>
+                </span>
+                </span>
+            </xsl:when>
+    
+            <xsl:otherwise> 
+                <span class="tooltip">[...] <span class="tooltiptext">
+                    <xsl:apply-templates/>
+                    <xsl:apply-templates select="@possible_string"/>
+                    <xsl:text> (</xsl:text>
+                    <xsl:apply-templates select="@ellipsis_type"/>
+                    <xsl:text>)</xsl:text>
+                    </span>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <!--<span class="{@ellipsis_type}">

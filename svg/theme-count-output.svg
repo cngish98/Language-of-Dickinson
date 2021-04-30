@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="-100 -500 1550 600"
+     viewBox="-100 -500 1718 600"
      width="100%">
    <g>
       <line x1="0"
-            x2="1400"
-            y1="-225"
-            y2="-225"
+            x2="1568"
+            y1="-240"
+            y2="-240"
+            stroke="lightgray"
+            stroke-dasharray="8 4"
+            stroke-width="1"/>
+      <line x1="0"
+            x2="1568"
+            y1="-120"
+            y2="-120"
+            stroke="lightgray"
+            stroke-dasharray="8 4"
+            stroke-width="1"/>
+      <line x1="0"
+            x2="1568"
+            y1="-360"
+            y2="-360"
             stroke="lightgray"
             stroke-dasharray="8 4"
             stroke-width="1"/>
@@ -15,367 +29,367 @@
             stroke="black"
             stroke-width=".5"
             fill="#1B998B"
-            width="25"
+            width="28"
             height="60"/>
-      <text x="12.5" y="20" text-anchor="middle" font-size="68%">animal</text>
-      <text x="12.5"
+      <text x="14" y="20" text-anchor="middle" font-size="68%">animal</text>
+      <text x="14"
             y="-65"
             text-anchor="middle"
             fill="black"
             font-size="small">6</text>
-      <rect x="50"
+      <rect x="56"
             y="-10"
             stroke="black"
             stroke-width=".5"
             fill="#A72608"
-            width="25"
+            width="28"
             height="10"/>
-      <text x="62.5" y="20" text-anchor="middle" font-size="68%">childhood</text>
-      <text x="37.5"
+      <text x="70" y="20" text-anchor="middle" font-size="68%">childhood</text>
+      <text x="70"
             y="-15"
             text-anchor="middle"
             fill="black"
             font-size="small">1</text>
-      <rect x="100"
+      <rect x="112"
             y="-30"
             stroke="black"
             stroke-width=".5"
-            fill="7F2CCB"
-            width="25"
+            fill="#7F2CCB"
+            width="28"
             height="30"/>
-      <text x="112.5" y="20" text-anchor="middle" font-size="68%">darkness</text>
-      <text x="62.5"
+      <text x="126" y="20" text-anchor="middle" font-size="68%">darkness</text>
+      <text x="126"
             y="-35"
             text-anchor="middle"
             fill="black"
             font-size="small">3</text>
-      <rect x="150"
+      <rect x="168"
             y="-120"
             stroke="black"
             stroke-width=".5"
-            fill="7F2CCB"
-            width="25"
+            fill="#7F2CCB"
+            width="28"
             height="120"/>
-      <text x="162.5" y="20" text-anchor="middle" font-size="68%">death</text>
-      <text x="87.5"
+      <text x="182" y="20" text-anchor="middle" font-size="68%">death</text>
+      <text x="182"
             y="-125"
             text-anchor="middle"
             fill="black"
             font-size="small">12</text>
-      <rect x="200"
+      <rect x="224"
             y="-10"
             stroke="black"
             stroke-width=".5"
             fill="#FD216E"
-            width="25"
+            width="28"
             height="10"/>
-      <text x="212.5" y="20" text-anchor="middle" font-size="68%">eating</text>
-      <text x="112.5"
+      <text x="238" y="20" text-anchor="middle" font-size="68%">eating</text>
+      <text x="238"
             y="-15"
             text-anchor="middle"
             fill="black"
             font-size="small">1</text>
-      <rect x="250"
+      <rect x="280"
             y="-120"
             stroke="black"
             stroke-width=".5"
             fill="#BBA2CD"
-            width="25"
+            width="28"
             height="120"/>
-      <text x="262.5" y="20" text-anchor="middle" font-size="68%">emotion</text>
-      <text x="137.5"
+      <text x="294" y="20" text-anchor="middle" font-size="68%">emotion</text>
+      <text x="294"
             y="-125"
             text-anchor="middle"
             fill="black"
             font-size="small">12</text>
-      <rect x="300"
+      <rect x="336"
             y="-20"
             stroke="black"
             stroke-width=".5"
             fill="#FD216E"
-            width="25"
+            width="28"
             height="20"/>
-      <text x="312.5" y="20" text-anchor="middle" font-size="68%">labor</text>
-      <text x="162.5"
+      <text x="350" y="20" text-anchor="middle" font-size="68%">labor</text>
+      <text x="350"
             y="-25"
             text-anchor="middle"
             fill="black"
             font-size="small">2</text>
-      <rect x="350"
+      <rect x="392"
             y="-20"
             stroke="black"
             stroke-width=".5"
             fill="#c97f14"
-            width="25"
+            width="28"
             height="20"/>
-      <text x="362.5" y="20" text-anchor="middle" font-size="68%">law</text>
-      <text x="187.5"
+      <text x="406" y="20" text-anchor="middle" font-size="68%">law</text>
+      <text x="406"
             y="-25"
             text-anchor="middle"
             fill="black"
             font-size="small">2</text>
-      <rect x="400"
+      <rect x="448"
             y="-70"
             stroke="black"
             stroke-width=".5"
-            fill="7F2CCB"
-            width="25"
+            fill="#7F2CCB"
+            width="28"
             height="70"/>
-      <text x="412.5" y="20" text-anchor="middle" font-size="68%">life</text>
-      <text x="212.5"
+      <text x="462" y="20" text-anchor="middle" font-size="68%">life</text>
+      <text x="462"
             y="-75"
             text-anchor="middle"
             fill="black"
             font-size="small">7</text>
-      <rect x="450"
+      <rect x="504"
             y="-50"
             stroke="black"
             stroke-width=".5"
-            fill="7F2CCB"
-            width="25"
+            fill="#7F2CCB"
+            width="28"
             height="50"/>
-      <text x="462.5" y="20" text-anchor="middle" font-size="68%">light</text>
-      <text x="237.5"
+      <text x="518" y="20" text-anchor="middle" font-size="68%">light</text>
+      <text x="518"
             y="-55"
             text-anchor="middle"
             fill="black"
             font-size="small">5</text>
-      <rect x="500"
+      <rect x="560"
             y="-90"
             stroke="black"
             stroke-width=".5"
             fill="#BBA2CD"
-            width="25"
+            width="28"
             height="90"/>
-      <text x="512.5" y="20" text-anchor="middle" font-size="68%">love</text>
-      <text x="262.5"
+      <text x="574" y="20" text-anchor="middle" font-size="68%">love</text>
+      <text x="574"
             y="-95"
             text-anchor="middle"
             fill="black"
             font-size="small">9</text>
-      <rect x="550"
+      <rect x="616"
             y="-20"
             stroke="black"
             stroke-width=".5"
             fill="#A72608"
-            width="25"
+            width="28"
             height="20"/>
-      <text x="562.5" y="20" text-anchor="middle" font-size="68%">memory</text>
-      <text x="287.5"
+      <text x="630" y="20" text-anchor="middle" font-size="68%">memory</text>
+      <text x="630"
             y="-25"
             text-anchor="middle"
             fill="black"
             font-size="small">2</text>
-      <rect x="600"
+      <rect x="672"
             y="-20"
             stroke="black"
             stroke-width=".5"
             fill="#c97f14"
-            width="25"
+            width="28"
             height="20"/>
-      <text x="612.5" y="20" text-anchor="middle" font-size="68%">music</text>
-      <text x="312.5"
+      <text x="686" y="20" text-anchor="middle" font-size="68%">music</text>
+      <text x="686"
             y="-25"
             text-anchor="middle"
             fill="black"
             font-size="small">2</text>
-      <rect x="650"
+      <rect x="728"
             y="-440"
             stroke="black"
             stroke-width=".5"
             fill="#1B998B"
-            width="25"
+            width="28"
             height="440"/>
-      <text x="662.5" y="20" text-anchor="middle" font-size="68%">nature</text>
-      <text x="337.5"
+      <text x="742" y="20" text-anchor="middle" font-size="68%">nature</text>
+      <text x="742"
             y="-445"
             text-anchor="middle"
             fill="black"
             font-size="small">44</text>
-      <rect x="700"
+      <rect x="784"
             y="-80"
             stroke="black"
             stroke-width=".5"
             fill="#D88C9A"
-            width="25"
+            width="28"
             height="80"/>
-      <text x="712.5" y="20" text-anchor="middle" font-size="68%">relationships</text>
-      <text x="362.5"
+      <text x="798" y="20" text-anchor="middle" font-size="68%">relationships</text>
+      <text x="798"
             y="-85"
             text-anchor="middle"
             fill="black"
             font-size="small">8</text>
-      <rect x="750"
+      <rect x="840"
             y="-140"
             stroke="black"
             stroke-width=".5"
             fill="#266DD3"
-            width="25"
+            width="28"
             height="140"/>
-      <text x="762.5" y="20" text-anchor="middle" font-size="68%">religion</text>
-      <text x="387.5"
+      <text x="854" y="20" text-anchor="middle" font-size="68%">religion</text>
+      <text x="854"
             y="-145"
             text-anchor="middle"
             fill="black"
             font-size="small">14</text>
-      <rect x="800"
+      <rect x="896"
             y="-30"
             stroke="black"
             stroke-width=".5"
             fill="#FD216E"
-            width="25"
+            width="28"
             height="30"/>
-      <text x="812.5" y="20" text-anchor="middle" font-size="68%">social class</text>
-      <text x="412.5"
+      <text x="910" y="20" text-anchor="middle" font-size="68%">social class</text>
+      <text x="910"
             y="-35"
             text-anchor="middle"
             fill="black"
             font-size="small">3</text>
-      <rect x="850"
+      <rect x="952"
             y="-20"
             stroke="black"
             stroke-width=".5"
             fill="#FD216E"
-            width="25"
+            width="28"
             height="20"/>
-      <text x="862.5" y="20" text-anchor="middle" font-size="68%">social norms</text>
-      <text x="437.5"
+      <text x="966" y="20" text-anchor="middle" font-size="68%">social norms</text>
+      <text x="966"
             y="-25"
             text-anchor="middle"
             fill="black"
             font-size="small">2</text>
-      <rect x="900"
+      <rect x="1008"
             y="-60"
             stroke="black"
             stroke-width=".5"
             fill="#BBA2CD"
-            width="25"
+            width="28"
             height="60"/>
-      <text x="912.5" y="20" text-anchor="middle" font-size="68%">solitude</text>
-      <text x="462.5"
+      <text x="1022" y="20" text-anchor="middle" font-size="68%">solitude</text>
+      <text x="1022"
             y="-65"
             text-anchor="middle"
             fill="black"
             font-size="small">6</text>
-      <rect x="950"
+      <rect x="1064"
             y="-10"
             stroke="black"
             stroke-width=".5"
             fill="#266DD3"
-            width="25"
+            width="28"
             height="10"/>
-      <text x="962.5" y="20" text-anchor="middle" font-size="68%">supernatural</text>
-      <text x="487.5"
+      <text x="1078" y="20" text-anchor="middle" font-size="68%">supernatural</text>
+      <text x="1078"
             y="-15"
             text-anchor="middle"
             fill="black"
             font-size="small">1</text>
-      <rect x="1000"
+      <rect x="1120"
             y="-50"
             stroke="black"
             stroke-width=".5"
             fill="#FD216E"
-            width="25"
+            width="28"
             height="50"/>
-      <text x="1012.5" y="20" text-anchor="middle" font-size="68%">the body</text>
-      <text x="512.5"
+      <text x="1134" y="20" text-anchor="middle" font-size="68%">the body</text>
+      <text x="1134"
             y="-55"
             text-anchor="middle"
             fill="black"
             font-size="small">5</text>
-      <rect x="1050"
+      <rect x="1176"
             y="-70"
             stroke="black"
             stroke-width=".5"
-            fill="7F2CCB"
-            width="25"
+            fill="#BBA2CD"
+            width="28"
             height="70"/>
-      <text x="1062.5" y="20" text-anchor="middle" font-size="68%">the mind</text>
-      <text x="537.5"
+      <text x="1190" y="20" text-anchor="middle" font-size="68%">the mind</text>
+      <text x="1190"
             y="-75"
             text-anchor="middle"
             fill="black"
             font-size="small">7</text>
-      <rect x="1100"
+      <rect x="1232"
             y="-120"
             stroke="black"
             stroke-width=".5"
             fill="#A72608"
-            width="25"
+            width="28"
             height="120"/>
-      <text x="1112.5" y="20" text-anchor="middle" font-size="68%">time</text>
-      <text x="562.5"
+      <text x="1246" y="20" text-anchor="middle" font-size="68%">time</text>
+      <text x="1246"
             y="-125"
             text-anchor="middle"
             fill="black"
             font-size="small">12</text>
-      <rect x="1150"
+      <rect x="1288"
             y="-40"
             stroke="black"
             stroke-width=".5"
             fill="#BBA2CD"
-            width="25"
+            width="28"
             height="40"/>
-      <text x="1162.5" y="20" text-anchor="middle" font-size="68%">uncertainty</text>
-      <text x="587.5"
+      <text x="1302" y="20" text-anchor="middle" font-size="68%">uncertainty</text>
+      <text x="1302"
             y="-45"
             text-anchor="middle"
             fill="black"
             font-size="small">4</text>
-      <rect x="1200"
+      <rect x="1344"
             y="-50"
             stroke="black"
             stroke-width=".5"
             fill="#FD216E"
-            width="25"
+            width="28"
             height="50"/>
-      <text x="1212.5" y="20" text-anchor="middle" font-size="68%">violence</text>
-      <text x="612.5"
+      <text x="1358" y="20" text-anchor="middle" font-size="68%">violence</text>
+      <text x="1358"
             y="-55"
             text-anchor="middle"
             fill="black"
             font-size="small">5</text>
-      <rect x="1250"
+      <rect x="1400"
             y="-30"
             stroke="black"
             stroke-width=".5"
             fill="#FD216E"
-            width="25"
+            width="28"
             height="30"/>
-      <text x="1262.5" y="20" text-anchor="middle" font-size="68%">war</text>
-      <text x="637.5"
+      <text x="1414" y="20" text-anchor="middle" font-size="68%">war</text>
+      <text x="1414"
             y="-35"
             text-anchor="middle"
             fill="black"
             font-size="small">3</text>
-      <rect x="1300"
+      <rect x="1456"
             y="-20"
             stroke="black"
             stroke-width=".5"
             fill="#FD216E"
-            width="25"
+            width="28"
             height="20"/>
-      <text x="1312.5" y="20" text-anchor="middle" font-size="68%">wealth</text>
-      <text x="662.5"
+      <text x="1470" y="20" text-anchor="middle" font-size="68%">wealth</text>
+      <text x="1470"
             y="-25"
             text-anchor="middle"
             fill="black"
             font-size="small">2</text>
-      <rect x="1350"
+      <rect x="1512"
             y="-60"
             stroke="black"
             stroke-width=".5"
             fill="#c97f14"
-            width="25"
+            width="28"
             height="60"/>
-      <text x="1362.5" y="20" text-anchor="middle" font-size="68%">writing</text>
-      <text x="687.5"
+      <text x="1526" y="20" text-anchor="middle" font-size="68%">writing</text>
+      <text x="1526"
             y="-65"
             text-anchor="middle"
             fill="black"
             font-size="small">6</text>
       <line x1="0"
-            x2="1400"
+            x2="1568"
             y1="0"
             y2="0"
             stroke="black"
@@ -384,19 +398,21 @@
       <line x1="0"
             x2="0"
             y1="0"
-            y2="-450"
+            y2="-480"
             stroke="black"
             stroke-width="1"
             stroke-linecap="square"/>
       <text x="-5" y="0" text-anchor="end" dominant-baseline="middle">0</text>
-      <text x="-5" y="-225" text-anchor="end" dominant-baseline="middle">45</text>
-      <text x="-5" y="-450" text-anchor="end" dominant-baseline="middle">90</text>
-      <text x="700" y="50" text-anchor="middle" font-size="x-large">Poem themes</text>
+      <text x="-5" y="-240" text-anchor="end" dominant-baseline="middle">24</text>
+      <text x="-5" y="-480" text-anchor="end" dominant-baseline="middle">48</text>
+      <text x="-5" y="-120" text-anchor="end" dominant-baseline="middle">12</text>
+      <text x="-5" y="-360" text-anchor="end" dominant-baseline="middle">36</text>
+      <text x="784" y="60" text-anchor="middle" font-size="x-large">Poem Theme</text>
       <text x="-50"
             y="-225"
             text-anchor="middle"
             writing-mode="tb"
-            font-size="x-large">Times appeared in all 90 poems</text>
-      <text x="700" y="90" text-anchor="middle" font-size="xx-large">Total amount of themes across Emily Dickinson's poems</text>
+            font-size="x-large"># of Poems Containing Theme</text>
+      <text x="784" y="100" text-anchor="middle" font-size="xx-large">Number of Poems Containing a Particular Theme (by Theme)</text>
    </g>
 </svg>

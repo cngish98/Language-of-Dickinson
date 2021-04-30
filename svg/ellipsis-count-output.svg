@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="800" width="1200">
+   <g transform="translate(80,600)">
+      <line x1="0"
+            y1="-112.5"
+            x2="500"
+            y2="-112.5"
+            stroke="grey"
+            stroke-dasharray="4 4 4"
+            stroke-width="2"/>
+      <line x1="0"
+            y1="-225"
+            x2="500"
+            y2="-225"
+            stroke="grey"
+            stroke-dasharray="4 4 4"
+            stroke-width="2"/>
+      <line x1="0"
+            y1="-337.5"
+            x2="500"
+            y2="-337.5"
+            stroke="grey"
+            stroke-dasharray="4 4 4"
+            stroke-width="2"/>
+      <line x1="0"
+            y1="-450"
+            x2="500"
+            y2="-450"
+            stroke="grey"
+            stroke-dasharray="4 4 4"
+            stroke-width="2"/>
+      <line x1="0"
+            x2="500"
+            y1="0"
+            y2="0"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="square"/>
+      <line x1="0"
+            x2="0"
+            y1="0"
+            y2="-450"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="square"/>
+      <text x="-15" y="0" text-anchor="middle">0</text>
+      <text x="-15" y="-225" text-anchor="middle">45</text>
+      <text x="-15" y="-450" text-anchor="middle">90</text>
+      <text x="-50"
+            y="-225"
+            text-anchor="middle"
+            writing-mode="tb"
+            font-size="x-large"># of Poems</text>
+      <text x="250" y="80" text-anchor="middle" font-size="x-large">Ellipsis Presence</text>
+      <rect x="50"
+            y="-340"
+            height="340"
+            width="100"
+            stroke="black"
+            stroke-width=".5"
+            fill="#A2A77F"/>
+      <text x="100" y="30" text-anchor="middle" font-size="large">yes</text>
+      <text x="100"
+            y="-350"
+            text-anchor="middle"
+            fill="black"
+            font-size="medium">68</text>
+      <rect x="200"
+            y="-85"
+            height="85"
+            width="100"
+            stroke="black"
+            stroke-width=".5"
+            fill="#4F759B"/>
+      <text x="250" y="30" text-anchor="middle" font-size="large">no</text>
+      <text x="250"
+            y="-95"
+            text-anchor="middle"
+            fill="black"
+            font-size="medium">17</text>
+      <rect x="350"
+            y="-25"
+            height="25"
+            width="100"
+            stroke="black"
+            stroke-width=".5"
+            fill="#945780"/>
+      <text x="400" y="30" text-anchor="middle" font-size="large">ambiguous</text>
+      <text x="400"
+            y="-35"
+            text-anchor="middle"
+            fill="black"
+            font-size="medium">5</text>
+   </g>
+</svg>
