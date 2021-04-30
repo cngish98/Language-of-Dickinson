@@ -66,7 +66,7 @@
                     <!--=====================Simple ellipsis count graphs=================================-->
                     <div class="text-box">
                         <!---=========Ellipsis presence graph=====-->
-                        <h3>How many of our poems contain ellipsis?</h3>
+                        <h3>How many poems in our corpus contain instances of ellipsis?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 100 900 600" width="100%"
                             class="ellipsis-graph">
                             <g transform="translate(80,600)">
@@ -87,8 +87,8 @@
                                 <text x="-15" y="-450" text-anchor="middle">90</text>
                                 <text x="-50" y="-225" text-anchor="middle" writing-mode="tb"
                                     font-size="x-large">Total number of poems in our corpus</text>
-                                <text x="250" y="60" text-anchor="middle" font-size="x-large"
-                                    >Ellipsis presence?</text>
+                                <text x="250" y="70" text-anchor="middle" font-size="x-large"
+                                    >Presence of Ellipsis</text>
                                 <rect x="50" y="-340" height="340" width="100" stroke="black"
                                     stroke-width=".5" fill="#A2A77F"/>
                                 <text x="100" y="30" text-anchor="middle" font-size="large"
@@ -110,7 +110,7 @@
                             </g>
                         </svg>
                         <!---=========Ellipsis types graph=====-->
-                        <h3>How many times does ellipsis occur throughout the poems? What types of ellipsis?</h3>
+                        <h3>How many times does each type of ellipsis occur throughout the poem corpus?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 100 950 600" width="100%"
                             class="ellipsis-graph">
                             <g transform="translate(80,600)">
@@ -130,7 +130,7 @@
                                 <text x="-15" y="-225" text-anchor="middle">45</text>
                                 <text x="-15" y="-450" text-anchor="middle">90</text>
                                 <text x="-50" y="-225" text-anchor="middle" writing-mode="tb"
-                                    font-size="x-large">Total times encountered</text>
+                                    font-size="x-large"># of occurrences</text>
                                 <text x="315" y="70" text-anchor="middle" font-size="x-large">Types
                                     of ellipsis</text>
                                 <rect x="50" y="-75" height="75" width="100" stroke="black"
@@ -369,7 +369,7 @@
                     <!--=====================Correlations between ellipsis and recipient=============================-->
 
                     <div class="text-box">
-                        <h3>Comparing ellipsis with presence of recipient</h3>
+                        <h3>Comparing <em>ellipsis presence</em> with <em>recipient presence</em></h3>
                         <!--edit this title probably!?-->
                         <table>
                             <tr>
@@ -423,7 +423,7 @@
                     <!--=====================Correlations between ellipsis and time period=================================-->
 
                     <div class="text-box">
-                        <h3>Comparing ellipsis with the time period the poems were written in</h3>
+                        <h3>Comparing <em>ellipsis presence</em> with <em>time period written</em></h3>
                         <!--edit this title probably!?-->
                         <table>
                             <tr>
@@ -493,7 +493,7 @@
                     <!--=====================Correlations between ellipsis and (28) themes=================================-->
 
                     <div class="text-box" id="themes-table-box">
-                        <h3>Comparing ellipsis with themes present in the poems</h3>
+                        <h3>Comparing <em>ellipsis presence</em> with <em>poem theme</em></h3>
                         <!--edit this title probably!?-->
                         <table id="themes-table">
                             <tr>
@@ -690,7 +690,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <p>We left out themes that appear in 5 or less poems.</p>
+                        <p>*We left out themes that appear in 5 or less poems.</p>
                     </div>
                 </div>
                 <!--Make sure this </div> stays at the very end of all the data,
