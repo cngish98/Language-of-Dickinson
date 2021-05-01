@@ -139,6 +139,14 @@
                                 relationships, and so on. More specifically, and to illustrate an
                                 example, mentions of God, church, hymns, and so on would be tagged
                                 as &lt;religion&gt;. </p>
+                            
+                            <p>In the 1865 poem "A bold, inspiriting bird is the jay," Dickinson compares 
+                                the character of a bird to a human soldier, but it is unclear if she is commenting 
+                                solely on the characteristics of nature, war, or both. Even though we 
+                                cannot be exactly sure of what Dickinson intended in terms of overall theme, 
+                                listing out all possible themes allows for the reader to see all the possible 
+                                thematic interpretations. Other poems had similar ambiguities but were similarly 
+                                categorized by all possible themes.</p>
 
                             <p>We also included "subcategories" for some of these themes. For
                                 example, nature elements could also have an attribute of "earth,"
