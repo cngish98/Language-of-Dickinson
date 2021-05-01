@@ -28,7 +28,7 @@
                     <h1 style="text-align:center;">OUR METHODOLOGY: an explanation</h1>
                     <div class="dropdownButton">
                         <button onclick="hideDropdown()" class="dropdownButton">(Click here to show
-                            / hide this explanation)</button>
+                            / hide this explanation and jump to the results section)</button>
                     </div>
                     <div class="text-box dropdownContent show" id="methods-text">
                         <div>
@@ -278,6 +278,8 @@
                                     font-size="medium">5</text>
                             </g>
                         </svg>
+                        <p>68 poems contain instances of ellipsis, 17 poems do not contain any instances of 
+                            ellipsis, and 5 poems are ambiguous in terms of instances of ellipsis</p>
                         <!---=========Ellipsis types graph=====-->
                         <h3>How many times does each type of ellipsis occur throughout the poem
                             corpus?</h3>
@@ -329,6 +331,8 @@
                                     font-size="medium">47</text>
                             </g>
                         </svg>
+                        <p>Across the corpus, in descending order by amount, there were 80 instances of clausal ellipsis, 47 instances of verbal 
+                        ellipsis, 37 instances of nominal ellipsis, and 15 instances of ambiguous ellipsis.</p>
                     </div>
 
                     <!--=====================Theme count graph=================================-->
@@ -799,7 +803,6 @@
                                     <!--insert number of no ellipsis / writing themed poems here -->
                                 </td>
                             </tr>
-                            <tr>
                                 <!--<td>Ambiguous</td>
                                 <!-\-this section maybe we can make smaller, since the purely
                                     ambiguous poems are very small -\->
@@ -858,7 +861,6 @@
                                         select="count($poems_corpus//ellipsis_present[. = 'ambiguous']/preceding-sibling::poem_themes/theme[. = 'writing'])"/>
                                     <!-\-insert number of ambig ellipsis / writing themed poems here -\->
                                 </td>-->
-                            </tr>
                         </table>
                         <p>We left out themes that appear in 5 or fewer poems as well as the poems
                             with purely ambiguous ellipsis since there are only 5 of them in the
